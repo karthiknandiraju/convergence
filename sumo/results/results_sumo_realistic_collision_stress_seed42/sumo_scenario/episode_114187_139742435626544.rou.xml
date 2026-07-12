@@ -1,0 +1,18 @@
+<routes>
+    <vType id="egoType" carFollowModel="Krauss" accel="2.6" decel="4.5"
+           emergencyDecel="8.0" tau="1.0" sigma="0.0" length="5.0"
+           minGap="2.5" maxSpeed="25.0" guiShape="passenger"/>
+    <vType id="leaderType" carFollowModel="Krauss" accel="2.2" decel="4.5"
+           emergencyDecel="8.0" tau="1.0" sigma="0.15" length="5.0"
+           minGap="2.5" maxSpeed="10.307" guiShape="passenger"/>
+    <vType id="trafficType" carFollowModel="Krauss" accel="2.4" decel="4.5"
+           emergencyDecel="8.0" tau="1.0" sigma="0.25" length="5.0"
+           minGap="2.5" maxSpeed="18.0" guiShape="passenger"/>
+    <route id="mainRoute" edges="road"/>
+    <vehicle id="traffic_ahead" type="trafficType" route="mainRoute" depart="0.000" departSpeed="14.540" speedFactor="0.855"/>
+    <vehicle id="leader" type="leaderType" route="mainRoute"
+             depart="0.674" departSpeed="10.307"/>
+    <vehicle id="ego" type="egoType" route="mainRoute"
+             depart="2.0" departSpeed="5.0"/>
+
+</routes>

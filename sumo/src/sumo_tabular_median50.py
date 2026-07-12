@@ -20,6 +20,11 @@ Notes
 - Each experiment uses its own independent Q-table.
 - Testing is frozen and greedy only (argmax); no Q-table updates.
 - Default run: 500 training episodes, 300 test episodes, 500 max steps.
+- An optional, seed-deterministic leader emergency-braking challenge can be
+  enabled to make collision-free RMST identifiable under a controlled safety
+  stress. The identical challenge schedule is reused by both methods.
+- Mean reward, median reward, IQM reward, collision-free RMST, goal rate, and
+  collision rate are written separately for training and frozen testing.
 """
 
 from __future__ import annotations
@@ -79,6 +84,13 @@ class SumoDrivingEnv(gym.Env):
         collision_mingap_factor: float = 0.0,
         road_length: float = 800.0,
         progress_reward_scale: float = 100.0,
+        traffic_vehicles: int = 6,
+        leader_brake_probability: float = 0.0,
+        leader_brake_start_min: int = 80,
+        leader_brake_start_max: int = 220,
+        leader_brake_duration: int = 25,
+        leader_brake_speed: float = 2.0,
+        leader_brake_decel_seconds: float = 2.0,
     ) -> None:
         super().__init__()
         self.scenario_dir = Path(scenario_dir).resolve()
@@ -91,8 +103,29 @@ class SumoDrivingEnv(gym.Env):
         self.collision_mingap_factor = float(collision_mingap_factor)
         self.road_length = float(road_length)
         self.progress_reward_scale = float(progress_reward_scale)
+        self.traffic_vehicles = int(traffic_vehicles)
+        self.leader_brake_probability = float(leader_brake_probability)
+        self.leader_brake_start_min = int(leader_brake_start_min)
+        self.leader_brake_start_max = int(leader_brake_start_max)
+        self.leader_brake_duration = int(leader_brake_duration)
+        self.leader_brake_speed = float(leader_brake_speed)
+        self.leader_brake_decel_seconds = float(leader_brake_decel_seconds)
         if self.road_length <= 0.0:
             raise ValueError("road_length must be positive")
+        if not 0.0 <= self.leader_brake_probability <= 1.0:
+            raise ValueError("leader_brake_probability must be in [0, 1]")
+        if self.leader_brake_start_min < 0:
+            raise ValueError("leader_brake_start_min must be non-negative")
+        if self.leader_brake_start_max < self.leader_brake_start_min:
+            raise ValueError("leader_brake_start_max must be >= leader_brake_start_min")
+        if self.leader_brake_duration <= 0:
+            raise ValueError("leader_brake_duration must be positive")
+        if self.leader_brake_speed < 0.0:
+            raise ValueError("leader_brake_speed must be non-negative")
+        if self.leader_brake_decel_seconds <= 0.0:
+            raise ValueError("leader_brake_decel_seconds must be positive")
+        if self.traffic_vehicles < 1:
+            raise ValueError("traffic_vehicles must be at least 1 (the leader)")
 
         self.action_space = spaces.Discrete(3)
         self.observation_space = spaces.Box(
@@ -105,6 +138,11 @@ class SumoDrivingEnv(gym.Env):
         self.last_position = 0.0
         self.conn = None
         self.route_file: Optional[Path] = None
+        self.episode_seed = self.base_seed
+        self.leader_brake_scheduled = False
+        self.leader_brake_start_step = -1
+        self.leader_brake_end_step = -1
+        self.leader_brake_applied = False
         self._create_scenario()
 
     @staticmethod
@@ -156,21 +194,52 @@ class SumoDrivingEnv(gym.Env):
 
     def _write_route_file(self, seed: int) -> Path:
         rng = np.random.default_rng(seed)
-        leader_speed = float(rng.uniform(8.0, 16.0))
-        leader_depart = float(rng.uniform(0.0, 0.8))
+        leader_speed = float(rng.uniform(9.0, 14.0))
+        leader_depart = float(rng.uniform(0.6, 1.0))
+
+        # One vehicle is placed ahead of the designated leader and the
+        # remaining traffic is released after the ego with safe time gaps.
+        # All traffic uses SUMO's stochastic Krauss car-following model.
+        ahead_xml = ""
+        trailing_lines: List[str] = []
+        remaining_traffic = self.traffic_vehicles - 1
+        if remaining_traffic > 0:
+            speed = float(rng.uniform(10.0, 15.0))
+            factor = float(rng.uniform(0.85, 1.10))
+            ahead_xml = (
+                f'    <vehicle id="traffic_ahead" type="trafficType" route="mainRoute" '
+                f'depart="0.000" departSpeed="{speed:.3f}" speedFactor="{factor:.3f}"/>'
+            )
+            remaining_traffic -= 1
+        for index in range(remaining_traffic):
+            depart = 4.0 + 1.8 * index + float(rng.uniform(0.0, 0.4))
+            speed = float(rng.uniform(8.0, 15.0))
+            factor = float(rng.uniform(0.80, 1.15))
+            trailing_lines.append(
+                f'    <vehicle id="traffic_{index}" type="trafficType" route="mainRoute" '
+                f'depart="{depart:.3f}" departSpeed="{speed:.3f}" speedFactor="{factor:.3f}"/>'
+            )
+        trailing_xml = "\n".join(trailing_lines)
 
         route_file = self.scenario_dir / f"episode_{os.getpid()}_{id(self)}.rou.xml"
         route_file.write_text(
             f"""<routes>
-    <vType id="egoType" accel="3.0" decel="6.0" sigma="0.0"
-           length="5.0" minGap="2.5" maxSpeed="25.0" guiShape="passenger"/>
-    <vType id="leaderType" accel="2.0" decel="4.5" sigma="0.0"
-           length="5.0" minGap="2.5" maxSpeed="{leader_speed:.3f}" guiShape="passenger"/>
+    <vType id="egoType" carFollowModel="Krauss" accel="2.6" decel="4.5"
+           emergencyDecel="8.0" tau="1.0" sigma="0.0" length="5.0"
+           minGap="2.5" maxSpeed="25.0" guiShape="passenger"/>
+    <vType id="leaderType" carFollowModel="Krauss" accel="2.2" decel="4.5"
+           emergencyDecel="8.0" tau="1.0" sigma="0.15" length="5.0"
+           minGap="2.5" maxSpeed="{leader_speed:.3f}" guiShape="passenger"/>
+    <vType id="trafficType" carFollowModel="Krauss" accel="2.4" decel="4.5"
+           emergencyDecel="8.0" tau="1.0" sigma="0.25" length="5.0"
+           minGap="2.5" maxSpeed="18.0" guiShape="passenger"/>
     <route id="mainRoute" edges="road"/>
+{ahead_xml}
     <vehicle id="leader" type="leaderType" route="mainRoute"
              depart="{leader_depart:.3f}" departSpeed="{leader_speed:.3f}"/>
     <vehicle id="ego" type="egoType" route="mainRoute"
              depart="2.0" departSpeed="5.0"/>
+{trailing_xml}
 </routes>
 """,
             encoding="utf-8",
@@ -220,6 +289,60 @@ class SumoDrivingEnv(gym.Env):
         # (acceleration, deceleration, right-of-way and red lights) remain on.
         self.conn.vehicle.setSpeedMode("ego", self.ego_speed_mode)
 
+    def _configure_brake_challenge(self, episode_seed: int) -> None:
+        """Create one reproducible emergency-braking schedule per episode."""
+        rng = np.random.default_rng(int(episode_seed) + 88123)
+        self.episode_seed = int(episode_seed)
+        self.leader_brake_scheduled = bool(
+            rng.random() < self.leader_brake_probability
+        )
+        if self.leader_brake_scheduled:
+            upper = min(
+                self.leader_brake_start_max,
+                self.max_episode_steps - self.leader_brake_duration - 1,
+            )
+            lower = min(self.leader_brake_start_min, upper)
+            self.leader_brake_start_step = int(rng.integers(lower, upper + 1))
+            self.leader_brake_end_step = int(
+                self.leader_brake_start_step + self.leader_brake_duration
+            )
+        else:
+            self.leader_brake_start_step = -1
+            self.leader_brake_end_step = -1
+        self.leader_brake_applied = False
+
+    def _apply_leader_brake_challenge(self) -> bool:
+        """Apply a smooth emergency slowdown and return whether it is active."""
+        if not self.leader_brake_scheduled or self.conn is None:
+            return False
+        if "leader" not in set(self.conn.vehicle.getIDList()):
+            return False
+
+        step = int(self.step_count)
+        active = self.leader_brake_start_step <= step < self.leader_brake_end_step
+        ramp_steps = max(1, int(round(self.leader_brake_decel_seconds / 0.2)))
+
+        if step == self.leader_brake_start_step:
+            # TraCI slowDown creates a bounded deceleration ramp rather than
+            # teleporting the leader to zero speed.
+            self.conn.vehicle.slowDown(
+                "leader",
+                self.leader_brake_speed,
+                self.leader_brake_decel_seconds,
+            )
+            self.leader_brake_applied = True
+        elif (
+            self.leader_brake_applied
+            and step >= self.leader_brake_start_step + ramp_steps
+            and step < self.leader_brake_end_step
+        ):
+            self.conn.vehicle.setSpeed("leader", self.leader_brake_speed)
+        elif self.leader_brake_applied and step == self.leader_brake_end_step:
+            # -1 hands longitudinal control back to SUMO's car-following model.
+            self.conn.vehicle.setSpeed("leader", -1.0)
+
+        return bool(active)
+
     def _get_observation(self) -> np.ndarray:
         if self.conn is None or "ego" not in self.conn.vehicle.getIDList():
             return np.zeros(5, dtype=np.float32)
@@ -258,13 +381,20 @@ class SumoDrivingEnv(gym.Env):
         episode_seed = self.base_seed if seed is None else int(seed)
         self._start_sumo(episode_seed)
         self.step_count = 0
+        self._configure_brake_challenge(episode_seed)
         self.last_position = float(self.conn.vehicle.getLanePosition("ego"))
-        return self._get_observation(), {}
+        return self._get_observation(), {
+            "episode_seed": episode_seed,
+            "leader_brake_scheduled": self.leader_brake_scheduled,
+            "leader_brake_start_step": self.leader_brake_start_step,
+            "leader_brake_end_step": self.leader_brake_end_step,
+        }
 
     def step(self, action: int):
         if self.conn is None:
             raise RuntimeError("Call env.reset() before env.step().")
 
+        brake_active = self._apply_leader_brake_challenge()
         current_speed = float(self.conn.vehicle.getSpeed("ego"))
         if action == 0:
             requested_speed = max(0.0, current_speed - 2.0)
@@ -343,6 +473,11 @@ class SumoDrivingEnv(gym.Env):
             "goal_bonus": goal_bonus,
             "removed_penalty": removed_penalty,
             "collision": collision,
+            "leader_brake_scheduled": self.leader_brake_scheduled,
+            "leader_brake_applied": self.leader_brake_applied,
+            "leader_brake_active": brake_active,
+            "leader_brake_start_step": self.leader_brake_start_step,
+            "leader_brake_end_step": self.leader_brake_end_step,
         }
         return self._get_observation(), float(reward), bool(terminated), bool(truncated), info
 
@@ -482,6 +617,13 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
         collision_mingap_factor=args.collision_mingap_factor,
         road_length=args.road_length,
         progress_reward_scale=args.progress_reward_scale,
+        traffic_vehicles=args.traffic_vehicles,
+        leader_brake_probability=args.leader_brake_probability,
+        leader_brake_start_min=args.leader_brake_start_min,
+        leader_brake_start_max=args.leader_brake_start_max,
+        leader_brake_duration=args.leader_brake_duration,
+        leader_brake_speed=args.leader_brake_speed,
+        leader_brake_decel_seconds=args.leader_brake_decel_seconds,
     )
     discretizer = StateDiscretizer(tuple(args.state_bins))
     agent = TabularQLearningAgent(
@@ -552,6 +694,11 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
             "collision_penalty_total": collision_penalty_total,
             "goal_bonus_total": goal_bonus_total,
             "final_position": float(last_info.get("position", 0.0)),
+            "episode_seed": args.seed + episode,
+            "leader_brake_scheduled": bool(last_info.get("leader_brake_scheduled", False)),
+            "leader_brake_applied": bool(last_info.get("leader_brake_applied", False)),
+            "leader_brake_start_step": int(last_info.get("leader_brake_start_step", -1)),
+            "leader_brake_end_step": int(last_info.get("leader_brake_end_step", -1)),
             "wall_seconds": time.time() - episode_start,
             "epsilon": args.epsilon,
             "alpha": args.alpha,
@@ -631,6 +778,11 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
             "collision_penalty_total": collision_penalty_total,
             "goal_bonus_total": goal_bonus_total,
             "final_position": float(last_info.get("position", 0.0)),
+            "episode_seed": args.seed + 100000 + episode,
+            "leader_brake_scheduled": bool(last_info.get("leader_brake_scheduled", False)),
+            "leader_brake_applied": bool(last_info.get("leader_brake_applied", False)),
+            "leader_brake_start_step": int(last_info.get("leader_brake_start_step", -1)),
+            "leader_brake_end_step": int(last_info.get("leader_brake_end_step", -1)),
             "wall_seconds": time.time() - episode_start,
             "network_frozen": True,
             "updates_during_test": 0,
@@ -665,6 +817,66 @@ def moving_average(values: List[float], window: int = 20) -> np.ndarray:
     return np.convolve(arr, np.ones(window) / window, mode="valid")
 
 
+def interquartile_mean(values: List[float]) -> float:
+    """Mean of the middle 50% of observations."""
+    arr = np.sort(np.asarray(values, dtype=float))
+    if arr.size == 0:
+        return 0.0
+    lower = int(np.floor(0.25 * arr.size))
+    upper = int(np.ceil(0.75 * arr.size))
+    return float(np.mean(arr[lower:upper]))
+
+
+def collision_free_rmst(rows: List[Dict], tau: int) -> float:
+    """Kaplan-Meier collision-free RMST up to ``tau`` episode steps."""
+    if not rows:
+        return 0.0
+    times = np.asarray([float(r["steps"]) for r in rows], dtype=float)
+    events = np.asarray([bool(r["collision"]) for r in rows], dtype=bool)
+    survival = 1.0
+    area = 0.0
+    previous_time = 0.0
+    for event_time in np.unique(times[events & (times <= float(tau))]):
+        area += survival * (float(event_time) - previous_time)
+        at_risk = int(np.sum(times >= event_time))
+        event_count = int(np.sum((times == event_time) & events))
+        if at_risk > 0:
+            survival *= 1.0 - event_count / at_risk
+        previous_time = float(event_time)
+    area += survival * (float(tau) - previous_time)
+    return float(area)
+
+
+def metric_row(policy: str, phase: str, rows: List[Dict], tau: int) -> Dict:
+    rewards = [float(r["reward"]) for r in rows]
+    collisions = int(sum(bool(r["collision"]) for r in rows))
+    goals = int(sum(r["term_reason"] == "goal" for r in rows))
+    challenged = [r for r in rows if bool(r.get("leader_brake_applied", False))]
+    return {
+        "phase": phase,
+        "policy": policy,
+        "method": DISPLAY_NAMES[policy],
+        "episodes": len(rows),
+        "mean_R": float(np.mean(rewards)),
+        "median_R": float(np.median(rewards)),
+        "IQM_R": interquartile_mean(rewards),
+        "collision_free_RMST_steps": collision_free_rmst(rows, tau),
+        "RMST_tau_steps": int(tau),
+        "collision_count": collisions,
+        "collision_rate": collisions / max(len(rows), 1),
+        "goal_count": goals,
+        "goal_rate": goals / max(len(rows), 1),
+        "brake_challenge_episodes": len(challenged),
+        "brake_challenge_collision_count": int(
+            sum(bool(r["collision"]) for r in challenged)
+        ),
+        "brake_challenge_RMST_steps": (
+            collision_free_rmst(challenged, tau) if challenged else float("nan")
+        ),
+        "network_frozen": phase == "test",
+    }
+
+
 def save_outputs(rows: List[Dict], args, output_dir: Path) -> None:
     fieldnames = sorted({key for row in rows for key in row})
     with (output_dir / "all_episode_results.csv").open("w", newline="", encoding="utf-8") as f:
@@ -673,11 +885,19 @@ def save_outputs(rows: List[Dict], args, output_dir: Path) -> None:
         writer.writerows(rows)
 
     summary: Dict[str, Dict[str, float]] = {}
+    primary_metric_rows: List[Dict] = []
     for policy in POLICIES:
         train_rows = [r for r in rows if r["phase"] == "train" and r["policy"] == policy]
         test_rows = [r for r in rows if r["phase"] == "test" and r["policy"] == policy]
         train_rewards = [float(r["reward"]) for r in train_rows]
         test_rewards = [float(r["reward"]) for r in test_rows]
+        train_metrics = metric_row(
+            policy, "train", train_rows, args.max_episode_steps
+        )
+        test_metrics = metric_row(
+            policy, "test", test_rows, args.max_episode_steps
+        )
+        primary_metric_rows.extend([train_metrics, test_metrics])
         summary[policy] = {
             "train_average_reward": float(np.mean(train_rewards)),
             "train_median_reward": float(np.median(train_rewards)),
@@ -697,10 +917,39 @@ def save_outputs(rows: List[Dict], args, output_dir: Path) -> None:
             "test_goal_count": int(sum(r["term_reason"] == "goal" for r in test_rows)),
             "test_goal_rate": float(np.mean([r["term_reason"] == "goal" for r in test_rows])),
             "test_average_steps": float(np.mean([r["steps"] for r in test_rows])),
+            "train_IQM_reward": train_metrics["IQM_R"],
+            "test_IQM_reward": test_metrics["IQM_R"],
+            "train_collision_free_RMST_steps": train_metrics["collision_free_RMST_steps"],
+            "test_collision_free_RMST_steps": test_metrics["collision_free_RMST_steps"],
+            "train_brake_challenge_RMST_steps": train_metrics["brake_challenge_RMST_steps"],
+            "test_brake_challenge_RMST_steps": test_metrics["brake_challenge_RMST_steps"],
         }
 
     (output_dir / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     (output_dir / "config.json").write_text(json.dumps(vars(args), indent=2), encoding="utf-8")
+    def write_metric_csv(path: Path, metric_rows: List[Dict]) -> None:
+        if not metric_rows:
+            return
+        with path.open("w", newline="", encoding="utf-8") as metric_file:
+            writer = csv.DictWriter(
+                metric_file,
+                fieldnames=list(metric_rows[0].keys()),
+            )
+            writer.writeheader()
+            writer.writerows(metric_rows)
+
+    write_metric_csv(
+        output_dir / "four_primary_metrics_train_and_test.csv",
+        primary_metric_rows,
+    )
+    write_metric_csv(
+        output_dir / "four_primary_training_metrics.csv",
+        [r for r in primary_metric_rows if r["phase"] == "train"],
+    )
+    write_metric_csv(
+        output_dir / "four_primary_test_metrics.csv",
+        [r for r in primary_metric_rows if r["phase"] == "test"],
+    )
 
     # Training and test reward plots.
     for phase in ("train", "test"):
@@ -787,6 +1036,22 @@ def parse_args():
         "--progress-reward-scale", type=float, default=100.0,
         help="Maximum cumulative progress reward for traversing the full road",
     )
+    parser.add_argument(
+        "--traffic-vehicles", type=int, default=6,
+        help="Background traffic vehicles including the designated leader",
+    )
+    parser.add_argument(
+        "--leader-brake-probability", type=float, default=0.0,
+        help="Per-episode probability of a reproducible leader emergency slowdown",
+    )
+    parser.add_argument("--leader-brake-start-min", type=int, default=80)
+    parser.add_argument("--leader-brake-start-max", type=int, default=220)
+    parser.add_argument(
+        "--leader-brake-duration", type=int, default=25,
+        help="Total challenge duration in 0.2-second simulation steps",
+    )
+    parser.add_argument("--leader-brake-speed", type=float, default=2.0)
+    parser.add_argument("--leader-brake-decel-seconds", type=float, default=2.0)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--output-dir", default="results_sumo_tabular_two_experiments")
     parser.add_argument("--gui", action="store_true")
@@ -795,6 +1060,14 @@ def parse_args():
 
 def main() -> None:
     args = parse_args()
+    if (
+        args.leader_brake_probability > 0.0
+        and args.leader_brake_start_max + args.leader_brake_duration
+        >= args.max_episode_steps
+    ):
+        raise ValueError(
+            "leader brake start max + duration must be below max episode steps"
+        )
     output_dir = Path(args.output_dir).resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -813,6 +1086,15 @@ def main() -> None:
     print("Collision penalty:", args.collision_penalty)
     print("Ego speed mode:", args.ego_speed_mode)
     print("Collision minGap factor:", args.collision_mingap_factor)
+    print("Traffic vehicles:", args.traffic_vehicles)
+    print("Leader brake probability:", args.leader_brake_probability)
+    print(
+        "Leader brake schedule:",
+        f"steps {args.leader_brake_start_min}-{args.leader_brake_start_max},",
+        f"duration {args.leader_brake_duration},",
+        f"target {args.leader_brake_speed:.2f} m/s,",
+        f"deceleration ramp {args.leader_brake_decel_seconds:.2f}s",
+    )
     print("State bins:", tuple(args.state_bins))
     print("Q-table states:", int(np.prod(args.state_bins)))
     print("Q-table entries per experiment:", int(np.prod(args.state_bins)) * 3)
@@ -829,3 +1111,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

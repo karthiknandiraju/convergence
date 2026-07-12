@@ -1,13 +1,13 @@
 SUMO EXPERIMENT ENVIRONMENT
 ===========================
-Captured: 2026-07-12T16:35:25+00:00
+Captured: 2026-07-12T23:04:30+00:00
 Project root: /workspace/DQNMedian50/convergence/sumo
 User: root
 Hostname: 9ac5423e3781
-Python: /usr/bin/python3
-Virtual environment: not active
+Python: /workspace/DQNMedian50/convergence/sumo/sumo_collision_env/bin/python3
+Virtual environment: /workspace/DQNMedian50/convergence/sumo/sumo_collision_env
 Conda environment: not active
-SUMO_HOME: not set
+SUMO_HOME: /usr/share/sumo
 
 ===== SUMO =====
 Eclipse SUMO sumo Version 1.18.0
@@ -31,18 +31,20 @@ netconvert: /usr/bin/netconvert
 
 ===== SUMO PYTHON MODULES =====
 Python: 3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]
-Executable: /usr/bin/python3
+Executable: /workspace/DQNMedian50/convergence/sumo/sumo_collision_env/bin/python3
 traci version: installed/version unavailable
 traci path: /usr/lib/python3/dist-packages/traci/__init__.py
 sumolib version: installed/version unavailable
 sumolib path: /usr/lib/python3/dist-packages/sumolib/__init__.py
-numpy unavailable: ModuleNotFoundError("No module named 'numpy'")
+numpy version: 1.26.4
+numpy path: /workspace/DQNMedian50/convergence/sumo/sumo_collision_env/lib/python3.12/site-packages/numpy/__init__.py
 pandas unavailable: ModuleNotFoundError("No module named 'pandas'")
-matplotlib unavailable: ModuleNotFoundError("No module named 'matplotlib'")
+matplotlib version: 3.8.4
+matplotlib path: /workspace/DQNMedian50/convergence/sumo/sumo_collision_env/lib/python3.12/site-packages/matplotlib/__init__.py
 torch unavailable: ModuleNotFoundError("No module named 'torch'")
 
 ===== NVIDIA GPU =====
-Sun Jul 12 16:35:25 2026       
+Sun Jul 12 23:04:31 2026       
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 550.127.05             Driver Version: 550.127.05     CUDA Version: 12.4     |
 |-----------------------------------------+------------------------+----------------------+
@@ -51,7 +53,7 @@ Sun Jul 12 16:35:25 2026
 |                                         |                        |               MIG M. |
 |=========================================+========================+======================|
 |   0  NVIDIA RTX 6000 Ada Gene...    On  |   00000000:C1:00.0 Off |                  Off |
-| 30%   36C    P2            139W /  300W |    5343MiB /  49140MiB |     30%      Default |
+| 30%   35C    P2            114W /  300W |    5344MiB /  49140MiB |     23%      Default |
 |                                         |                        |                  N/A |
 +-----------------------------------------+------------------------+----------------------+
                                                                                          
@@ -94,7 +96,7 @@ Core(s) per socket:                   32
 Socket(s):                            2
 Stepping:                             1
 Frequency boost:                      enabled
-CPU(s) scaling MHz:                   45%
+CPU(s) scaling MHz:                   47%
 CPU max MHz:                          4041.8450
 CPU min MHz:                          1500.0000
 BogoMIPS:                             5900.42
@@ -124,16 +126,15 @@ Vulnerability Tsx async abort:        Not affected
 
 ===== MEMORY =====
                total        used        free      shared  buff/cache   available
-Mem:           503Gi        63Gi       226Gi       1.3Gi       219Gi       440Gi
+Mem:           503Gi        64Gi       214Gi       1.3Gi       230Gi       439Gi
 Swap:             0B          0B          0B
 
 ===== DISK =====
 Filesystem      Size  Used Avail Use% Mounted on
-overlay         100G   75G   26G  75% /
+overlay         100G   94G  6.4G  94% /
 
 ===== PROJECT FILES =====
 env.sh
-env.tar.gz
 env/experiment-config.txt
 env/pip-freeze.txt
 env/pip-list.txt
@@ -198,8 +199,10 @@ results_sumo_tabular.zip
 src/capture_sumo_environment.sh
 src/plots_median50_additional.py
 src/sumo_dqn_median50.py
+src/sumo_dqn_median50_bkup2.py
 src/sumo_tabular_median50.py
 src/sumo_tabular_median50_bkup.py
+src/sumo_tabular_median50_bkup2.py
 sumo_collision_env/pyvenv.cfg
 sumo_environment_setup.log
 sumoenv/pyvenv.cfg

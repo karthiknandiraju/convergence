@@ -1,0 +1,3 @@
+phase,policy,method,episodes,mean_R,median_R,IQM_R,collision_free_RMST_steps,RMST_tau_steps,collision_count,collision_rate,goal_count,goal_rate,brake_challenge_episodes,brake_challenge_collision_count,brake_challenge_RMST_steps,network_frozen
+train,epsilon_greedy,Epsilon Greedy,500,125.91963929102336,172.85579891407167,151.29387073526578,465.9894752639806,500,56,0.112,322,0.644,270,33,465.70647321283576,False
+train,median_50,Median 50,500,144.9261136311156,166.75469762272755,165.7053258531625,483.1061186440679,500,26,0.052,433,0.866,276,20,477.4305768684286,False

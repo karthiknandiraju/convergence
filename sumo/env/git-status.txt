@@ -1,34 +1,26 @@
  D env/SHA256SUMS.txt
  M env/git-commit.txt
  M env/git-status.txt
+ M env/pip-freeze.txt
+ M env/pip-list.txt
  D env/source-file-list.txt
  M env/system-info.txt
- D results/results_sumo_dqn_runpod/README_sumo_set4_v2.txt
- D results/results_sumo_dqn_runpod/all_experiments_episode_block_logs.csv
- D results/results_sumo_dqn_runpod/all_experiments_learning_rate_summary.csv
- D results/results_sumo_dqn_runpod/all_experiments_runtime_logs.csv
- D results/results_sumo_dqn_runpod/all_experiments_test_episode_rewards.csv
- D results/results_sumo_dqn_runpod/all_experiments_train_episode_rewards.csv
- D results/results_sumo_dqn_runpod/config.json
- D results/results_sumo_dqn_runpod/figures_ieee/ieee_average_test_reward.png
- D results/results_sumo_dqn_runpod/figures_ieee/ieee_convergence_episode.png
- D results/results_sumo_dqn_runpod/figures_ieee/ieee_convergence_time.png
- D results/results_sumo_dqn_runpod/figures_ieee/ieee_test_reward_boxplot.png
- D results/results_sumo_dqn_runpod/figures_ieee/ieee_testing_reward_blocks.png
- D results/results_sumo_dqn_runpod/figures_ieee/ieee_training_reward_blocks.png
- D results/results_sumo_dqn_runpod/median_50_lrmult_1_train.csv
- D results/results_sumo_dqn_runpod/models/median_50_lrmult_1.pt
- D results/results_sumo_dqn_runpod/models/standard_epsilon_lrmult_1.pt
- D results/results_sumo_dqn_runpod/standard_epsilon_lrmult_1_train.csv
- D results/results_sumo_dqn_runpod/sumo_scenario/episode_94144_130628107484672.rou.xml
- D results/results_sumo_dqn_runpod/sumo_scenario/episode_94144_130631532464704.rou.xml
- D results/results_sumo_dqn_runpod/sumo_scenario/straight.edg.xml
- D results/results_sumo_dqn_runpod/sumo_scenario/straight.net.xml
- D results/results_sumo_dqn_runpod/sumo_scenario/straight.nod.xml
+ D results/results_sumo_collision_fixed_800m_500_300_500/all_episode_results.csv
+ D results/results_sumo_collision_fixed_800m_500_300_500/average_test_reward.png
+ D results/results_sumo_collision_fixed_800m_500_300_500/config.json
+ D results/results_sumo_collision_fixed_800m_500_300_500/summary.json
+ D results/results_sumo_collision_fixed_800m_500_300_500/sumo_collision_fixed.log
+ D results/results_sumo_collision_fixed_800m_500_300_500/sumo_scenario/episode_108336_136773865910976.rou.xml
+ D results/results_sumo_collision_fixed_800m_500_300_500/sumo_scenario/straight.edg.xml
+ D results/results_sumo_collision_fixed_800m_500_300_500/sumo_scenario/straight.net.xml
+ D results/results_sumo_collision_fixed_800m_500_300_500/sumo_scenario/straight.nod.xml
+ D results/results_sumo_collision_fixed_800m_500_300_500/tables/epsilon_greedy_q_table.npz
+ D results/results_sumo_collision_fixed_800m_500_300_500/tables/median_50_q_table.npz
+ D results/results_sumo_collision_fixed_800m_500_300_500/test_reward_boxplot.png
+ D results/results_sumo_collision_fixed_800m_500_300_500/test_reward_vs_episode.png
+ D results/results_sumo_collision_fixed_800m_500_300_500/train_reward_vs_episode.png
  M src/sumo_tabular_median50.py
-?? env_bkup/
-?? results/results_sumo_collision_final_500_300_500/
-?? results/results_sumo_collision_smoke/
-?? results/results_sumo_dqn_runpod_bkup/
-?? src/sumo_tabular_median50_bkup.py
-?? sumo_collision_env/
+?? results/results_sumo_collision_fixed_800m_500_300_500_bup/
+?? results/results_sumo_realistic_collision_stress_seed42/
+?? results/smoke_test_1_1_1/
+?? src/sumo_tabular_median50_bkup2.py
