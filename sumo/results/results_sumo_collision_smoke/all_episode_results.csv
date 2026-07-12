@@ -1,0 +1,5 @@
+action_source_counts,alpha,collision,episode,epsilon,gamma,method,network_frozen,phase,policy,q_table_nonzero,reward,steps,term_reason,updates_during_test,wall_seconds
+"{""epsilon_random"": 10, ""greedy"": 40}",0.1,False,0,0.2,0.99,Epsilon Greedy,,train,epsilon_greedy,8,15.468000145920005,50,max_steps,,0.026289701461791992
+,,False,0,,,Epsilon Greedy,True,test,epsilon_greedy,8,45.00000029999997,50,max_steps,0,0.029675722122192383
+"{""greedy"": 40, ""median_lower_half"": 10}",0.1,False,0,0.2,0.99,Median 50,,train,median_50,9,16.43400015096,50,max_steps,,0.03127145767211914
+,,False,0,,,Median 50,True,test,median_50,9,45.00000029999997,50,max_steps,0,0.0314478874206543

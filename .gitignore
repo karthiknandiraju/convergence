@@ -11,3 +11,16 @@ sumo/sumoenv/
 .env
 .venv/
 venv/
+
+# Archives
+*.tar
+*.tar.gz
+*.tgz
+
+# Python environments
+**/env/
+**/env_*/
+**/.venv/
+**/venv/
+**/sumoenv/
+**/*_env/

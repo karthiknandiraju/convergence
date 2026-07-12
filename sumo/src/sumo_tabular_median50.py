@@ -74,6 +74,9 @@ class SumoDrivingEnv(gym.Env):
         target_speed: float = 13.9,
         seed: int = 42,
         gui: bool = False,
+        collision_penalty: float = -50.0,
+        ego_speed_mode: int = 30,
+        collision_mingap_factor: float = 0.0,
     ) -> None:
         super().__init__()
         self.scenario_dir = Path(scenario_dir).resolve()
@@ -81,6 +84,9 @@ class SumoDrivingEnv(gym.Env):
         self.target_speed = float(target_speed)
         self.base_seed = int(seed)
         self.gui = bool(gui)
+        self.collision_penalty = float(collision_penalty)
+        self.ego_speed_mode = int(ego_speed_mode)
+        self.collision_mingap_factor = float(collision_mingap_factor)
 
         self.action_space = spaces.Discrete(3)
         self.observation_space = spaces.Box(
@@ -185,6 +191,7 @@ class SumoDrivingEnv(gym.Env):
             "--step-length", "0.2",
             "--collision.action", "remove",
             "--collision.check-junctions", "true",
+            "--collision.mingap-factor", str(self.collision_mingap_factor),
             "--no-step-log", "true",
             "--duration-log.disable", "true",
             "--seed", str(seed),
@@ -203,7 +210,10 @@ class SumoDrivingEnv(gym.Env):
             self.close()
             raise RuntimeError("Ego vehicle failed to enter the SUMO simulation.")
 
-        self.conn.vehicle.setSpeedMode("ego", 31)
+        # Disable only SUMO's automatic safe-speed override so the learned
+        # controller can cause a physical rear-end collision. Other checks
+        # (acceleration, deceleration, right-of-way and red lights) remain on.
+        self.conn.vehicle.setSpeedMode("ego", self.ego_speed_mode)
 
     def _get_observation(self) -> np.ndarray:
         if self.conn is None or "ego" not in self.conn.vehicle.getIDList():
@@ -283,7 +293,7 @@ class SumoDrivingEnv(gym.Env):
         terminated = False
         term_reason = "running"
         if collision:
-            reward -= 50.0
+            reward += self.collision_penalty
             terminated = True
             term_reason = "collision"
         elif arrived or position >= self.road_length - 5.0:
@@ -440,6 +450,9 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
         target_speed=args.target_speed,
         seed=args.seed,
         gui=args.gui,
+        collision_penalty=args.collision_penalty,
+        ego_speed_mode=args.ego_speed_mode,
+        collision_mingap_factor=args.collision_mingap_factor,
     )
     discretizer = StateDiscretizer(tuple(args.state_bins))
     agent = TabularQLearningAgent(
@@ -458,6 +471,7 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
         state_idx = discretizer.encode(state)
         total_reward = 0.0
         term_reason = "max_steps"
+        episode_collision = False
         source_counts: Dict[str, int] = {}
         episode_start = time.time()
 
@@ -473,6 +487,7 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
             source_counts[source] = source_counts.get(source, 0) + 1
 
             next_state, reward, terminated, truncated, info = env.step(action)
+            episode_collision = episode_collision or bool(info.get("collision", False))
             done = bool(terminated or truncated)
             next_state_idx = discretizer.encode(next_state)
 
@@ -492,6 +507,7 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
             "reward": total_reward,
             "steps": step + 1,
             "term_reason": term_reason,
+            "collision": episode_collision,
             "wall_seconds": time.time() - episode_start,
             "epsilon": args.epsilon,
             "alpha": args.alpha,
@@ -533,11 +549,13 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
         state_idx = discretizer.encode(state)
         total_reward = 0.0
         term_reason = "max_steps"
+        episode_collision = False
         episode_start = time.time()
 
         for step in range(args.max_episode_steps):
             action = agent.greedy_action(state_idx)
             next_state, reward, terminated, truncated, info = env.step(action)
+            episode_collision = episode_collision or bool(info.get("collision", False))
             total_reward += float(reward)
             state_idx = discretizer.encode(next_state)
 
@@ -553,6 +571,7 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
             "reward": total_reward,
             "steps": step + 1,
             "term_reason": term_reason,
+            "collision": episode_collision,
             "wall_seconds": time.time() - episode_start,
             "network_frozen": True,
             "updates_during_test": 0,
@@ -639,7 +658,7 @@ def save_outputs(rows: List[Dict], args, output_dir: Path) -> None:
         for policy in POLICIES
     ]
     plt.figure(figsize=(7.0, 4.2))
-    plt.boxplot(test_groups, tick_labels=[DISPLAY_NAMES[p] for p in POLICIES], showmeans=True)
+    plt.boxplot(test_groups, labels=[DISPLAY_NAMES[p] for p in POLICIES], showmeans=True)
     plt.xlabel("Experiment")
     plt.ylabel("Environment reward")
     plt.title("SUMO Tabular Q-Learning Test Reward Distribution")
@@ -686,6 +705,9 @@ def parse_args():
     )
 
     parser.add_argument("--target-speed", type=float, default=13.9)
+    parser.add_argument("--collision-penalty", type=float, default=-50.0)
+    parser.add_argument("--ego-speed-mode", type=int, default=30)
+    parser.add_argument("--collision-mingap-factor", type=float, default=0.0)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--output-dir", default="results_sumo_tabular_two_experiments")
     parser.add_argument("--gui", action="store_true")
@@ -723,3 +745,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

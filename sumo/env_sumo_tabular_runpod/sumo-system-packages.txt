@@ -1,2 +1,0 @@
-sumo	1.18.0+dfsg-3build5
-sumo-tools	1.18.0+dfsg-3build5

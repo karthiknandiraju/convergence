@@ -1,5 +1,0 @@
-$ bash -lc command -v sumo; command -v sumo-gui; command -v netconvert; command -v duarouter
-/usr/bin/sumo
-/usr/bin/sumo-gui
-/usr/bin/netconvert
-/usr/bin/duarouter

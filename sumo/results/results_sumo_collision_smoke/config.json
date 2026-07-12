@@ -1,0 +1,22 @@
+{
+  "train_episodes": 1,
+  "test_episodes": 1,
+  "max_episode_steps": 50,
+  "epsilon": 0.2,
+  "alpha": 0.1,
+  "gamma": 0.99,
+  "state_bins": [
+    8,
+    12,
+    12,
+    10,
+    8
+  ],
+  "target_speed": 8.333333,
+  "collision_penalty": -50.0,
+  "ego_speed_mode": 30,
+  "collision_mingap_factor": 0.0,
+  "seed": 42,
+  "output_dir": "/workspace/DQNMedian50/convergence/sumo/results/results_sumo_collision_smoke",
+  "gui": false
+}

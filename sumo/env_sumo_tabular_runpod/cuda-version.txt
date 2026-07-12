@@ -1,1 +1,0 @@
-$ bash -lc nvcc --version 2>/dev/null || true; cat /usr/local/cuda/version.json 2>/dev/null || true
