@@ -1,0 +1,42 @@
+{
+  "epsilon_greedy": {
+    "train_average_reward": 130.98367165335645,
+    "train_median_reward": 163.2624986290001,
+    "train_std_reward": 57.731165548640114,
+    "test_average_reward": 136.35628296182594,
+    "test_median_reward": 171.17899683776028,
+    "test_std_reward": 53.14713385700276,
+    "test_min_reward": 55.58500371160089,
+    "test_max_reward": 181.6099992032009,
+    "train_collision_count": 6,
+    "train_collision_rate": 0.012,
+    "train_goal_count": 357,
+    "train_goal_rate": 0.714,
+    "test_collision_count": 0,
+    "test_collision_rate": 0.0,
+    "test_collision_free_rate": 1.0,
+    "test_goal_count": 196,
+    "test_goal_rate": 0.6533333333333333,
+    "test_average_steps": 472.5233333333333
+  },
+  "median_50": {
+    "train_average_reward": 114.91948748977657,
+    "train_median_reward": 165.33049881212023,
+    "train_std_reward": 69.34277293052656,
+    "test_average_reward": 156.529315205663,
+    "test_median_reward": 174.1759991590402,
+    "test_std_reward": 48.26319294067708,
+    "test_min_reward": 40.07000339600063,
+    "test_max_reward": 186.1019956180804,
+    "train_collision_count": 31,
+    "train_collision_rate": 0.062,
+    "train_goal_count": 282,
+    "train_goal_rate": 0.564,
+    "test_collision_count": 0,
+    "test_collision_rate": 0.0,
+    "test_collision_free_rate": 1.0,
+    "test_goal_count": 247,
+    "test_goal_rate": 0.8233333333333334,
+    "test_average_steps": 463.2133333333333
+  }
+}

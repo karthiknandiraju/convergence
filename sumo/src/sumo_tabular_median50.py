@@ -77,6 +77,8 @@ class SumoDrivingEnv(gym.Env):
         collision_penalty: float = -50.0,
         ego_speed_mode: int = 30,
         collision_mingap_factor: float = 0.0,
+        road_length: float = 800.0,
+        progress_reward_scale: float = 100.0,
     ) -> None:
         super().__init__()
         self.scenario_dir = Path(scenario_dir).resolve()
@@ -87,6 +89,10 @@ class SumoDrivingEnv(gym.Env):
         self.collision_penalty = float(collision_penalty)
         self.ego_speed_mode = int(ego_speed_mode)
         self.collision_mingap_factor = float(collision_mingap_factor)
+        self.road_length = float(road_length)
+        self.progress_reward_scale = float(progress_reward_scale)
+        if self.road_length <= 0.0:
+            raise ValueError("road_length must be positive")
 
         self.action_space = spaces.Discrete(3)
         self.observation_space = spaces.Box(
@@ -95,7 +101,6 @@ class SumoDrivingEnv(gym.Env):
             dtype=np.float32,
         )
 
-        self.road_length = 1000.0
         self.step_count = 0
         self.last_position = 0.0
         self.conn = None
@@ -115,16 +120,16 @@ class SumoDrivingEnv(gym.Env):
     def _create_scenario(self) -> None:
         self.scenario_dir.mkdir(parents=True, exist_ok=True)
         net_file = self.scenario_dir / "straight.net.xml"
-        if net_file.exists():
-            return
 
         nodes_file = self.scenario_dir / "straight.nod.xml"
         edges_file = self.scenario_dir / "straight.edg.xml"
 
+        # Regenerate the network so a reused output directory cannot silently
+        # retain the previous 1000 m road.
         nodes_file.write_text(
-            """<nodes>
+            f"""<nodes>
     <node id="n0" x="0.0" y="0.0" type="priority"/>
-    <node id="n1" x="1000.0" y="0.0" type="priority"/>
+    <node id="n1" x="{self.road_length:.3f}" y="0.0" type="priority"/>
 </nodes>
 """,
             encoding="utf-8",
@@ -279,29 +284,46 @@ class SumoDrivingEnv(gym.Env):
         arrived = "ego" in set(self.conn.simulation.getArrivedIDList())
         collision = "ego" in set(self.conn.simulation.getCollidingVehiclesIDList())
 
-        if ego_present:
+        # SUMO may report a collision-removed vehicle in an arrival/removal
+        # list. Collision must take precedence so it cannot receive the
+        # remaining road distance as artificial progress reward.
+        if collision:
+            position = self.last_position
+            speed = 0.0
+        elif ego_present:
             position = float(self.conn.vehicle.getLanePosition("ego"))
             speed = float(self.conn.vehicle.getSpeed("ego"))
+        elif arrived:
+            position = self.road_length
+            speed = 0.0
         else:
-            position = self.road_length if arrived else self.last_position
+            position = self.last_position
             speed = 0.0
 
         progress = max(0.0, position - self.last_position)
         speed_error = abs(speed - self.target_speed) / self.target_speed
-        reward = progress - 0.25 * speed_error
+        progress_reward = self.progress_reward_scale * progress / self.road_length
+        speed_penalty = 0.25 * speed_error
+        reward = progress_reward - speed_penalty
+        collision_penalty_applied = 0.0
+        goal_bonus = 0.0
+        removed_penalty = 0.0
 
         terminated = False
         term_reason = "running"
         if collision:
-            reward += self.collision_penalty
+            collision_penalty_applied = self.collision_penalty
+            reward += collision_penalty_applied
             terminated = True
             term_reason = "collision"
         elif arrived or position >= self.road_length - 5.0:
-            reward += 100.0
+            goal_bonus = 100.0
+            reward += goal_bonus
             terminated = True
             term_reason = "goal"
         elif not ego_present:
-            reward -= 10.0
+            removed_penalty = -10.0
+            reward += removed_penalty
             terminated = True
             term_reason = "removed"
 
@@ -315,6 +337,11 @@ class SumoDrivingEnv(gym.Env):
             "position": position,
             "speed": speed,
             "progress": progress,
+            "progress_reward": progress_reward,
+            "speed_penalty": speed_penalty,
+            "collision_penalty": collision_penalty_applied,
+            "goal_bonus": goal_bonus,
+            "removed_penalty": removed_penalty,
             "collision": collision,
         }
         return self._get_observation(), float(reward), bool(terminated), bool(truncated), info
@@ -453,6 +480,8 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
         collision_penalty=args.collision_penalty,
         ego_speed_mode=args.ego_speed_mode,
         collision_mingap_factor=args.collision_mingap_factor,
+        road_length=args.road_length,
+        progress_reward_scale=args.progress_reward_scale,
     )
     discretizer = StateDiscretizer(tuple(args.state_bins))
     agent = TabularQLearningAgent(
@@ -472,6 +501,11 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
         total_reward = 0.0
         term_reason = "max_steps"
         episode_collision = False
+        progress_reward_total = 0.0
+        speed_penalty_total = 0.0
+        collision_penalty_total = 0.0
+        goal_bonus_total = 0.0
+        last_info: Dict = {}
         source_counts: Dict[str, int] = {}
         episode_start = time.time()
 
@@ -487,7 +521,12 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
             source_counts[source] = source_counts.get(source, 0) + 1
 
             next_state, reward, terminated, truncated, info = env.step(action)
+            last_info = info
             episode_collision = episode_collision or bool(info.get("collision", False))
+            progress_reward_total += float(info.get("progress_reward", 0.0))
+            speed_penalty_total += float(info.get("speed_penalty", 0.0))
+            collision_penalty_total += float(info.get("collision_penalty", 0.0))
+            goal_bonus_total += float(info.get("goal_bonus", 0.0))
             done = bool(terminated or truncated)
             next_state_idx = discretizer.encode(next_state)
 
@@ -508,6 +547,11 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
             "steps": step + 1,
             "term_reason": term_reason,
             "collision": episode_collision,
+            "progress_reward_total": progress_reward_total,
+            "speed_penalty_total": speed_penalty_total,
+            "collision_penalty_total": collision_penalty_total,
+            "goal_bonus_total": goal_bonus_total,
+            "final_position": float(last_info.get("position", 0.0)),
             "wall_seconds": time.time() - episode_start,
             "epsilon": args.epsilon,
             "alpha": args.alpha,
@@ -550,12 +594,22 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
         total_reward = 0.0
         term_reason = "max_steps"
         episode_collision = False
+        progress_reward_total = 0.0
+        speed_penalty_total = 0.0
+        collision_penalty_total = 0.0
+        goal_bonus_total = 0.0
+        last_info: Dict = {}
         episode_start = time.time()
 
         for step in range(args.max_episode_steps):
             action = agent.greedy_action(state_idx)
             next_state, reward, terminated, truncated, info = env.step(action)
+            last_info = info
             episode_collision = episode_collision or bool(info.get("collision", False))
+            progress_reward_total += float(info.get("progress_reward", 0.0))
+            speed_penalty_total += float(info.get("speed_penalty", 0.0))
+            collision_penalty_total += float(info.get("collision_penalty", 0.0))
+            goal_bonus_total += float(info.get("goal_bonus", 0.0))
             total_reward += float(reward)
             state_idx = discretizer.encode(next_state)
 
@@ -572,6 +626,11 @@ def run_experiment(policy: str, args, output_dir: Path) -> List[Dict]:
             "steps": step + 1,
             "term_reason": term_reason,
             "collision": episode_collision,
+            "progress_reward_total": progress_reward_total,
+            "speed_penalty_total": speed_penalty_total,
+            "collision_penalty_total": collision_penalty_total,
+            "goal_bonus_total": goal_bonus_total,
+            "final_position": float(last_info.get("position", 0.0)),
             "wall_seconds": time.time() - episode_start,
             "network_frozen": True,
             "updates_during_test": 0,
@@ -615,8 +674,10 @@ def save_outputs(rows: List[Dict], args, output_dir: Path) -> None:
 
     summary: Dict[str, Dict[str, float]] = {}
     for policy in POLICIES:
-        train_rewards = [float(r["reward"]) for r in rows if r["phase"] == "train" and r["policy"] == policy]
-        test_rewards = [float(r["reward"]) for r in rows if r["phase"] == "test" and r["policy"] == policy]
+        train_rows = [r for r in rows if r["phase"] == "train" and r["policy"] == policy]
+        test_rows = [r for r in rows if r["phase"] == "test" and r["policy"] == policy]
+        train_rewards = [float(r["reward"]) for r in train_rows]
+        test_rewards = [float(r["reward"]) for r in test_rows]
         summary[policy] = {
             "train_average_reward": float(np.mean(train_rewards)),
             "train_median_reward": float(np.median(train_rewards)),
@@ -626,6 +687,16 @@ def save_outputs(rows: List[Dict], args, output_dir: Path) -> None:
             "test_std_reward": float(np.std(test_rewards)),
             "test_min_reward": float(np.min(test_rewards)),
             "test_max_reward": float(np.max(test_rewards)),
+            "train_collision_count": int(sum(r["term_reason"] == "collision" for r in train_rows)),
+            "train_collision_rate": float(np.mean([r["term_reason"] == "collision" for r in train_rows])),
+            "train_goal_count": int(sum(r["term_reason"] == "goal" for r in train_rows)),
+            "train_goal_rate": float(np.mean([r["term_reason"] == "goal" for r in train_rows])),
+            "test_collision_count": int(sum(r["term_reason"] == "collision" for r in test_rows)),
+            "test_collision_rate": float(np.mean([r["term_reason"] == "collision" for r in test_rows])),
+            "test_collision_free_rate": float(np.mean([r["term_reason"] != "collision" for r in test_rows])),
+            "test_goal_count": int(sum(r["term_reason"] == "goal" for r in test_rows)),
+            "test_goal_rate": float(np.mean([r["term_reason"] == "goal" for r in test_rows])),
+            "test_average_steps": float(np.mean([r["steps"] for r in test_rows])),
         }
 
     (output_dir / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
@@ -708,6 +779,14 @@ def parse_args():
     parser.add_argument("--collision-penalty", type=float, default=-50.0)
     parser.add_argument("--ego-speed-mode", type=int, default=30)
     parser.add_argument("--collision-mingap-factor", type=float, default=0.0)
+    parser.add_argument(
+        "--road-length", type=float, default=800.0,
+        help="Road length in metres; 800 m is reachable near 30 km/h within 500 x 0.2 s steps",
+    )
+    parser.add_argument(
+        "--progress-reward-scale", type=float, default=100.0,
+        help="Maximum cumulative progress reward for traversing the full road",
+    )
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--output-dir", default="results_sumo_tabular_two_experiments")
     parser.add_argument("--gui", action="store_true")
@@ -729,6 +808,11 @@ def main() -> None:
     print("Frozen greedy testing: yes")
     print("Train/Test/Max steps:", args.train_episodes, args.test_episodes, args.max_episode_steps)
     print("Epsilon:", args.epsilon)
+    print("Road length:", args.road_length, "m")
+    print("Progress reward scale:", args.progress_reward_scale)
+    print("Collision penalty:", args.collision_penalty)
+    print("Ego speed mode:", args.ego_speed_mode)
+    print("Collision minGap factor:", args.collision_mingap_factor)
     print("State bins:", tuple(args.state_bins))
     print("Q-table states:", int(np.prod(args.state_bins)))
     print("Q-table entries per experiment:", int(np.prod(args.state_bins)) * 3)
@@ -745,4 +829,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

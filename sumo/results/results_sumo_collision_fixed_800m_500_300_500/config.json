@@ -1,0 +1,24 @@
+{
+  "train_episodes": 500,
+  "test_episodes": 300,
+  "max_episode_steps": 500,
+  "epsilon": 0.2,
+  "alpha": 0.1,
+  "gamma": 0.99,
+  "state_bins": [
+    8,
+    12,
+    12,
+    10,
+    8
+  ],
+  "target_speed": 8.333333,
+  "collision_penalty": -50.0,
+  "ego_speed_mode": 30,
+  "collision_mingap_factor": 0.0,
+  "road_length": 800.0,
+  "progress_reward_scale": 100.0,
+  "seed": 42,
+  "output_dir": "/workspace/DQNMedian50/convergence/sumo/results/results_sumo_collision_fixed_800m_500_300_500",
+  "gui": false
+}
