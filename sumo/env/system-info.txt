@@ -1,0 +1,205 @@
+SUMO EXPERIMENT ENVIRONMENT
+===========================
+Captured: 2026-07-12T16:35:25+00:00
+Project root: /workspace/DQNMedian50/convergence/sumo
+User: root
+Hostname: 9ac5423e3781
+Python: /usr/bin/python3
+Virtual environment: not active
+Conda environment: not active
+SUMO_HOME: not set
+
+===== SUMO =====
+Eclipse SUMO sumo Version 1.18.0
+ Build features: Linux-5.4.0-173-generic x86_64 GNU 13.2.0 None FMI Proj GUI Intl SWIG GDAL FFmpeg OSG GL2PS Eigen
+ Copyright (C) 2001-2023 German Aerospace Center (DLR) and others; https://sumo.dlr.de
+
+Eclipse SUMO sumo Version 1.18.0 is part of SUMO.
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v2.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v20.html
+This program may also be made available under the following Secondary
+Licenses when the conditions for such availability set forth in the Eclipse
+Public License 2.0 are satisfied: GNU General Public License, version 2
+or later which is available at
+https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html
+SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
+sumo: /usr/bin/sumo
+sumo-gui: /usr/bin/sumo-gui
+netconvert: /usr/bin/netconvert
+
+===== SUMO PYTHON MODULES =====
+Python: 3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]
+Executable: /usr/bin/python3
+traci version: installed/version unavailable
+traci path: /usr/lib/python3/dist-packages/traci/__init__.py
+sumolib version: installed/version unavailable
+sumolib path: /usr/lib/python3/dist-packages/sumolib/__init__.py
+numpy unavailable: ModuleNotFoundError("No module named 'numpy'")
+pandas unavailable: ModuleNotFoundError("No module named 'pandas'")
+matplotlib unavailable: ModuleNotFoundError("No module named 'matplotlib'")
+torch unavailable: ModuleNotFoundError("No module named 'torch'")
+
+===== NVIDIA GPU =====
+Sun Jul 12 16:35:25 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.127.05             Driver Version: 550.127.05     CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA RTX 6000 Ada Gene...    On  |   00000000:C1:00.0 Off |                  Off |
+| 30%   36C    P2            139W /  300W |    5343MiB /  49140MiB |     30%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
++-----------------------------------------------------------------------------------------+
+
+===== OPERATING SYSTEM =====
+PRETTY_NAME="Ubuntu 24.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.1 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+Linux 9ac5423e3781 6.8.0-52-generic #53~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jan 15 19:18:46 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+===== CPU =====
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        48 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               128
+On-line CPU(s) list:                  0-127
+Vendor ID:                            AuthenticAMD
+Model name:                           AMD EPYC 75F3 32-Core Processor
+CPU family:                           25
+Model:                                1
+Thread(s) per core:                   2
+Core(s) per socket:                   32
+Socket(s):                            2
+Stepping:                             1
+Frequency boost:                      enabled
+CPU(s) scaling MHz:                   45%
+CPU max MHz:                          4041.8450
+CPU min MHz:                          1500.0000
+BogoMIPS:                             5900.42
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local user_shstk clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin brs arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca debug_swap
+Virtualization:                       AMD-V
+L1d cache:                            2 MiB (64 instances)
+L1i cache:                            2 MiB (64 instances)
+L2 cache:                             32 MiB (64 instances)
+L3 cache:                             512 MiB (16 instances)
+NUMA node(s):                         2
+NUMA node0 CPU(s):                    0-31,64-95
+NUMA node1 CPU(s):                    32-63,96-127
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Not affected
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Not affected
+Vulnerability Spec rstack overflow:   Mitigation; Safe RET
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Not affected
+
+===== MEMORY =====
+               total        used        free      shared  buff/cache   available
+Mem:           503Gi        63Gi       226Gi       1.3Gi       219Gi       440Gi
+Swap:             0B          0B          0B
+
+===== DISK =====
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         100G   75G   26G  75% /
+
+===== PROJECT FILES =====
+env.sh
+env.tar.gz
+env/experiment-config.txt
+env/pip-freeze.txt
+env/pip-list.txt
+env/python-version.txt
+env/run_command.txt
+env/system-info.txt
+env_bkup/SHA256SUMS.txt
+env_bkup/experiment-config.txt
+env_bkup/git-commit.txt
+env_bkup/git-status.txt
+env_bkup/pip-freeze.txt
+env_bkup/pip-list.txt
+env_bkup/python-version.txt
+env_bkup/run_command.txt
+env_bkup/source-file-list.txt
+env_bkup/system-info.txt
+env_local/conda-explicit.txt
+env_local/conda-list.txt
+env_local/environment-from-history.yml
+env_local/environment.yml
+env_local/pip-freeze.txt
+env_local/run_command.txt
+env_local/system-info.txt
+env_sumo_dqn_runpod.tar.gz
+env_sumo_tabular_runpod.tar.gz
+env_sumo_tabular_runpod/SHA256SUMS.txt
+env_sumo_tabular_runpod/capture-summary.txt
+env_sumo_tabular_runpod/conda-info.txt
+env_sumo_tabular_runpod/cpu.txt
+env_sumo_tabular_runpod/cuda-version.txt
+env_sumo_tabular_runpod/disk.txt
+env_sumo_tabular_runpod/git-commit.txt
+env_sumo_tabular_runpod/git-last-commit.txt
+env_sumo_tabular_runpod/git-remotes.txt
+env_sumo_tabular_runpod/git-status.txt
+env_sumo_tabular_runpod/gpu-nvidia-smi.txt
+env_sumo_tabular_runpod/gpu-query.txt
+env_sumo_tabular_runpod/hardware-identifiers.txt
+env_sumo_tabular_runpod/kernel.txt
+env_sumo_tabular_runpod/memory.txt
+env_sumo_tabular_runpod/netconvert-version.txt
+env_sumo_tabular_runpod/network.txt
+env_sumo_tabular_runpod/os-release.txt
+env_sumo_tabular_runpod/pci-devices.txt
+env_sumo_tabular_runpod/pip-freeze.txt
+env_sumo_tabular_runpod/pip-list.txt
+env_sumo_tabular_runpod/python-runtime-info.txt
+env_sumo_tabular_runpod/python-version.txt
+env_sumo_tabular_runpod/relevant_shell_history.txt
+env_sumo_tabular_runpod/run_command.txt
+env_sumo_tabular_runpod/source-file-list.txt
+env_sumo_tabular_runpod/sumo-binary-location.txt
+env_sumo_tabular_runpod/sumo-system-packages.txt
+env_sumo_tabular_runpod/sumo-version.txt
+env_sumo_tabular_runpod/venv-recreation.txt
+logs/sumo_dqn_runpod.log
+logs/sumo_dqn_runpod_smoke.log
+logs/sumo_dqn_two_exp_smoke.log
+logs/sumo_tabular_runpod.log
+results/sumo_tabular_median50_local.zip
+results_sumo_tabular.zip
+src/capture_sumo_environment.sh
+src/plots_median50_additional.py
+src/sumo_dqn_median50.py
+src/sumo_tabular_median50.py
+src/sumo_tabular_median50_bkup.py
+sumo_collision_env/pyvenv.cfg
+sumo_environment_setup.log
+sumoenv/pyvenv.cfg

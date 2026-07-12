@@ -24,3 +24,7 @@ venv/
 **/venv/
 **/sumoenv/
 **/*_env/
+
+# Include SUMO environment-capture metadata
+!sumo/env/
+!sumo/env/**
