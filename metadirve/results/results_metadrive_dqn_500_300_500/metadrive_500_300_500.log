@@ -1,0 +1,1640 @@
+nohup: ignoring input
+============================================================================
+METADRIVE DQN EXPERIMENT
+============================================================================
+Python: 3.11.15
+PyTorch: 2.6.0+cu124
+MetaDrive: installed
+Device: cuda
+Experiments: Epsilon, Median 50
+DQN + RND + Count + Target + Replay + Adam: yes
+Separate model/replay/RND/count per experiment: yes
+Frozen greedy testing: yes
+Train/Test/Max steps: 500 300 500
+Training seeds: 42 through 541
+Testing seeds: 100000 through 100299
+Discrete actions: 9
+Learning rate: 5e-05
+Epsilon: 0.2
+RMST event/tau: collision 500
+============================================================================
+
+===== TRAINING START: Epsilon =====
+TRAIN Epsilon          ep=000 reward=   -7.350 steps=119 term=out_of_road collision=False wall=1.06s loss=0.005073
+TRAIN Epsilon          ep=001 reward=    6.805 steps= 52 term=out_of_road collision=False wall=0.45s loss=0.066662
+TRAIN Epsilon          ep=002 reward=   61.269 steps= 91 term=out_of_road collision=False wall=0.85s loss=0.115101
+TRAIN Epsilon          ep=003 reward=   51.103 steps= 83 term=out_of_road collision=False wall=0.81s loss=0.153026
+TRAIN Epsilon          ep=004 reward=   10.181 steps= 65 term=out_of_road collision=False wall=0.67s loss=0.153285
+TRAIN Epsilon          ep=005 reward=   16.225 steps= 88 term=collision   collision=True  wall=0.85s loss=0.153158
+TRAIN Epsilon          ep=006 reward=   68.724 steps=105 term=out_of_road collision=False wall=0.90s loss=0.291153
+TRAIN Epsilon          ep=007 reward=   -1.118 steps= 42 term=out_of_road collision=False wall=0.36s loss=0.242306
+TRAIN Epsilon          ep=008 reward=   -7.020 steps= 22 term=out_of_road collision=False wall=0.19s loss=0.347560
+TRAIN Epsilon          ep=009 reward=    2.358 steps= 37 term=out_of_road collision=False wall=0.28s loss=0.219506
+TRAIN Epsilon          ep=010 reward=   -1.900 steps= 37 term=out_of_road collision=False wall=0.31s loss=0.313330
+TRAIN Epsilon          ep=011 reward=    4.376 steps= 35 term=out_of_road collision=False wall=0.25s loss=0.195050
+TRAIN Epsilon          ep=012 reward=   -2.789 steps= 29 term=out_of_road collision=False wall=0.26s loss=0.292693
+TRAIN Epsilon          ep=013 reward=   -4.597 steps= 23 term=out_of_road collision=False wall=0.17s loss=0.265395
+TRAIN Epsilon          ep=014 reward=   -1.436 steps= 61 term=out_of_road collision=False wall=0.50s loss=0.231750
+TRAIN Epsilon          ep=015 reward=   -5.777 steps= 24 term=out_of_road collision=False wall=0.18s loss=0.270253
+TRAIN Epsilon          ep=016 reward=   80.420 steps=165 term=collision   collision=True  wall=1.74s loss=0.233819
+TRAIN Epsilon          ep=017 reward=    2.266 steps= 41 term=out_of_road collision=False wall=0.35s loss=0.321862
+TRAIN Epsilon          ep=018 reward=   19.297 steps= 68 term=out_of_road collision=False wall=0.46s loss=0.289311
+TRAIN Epsilon          ep=019 reward=    2.674 steps= 95 term=collision   collision=True  wall=0.86s loss=0.307978
+TRAIN Epsilon          ep=020 reward=   47.271 steps=114 term=out_of_road collision=False wall=1.13s loss=0.320828
+TRAIN Epsilon          ep=021 reward=   77.505 steps=116 term=out_of_road collision=False wall=1.09s loss=0.339121
+TRAIN Epsilon          ep=022 reward=   -3.651 steps=112 term=out_of_road collision=False wall=0.86s loss=0.242669
+TRAIN Epsilon          ep=023 reward=   54.052 steps=108 term=collision   collision=True  wall=1.03s loss=0.265615
+TRAIN Epsilon          ep=024 reward=   -9.324 steps= 10 term=out_of_road collision=False wall=0.07s loss=0.235778
+TRAIN Epsilon          ep=025 reward=   -9.489 steps=  8 term=out_of_road collision=False wall=0.07s loss=0.337707
+TRAIN Epsilon          ep=026 reward=   -7.793 steps= 17 term=out_of_road collision=False wall=0.16s loss=0.359129
+TRAIN Epsilon          ep=027 reward=   54.497 steps= 71 term=out_of_road collision=False wall=0.67s loss=0.277927
+TRAIN Epsilon          ep=028 reward=   -4.691 steps= 50 term=out_of_road collision=False wall=0.38s loss=0.368924
+TRAIN Epsilon          ep=029 reward=   -0.982 steps= 41 term=out_of_road collision=False wall=0.35s loss=0.375813
+TRAIN Epsilon          ep=030 reward=   -4.933 steps= 48 term=out_of_road collision=False wall=0.37s loss=0.261507
+TRAIN Epsilon          ep=031 reward=   -9.361 steps=  9 term=out_of_road collision=False wall=0.07s loss=0.273027
+TRAIN Epsilon          ep=032 reward=   -7.600 steps= 16 term=out_of_road collision=False wall=0.14s loss=0.277238
+TRAIN Epsilon          ep=033 reward=   -8.719 steps= 13 term=out_of_road collision=False wall=0.09s loss=0.390519
+TRAIN Epsilon          ep=034 reward=   10.731 steps=112 term=collision   collision=True  wall=0.90s loss=0.292480
+TRAIN Epsilon          ep=035 reward=   55.195 steps=106 term=out_of_road collision=False wall=1.19s loss=0.299089
+TRAIN Epsilon          ep=036 reward=   32.366 steps=117 term=out_of_road collision=False wall=1.06s loss=0.380838
+TRAIN Epsilon          ep=037 reward=   -4.740 steps= 82 term=out_of_road collision=False wall=0.66s loss=0.324943
+TRAIN Epsilon          ep=038 reward=   46.827 steps=197 term=out_of_road collision=False wall=2.07s loss=0.264684
+TRAIN Epsilon          ep=039 reward=    1.572 steps= 82 term=out_of_road collision=False wall=0.63s loss=0.269443
+TRAIN Epsilon          ep=040 reward=   -6.175 steps=150 term=out_of_road collision=False wall=1.08s loss=0.285248
+TRAIN Epsilon          ep=041 reward=   60.646 steps=102 term=out_of_road collision=False wall=1.14s loss=0.251102
+TRAIN Epsilon          ep=042 reward=   11.525 steps=141 term=out_of_road collision=False wall=1.10s loss=0.280379
+TRAIN Epsilon          ep=043 reward=   93.773 steps=135 term=collision   collision=True  wall=1.38s loss=0.275243
+TRAIN Epsilon          ep=044 reward=   49.100 steps= 77 term=out_of_road collision=False wall=0.94s loss=0.301160
+TRAIN Epsilon          ep=045 reward=   -0.546 steps= 40 term=out_of_road collision=False wall=0.39s loss=0.261517
+TRAIN Epsilon          ep=046 reward=   24.558 steps= 78 term=out_of_road collision=False wall=0.54s loss=0.269039
+TRAIN Epsilon          ep=047 reward=   -6.287 steps= 84 term=out_of_road collision=False wall=0.68s loss=0.298975
+TRAIN Epsilon          ep=048 reward=   20.371 steps= 68 term=out_of_road collision=False wall=0.64s loss=0.226068
+TRAIN Epsilon          ep=049 reward=   -9.299 steps= 12 term=out_of_road collision=False wall=0.08s loss=0.240259
+TRAIN Epsilon          ep=050 reward=   -7.470 steps= 20 term=out_of_road collision=False wall=0.16s loss=0.296402
+TRAIN Epsilon          ep=051 reward=   -7.135 steps= 44 term=out_of_road collision=False wall=0.41s loss=0.255385
+TRAIN Epsilon          ep=052 reward=   35.583 steps=239 term=out_of_road collision=False wall=1.75s loss=0.282270
+TRAIN Epsilon          ep=053 reward=   -8.519 steps= 26 term=out_of_road collision=False wall=0.22s loss=0.211360
+TRAIN Epsilon          ep=054 reward=   -5.365 steps= 59 term=out_of_road collision=False wall=0.47s loss=0.183735
+TRAIN Epsilon          ep=055 reward=   -9.278 steps= 24 term=out_of_road collision=False wall=0.16s loss=0.244156
+TRAIN Epsilon          ep=056 reward=   -1.888 steps= 35 term=out_of_road collision=False wall=0.30s loss=0.283517
+TRAIN Epsilon          ep=057 reward=   -2.627 steps= 46 term=out_of_road collision=False wall=0.39s loss=0.302254
+TRAIN Epsilon          ep=058 reward=   -1.400 steps= 48 term=out_of_road collision=False wall=0.39s loss=0.304938
+TRAIN Epsilon          ep=059 reward=   -0.051 steps= 66 term=collision   collision=True  wall=0.68s loss=0.274107
+TRAIN Epsilon          ep=060 reward=   -5.171 steps= 67 term=collision   collision=True  wall=0.65s loss=0.327587
+TRAIN Epsilon          ep=061 reward=    8.807 steps= 88 term=out_of_road collision=False wall=0.73s loss=0.277484
+TRAIN Epsilon          ep=062 reward=   50.139 steps=115 term=out_of_road collision=False wall=1.10s loss=0.309298
+TRAIN Epsilon          ep=063 reward=   -9.050 steps= 14 term=out_of_road collision=False wall=0.10s loss=0.192414
+TRAIN Epsilon          ep=064 reward=   -8.838 steps= 27 term=out_of_road collision=False wall=0.23s loss=0.213601
+TRAIN Epsilon          ep=065 reward=   -5.367 steps= 44 term=out_of_road collision=False wall=0.36s loss=0.337788
+TRAIN Epsilon          ep=066 reward=   -7.298 steps= 58 term=out_of_road collision=False wall=0.48s loss=0.247855
+TRAIN Epsilon          ep=067 reward=    6.632 steps= 92 term=collision   collision=True  wall=0.81s loss=0.278442
+TRAIN Epsilon          ep=068 reward=   -6.709 steps= 77 term=out_of_road collision=False wall=0.53s loss=0.315775
+TRAIN Epsilon          ep=069 reward=   -9.462 steps=  8 term=out_of_road collision=False wall=0.06s loss=0.332809
+TRAIN Epsilon          ep=070 reward=   -7.555 steps= 20 term=collision   collision=True  wall=0.14s loss=0.284829
+TRAIN Epsilon          ep=071 reward=    0.475 steps= 84 term=collision   collision=True  wall=0.86s loss=0.264044
+TRAIN Epsilon          ep=072 reward=   -7.573 steps= 21 term=out_of_road collision=False wall=0.17s loss=0.335256
+TRAIN Epsilon          ep=073 reward=   -2.595 steps= 55 term=out_of_road collision=False wall=0.38s loss=0.218721
+TRAIN Epsilon          ep=074 reward=   -6.483 steps= 45 term=out_of_road collision=False wall=0.33s loss=0.436360
+TRAIN Epsilon          ep=075 reward=   -2.288 steps= 41 term=out_of_road collision=False wall=0.32s loss=0.273493
+TRAIN Epsilon          ep=076 reward=    8.521 steps= 95 term=collision   collision=True  wall=1.03s loss=0.310233
+TRAIN Epsilon          ep=077 reward=    4.477 steps= 37 term=out_of_road collision=False wall=0.30s loss=0.315739
+TRAIN Epsilon          ep=078 reward=   29.838 steps=171 term=collision   collision=True  wall=1.39s loss=0.261696
+TRAIN Epsilon          ep=079 reward=   55.994 steps=102 term=collision   collision=True  wall=0.74s loss=0.290695
+TRAIN Epsilon          ep=080 reward=   20.718 steps=116 term=out_of_road collision=False wall=1.16s loss=0.333467
+TRAIN Epsilon          ep=081 reward=   -9.354 steps= 10 term=out_of_road collision=False wall=0.08s loss=0.327588
+TRAIN Epsilon          ep=082 reward=   47.940 steps= 82 term=out_of_road collision=False wall=0.67s loss=0.275930
+TRAIN Epsilon          ep=083 reward=   25.715 steps= 85 term=out_of_road collision=False wall=0.92s loss=0.286945
+TRAIN Epsilon          ep=084 reward=   68.939 steps=122 term=out_of_road collision=False wall=1.36s loss=0.279338
+TRAIN Epsilon          ep=085 reward=   -9.018 steps= 21 term=out_of_road collision=False wall=0.20s loss=0.265450
+TRAIN Epsilon          ep=086 reward=   -7.799 steps= 15 term=out_of_road collision=False wall=0.12s loss=0.308450
+TRAIN Epsilon          ep=087 reward=   49.024 steps= 75 term=out_of_road collision=False wall=0.71s loss=0.294550
+TRAIN Epsilon          ep=088 reward=   50.917 steps= 77 term=out_of_road collision=False wall=0.92s loss=0.382125
+TRAIN Epsilon          ep=089 reward=   59.312 steps=137 term=collision   collision=True  wall=1.19s loss=0.335269
+TRAIN Epsilon          ep=090 reward=    9.388 steps= 74 term=out_of_road collision=False wall=0.75s loss=0.321001
+TRAIN Epsilon          ep=091 reward=   29.107 steps= 87 term=collision   collision=True  wall=0.83s loss=0.311519
+TRAIN Epsilon          ep=092 reward=    1.212 steps= 90 term=collision   collision=True  wall=0.90s loss=0.256833
+TRAIN Epsilon          ep=093 reward=   -7.898 steps= 23 term=out_of_road collision=False wall=0.20s loss=0.198383
+TRAIN Epsilon          ep=094 reward=    4.069 steps= 37 term=out_of_road collision=False wall=0.36s loss=0.254957
+TRAIN Epsilon          ep=095 reward=   20.493 steps= 56 term=out_of_road collision=False wall=0.45s loss=0.311781
+TRAIN Epsilon          ep=096 reward=   11.880 steps= 46 term=out_of_road collision=False wall=0.39s loss=0.331597
+TRAIN Epsilon          ep=097 reward=   -4.552 steps= 35 term=out_of_road collision=False wall=0.24s loss=0.259175
+TRAIN Epsilon          ep=098 reward=   68.009 steps=124 term=collision   collision=True  wall=1.23s loss=0.350288
+TRAIN Epsilon          ep=099 reward=   35.444 steps= 65 term=out_of_road collision=False wall=0.53s loss=0.353580
+TRAIN Epsilon          ep=100 reward=    3.399 steps= 85 term=collision   collision=True  wall=0.96s loss=0.321474
+TRAIN Epsilon          ep=101 reward=   57.308 steps=111 term=out_of_road collision=False wall=0.79s loss=0.310921
+TRAIN Epsilon          ep=102 reward=   15.407 steps= 66 term=out_of_road collision=False wall=0.48s loss=0.401663
+TRAIN Epsilon          ep=103 reward=  147.960 steps=169 term=collision   collision=True  wall=1.58s loss=0.358298
+TRAIN Epsilon          ep=104 reward=   62.228 steps=131 term=out_of_road collision=False wall=1.11s loss=0.316553
+TRAIN Epsilon          ep=105 reward=   58.536 steps=138 term=collision   collision=True  wall=1.26s loss=0.312339
+TRAIN Epsilon          ep=106 reward=   63.467 steps=119 term=out_of_road collision=False wall=1.09s loss=0.415563
+TRAIN Epsilon          ep=107 reward=   16.838 steps= 60 term=out_of_road collision=False wall=0.45s loss=0.293809
+TRAIN Epsilon          ep=108 reward=   17.406 steps= 81 term=collision   collision=True  wall=0.71s loss=0.291097
+TRAIN Epsilon          ep=109 reward=    6.360 steps= 45 term=out_of_road collision=False wall=0.48s loss=0.252164
+TRAIN Epsilon          ep=110 reward=   47.534 steps= 82 term=out_of_road collision=False wall=0.89s loss=0.363370
+TRAIN Epsilon          ep=111 reward=   56.463 steps= 97 term=collision   collision=True  wall=1.00s loss=0.256304
+TRAIN Epsilon          ep=112 reward=    3.517 steps= 37 term=out_of_road collision=False wall=0.36s loss=0.335149
+TRAIN Epsilon          ep=113 reward=   48.470 steps= 79 term=out_of_road collision=False wall=0.87s loss=0.504607
+TRAIN Epsilon          ep=114 reward=   59.376 steps=102 term=out_of_road collision=False wall=1.18s loss=0.410511
+TRAIN Epsilon          ep=115 reward=   68.940 steps=130 term=collision   collision=True  wall=1.00s loss=0.298399
+TRAIN Epsilon          ep=116 reward=    9.352 steps=103 term=collision   collision=True  wall=1.09s loss=0.410701
+TRAIN Epsilon          ep=117 reward=    6.520 steps= 46 term=out_of_road collision=False wall=0.36s loss=0.358791
+TRAIN Epsilon          ep=118 reward=    8.298 steps= 68 term=collision   collision=True  wall=0.63s loss=0.357129
+TRAIN Epsilon          ep=119 reward=   11.360 steps= 45 term=out_of_road collision=False wall=0.33s loss=0.351493
+TRAIN Epsilon          ep=120 reward=    6.264 steps=100 term=collision   collision=True  wall=1.17s loss=0.374632
+TRAIN Epsilon          ep=121 reward=   61.539 steps=127 term=out_of_road collision=False wall=1.04s loss=0.318333
+TRAIN Epsilon          ep=122 reward=    1.171 steps= 58 term=out_of_road collision=False wall=0.46s loss=0.334030
+TRAIN Epsilon          ep=123 reward=    4.373 steps= 80 term=collision   collision=True  wall=0.64s loss=0.309360
+TRAIN Epsilon          ep=124 reward=   13.331 steps= 87 term=collision   collision=True  wall=0.65s loss=0.327545
+TRAIN Epsilon          ep=125 reward=   42.622 steps=118 term=collision   collision=True  wall=1.25s loss=0.384995
+TRAIN Epsilon          ep=126 reward=   57.680 steps= 93 term=out_of_road collision=False wall=0.93s loss=0.455564
+TRAIN Epsilon          ep=127 reward=   10.366 steps= 72 term=out_of_road collision=False wall=0.59s loss=0.440509
+TRAIN Epsilon          ep=128 reward=   47.893 steps= 81 term=out_of_road collision=False wall=0.74s loss=0.397837
+TRAIN Epsilon          ep=129 reward=   37.338 steps= 79 term=out_of_road collision=False wall=0.85s loss=0.338692
+TRAIN Epsilon          ep=130 reward=    9.632 steps= 60 term=out_of_road collision=False wall=0.53s loss=0.368878
+TRAIN Epsilon          ep=131 reward=   59.807 steps=135 term=out_of_road collision=False wall=1.24s loss=0.469507
+TRAIN Epsilon          ep=132 reward=   51.451 steps=110 term=out_of_road collision=False wall=0.88s loss=0.355719
+TRAIN Epsilon          ep=133 reward=   11.943 steps= 45 term=out_of_road collision=False wall=0.46s loss=0.359057
+TRAIN Epsilon          ep=134 reward=  111.139 steps=167 term=out_of_road collision=False wall=1.11s loss=0.346216
+TRAIN Epsilon          ep=135 reward=  138.360 steps=163 term=out_of_road collision=False wall=1.59s loss=0.478504
+TRAIN Epsilon          ep=136 reward=   53.659 steps= 76 term=out_of_road collision=False wall=0.90s loss=0.382188
+TRAIN Epsilon          ep=137 reward=   60.455 steps=115 term=out_of_road collision=False wall=0.97s loss=0.382077
+TRAIN Epsilon          ep=138 reward=   16.620 steps= 60 term=out_of_road collision=False wall=0.54s loss=0.393903
+TRAIN Epsilon          ep=139 reward=    5.449 steps= 53 term=out_of_road collision=False wall=0.43s loss=0.351116
+TRAIN Epsilon          ep=140 reward=   47.685 steps= 89 term=out_of_road collision=False wall=0.91s loss=0.319882
+TRAIN Epsilon          ep=141 reward=   42.468 steps= 83 term=out_of_road collision=False wall=0.82s loss=0.441162
+TRAIN Epsilon          ep=142 reward=   49.259 steps= 91 term=out_of_road collision=False wall=0.74s loss=0.348519
+TRAIN Epsilon          ep=143 reward=   44.930 steps= 93 term=out_of_road collision=False wall=0.87s loss=0.463672
+TRAIN Epsilon          ep=144 reward=   64.117 steps=113 term=out_of_road collision=False wall=0.99s loss=0.446729
+TRAIN Epsilon          ep=145 reward=    8.876 steps= 49 term=out_of_road collision=False wall=0.57s loss=0.253683
+TRAIN Epsilon          ep=146 reward=   60.311 steps=124 term=out_of_road collision=False wall=1.45s loss=0.391074
+TRAIN Epsilon          ep=147 reward=   41.137 steps= 86 term=out_of_road collision=False wall=0.86s loss=0.428023
+TRAIN Epsilon          ep=148 reward=   -1.002 steps= 45 term=out_of_road collision=False wall=0.38s loss=0.394228
+TRAIN Epsilon          ep=149 reward=   54.191 steps= 83 term=out_of_road collision=False wall=0.73s loss=0.477687
+TRAIN Epsilon          ep=150 reward=   58.979 steps=171 term=out_of_road collision=False wall=1.57s loss=0.433561
+TRAIN Epsilon          ep=151 reward=   61.031 steps=167 term=out_of_road collision=False wall=1.30s loss=0.358615
+TRAIN Epsilon          ep=152 reward=   48.359 steps= 77 term=out_of_road collision=False wall=0.75s loss=0.362692
+TRAIN Epsilon          ep=153 reward=   61.633 steps=120 term=out_of_road collision=False wall=0.97s loss=0.325269
+TRAIN Epsilon          ep=154 reward=   99.476 steps=120 term=out_of_road collision=False wall=1.28s loss=0.399919
+TRAIN Epsilon          ep=155 reward=   48.639 steps= 67 term=collision   collision=True  wall=0.63s loss=0.458250
+TRAIN Epsilon          ep=156 reward=   20.644 steps= 77 term=collision   collision=True  wall=0.82s loss=0.392710
+TRAIN Epsilon          ep=157 reward=   18.212 steps=103 term=out_of_road collision=False wall=0.94s loss=0.374873
+TRAIN Epsilon          ep=158 reward=    8.792 steps= 59 term=out_of_road collision=False wall=0.63s loss=0.418252
+TRAIN Epsilon          ep=159 reward=   55.891 steps=109 term=collision   collision=True  wall=0.79s loss=0.401339
+TRAIN Epsilon          ep=160 reward=   17.486 steps= 94 term=collision   collision=True  wall=0.69s loss=0.388646
+TRAIN Epsilon          ep=161 reward=   11.097 steps= 69 term=collision   collision=True  wall=0.56s loss=0.491006
+TRAIN Epsilon          ep=162 reward=   68.966 steps=121 term=out_of_road collision=False wall=1.19s loss=0.404238
+TRAIN Epsilon          ep=163 reward=   80.251 steps=114 term=out_of_road collision=False wall=0.99s loss=0.422540
+TRAIN Epsilon          ep=164 reward=   35.982 steps=104 term=out_of_road collision=False wall=1.25s loss=0.445978
+TRAIN Epsilon          ep=165 reward=    5.948 steps= 53 term=out_of_road collision=False wall=0.46s loss=0.477305
+TRAIN Epsilon          ep=166 reward=   -3.812 steps= 29 term=out_of_road collision=False wall=0.25s loss=0.418040
+TRAIN Epsilon          ep=167 reward=   63.726 steps=112 term=out_of_road collision=False wall=0.91s loss=0.454644
+TRAIN Epsilon          ep=168 reward=   -3.388 steps= 29 term=out_of_road collision=False wall=0.25s loss=0.372993
+TRAIN Epsilon          ep=169 reward=  136.523 steps=168 term=collision   collision=True  wall=1.37s loss=0.429796
+TRAIN Epsilon          ep=170 reward=   98.027 steps=162 term=out_of_road collision=False wall=1.14s loss=0.448677
+TRAIN Epsilon          ep=171 reward=   60.888 steps= 92 term=out_of_road collision=False wall=1.02s loss=0.459814
+TRAIN Epsilon          ep=172 reward=   66.335 steps=124 term=out_of_road collision=False wall=1.38s loss=0.383635
+TRAIN Epsilon          ep=173 reward=   64.241 steps=109 term=collision   collision=True  wall=0.92s loss=0.403010
+TRAIN Epsilon          ep=174 reward=   57.286 steps=115 term=out_of_road collision=False wall=1.39s loss=0.425953
+TRAIN Epsilon          ep=175 reward=   55.969 steps=124 term=out_of_road collision=False wall=0.90s loss=0.364128
+TRAIN Epsilon          ep=176 reward=    8.900 steps= 43 term=out_of_road collision=False wall=0.32s loss=0.420202
+TRAIN Epsilon          ep=177 reward=   62.526 steps=127 term=out_of_road collision=False wall=0.93s loss=0.445801
+TRAIN Epsilon          ep=178 reward=  138.082 steps=166 term=out_of_road collision=False wall=1.59s loss=0.464370
+TRAIN Epsilon          ep=179 reward=   37.837 steps= 80 term=out_of_road collision=False wall=0.91s loss=0.490172
+TRAIN Epsilon          ep=180 reward=   27.326 steps= 86 term=out_of_road collision=False wall=0.91s loss=0.441614
+TRAIN Epsilon          ep=181 reward=   32.532 steps= 84 term=out_of_road collision=False wall=1.02s loss=0.370402
+TRAIN Epsilon          ep=182 reward=   79.507 steps= 96 term=out_of_road collision=False wall=0.64s loss=0.381859
+TRAIN Epsilon          ep=183 reward=   60.688 steps= 98 term=out_of_road collision=False wall=1.06s loss=0.459703
+TRAIN Epsilon          ep=184 reward=   13.276 steps= 56 term=out_of_road collision=False wall=0.50s loss=0.402490
+TRAIN Epsilon          ep=185 reward=    4.289 steps= 52 term=out_of_road collision=False wall=0.43s loss=0.439800
+TRAIN Epsilon          ep=186 reward=   80.367 steps=120 term=collision   collision=True  wall=0.97s loss=0.431035
+TRAIN Epsilon          ep=187 reward=   47.282 steps= 79 term=out_of_road collision=False wall=0.78s loss=0.578363
+TRAIN Epsilon          ep=188 reward=   35.636 steps= 76 term=out_of_road collision=False wall=0.93s loss=0.501814
+TRAIN Epsilon          ep=189 reward=   60.377 steps=108 term=out_of_road collision=False wall=1.24s loss=0.443887
+TRAIN Epsilon          ep=190 reward=   54.620 steps= 99 term=out_of_road collision=False wall=1.25s loss=0.357499
+TRAIN Epsilon          ep=191 reward=   27.836 steps= 62 term=out_of_road collision=False wall=0.66s loss=0.383715
+TRAIN Epsilon          ep=192 reward=   48.043 steps= 81 term=out_of_road collision=False wall=0.85s loss=0.450563
+TRAIN Epsilon          ep=193 reward=    9.534 steps= 94 term=collision   collision=True  wall=0.86s loss=0.454058
+TRAIN Epsilon          ep=194 reward=  121.231 steps=128 term=out_of_road collision=False wall=1.32s loss=0.448325
+TRAIN Epsilon          ep=195 reward=   22.680 steps= 49 term=out_of_road collision=False wall=0.51s loss=0.489455
+TRAIN Epsilon          ep=196 reward=   70.125 steps=118 term=collision   collision=True  wall=1.32s loss=0.426088
+TRAIN Epsilon          ep=197 reward=   46.531 steps= 83 term=out_of_road collision=False wall=0.86s loss=0.441374
+TRAIN Epsilon          ep=198 reward=   47.605 steps=100 term=out_of_road collision=False wall=0.76s loss=0.560475
+TRAIN Epsilon          ep=199 reward=   75.910 steps= 98 term=out_of_road collision=False wall=1.00s loss=0.555695
+TRAIN Epsilon          ep=200 reward=    7.997 steps= 73 term=collision   collision=True  wall=0.83s loss=0.486937
+TRAIN Epsilon          ep=201 reward=    2.393 steps= 40 term=out_of_road collision=False wall=0.37s loss=0.402293
+TRAIN Epsilon          ep=202 reward=  117.282 steps=158 term=out_of_road collision=False wall=1.59s loss=0.444957
+TRAIN Epsilon          ep=203 reward=   50.630 steps=120 term=collision   collision=True  wall=0.98s loss=0.462608
+TRAIN Epsilon          ep=204 reward=   13.194 steps= 90 term=collision   collision=True  wall=0.71s loss=0.477866
+TRAIN Epsilon          ep=205 reward=   -0.625 steps= 34 term=out_of_road collision=False wall=0.25s loss=0.540475
+TRAIN Epsilon          ep=206 reward=   -3.243 steps= 40 term=out_of_road collision=False wall=0.30s loss=0.346889
+TRAIN Epsilon          ep=207 reward=   47.673 steps= 78 term=out_of_road collision=False wall=0.81s loss=0.421490
+TRAIN Epsilon          ep=208 reward=    2.285 steps= 47 term=out_of_road collision=False wall=0.39s loss=0.582147
+TRAIN Epsilon          ep=209 reward=   65.056 steps=122 term=out_of_road collision=False wall=0.93s loss=0.513163
+TRAIN Epsilon          ep=210 reward=   45.727 steps= 83 term=out_of_road collision=False wall=1.01s loss=0.527682
+TRAIN Epsilon          ep=211 reward=    4.373 steps= 48 term=out_of_road collision=False wall=0.43s loss=0.427096
+TRAIN Epsilon          ep=212 reward=    9.807 steps= 56 term=out_of_road collision=False wall=0.55s loss=0.549033
+TRAIN Epsilon          ep=213 reward=   62.534 steps=149 term=out_of_road collision=False wall=1.10s loss=0.479594
+TRAIN Epsilon          ep=214 reward=   25.667 steps= 84 term=out_of_road collision=False wall=0.64s loss=0.505272
+TRAIN Epsilon          ep=215 reward=   49.600 steps= 91 term=out_of_road collision=False wall=0.83s loss=0.481424
+TRAIN Epsilon          ep=216 reward=   32.525 steps= 67 term=out_of_road collision=False wall=0.75s loss=0.478300
+TRAIN Epsilon          ep=217 reward=   44.518 steps=112 term=out_of_road collision=False wall=1.05s loss=0.421204
+TRAIN Epsilon          ep=218 reward=    7.708 steps= 83 term=collision   collision=True  wall=0.88s loss=0.474920
+TRAIN Epsilon          ep=219 reward=   15.831 steps= 65 term=out_of_road collision=False wall=0.60s loss=0.400074
+TRAIN Epsilon          ep=220 reward=   11.696 steps= 95 term=collision   collision=True  wall=0.98s loss=0.563968
+TRAIN Epsilon          ep=221 reward=   79.554 steps=153 term=collision   collision=True  wall=1.20s loss=0.535882
+TRAIN Epsilon          ep=222 reward=  140.694 steps=152 term=out_of_road collision=False wall=1.41s loss=0.520416
+TRAIN Epsilon          ep=223 reward=   63.549 steps= 98 term=out_of_road collision=False wall=1.01s loss=0.499697
+TRAIN Epsilon          ep=224 reward=   66.663 steps=105 term=out_of_road collision=False wall=0.73s loss=0.468726
+TRAIN Epsilon          ep=225 reward=   18.681 steps= 93 term=out_of_road collision=False wall=0.87s loss=0.571587
+TRAIN Epsilon          ep=226 reward=   39.571 steps= 63 term=out_of_road collision=False wall=0.61s loss=0.550754
+TRAIN Epsilon          ep=227 reward=   56.010 steps= 85 term=out_of_road collision=False wall=1.01s loss=0.557881
+TRAIN Epsilon          ep=228 reward=   65.676 steps=118 term=collision   collision=True  wall=0.85s loss=0.431473
+TRAIN Epsilon          ep=229 reward=   -1.623 steps= 38 term=out_of_road collision=False wall=0.38s loss=0.463875
+TRAIN Epsilon          ep=230 reward=   21.054 steps= 61 term=out_of_road collision=False wall=0.50s loss=0.453897
+TRAIN Epsilon          ep=231 reward=   55.668 steps=101 term=collision   collision=True  wall=0.91s loss=0.517935
+TRAIN Epsilon          ep=232 reward=   32.857 steps= 78 term=out_of_road collision=False wall=0.69s loss=0.651826
+TRAIN Epsilon          ep=233 reward=   86.152 steps=155 term=collision   collision=True  wall=1.24s loss=0.519890
+TRAIN Epsilon          ep=234 reward=  104.924 steps=109 term=out_of_road collision=False wall=0.82s loss=0.517613
+TRAIN Epsilon          ep=235 reward=   32.737 steps= 75 term=out_of_road collision=False wall=0.83s loss=0.580319
+TRAIN Epsilon          ep=236 reward=    6.044 steps= 42 term=out_of_road collision=False wall=0.39s loss=0.508390
+TRAIN Epsilon          ep=237 reward=   10.731 steps= 58 term=out_of_road collision=False wall=0.44s loss=0.594667
+TRAIN Epsilon          ep=238 reward=    9.970 steps= 87 term=collision   collision=True  wall=0.78s loss=0.577426
+TRAIN Epsilon          ep=239 reward=   48.910 steps= 80 term=out_of_road collision=False wall=0.93s loss=0.448052
+TRAIN Epsilon          ep=240 reward=  110.344 steps=127 term=out_of_road collision=False wall=1.02s loss=0.413431
+TRAIN Epsilon          ep=241 reward=    0.695 steps= 52 term=out_of_road collision=False wall=0.40s loss=0.513744
+TRAIN Epsilon          ep=242 reward=   51.354 steps= 83 term=out_of_road collision=False wall=0.91s loss=0.480102
+TRAIN Epsilon          ep=243 reward=   18.838 steps= 54 term=out_of_road collision=False wall=0.45s loss=0.398596
+TRAIN Epsilon          ep=244 reward=   56.880 steps=108 term=collision   collision=True  wall=1.02s loss=0.499039
+TRAIN Epsilon          ep=245 reward=   56.354 steps=112 term=collision   collision=True  wall=0.86s loss=0.562545
+TRAIN Epsilon          ep=246 reward=    4.787 steps= 93 term=collision   collision=True  wall=1.12s loss=0.560326
+TRAIN Epsilon          ep=247 reward=   62.077 steps= 96 term=out_of_road collision=False wall=0.87s loss=0.559925
+TRAIN Epsilon          ep=248 reward=    2.081 steps= 38 term=out_of_road collision=False wall=0.36s loss=0.538045
+TRAIN Epsilon          ep=249 reward=   57.488 steps= 99 term=out_of_road collision=False wall=1.10s loss=0.575506
+TRAIN Epsilon          ep=250 reward=   41.481 steps=100 term=out_of_road collision=False wall=0.83s loss=0.546785
+TRAIN Epsilon          ep=251 reward=   38.766 steps= 82 term=out_of_road collision=False wall=0.74s loss=0.523260
+TRAIN Epsilon          ep=252 reward=   10.390 steps= 85 term=collision   collision=True  wall=1.00s loss=0.462733
+TRAIN Epsilon          ep=253 reward=   72.950 steps=119 term=collision   collision=True  wall=1.25s loss=0.463724
+TRAIN Epsilon          ep=254 reward=   55.621 steps= 89 term=out_of_road collision=False wall=0.84s loss=0.523839
+TRAIN Epsilon          ep=255 reward=   53.572 steps= 96 term=out_of_road collision=False wall=0.86s loss=0.540895
+TRAIN Epsilon          ep=256 reward=   31.294 steps= 57 term=out_of_road collision=False wall=0.58s loss=0.551407
+TRAIN Epsilon          ep=257 reward=   35.173 steps= 83 term=out_of_road collision=False wall=0.62s loss=0.523435
+TRAIN Epsilon          ep=258 reward=   59.840 steps=103 term=collision   collision=True  wall=0.94s loss=0.603991
+TRAIN Epsilon          ep=259 reward=   28.189 steps= 62 term=out_of_road collision=False wall=0.54s loss=0.597131
+TRAIN Epsilon          ep=260 reward=   55.383 steps= 89 term=out_of_road collision=False wall=0.66s loss=0.438933
+TRAIN Epsilon          ep=261 reward=   54.324 steps=119 term=out_of_road collision=False wall=0.95s loss=0.548862
+TRAIN Epsilon          ep=262 reward=   66.088 steps=104 term=out_of_road collision=False wall=0.96s loss=0.477024
+TRAIN Epsilon          ep=263 reward=   51.886 steps=113 term=out_of_road collision=False wall=1.17s loss=0.543486
+TRAIN Epsilon          ep=264 reward=   51.531 steps= 80 term=out_of_road collision=False wall=0.94s loss=0.580737
+TRAIN Epsilon          ep=265 reward=    6.429 steps=118 term=collision   collision=True  wall=1.06s loss=0.587451
+TRAIN Epsilon          ep=266 reward=   59.591 steps=116 term=out_of_road collision=False wall=0.96s loss=0.536979
+TRAIN Epsilon          ep=267 reward=   55.014 steps= 92 term=out_of_road collision=False wall=0.91s loss=0.640095
+TRAIN Epsilon          ep=268 reward=   52.419 steps=126 term=out_of_road collision=False wall=1.19s loss=0.574770
+TRAIN Epsilon          ep=269 reward=   49.222 steps= 94 term=out_of_road collision=False wall=0.66s loss=0.615051
+TRAIN Epsilon          ep=270 reward=   29.218 steps= 80 term=out_of_road collision=False wall=0.67s loss=0.644144
+TRAIN Epsilon          ep=271 reward=  127.398 steps=130 term=out_of_road collision=False wall=1.06s loss=0.555651
+TRAIN Epsilon          ep=272 reward=   46.979 steps= 93 term=out_of_road collision=False wall=0.97s loss=0.554445
+TRAIN Epsilon          ep=273 reward=   43.154 steps= 99 term=out_of_road collision=False wall=1.04s loss=0.602766
+TRAIN Epsilon          ep=274 reward=   36.534 steps= 73 term=out_of_road collision=False wall=0.63s loss=0.604090
+TRAIN Epsilon          ep=275 reward=    9.307 steps= 87 term=collision   collision=True  wall=1.05s loss=0.455364
+TRAIN Epsilon          ep=276 reward=   62.879 steps=102 term=out_of_road collision=False wall=1.18s loss=0.570592
+TRAIN Epsilon          ep=277 reward=   44.607 steps= 92 term=out_of_road collision=False wall=0.88s loss=0.674417
+TRAIN Epsilon          ep=278 reward=    2.965 steps= 66 term=out_of_road collision=False wall=0.51s loss=0.672483
+TRAIN Epsilon          ep=279 reward=   46.578 steps= 92 term=out_of_road collision=False wall=0.85s loss=0.590218
+TRAIN Epsilon          ep=280 reward=   74.765 steps= 88 term=out_of_road collision=False wall=0.76s loss=0.538885
+TRAIN Epsilon          ep=281 reward=   13.784 steps= 97 term=collision   collision=True  wall=0.87s loss=0.596655
+TRAIN Epsilon          ep=282 reward=   85.129 steps=181 term=collision   collision=True  wall=1.78s loss=0.584256
+TRAIN Epsilon          ep=283 reward=   24.436 steps= 65 term=out_of_road collision=False wall=0.54s loss=0.400778
+TRAIN Epsilon          ep=284 reward=   55.437 steps= 81 term=out_of_road collision=False wall=0.67s loss=0.628840
+TRAIN Epsilon          ep=285 reward=   11.334 steps= 87 term=collision   collision=True  wall=0.66s loss=0.642890
+TRAIN Epsilon          ep=286 reward=   69.446 steps=105 term=out_of_road collision=False wall=0.83s loss=0.597697
+TRAIN Epsilon          ep=287 reward=   15.759 steps= 75 term=collision   collision=True  wall=0.71s loss=0.606373
+TRAIN Epsilon          ep=288 reward=   13.362 steps= 78 term=collision   collision=True  wall=0.60s loss=0.514233
+TRAIN Epsilon          ep=289 reward=   60.836 steps=113 term=out_of_road collision=False wall=0.91s loss=0.530251
+TRAIN Epsilon          ep=290 reward=   66.632 steps=129 term=collision   collision=True  wall=1.32s loss=0.715135
+TRAIN Epsilon          ep=291 reward=   -0.894 steps= 29 term=out_of_road collision=False wall=0.23s loss=0.651647
+TRAIN Epsilon          ep=292 reward=   87.181 steps=119 term=out_of_road collision=False wall=1.19s loss=0.622305
+TRAIN Epsilon          ep=293 reward=    4.472 steps= 49 term=out_of_road collision=False wall=0.46s loss=0.561008
+TRAIN Epsilon          ep=294 reward=   41.379 steps= 78 term=out_of_road collision=False wall=0.76s loss=0.639459
+TRAIN Epsilon          ep=295 reward=    5.945 steps= 97 term=collision   collision=True  wall=0.86s loss=0.672183
+TRAIN Epsilon          ep=296 reward=  116.154 steps=132 term=collision   collision=True  wall=1.16s loss=0.550299
+TRAIN Epsilon          ep=297 reward=    9.184 steps= 48 term=out_of_road collision=False wall=0.42s loss=0.760466
+TRAIN Epsilon          ep=298 reward=  103.562 steps=121 term=out_of_road collision=False wall=1.42s loss=0.527832
+TRAIN Epsilon          ep=299 reward=   11.937 steps= 67 term=out_of_road collision=False wall=0.55s loss=0.693224
+TRAIN Epsilon          ep=300 reward=   45.778 steps= 96 term=collision   collision=True  wall=0.96s loss=0.621184
+TRAIN Epsilon          ep=301 reward=   13.958 steps= 48 term=out_of_road collision=False wall=0.37s loss=0.439905
+TRAIN Epsilon          ep=302 reward=   57.841 steps= 85 term=out_of_road collision=False wall=1.06s loss=0.560183
+TRAIN Epsilon          ep=303 reward=   59.445 steps= 97 term=out_of_road collision=False wall=0.96s loss=0.704980
+TRAIN Epsilon          ep=304 reward=   54.024 steps= 72 term=out_of_road collision=False wall=0.82s loss=0.613625
+TRAIN Epsilon          ep=305 reward=   31.750 steps= 95 term=out_of_road collision=False wall=1.01s loss=0.650379
+TRAIN Epsilon          ep=306 reward=   46.232 steps= 96 term=out_of_road collision=False wall=1.14s loss=0.548610
+TRAIN Epsilon          ep=307 reward=    6.693 steps= 76 term=collision   collision=True  wall=0.77s loss=0.606479
+TRAIN Epsilon          ep=308 reward=   69.116 steps=124 term=out_of_road collision=False wall=0.95s loss=0.557428
+TRAIN Epsilon          ep=309 reward=   -2.346 steps= 92 term=collision   collision=True  wall=0.96s loss=0.544870
+TRAIN Epsilon          ep=310 reward=   12.663 steps= 75 term=collision   collision=True  wall=0.80s loss=0.615869
+TRAIN Epsilon          ep=311 reward=   54.752 steps=105 term=collision   collision=True  wall=0.84s loss=0.654719
+TRAIN Epsilon          ep=312 reward=    4.809 steps= 40 term=out_of_road collision=False wall=0.45s loss=0.620686
+TRAIN Epsilon          ep=313 reward=    7.565 steps= 40 term=out_of_road collision=False wall=0.41s loss=0.548061
+TRAIN Epsilon          ep=314 reward=   55.163 steps=104 term=collision   collision=True  wall=0.87s loss=0.656025
+TRAIN Epsilon          ep=315 reward=   16.359 steps= 53 term=out_of_road collision=False wall=0.45s loss=0.583642
+TRAIN Epsilon          ep=316 reward=   13.569 steps= 85 term=out_of_road collision=False wall=0.72s loss=0.611214
+TRAIN Epsilon          ep=317 reward=   11.864 steps= 60 term=out_of_road collision=False wall=0.47s loss=0.483354
+TRAIN Epsilon          ep=318 reward=    7.745 steps= 48 term=out_of_road collision=False wall=0.46s loss=0.501515
+TRAIN Epsilon          ep=319 reward=  197.689 steps=173 term=out_of_road collision=False wall=1.59s loss=0.716556
+TRAIN Epsilon          ep=320 reward=   54.566 steps= 94 term=collision   collision=True  wall=0.79s loss=0.707813
+TRAIN Epsilon          ep=321 reward=   61.927 steps= 85 term=out_of_road collision=False wall=0.99s loss=0.743870
+TRAIN Epsilon          ep=322 reward=   44.378 steps=101 term=collision   collision=True  wall=1.06s loss=0.641058
+TRAIN Epsilon          ep=323 reward=   11.121 steps= 44 term=out_of_road collision=False wall=0.47s loss=0.748855
+TRAIN Epsilon          ep=324 reward=   50.295 steps= 84 term=out_of_road collision=False wall=1.00s loss=0.582476
+TRAIN Epsilon          ep=325 reward=   30.655 steps= 95 term=collision   collision=True  wall=0.89s loss=0.667613
+TRAIN Epsilon          ep=326 reward=   48.700 steps= 80 term=out_of_road collision=False wall=0.90s loss=0.637186
+TRAIN Epsilon          ep=327 reward=   -1.974 steps= 58 term=out_of_road collision=False wall=0.54s loss=0.668820
+TRAIN Epsilon          ep=328 reward=    8.823 steps= 68 term=out_of_road collision=False wall=0.50s loss=0.696102
+TRAIN Epsilon          ep=329 reward=   47.614 steps= 92 term=out_of_road collision=False wall=0.83s loss=0.660200
+TRAIN Epsilon          ep=330 reward=   52.945 steps= 87 term=collision   collision=True  wall=0.71s loss=0.816705
+TRAIN Epsilon          ep=331 reward=   42.260 steps= 83 term=collision   collision=True  wall=0.75s loss=0.582045
+TRAIN Epsilon          ep=332 reward=  111.164 steps=149 term=out_of_road collision=False wall=1.47s loss=0.628442
+TRAIN Epsilon          ep=333 reward=   22.742 steps= 84 term=out_of_road collision=False wall=0.96s loss=0.625192
+TRAIN Epsilon          ep=334 reward=   49.203 steps= 88 term=out_of_road collision=False wall=0.83s loss=0.740386
+TRAIN Epsilon          ep=335 reward=   -2.845 steps= 29 term=out_of_road collision=False wall=0.22s loss=0.926179
+TRAIN Epsilon          ep=336 reward=    5.055 steps= 76 term=collision   collision=True  wall=0.81s loss=0.731458
+TRAIN Epsilon          ep=337 reward=   55.247 steps=108 term=out_of_road collision=False wall=0.75s loss=0.638480
+TRAIN Epsilon          ep=338 reward=   49.641 steps= 85 term=out_of_road collision=False wall=0.89s loss=0.669571
+TRAIN Epsilon          ep=339 reward=   48.111 steps= 98 term=out_of_road collision=False wall=0.79s loss=0.726924
+TRAIN Epsilon          ep=340 reward=   -5.375 steps= 76 term=collision   collision=True  wall=0.79s loss=0.630264
+TRAIN Epsilon          ep=341 reward=  148.416 steps=130 term=out_of_road collision=False wall=1.08s loss=0.578827
+TRAIN Epsilon          ep=342 reward=   46.657 steps= 74 term=out_of_road collision=False wall=0.79s loss=0.687365
+TRAIN Epsilon          ep=343 reward=   48.695 steps=115 term=out_of_road collision=False wall=0.96s loss=0.622697
+TRAIN Epsilon          ep=344 reward=   25.078 steps= 88 term=out_of_road collision=False wall=0.69s loss=0.753268
+TRAIN Epsilon          ep=345 reward=   49.074 steps= 76 term=out_of_road collision=False wall=0.87s loss=0.619621
+TRAIN Epsilon          ep=346 reward=   57.912 steps= 98 term=collision   collision=True  wall=0.76s loss=0.553063
+TRAIN Epsilon          ep=347 reward=   26.348 steps= 58 term=out_of_road collision=False wall=0.57s loss=0.732243
+TRAIN Epsilon          ep=348 reward=   25.233 steps= 86 term=out_of_road collision=False wall=0.75s loss=0.706288
+TRAIN Epsilon          ep=349 reward=  123.677 steps=220 term=out_of_road collision=False wall=1.89s loss=0.625380
+TRAIN Epsilon          ep=350 reward=   44.523 steps= 78 term=out_of_road collision=False wall=0.78s loss=0.647121
+TRAIN Epsilon          ep=351 reward=   58.076 steps=109 term=out_of_road collision=False wall=1.03s loss=0.661698
+TRAIN Epsilon          ep=352 reward=    5.768 steps= 50 term=out_of_road collision=False wall=0.37s loss=0.706095
+TRAIN Epsilon          ep=353 reward=   44.470 steps=104 term=out_of_road collision=False wall=0.92s loss=0.701562
+TRAIN Epsilon          ep=354 reward=    4.060 steps= 41 term=out_of_road collision=False wall=0.30s loss=0.685345
+TRAIN Epsilon          ep=355 reward=   99.221 steps=142 term=out_of_road collision=False wall=1.38s loss=0.742239
+TRAIN Epsilon          ep=356 reward=    1.112 steps= 42 term=out_of_road collision=False wall=0.32s loss=0.619156
+TRAIN Epsilon          ep=357 reward=   27.752 steps=125 term=out_of_road collision=False wall=1.13s loss=0.656524
+TRAIN Epsilon          ep=358 reward=   15.151 steps= 54 term=out_of_road collision=False wall=0.54s loss=0.803700
+TRAIN Epsilon          ep=359 reward=   35.464 steps= 76 term=out_of_road collision=False wall=0.80s loss=0.686207
+TRAIN Epsilon          ep=360 reward=   48.078 steps=111 term=out_of_road collision=False wall=1.18s loss=0.856538
+TRAIN Epsilon          ep=361 reward=   79.482 steps=114 term=out_of_road collision=False wall=1.09s loss=0.577086
+TRAIN Epsilon          ep=362 reward=   58.775 steps=120 term=out_of_road collision=False wall=1.25s loss=0.716463
+TRAIN Epsilon          ep=363 reward=   55.973 steps= 92 term=collision   collision=True  wall=0.78s loss=0.718854
+TRAIN Epsilon          ep=364 reward=   57.427 steps= 92 term=out_of_road collision=False wall=1.11s loss=0.675305
+TRAIN Epsilon          ep=365 reward=   10.640 steps= 48 term=out_of_road collision=False wall=0.36s loss=0.591571
+TRAIN Epsilon          ep=366 reward=   22.697 steps= 73 term=out_of_road collision=False wall=0.63s loss=0.784155
+TRAIN Epsilon          ep=367 reward=   46.824 steps=121 term=out_of_road collision=False wall=1.12s loss=0.671325
+TRAIN Epsilon          ep=368 reward=   49.435 steps= 91 term=out_of_road collision=False wall=0.83s loss=0.751408
+TRAIN Epsilon          ep=369 reward=   19.482 steps= 63 term=out_of_road collision=False wall=0.54s loss=0.760866
+TRAIN Epsilon          ep=370 reward=   48.554 steps= 89 term=out_of_road collision=False wall=0.93s loss=0.746500
+TRAIN Epsilon          ep=371 reward=   86.256 steps=157 term=collision   collision=True  wall=1.36s loss=0.634658
+TRAIN Epsilon          ep=372 reward=   11.128 steps= 57 term=out_of_road collision=False wall=0.48s loss=0.567027
+TRAIN Epsilon          ep=373 reward=    8.449 steps= 81 term=collision   collision=True  wall=0.68s loss=0.706523
+TRAIN Epsilon          ep=374 reward=   49.668 steps= 84 term=out_of_road collision=False wall=1.01s loss=0.792074
+TRAIN Epsilon          ep=375 reward=   56.019 steps= 90 term=collision   collision=True  wall=0.72s loss=0.734995
+TRAIN Epsilon          ep=376 reward=   51.648 steps= 97 term=out_of_road collision=False wall=1.15s loss=0.646086
+TRAIN Epsilon          ep=377 reward=   58.381 steps=146 term=out_of_road collision=False wall=1.41s loss=0.746013
+TRAIN Epsilon          ep=378 reward=   45.490 steps=115 term=collision   collision=True  wall=1.08s loss=0.699919
+TRAIN Epsilon          ep=379 reward=   59.304 steps=102 term=out_of_road collision=False wall=1.04s loss=0.598014
+TRAIN Epsilon          ep=380 reward=    5.441 steps= 50 term=out_of_road collision=False wall=0.39s loss=0.656879
+TRAIN Epsilon          ep=381 reward=   54.137 steps=102 term=out_of_road collision=False wall=0.96s loss=0.840167
+TRAIN Epsilon          ep=382 reward=    6.111 steps= 80 term=collision   collision=True  wall=0.87s loss=0.879554
+TRAIN Epsilon          ep=383 reward=   48.146 steps= 90 term=collision   collision=True  wall=0.71s loss=0.677997
+TRAIN Epsilon          ep=384 reward=   57.063 steps=110 term=out_of_road collision=False wall=0.82s loss=0.807519
+TRAIN Epsilon          ep=385 reward=   15.429 steps= 44 term=out_of_road collision=False wall=0.32s loss=0.615528
+TRAIN Epsilon          ep=386 reward=   68.010 steps=117 term=out_of_road collision=False wall=0.82s loss=0.711352
+TRAIN Epsilon          ep=387 reward=   13.106 steps= 55 term=out_of_road collision=False wall=0.53s loss=0.813782
+TRAIN Epsilon          ep=388 reward=   34.127 steps= 82 term=out_of_road collision=False wall=0.81s loss=0.779542
+TRAIN Epsilon          ep=389 reward=   51.343 steps= 81 term=out_of_road collision=False wall=0.89s loss=0.635534
+TRAIN Epsilon          ep=390 reward=   47.442 steps=118 term=out_of_road collision=False wall=1.62s loss=0.735707
+TRAIN Epsilon          ep=391 reward=   47.296 steps= 84 term=out_of_road collision=False wall=0.79s loss=0.560029
+TRAIN Epsilon          ep=392 reward=   34.036 steps= 73 term=out_of_road collision=False wall=0.64s loss=0.761094
+TRAIN Epsilon          ep=393 reward=   30.054 steps= 80 term=out_of_road collision=False wall=0.79s loss=0.830113
+TRAIN Epsilon          ep=394 reward=   44.124 steps= 78 term=out_of_road collision=False wall=0.65s loss=0.759737
+TRAIN Epsilon          ep=395 reward=   72.231 steps=229 term=out_of_road collision=False wall=1.94s loss=0.765238
+TRAIN Epsilon          ep=396 reward=    8.647 steps= 76 term=collision   collision=True  wall=0.65s loss=0.722515
+TRAIN Epsilon          ep=397 reward=   68.021 steps=131 term=out_of_road collision=False wall=0.88s loss=0.783423
+TRAIN Epsilon          ep=398 reward=   47.959 steps= 80 term=out_of_road collision=False wall=0.76s loss=0.696732
+TRAIN Epsilon          ep=399 reward=   51.279 steps= 88 term=out_of_road collision=False wall=0.92s loss=0.671335
+TRAIN Epsilon          ep=400 reward=    8.877 steps= 75 term=collision   collision=True  wall=0.94s loss=0.772009
+TRAIN Epsilon          ep=401 reward=   63.268 steps=109 term=out_of_road collision=False wall=0.87s loss=0.851824
+TRAIN Epsilon          ep=402 reward=   -0.162 steps= 38 term=out_of_road collision=False wall=0.32s loss=0.635824
+TRAIN Epsilon          ep=403 reward=   55.054 steps= 89 term=out_of_road collision=False wall=0.97s loss=0.799653
+TRAIN Epsilon          ep=404 reward=   95.400 steps=152 term=collision   collision=True  wall=1.62s loss=0.657943
+TRAIN Epsilon          ep=405 reward=   17.793 steps= 75 term=out_of_road collision=False wall=0.82s loss=0.672572
+TRAIN Epsilon          ep=406 reward=   12.822 steps= 67 term=out_of_road collision=False wall=0.62s loss=0.814417
+TRAIN Epsilon          ep=407 reward=   55.757 steps=107 term=out_of_road collision=False wall=1.24s loss=0.768352
+TRAIN Epsilon          ep=408 reward=   -3.851 steps= 68 term=collision   collision=True  wall=0.71s loss=0.812230
+TRAIN Epsilon          ep=409 reward=   35.077 steps= 92 term=collision   collision=True  wall=0.88s loss=0.711096
+TRAIN Epsilon          ep=410 reward=   35.809 steps=101 term=collision   collision=True  wall=1.21s loss=0.692326
+TRAIN Epsilon          ep=411 reward=    8.102 steps= 54 term=out_of_road collision=False wall=0.52s loss=0.775351
+TRAIN Epsilon          ep=412 reward=   27.256 steps= 85 term=collision   collision=True  wall=0.88s loss=0.758354
+TRAIN Epsilon          ep=413 reward=   56.653 steps= 99 term=out_of_road collision=False wall=0.96s loss=0.732940
+TRAIN Epsilon          ep=414 reward=   69.802 steps=110 term=collision   collision=True  wall=0.92s loss=0.761997
+TRAIN Epsilon          ep=415 reward=   23.070 steps=114 term=collision   collision=True  wall=1.03s loss=0.724784
+TRAIN Epsilon          ep=416 reward=   47.479 steps= 81 term=out_of_road collision=False wall=0.88s loss=0.743301
+TRAIN Epsilon          ep=417 reward=   -4.817 steps= 44 term=out_of_road collision=False wall=0.35s loss=0.502547
+TRAIN Epsilon          ep=418 reward=   15.548 steps=100 term=collision   collision=True  wall=0.82s loss=0.764284
+TRAIN Epsilon          ep=419 reward=   69.802 steps=124 term=out_of_road collision=False wall=0.97s loss=0.729365
+TRAIN Epsilon          ep=420 reward=   49.165 steps= 88 term=out_of_road collision=False wall=1.01s loss=0.865675
+TRAIN Epsilon          ep=421 reward=   63.180 steps= 99 term=out_of_road collision=False wall=1.02s loss=0.848814
+TRAIN Epsilon          ep=422 reward=    4.605 steps= 50 term=out_of_road collision=False wall=0.46s loss=0.697974
+TRAIN Epsilon          ep=423 reward=   -2.431 steps= 32 term=out_of_road collision=False wall=0.28s loss=0.977275
+TRAIN Epsilon          ep=424 reward=   48.128 steps= 69 term=out_of_road collision=False wall=0.75s loss=0.650485
+TRAIN Epsilon          ep=425 reward=   48.651 steps= 73 term=out_of_road collision=False wall=0.83s loss=0.909529
+TRAIN Epsilon          ep=426 reward=   51.244 steps=145 term=collision   collision=True  wall=1.47s loss=0.935607
+TRAIN Epsilon          ep=427 reward=   47.981 steps=115 term=out_of_road collision=False wall=1.07s loss=0.771788
+TRAIN Epsilon          ep=428 reward=   22.181 steps=102 term=collision   collision=True  wall=1.00s loss=0.801877
+TRAIN Epsilon          ep=429 reward=   70.240 steps=109 term=out_of_road collision=False wall=1.03s loss=0.751071
+TRAIN Epsilon          ep=430 reward=   32.185 steps=105 term=out_of_road collision=False wall=1.23s loss=0.863214
+TRAIN Epsilon          ep=431 reward=   41.177 steps=115 term=out_of_road collision=False wall=1.07s loss=0.759869
+TRAIN Epsilon          ep=432 reward=   68.246 steps=111 term=out_of_road collision=False wall=0.90s loss=0.773879
+TRAIN Epsilon          ep=433 reward=   60.041 steps=114 term=out_of_road collision=False wall=1.52s loss=0.813418
+TRAIN Epsilon          ep=434 reward=   61.202 steps=134 term=collision   collision=True  wall=1.22s loss=0.892467
+TRAIN Epsilon          ep=435 reward=   32.225 steps= 92 term=out_of_road collision=False wall=0.91s loss=0.700766
+TRAIN Epsilon          ep=436 reward=   49.851 steps= 74 term=out_of_road collision=False wall=0.89s loss=0.669245
+TRAIN Epsilon          ep=437 reward=   21.050 steps= 57 term=out_of_road collision=False wall=0.44s loss=0.640480
+TRAIN Epsilon          ep=438 reward=    7.382 steps= 72 term=collision   collision=True  wall=0.80s loss=1.044915
+TRAIN Epsilon          ep=439 reward=   16.637 steps= 68 term=out_of_road collision=False wall=0.61s loss=0.967462
+TRAIN Epsilon          ep=440 reward=   36.287 steps= 81 term=out_of_road collision=False wall=0.77s loss=0.829922
+TRAIN Epsilon          ep=441 reward=  135.872 steps=143 term=out_of_road collision=False wall=1.16s loss=0.755726
+TRAIN Epsilon          ep=442 reward=   50.966 steps= 83 term=out_of_road collision=False wall=0.81s loss=0.900574
+TRAIN Epsilon          ep=443 reward=   69.959 steps=165 term=out_of_road collision=False wall=1.66s loss=0.916298
+TRAIN Epsilon          ep=444 reward=   62.548 steps=115 term=out_of_road collision=False wall=0.91s loss=0.748092
+TRAIN Epsilon          ep=445 reward=   19.526 steps= 87 term=collision   collision=True  wall=0.72s loss=0.729750
+TRAIN Epsilon          ep=446 reward=   55.190 steps=122 term=out_of_road collision=False wall=1.32s loss=0.930871
+TRAIN Epsilon          ep=447 reward=   38.139 steps= 67 term=out_of_road collision=False wall=0.52s loss=0.761724
+TRAIN Epsilon          ep=448 reward=   50.339 steps= 76 term=out_of_road collision=False wall=0.98s loss=0.689309
+TRAIN Epsilon          ep=449 reward=   55.977 steps= 86 term=out_of_road collision=False wall=0.75s loss=0.795478
+TRAIN Epsilon          ep=450 reward=  153.089 steps=150 term=out_of_road collision=False wall=1.59s loss=0.697382
+TRAIN Epsilon          ep=451 reward=   30.589 steps=104 term=collision   collision=True  wall=0.90s loss=0.748966
+TRAIN Epsilon          ep=452 reward=   57.635 steps= 80 term=out_of_road collision=False wall=0.78s loss=0.857521
+TRAIN Epsilon          ep=453 reward=   32.178 steps= 57 term=out_of_road collision=False wall=0.59s loss=0.888876
+TRAIN Epsilon          ep=454 reward=   50.904 steps= 93 term=out_of_road collision=False wall=0.80s loss=0.756347
+TRAIN Epsilon          ep=455 reward=    9.563 steps= 87 term=out_of_road collision=False wall=0.75s loss=0.849180
+TRAIN Epsilon          ep=456 reward=   61.717 steps=207 term=out_of_road collision=False wall=1.80s loss=0.857579
+TRAIN Epsilon          ep=457 reward=   54.909 steps=120 term=collision   collision=True  wall=1.14s loss=0.903549
+TRAIN Epsilon          ep=458 reward=   68.430 steps=115 term=out_of_road collision=False wall=1.11s loss=0.803072
+TRAIN Epsilon          ep=459 reward=    2.085 steps= 39 term=out_of_road collision=False wall=0.41s loss=0.857500
+TRAIN Epsilon          ep=460 reward=   14.703 steps= 51 term=out_of_road collision=False wall=0.44s loss=0.769162
+TRAIN Epsilon          ep=461 reward=   63.134 steps=108 term=out_of_road collision=False wall=0.89s loss=0.969434
+TRAIN Epsilon          ep=462 reward=   54.082 steps= 96 term=collision   collision=True  wall=0.80s loss=0.952109
+TRAIN Epsilon          ep=463 reward=   -0.043 steps= 35 term=out_of_road collision=False wall=0.32s loss=0.715992
+TRAIN Epsilon          ep=464 reward=    1.706 steps= 40 term=out_of_road collision=False wall=0.35s loss=0.757599
+TRAIN Epsilon          ep=465 reward=   45.673 steps= 82 term=out_of_road collision=False wall=0.88s loss=0.836823
+TRAIN Epsilon          ep=466 reward=   47.220 steps= 94 term=out_of_road collision=False wall=1.17s loss=0.936662
+TRAIN Epsilon          ep=467 reward=  127.026 steps=172 term=out_of_road collision=False wall=1.90s loss=0.846097
+TRAIN Epsilon          ep=468 reward=   26.117 steps= 77 term=out_of_road collision=False wall=0.67s loss=0.914781
+TRAIN Epsilon          ep=469 reward=   47.267 steps=112 term=collision   collision=True  wall=1.11s loss=0.885236
+TRAIN Epsilon          ep=470 reward=   65.257 steps=113 term=collision   collision=True  wall=1.22s loss=0.848131
+TRAIN Epsilon          ep=471 reward=   10.338 steps= 61 term=out_of_road collision=False wall=0.57s loss=0.787100
+TRAIN Epsilon          ep=472 reward=   22.620 steps= 85 term=collision   collision=True  wall=0.80s loss=0.959788
+TRAIN Epsilon          ep=473 reward=   53.677 steps=124 term=out_of_road collision=False wall=1.24s loss=1.034210
+TRAIN Epsilon          ep=474 reward=   12.201 steps= 65 term=out_of_road collision=False wall=0.68s loss=0.773609
+TRAIN Epsilon          ep=475 reward=    0.737 steps= 32 term=out_of_road collision=False wall=0.30s loss=0.722352
+TRAIN Epsilon          ep=476 reward=   34.161 steps= 83 term=out_of_road collision=False wall=0.63s loss=0.879753
+TRAIN Epsilon          ep=477 reward=   19.833 steps= 92 term=out_of_road collision=False wall=0.71s loss=0.939745
+TRAIN Epsilon          ep=478 reward=   29.758 steps= 71 term=out_of_road collision=False wall=0.67s loss=1.013592
+TRAIN Epsilon          ep=479 reward=   67.904 steps=144 term=collision   collision=True  wall=1.31s loss=0.878695
+TRAIN Epsilon          ep=480 reward=   83.142 steps=120 term=out_of_road collision=False wall=1.17s loss=0.887162
+TRAIN Epsilon          ep=481 reward=   69.250 steps=153 term=out_of_road collision=False wall=1.30s loss=0.938542
+TRAIN Epsilon          ep=482 reward=   -4.017 steps= 33 term=out_of_road collision=False wall=0.27s loss=0.619234
+TRAIN Epsilon          ep=483 reward=   62.186 steps=102 term=out_of_road collision=False wall=1.32s loss=1.048709
+TRAIN Epsilon          ep=484 reward=   42.348 steps=110 term=collision   collision=True  wall=0.98s loss=0.911600
+TRAIN Epsilon          ep=485 reward=   72.069 steps= 89 term=out_of_road collision=False wall=0.79s loss=1.057374
+TRAIN Epsilon          ep=486 reward=   18.770 steps= 56 term=out_of_road collision=False wall=0.45s loss=0.896062
+TRAIN Epsilon          ep=487 reward=  143.282 steps=168 term=out_of_road collision=False wall=1.54s loss=0.886939
+TRAIN Epsilon          ep=488 reward=  115.012 steps=207 term=collision   collision=True  wall=2.39s loss=0.819710
+TRAIN Epsilon          ep=489 reward=   51.843 steps=128 term=collision   collision=True  wall=1.45s loss=0.874870
+TRAIN Epsilon          ep=490 reward=   19.562 steps= 71 term=out_of_road collision=False wall=0.61s loss=1.030665
+TRAIN Epsilon          ep=491 reward=   67.704 steps=139 term=collision   collision=True  wall=1.43s loss=1.015650
+TRAIN Epsilon          ep=492 reward=   15.422 steps= 46 term=out_of_road collision=False wall=0.53s loss=1.024581
+TRAIN Epsilon          ep=493 reward=   49.788 steps= 82 term=out_of_road collision=False wall=0.75s loss=0.984458
+TRAIN Epsilon          ep=494 reward=   47.267 steps= 84 term=out_of_road collision=False wall=0.94s loss=0.818530
+TRAIN Epsilon          ep=495 reward=    4.317 steps= 82 term=collision   collision=True  wall=0.86s loss=0.848876
+TRAIN Epsilon          ep=496 reward=   38.948 steps= 73 term=out_of_road collision=False wall=0.94s loss=0.898190
+TRAIN Epsilon          ep=497 reward=   68.436 steps=138 term=out_of_road collision=False wall=1.26s loss=0.927667
+TRAIN Epsilon          ep=498 reward=   65.470 steps= 95 term=out_of_road collision=False wall=1.21s loss=1.034098
+TRAIN Epsilon          ep=499 reward=   53.941 steps= 93 term=collision   collision=True  wall=0.77s loss=0.886783
+===== TRAINING END: Epsilon =====
+Training duration: 528.45s
+
+===== TESTING START: Epsilon =====
+TEST  Epsilon          ep=000 reward=   43.405 steps= 62 term=out_of_road collision=False wall=0.33s
+TEST  Epsilon          ep=001 reward=   18.729 steps= 68 term=collision   collision=True  wall=0.37s
+TEST  Epsilon          ep=002 reward=   50.020 steps= 64 term=out_of_road collision=False wall=0.39s
+TEST  Epsilon          ep=003 reward=   67.220 steps= 89 term=collision   collision=True  wall=0.36s
+TEST  Epsilon          ep=004 reward=    1.168 steps= 59 term=collision   collision=True  wall=0.32s
+TEST  Epsilon          ep=005 reward=   45.868 steps= 63 term=out_of_road collision=False wall=0.36s
+TEST  Epsilon          ep=006 reward=   39.806 steps= 79 term=collision   collision=True  wall=0.37s
+TEST  Epsilon          ep=007 reward=   38.102 steps= 86 term=collision   collision=True  wall=0.51s
+TEST  Epsilon          ep=008 reward=   44.119 steps= 62 term=out_of_road collision=False wall=0.45s
+TEST  Epsilon          ep=009 reward=   67.045 steps= 94 term=out_of_road collision=False wall=0.32s
+TEST  Epsilon          ep=010 reward=   43.168 steps= 61 term=out_of_road collision=False wall=0.42s
+TEST  Epsilon          ep=011 reward=   49.067 steps= 65 term=out_of_road collision=False wall=0.39s
+TEST  Epsilon          ep=012 reward=  118.485 steps= 94 term=out_of_road collision=False wall=0.43s
+TEST  Epsilon          ep=013 reward=   55.021 steps= 86 term=collision   collision=True  wall=0.51s
+TEST  Epsilon          ep=014 reward=   16.582 steps= 68 term=collision   collision=True  wall=0.48s
+TEST  Epsilon          ep=015 reward=   62.044 steps= 75 term=out_of_road collision=False wall=0.26s
+TEST  Epsilon          ep=016 reward=   57.548 steps= 69 term=out_of_road collision=False wall=0.22s
+TEST  Epsilon          ep=017 reward=  120.949 steps= 94 term=out_of_road collision=False wall=0.37s
+TEST  Epsilon          ep=018 reward=   63.112 steps= 95 term=out_of_road collision=False wall=0.36s
+TEST  Epsilon          ep=019 reward=   68.435 steps= 92 term=out_of_road collision=False wall=0.26s
+TEST  Epsilon          ep=020 reward=    5.092 steps= 63 term=collision   collision=True  wall=0.29s
+TEST  Epsilon          ep=021 reward=   56.589 steps= 66 term=out_of_road collision=False wall=0.48s
+TEST  Epsilon          ep=022 reward=   83.666 steps= 96 term=collision   collision=True  wall=0.31s
+TEST  Epsilon          ep=023 reward=   60.253 steps= 92 term=out_of_road collision=False wall=0.44s
+TEST  Epsilon          ep=024 reward=   61.364 steps= 72 term=out_of_road collision=False wall=0.44s
+TEST  Epsilon          ep=025 reward=   49.112 steps= 64 term=collision   collision=True  wall=0.25s
+TEST  Epsilon          ep=026 reward=    9.324 steps= 64 term=collision   collision=True  wall=0.25s
+TEST  Epsilon          ep=027 reward=   49.731 steps= 65 term=out_of_road collision=False wall=0.39s
+TEST  Epsilon          ep=028 reward=   17.462 steps= 67 term=collision   collision=True  wall=0.35s
+TEST  Epsilon          ep=029 reward=   91.611 steps= 99 term=collision   collision=True  wall=0.61s
+TEST  Epsilon          ep=030 reward=   55.560 steps= 68 term=collision   collision=True  wall=0.52s
+TEST  Epsilon          ep=031 reward=   40.863 steps= 60 term=out_of_road collision=False wall=0.25s
+TEST  Epsilon          ep=032 reward=   42.355 steps= 81 term=collision   collision=True  wall=0.41s
+TEST  Epsilon          ep=033 reward=   67.233 steps= 91 term=out_of_road collision=False wall=0.30s
+TEST  Epsilon          ep=034 reward=   68.888 steps= 93 term=out_of_road collision=False wall=0.42s
+TEST  Epsilon          ep=035 reward=   43.947 steps= 61 term=out_of_road collision=False wall=0.48s
+TEST  Epsilon          ep=036 reward=   60.347 steps= 91 term=out_of_road collision=False wall=0.28s
+TEST  Epsilon          ep=037 reward=  154.770 steps=128 term=collision   collision=True  wall=0.78s
+TEST  Epsilon          ep=038 reward=   47.090 steps= 64 term=out_of_road collision=False wall=0.36s
+TEST  Epsilon          ep=039 reward=   87.686 steps= 99 term=collision   collision=True  wall=0.51s
+TEST  Epsilon          ep=040 reward=   62.961 steps= 90 term=out_of_road collision=False wall=0.24s
+TEST  Epsilon          ep=041 reward=   52.548 steps= 68 term=out_of_road collision=False wall=0.22s
+TEST  Epsilon          ep=042 reward=  130.393 steps=102 term=collision   collision=True  wall=0.28s
+TEST  Epsilon          ep=043 reward=   21.617 steps= 71 term=collision   collision=True  wall=0.42s
+TEST  Epsilon          ep=044 reward=   62.433 steps= 90 term=out_of_road collision=False wall=0.25s
+TEST  Epsilon          ep=045 reward=   62.983 steps= 94 term=out_of_road collision=False wall=0.36s
+TEST  Epsilon          ep=046 reward=   15.829 steps= 66 term=collision   collision=True  wall=0.25s
+TEST  Epsilon          ep=047 reward=   94.373 steps= 89 term=out_of_road collision=False wall=0.48s
+TEST  Epsilon          ep=048 reward=   83.468 steps= 80 term=out_of_road collision=False wall=0.21s
+TEST  Epsilon          ep=049 reward=   54.474 steps= 68 term=collision   collision=True  wall=0.25s
+TEST  Epsilon          ep=050 reward=    3.309 steps= 61 term=collision   collision=True  wall=0.30s
+TEST  Epsilon          ep=051 reward=   52.993 steps= 84 term=collision   collision=True  wall=0.56s
+TEST  Epsilon          ep=052 reward=   -0.900 steps= 58 term=collision   collision=True  wall=0.22s
+TEST  Epsilon          ep=053 reward=   44.067 steps= 60 term=out_of_road collision=False wall=0.29s
+TEST  Epsilon          ep=054 reward=   45.177 steps= 61 term=out_of_road collision=False wall=0.36s
+TEST  Epsilon          ep=055 reward=  129.490 steps=100 term=out_of_road collision=False wall=0.46s
+TEST  Epsilon          ep=056 reward=   -5.690 steps= 56 term=collision   collision=True  wall=0.21s
+TEST  Epsilon          ep=057 reward=    3.784 steps= 60 term=collision   collision=True  wall=0.22s
+TEST  Epsilon          ep=058 reward=   45.586 steps= 63 term=out_of_road collision=False wall=0.34s
+TEST  Epsilon          ep=059 reward=   47.432 steps= 64 term=out_of_road collision=False wall=0.35s
+TEST  Epsilon          ep=060 reward=   -1.030 steps= 57 term=collision   collision=True  wall=0.17s
+TEST  Epsilon          ep=061 reward=   39.226 steps= 59 term=out_of_road collision=False wall=0.22s
+TEST  Epsilon          ep=062 reward=   55.438 steps= 66 term=collision   collision=True  wall=0.31s
+TEST  Epsilon          ep=063 reward=   28.089 steps= 72 term=collision   collision=True  wall=0.34s
+TEST  Epsilon          ep=064 reward=   54.903 steps= 71 term=out_of_road collision=False wall=0.23s
+TEST  Epsilon          ep=065 reward=   49.120 steps= 86 term=collision   collision=True  wall=0.31s
+TEST  Epsilon          ep=066 reward=   64.963 steps= 71 term=out_of_road collision=False wall=0.57s
+TEST  Epsilon          ep=067 reward=   41.542 steps= 59 term=out_of_road collision=False wall=0.26s
+TEST  Epsilon          ep=068 reward=   39.700 steps= 57 term=out_of_road collision=False wall=0.21s
+TEST  Epsilon          ep=069 reward=   46.716 steps= 63 term=out_of_road collision=False wall=0.33s
+TEST  Epsilon          ep=070 reward=   45.834 steps= 62 term=out_of_road collision=False wall=0.34s
+TEST  Epsilon          ep=071 reward=  144.284 steps=126 term=out_of_road collision=False wall=0.45s
+TEST  Epsilon          ep=072 reward=   36.032 steps= 77 term=collision   collision=True  wall=0.22s
+TEST  Epsilon          ep=073 reward=   43.409 steps= 60 term=out_of_road collision=False wall=0.49s
+TEST  Epsilon          ep=074 reward=    1.200 steps= 60 term=collision   collision=True  wall=0.30s
+TEST  Epsilon          ep=075 reward=   57.856 steps= 74 term=collision   collision=True  wall=0.43s
+TEST  Epsilon          ep=076 reward=   13.088 steps= 64 term=collision   collision=True  wall=0.35s
+TEST  Epsilon          ep=077 reward=   62.731 steps= 70 term=out_of_road collision=False wall=0.41s
+TEST  Epsilon          ep=078 reward=    8.141 steps= 63 term=collision   collision=True  wall=0.22s
+TEST  Epsilon          ep=079 reward=   60.493 steps= 91 term=out_of_road collision=False wall=0.28s
+TEST  Epsilon          ep=080 reward=   68.767 steps= 90 term=out_of_road collision=False wall=0.32s
+TEST  Epsilon          ep=081 reward=  144.603 steps=126 term=out_of_road collision=False wall=0.45s
+TEST  Epsilon          ep=082 reward=   62.502 steps= 72 term=out_of_road collision=False wall=0.47s
+TEST  Epsilon          ep=083 reward=   50.798 steps= 63 term=out_of_road collision=False wall=0.33s
+TEST  Epsilon          ep=084 reward=   63.000 steps= 92 term=out_of_road collision=False wall=0.35s
+TEST  Epsilon          ep=085 reward=   50.349 steps= 85 term=collision   collision=True  wall=0.41s
+TEST  Epsilon          ep=086 reward=   28.700 steps= 72 term=collision   collision=True  wall=0.42s
+TEST  Epsilon          ep=087 reward=   67.263 steps= 94 term=out_of_road collision=False wall=0.38s
+TEST  Epsilon          ep=088 reward=   16.884 steps= 67 term=collision   collision=True  wall=0.34s
+TEST  Epsilon          ep=089 reward=   71.002 steps= 93 term=collision   collision=True  wall=0.41s
+TEST  Epsilon          ep=090 reward=   21.887 steps= 72 term=collision   collision=True  wall=0.55s
+TEST  Epsilon          ep=091 reward=   17.621 steps= 69 term=collision   collision=True  wall=0.39s
+TEST  Epsilon          ep=092 reward=   62.345 steps= 91 term=out_of_road collision=False wall=0.37s
+TEST  Epsilon          ep=093 reward=   16.061 steps= 70 term=collision   collision=True  wall=0.36s
+TEST  Epsilon          ep=094 reward=   44.961 steps= 62 term=out_of_road collision=False wall=0.32s
+TEST  Epsilon          ep=095 reward=   68.848 steps= 92 term=out_of_road collision=False wall=0.26s
+TEST  Epsilon          ep=096 reward=   19.558 steps= 68 term=collision   collision=True  wall=0.19s
+TEST  Epsilon          ep=097 reward=   68.181 steps= 89 term=out_of_road collision=False wall=0.28s
+TEST  Epsilon          ep=098 reward=   -2.046 steps= 59 term=collision   collision=True  wall=0.26s
+TEST  Epsilon          ep=099 reward=   40.025 steps= 78 term=collision   collision=True  wall=0.38s
+TEST  Epsilon          ep=100 reward=  101.064 steps=105 term=collision   collision=True  wall=0.65s
+TEST  Epsilon          ep=101 reward=   39.912 steps= 80 term=collision   collision=True  wall=0.42s
+TEST  Epsilon          ep=102 reward=   62.302 steps= 91 term=out_of_road collision=False wall=0.33s
+TEST  Epsilon          ep=103 reward=   56.775 steps= 66 term=out_of_road collision=False wall=0.50s
+TEST  Epsilon          ep=104 reward=   58.098 steps= 71 term=collision   collision=True  wall=0.28s
+TEST  Epsilon          ep=105 reward=   50.882 steps= 65 term=out_of_road collision=False wall=0.45s
+TEST  Epsilon          ep=106 reward=    8.700 steps= 65 term=collision   collision=True  wall=0.34s
+TEST  Epsilon          ep=107 reward=   67.345 steps= 92 term=collision   collision=True  wall=0.29s
+TEST  Epsilon          ep=108 reward=    4.700 steps= 62 term=collision   collision=True  wall=0.25s
+TEST  Epsilon          ep=109 reward=   45.409 steps= 61 term=out_of_road collision=False wall=0.32s
+TEST  Epsilon          ep=110 reward=   45.390 steps= 61 term=out_of_road collision=False wall=0.29s
+TEST  Epsilon          ep=111 reward=   67.427 steps= 94 term=out_of_road collision=False wall=0.31s
+TEST  Epsilon          ep=112 reward=   60.462 steps= 90 term=out_of_road collision=False wall=0.29s
+TEST  Epsilon          ep=113 reward=   19.743 steps= 69 term=collision   collision=True  wall=0.20s
+TEST  Epsilon          ep=114 reward=   58.943 steps= 70 term=out_of_road collision=False wall=0.19s
+TEST  Epsilon          ep=115 reward=   48.033 steps= 65 term=out_of_road collision=False wall=0.39s
+TEST  Epsilon          ep=116 reward=    9.644 steps= 64 term=collision   collision=True  wall=0.29s
+TEST  Epsilon          ep=117 reward=   74.178 steps= 91 term=collision   collision=True  wall=0.47s
+TEST  Epsilon          ep=118 reward=   39.863 steps= 77 term=collision   collision=True  wall=0.38s
+TEST  Epsilon          ep=119 reward=   16.025 steps= 67 term=collision   collision=True  wall=0.25s
+TEST  Epsilon          ep=120 reward=   67.462 steps= 91 term=out_of_road collision=False wall=0.28s
+TEST  Epsilon          ep=121 reward=   35.213 steps= 77 term=collision   collision=True  wall=0.43s
+TEST  Epsilon          ep=122 reward=   55.470 steps= 70 term=out_of_road collision=False wall=0.21s
+TEST  Epsilon          ep=123 reward=   46.754 steps= 64 term=out_of_road collision=False wall=0.36s
+TEST  Epsilon          ep=124 reward=   56.501 steps= 88 term=collision   collision=True  wall=0.49s
+TEST  Epsilon          ep=125 reward=   62.426 steps= 70 term=out_of_road collision=False wall=0.41s
+TEST  Epsilon          ep=126 reward=   20.034 steps= 69 term=collision   collision=True  wall=0.35s
+TEST  Epsilon          ep=127 reward=   62.088 steps= 90 term=out_of_road collision=False wall=0.29s
+TEST  Epsilon          ep=128 reward=   62.301 steps= 92 term=out_of_road collision=False wall=0.33s
+TEST  Epsilon          ep=129 reward=   -6.610 steps= 55 term=collision   collision=True  wall=0.31s
+TEST  Epsilon          ep=130 reward=   49.231 steps= 63 term=out_of_road collision=False wall=0.36s
+TEST  Epsilon          ep=131 reward=   60.142 steps= 92 term=out_of_road collision=False wall=0.26s
+TEST  Epsilon          ep=132 reward=   -1.710 steps= 57 term=collision   collision=True  wall=0.26s
+TEST  Epsilon          ep=133 reward=   67.277 steps= 90 term=out_of_road collision=False wall=0.24s
+TEST  Epsilon          ep=134 reward=   51.873 steps= 64 term=out_of_road collision=False wall=0.32s
+TEST  Epsilon          ep=135 reward=   43.573 steps= 61 term=out_of_road collision=False wall=0.31s
+TEST  Epsilon          ep=136 reward=   56.736 steps= 66 term=out_of_road collision=False wall=0.44s
+TEST  Epsilon          ep=137 reward=   13.260 steps= 68 term=collision   collision=True  wall=0.25s
+TEST  Epsilon          ep=138 reward=  129.897 steps=102 term=collision   collision=True  wall=0.41s
+TEST  Epsilon          ep=139 reward=   53.124 steps= 68 term=collision   collision=True  wall=0.30s
+TEST  Epsilon          ep=140 reward=   54.944 steps= 70 term=out_of_road collision=False wall=0.27s
+TEST  Epsilon          ep=141 reward=   41.308 steps= 80 term=collision   collision=True  wall=0.28s
+TEST  Epsilon          ep=142 reward=   29.011 steps= 73 term=collision   collision=True  wall=0.23s
+TEST  Epsilon          ep=143 reward=   98.966 steps=108 term=collision   collision=True  wall=0.64s
+TEST  Epsilon          ep=144 reward=  201.326 steps=138 term=collision   collision=True  wall=1.17s
+TEST  Epsilon          ep=145 reward=  118.489 steps= 93 term=out_of_road collision=False wall=0.44s
+TEST  Epsilon          ep=146 reward=   41.146 steps= 61 term=out_of_road collision=False wall=0.26s
+TEST  Epsilon          ep=147 reward=  125.345 steps= 97 term=out_of_road collision=False wall=0.40s
+TEST  Epsilon          ep=148 reward=   42.864 steps= 59 term=out_of_road collision=False wall=0.38s
+TEST  Epsilon          ep=149 reward=   -6.614 steps= 56 term=collision   collision=True  wall=0.26s
+TEST  Epsilon          ep=150 reward=   59.318 steps= 88 term=collision   collision=True  wall=0.52s
+TEST  Epsilon          ep=151 reward=   68.892 steps= 90 term=out_of_road collision=False wall=0.28s
+TEST  Epsilon          ep=152 reward=   48.271 steps= 64 term=out_of_road collision=False wall=0.41s
+TEST  Epsilon          ep=153 reward=   33.320 steps= 76 term=collision   collision=True  wall=0.41s
+TEST  Epsilon          ep=154 reward=   51.356 steps= 66 term=out_of_road collision=False wall=0.42s
+TEST  Epsilon          ep=155 reward=   27.017 steps= 73 term=collision   collision=True  wall=0.42s
+TEST  Epsilon          ep=156 reward=   96.450 steps=101 term=collision   collision=True  wall=0.59s
+TEST  Epsilon          ep=157 reward=   50.606 steps= 66 term=out_of_road collision=False wall=0.43s
+TEST  Epsilon          ep=158 reward=   -0.475 steps= 58 term=collision   collision=True  wall=0.47s
+TEST  Epsilon          ep=159 reward=   56.855 steps= 66 term=out_of_road collision=False wall=0.42s
+TEST  Epsilon          ep=160 reward=   18.333 steps= 68 term=collision   collision=True  wall=0.36s
+TEST  Epsilon          ep=161 reward=   20.165 steps= 70 term=collision   collision=True  wall=0.43s
+TEST  Epsilon          ep=162 reward=   56.502 steps= 69 term=out_of_road collision=False wall=0.45s
+TEST  Epsilon          ep=163 reward=   57.897 steps= 68 term=collision   collision=True  wall=0.34s
+TEST  Epsilon          ep=164 reward=    1.177 steps= 58 term=collision   collision=True  wall=0.25s
+TEST  Epsilon          ep=165 reward=   43.672 steps= 62 term=out_of_road collision=False wall=0.31s
+TEST  Epsilon          ep=166 reward=   30.979 steps= 76 term=collision   collision=True  wall=0.28s
+TEST  Epsilon          ep=167 reward=   18.603 steps= 69 term=collision   collision=True  wall=0.55s
+TEST  Epsilon          ep=168 reward=   19.505 steps= 69 term=collision   collision=True  wall=0.40s
+TEST  Epsilon          ep=169 reward=   59.298 steps= 87 term=collision   collision=True  wall=0.39s
+TEST  Epsilon          ep=170 reward=    6.804 steps= 62 term=collision   collision=True  wall=0.22s
+TEST  Epsilon          ep=171 reward=   41.147 steps= 78 term=collision   collision=True  wall=0.44s
+TEST  Epsilon          ep=172 reward=   68.287 steps= 92 term=out_of_road collision=False wall=0.31s
+TEST  Epsilon          ep=173 reward=   57.749 steps= 72 term=collision   collision=True  wall=0.38s
+TEST  Epsilon          ep=174 reward=   51.209 steps= 86 term=collision   collision=True  wall=0.48s
+TEST  Epsilon          ep=175 reward=   67.451 steps= 91 term=out_of_road collision=False wall=0.38s
+TEST  Epsilon          ep=176 reward=    6.766 steps= 62 term=collision   collision=True  wall=0.31s
+TEST  Epsilon          ep=177 reward=    8.349 steps= 63 term=collision   collision=True  wall=0.50s
+TEST  Epsilon          ep=178 reward=   57.301 steps= 70 term=out_of_road collision=False wall=0.48s
+TEST  Epsilon          ep=179 reward=    8.514 steps= 64 term=collision   collision=True  wall=0.28s
+TEST  Epsilon          ep=180 reward=   62.292 steps= 92 term=out_of_road collision=False wall=0.26s
+TEST  Epsilon          ep=181 reward=   62.305 steps= 91 term=out_of_road collision=False wall=0.34s
+TEST  Epsilon          ep=182 reward=   57.762 steps= 71 term=out_of_road collision=False wall=0.36s
+TEST  Epsilon          ep=183 reward=   49.248 steps= 84 term=collision   collision=True  wall=0.26s
+TEST  Epsilon          ep=184 reward=   13.429 steps= 65 term=collision   collision=True  wall=0.31s
+TEST  Epsilon          ep=185 reward=   51.623 steps= 86 term=collision   collision=True  wall=0.48s
+TEST  Epsilon          ep=186 reward=   48.971 steps= 63 term=out_of_road collision=False wall=0.23s
+TEST  Epsilon          ep=187 reward=   55.368 steps= 69 term=out_of_road collision=False wall=0.28s
+TEST  Epsilon          ep=188 reward=   47.848 steps= 64 term=out_of_road collision=False wall=0.39s
+TEST  Epsilon          ep=189 reward=   -7.543 steps= 53 term=collision   collision=True  wall=0.22s
+TEST  Epsilon          ep=190 reward=   16.985 steps= 68 term=collision   collision=True  wall=0.30s
+TEST  Epsilon          ep=191 reward=   25.303 steps= 73 term=collision   collision=True  wall=0.33s
+TEST  Epsilon          ep=192 reward=   43.191 steps= 60 term=out_of_road collision=False wall=0.41s
+TEST  Epsilon          ep=193 reward=   38.936 steps= 78 term=collision   collision=True  wall=0.34s
+TEST  Epsilon          ep=194 reward=   65.377 steps= 91 term=collision   collision=True  wall=0.55s
+TEST  Epsilon          ep=195 reward=   49.337 steps= 65 term=out_of_road collision=False wall=0.41s
+TEST  Epsilon          ep=196 reward=    1.567 steps= 61 term=collision   collision=True  wall=0.36s
+TEST  Epsilon          ep=197 reward=    3.006 steps= 61 term=collision   collision=True  wall=0.30s
+TEST  Epsilon          ep=198 reward=   65.079 steps= 92 term=collision   collision=True  wall=0.41s
+TEST  Epsilon          ep=199 reward=   45.276 steps= 62 term=out_of_road collision=False wall=0.38s
+TEST  Epsilon          ep=200 reward=  183.203 steps=124 term=collision   collision=True  wall=0.46s
+TEST  Epsilon          ep=201 reward=   19.228 steps= 67 term=collision   collision=True  wall=0.18s
+TEST  Epsilon          ep=202 reward=   12.986 steps= 67 term=collision   collision=True  wall=0.23s
+TEST  Epsilon          ep=203 reward=   49.546 steps= 63 term=collision   collision=True  wall=0.24s
+TEST  Epsilon          ep=204 reward=   16.434 steps= 69 term=collision   collision=True  wall=0.58s
+TEST  Epsilon          ep=205 reward=   47.635 steps= 80 term=collision   collision=True  wall=0.48s
+TEST  Epsilon          ep=206 reward=   15.038 steps= 66 term=collision   collision=True  wall=0.33s
+TEST  Epsilon          ep=207 reward=   63.120 steps= 95 term=out_of_road collision=False wall=0.37s
+TEST  Epsilon          ep=208 reward=   40.095 steps= 60 term=out_of_road collision=False wall=0.23s
+TEST  Epsilon          ep=209 reward=   23.779 steps= 70 term=collision   collision=True  wall=0.35s
+TEST  Epsilon          ep=210 reward=    0.477 steps= 60 term=collision   collision=True  wall=0.32s
+TEST  Epsilon          ep=211 reward=   27.034 steps= 71 term=collision   collision=True  wall=0.23s
+TEST  Epsilon          ep=212 reward=   20.140 steps= 70 term=collision   collision=True  wall=0.25s
+TEST  Epsilon          ep=213 reward=   40.621 steps= 60 term=out_of_road collision=False wall=0.27s
+TEST  Epsilon          ep=214 reward=   56.011 steps= 69 term=out_of_road collision=False wall=0.33s
+TEST  Epsilon          ep=215 reward=   62.433 steps= 90 term=out_of_road collision=False wall=0.34s
+TEST  Epsilon          ep=216 reward=   16.771 steps= 68 term=collision   collision=True  wall=0.31s
+TEST  Epsilon          ep=217 reward=  174.718 steps=121 term=out_of_road collision=False wall=0.47s
+TEST  Epsilon          ep=218 reward=   35.707 steps= 77 term=collision   collision=True  wall=0.28s
+TEST  Epsilon          ep=219 reward=   26.332 steps= 73 term=collision   collision=True  wall=0.37s
+TEST  Epsilon          ep=220 reward=   57.646 steps= 68 term=out_of_road collision=False wall=0.41s
+TEST  Epsilon          ep=221 reward=   60.021 steps= 70 term=collision   collision=True  wall=0.29s
+TEST  Epsilon          ep=222 reward=   49.666 steps= 65 term=collision   collision=True  wall=0.31s
+TEST  Epsilon          ep=223 reward=   49.117 steps= 65 term=collision   collision=True  wall=0.24s
+TEST  Epsilon          ep=224 reward=   62.521 steps= 71 term=out_of_road collision=False wall=0.54s
+TEST  Epsilon          ep=225 reward=   51.473 steps= 82 term=collision   collision=True  wall=0.45s
+TEST  Epsilon          ep=226 reward=   13.690 steps= 67 term=collision   collision=True  wall=0.28s
+TEST  Epsilon          ep=227 reward=   91.808 steps=100 term=collision   collision=True  wall=0.60s
+TEST  Epsilon          ep=228 reward=   40.816 steps= 78 term=collision   collision=True  wall=0.36s
+TEST  Epsilon          ep=229 reward=  130.341 steps=100 term=collision   collision=True  wall=0.31s
+TEST  Epsilon          ep=230 reward=  118.595 steps= 97 term=out_of_road collision=False wall=0.51s
+TEST  Epsilon          ep=231 reward=  126.010 steps=100 term=out_of_road collision=False wall=0.43s
+TEST  Epsilon          ep=232 reward=   51.130 steps= 64 term=out_of_road collision=False wall=0.38s
+TEST  Epsilon          ep=233 reward=   70.024 steps= 92 term=collision   collision=True  wall=0.52s
+TEST  Epsilon          ep=234 reward=    8.171 steps= 63 term=collision   collision=True  wall=0.49s
+TEST  Epsilon          ep=235 reward=   31.273 steps= 77 term=collision   collision=True  wall=0.44s
+TEST  Epsilon          ep=236 reward=   67.350 steps= 92 term=out_of_road collision=False wall=0.37s
+TEST  Epsilon          ep=237 reward=   49.150 steps= 65 term=collision   collision=True  wall=0.25s
+TEST  Epsilon          ep=238 reward=   62.976 steps= 70 term=out_of_road collision=False wall=0.43s
+TEST  Epsilon          ep=239 reward=   43.842 steps= 62 term=out_of_road collision=False wall=0.41s
+TEST  Epsilon          ep=240 reward=   11.229 steps= 68 term=collision   collision=True  wall=0.27s
+TEST  Epsilon          ep=241 reward=    9.168 steps= 63 term=collision   collision=True  wall=0.21s
+TEST  Epsilon          ep=242 reward=    4.517 steps= 60 term=collision   collision=True  wall=0.20s
+TEST  Epsilon          ep=243 reward=   16.093 steps= 66 term=collision   collision=True  wall=0.41s
+TEST  Epsilon          ep=244 reward=   63.029 steps= 91 term=out_of_road collision=False wall=0.36s
+TEST  Epsilon          ep=245 reward=   41.400 steps= 61 term=out_of_road collision=False wall=0.32s
+TEST  Epsilon          ep=246 reward=    7.887 steps= 65 term=collision   collision=True  wall=0.33s
+TEST  Epsilon          ep=247 reward=   62.302 steps= 91 term=out_of_road collision=False wall=0.41s
+TEST  Epsilon          ep=248 reward=  106.959 steps=110 term=out_of_road collision=False wall=0.40s
+TEST  Epsilon          ep=249 reward=   42.196 steps= 60 term=out_of_road collision=False wall=0.30s
+TEST  Epsilon          ep=250 reward=   23.945 steps= 72 term=collision   collision=True  wall=0.34s
+TEST  Epsilon          ep=251 reward=   63.100 steps= 93 term=out_of_road collision=False wall=0.40s
+TEST  Epsilon          ep=252 reward=   62.457 steps= 94 term=out_of_road collision=False wall=0.36s
+TEST  Epsilon          ep=253 reward=  127.001 steps=118 term=collision   collision=True  wall=0.47s
+TEST  Epsilon          ep=254 reward=    7.373 steps= 64 term=collision   collision=True  wall=0.44s
+TEST  Epsilon          ep=255 reward=   -7.512 steps= 55 term=collision   collision=True  wall=0.23s
+TEST  Epsilon          ep=256 reward=  102.268 steps= 96 term=collision   collision=True  wall=0.30s
+TEST  Epsilon          ep=257 reward=   52.916 steps= 67 term=collision   collision=True  wall=0.24s
+TEST  Epsilon          ep=258 reward=    8.067 steps= 65 term=collision   collision=True  wall=0.47s
+TEST  Epsilon          ep=259 reward=   68.870 steps= 91 term=out_of_road collision=False wall=0.39s
+TEST  Epsilon          ep=260 reward=   11.957 steps= 66 term=collision   collision=True  wall=0.30s
+TEST  Epsilon          ep=261 reward=   20.294 steps= 68 term=collision   collision=True  wall=0.27s
+TEST  Epsilon          ep=262 reward=   61.123 steps= 70 term=out_of_road collision=False wall=0.43s
+TEST  Epsilon          ep=263 reward=   44.565 steps= 61 term=out_of_road collision=False wall=0.35s
+TEST  Epsilon          ep=264 reward=   56.950 steps= 67 term=out_of_road collision=False wall=0.64s
+TEST  Epsilon          ep=265 reward=   -2.477 steps= 59 term=collision   collision=True  wall=0.47s
+TEST  Epsilon          ep=266 reward=   48.174 steps= 65 term=out_of_road collision=False wall=0.19s
+TEST  Epsilon          ep=267 reward=   87.497 steps=100 term=collision   collision=True  wall=0.44s
+TEST  Epsilon          ep=268 reward=   21.692 steps= 69 term=collision   collision=True  wall=0.17s
+TEST  Epsilon          ep=269 reward=   56.346 steps= 69 term=collision   collision=True  wall=0.52s
+TEST  Epsilon          ep=270 reward=   60.488 steps= 91 term=out_of_road collision=False wall=0.28s
+TEST  Epsilon          ep=271 reward=   53.396 steps= 67 term=collision   collision=True  wall=0.29s
+TEST  Epsilon          ep=272 reward=   50.401 steps= 65 term=out_of_road collision=False wall=0.43s
+TEST  Epsilon          ep=273 reward=   47.108 steps= 63 term=out_of_road collision=False wall=0.35s
+TEST  Epsilon          ep=274 reward=   11.058 steps= 64 term=collision   collision=True  wall=0.31s
+TEST  Epsilon          ep=275 reward=   68.909 steps= 93 term=out_of_road collision=False wall=0.28s
+TEST  Epsilon          ep=276 reward=    8.959 steps= 63 term=collision   collision=True  wall=0.34s
+TEST  Epsilon          ep=277 reward=   68.933 steps= 93 term=out_of_road collision=False wall=0.26s
+TEST  Epsilon          ep=278 reward=    9.149 steps= 65 term=collision   collision=True  wall=0.31s
+TEST  Epsilon          ep=279 reward=   46.873 steps= 81 term=collision   collision=True  wall=0.28s
+TEST  Epsilon          ep=280 reward=   55.727 steps= 71 term=out_of_road collision=False wall=0.22s
+TEST  Epsilon          ep=281 reward=  124.164 steps= 98 term=out_of_road collision=False wall=0.40s
+TEST  Epsilon          ep=282 reward=   40.550 steps= 60 term=out_of_road collision=False wall=0.23s
+TEST  Epsilon          ep=283 reward=   41.040 steps= 61 term=out_of_road collision=False wall=0.24s
+TEST  Epsilon          ep=284 reward=   56.029 steps= 69 term=collision   collision=True  wall=0.23s
+TEST  Epsilon          ep=285 reward=   51.733 steps= 85 term=collision   collision=True  wall=0.44s
+TEST  Epsilon          ep=286 reward=   29.359 steps= 76 term=collision   collision=True  wall=0.38s
+TEST  Epsilon          ep=287 reward=   48.214 steps= 82 term=collision   collision=True  wall=0.33s
+TEST  Epsilon          ep=288 reward=   -3.915 steps= 57 term=collision   collision=True  wall=0.38s
+TEST  Epsilon          ep=289 reward=   57.017 steps= 67 term=out_of_road collision=False wall=0.48s
+TEST  Epsilon          ep=290 reward=   57.976 steps= 69 term=out_of_road collision=False wall=0.41s
+TEST  Epsilon          ep=291 reward=   11.870 steps= 66 term=collision   collision=True  wall=0.28s
+TEST  Epsilon          ep=292 reward=   57.729 steps= 68 term=out_of_road collision=False wall=0.56s
+TEST  Epsilon          ep=293 reward=   21.091 steps= 71 term=collision   collision=True  wall=0.39s
+TEST  Epsilon          ep=294 reward=   67.105 steps= 91 term=out_of_road collision=False wall=0.26s
+TEST  Epsilon          ep=295 reward=   -2.535 steps= 58 term=collision   collision=True  wall=0.21s
+TEST  Epsilon          ep=296 reward=   55.189 steps= 71 term=collision   collision=True  wall=0.24s
+TEST  Epsilon          ep=297 reward=   19.874 steps= 71 term=collision   collision=True  wall=0.49s
+TEST  Epsilon          ep=298 reward=   60.130 steps= 92 term=out_of_road collision=False wall=0.27s
+TEST  Epsilon          ep=299 reward=  197.724 steps=145 term=collision   collision=True  wall=0.59s
+===== TESTING END: Epsilon =====
+Testing duration: 177.51s
+
+===== TRAINING START: Median 50 =====
+TRAIN Median 50        ep=000 reward=   -7.414 steps=170 term=out_of_road collision=False wall=1.04s loss=0.003241
+TRAIN Median 50        ep=001 reward=   -7.745 steps= 23 term=out_of_road collision=False wall=0.18s loss=0.060223
+TRAIN Median 50        ep=002 reward=   -9.377 steps=  9 term=out_of_road collision=False wall=0.07s loss=0.068371
+TRAIN Median 50        ep=003 reward=   -7.545 steps= 27 term=out_of_road collision=False wall=0.20s loss=0.130349
+TRAIN Median 50        ep=004 reward=   -9.471 steps=  8 term=out_of_road collision=False wall=0.06s loss=0.171504
+TRAIN Median 50        ep=005 reward=   -9.478 steps= 13 term=out_of_road collision=False wall=0.09s loss=0.199385
+TRAIN Median 50        ep=006 reward=   -9.457 steps= 10 term=out_of_road collision=False wall=0.07s loss=0.242515
+TRAIN Median 50        ep=007 reward=   -7.529 steps= 66 term=out_of_road collision=False wall=0.51s loss=0.248274
+TRAIN Median 50        ep=008 reward=   -4.116 steps= 70 term=out_of_road collision=False wall=0.46s loss=0.209493
+TRAIN Median 50        ep=009 reward=   62.283 steps=258 term=out_of_road collision=False wall=1.95s loss=0.184145
+TRAIN Median 50        ep=010 reward=    2.025 steps= 89 term=collision   collision=True  wall=0.96s loss=0.154106
+TRAIN Median 50        ep=011 reward=   -4.711 steps= 30 term=out_of_road collision=False wall=0.22s loss=0.145233
+TRAIN Median 50        ep=012 reward=   61.805 steps= 93 term=out_of_road collision=False wall=1.03s loss=0.212621
+TRAIN Median 50        ep=013 reward=   73.564 steps=119 term=out_of_road collision=False wall=0.81s loss=0.213319
+TRAIN Median 50        ep=014 reward=   17.408 steps= 82 term=collision   collision=True  wall=0.75s loss=0.174384
+TRAIN Median 50        ep=015 reward=   -3.177 steps= 26 term=out_of_road collision=False wall=0.20s loss=0.349637
+TRAIN Median 50        ep=016 reward=   25.104 steps= 77 term=collision   collision=True  wall=0.79s loss=0.251186
+TRAIN Median 50        ep=017 reward=   95.458 steps=178 term=out_of_road collision=False wall=1.71s loss=0.355056
+TRAIN Median 50        ep=018 reward=   18.722 steps= 93 term=out_of_road collision=False wall=0.66s loss=0.330522
+TRAIN Median 50        ep=019 reward=    9.469 steps=110 term=out_of_road collision=False wall=1.04s loss=0.310880
+TRAIN Median 50        ep=020 reward=   32.640 steps=127 term=out_of_road collision=False wall=1.06s loss=0.289338
+TRAIN Median 50        ep=021 reward=   55.013 steps= 85 term=out_of_road collision=False wall=0.77s loss=0.275322
+TRAIN Median 50        ep=022 reward=   11.551 steps= 47 term=out_of_road collision=False wall=0.39s loss=0.195859
+TRAIN Median 50        ep=023 reward=   16.289 steps= 65 term=out_of_road collision=False wall=0.61s loss=0.269284
+TRAIN Median 50        ep=024 reward=    2.017 steps= 43 term=out_of_road collision=False wall=0.38s loss=0.289359
+TRAIN Median 50        ep=025 reward=    4.929 steps= 73 term=collision   collision=True  wall=0.60s loss=0.254948
+TRAIN Median 50        ep=026 reward=   99.003 steps=126 term=out_of_road collision=False wall=1.47s loss=0.244996
+TRAIN Median 50        ep=027 reward=   40.537 steps=118 term=out_of_road collision=False wall=1.13s loss=0.288349
+TRAIN Median 50        ep=028 reward=   34.639 steps=164 term=out_of_road collision=False wall=1.76s loss=0.258105
+TRAIN Median 50        ep=029 reward=   45.669 steps=109 term=out_of_road collision=False wall=1.24s loss=0.224132
+TRAIN Median 50        ep=030 reward=    6.900 steps= 90 term=collision   collision=True  wall=1.03s loss=0.231837
+TRAIN Median 50        ep=031 reward=  127.403 steps=126 term=out_of_road collision=False wall=1.20s loss=0.283146
+TRAIN Median 50        ep=032 reward=    1.869 steps= 70 term=out_of_road collision=False wall=0.62s loss=0.222411
+TRAIN Median 50        ep=033 reward=   49.537 steps= 88 term=out_of_road collision=False wall=0.68s loss=0.238612
+TRAIN Median 50        ep=034 reward=   16.029 steps=116 term=collision   collision=True  wall=0.97s loss=0.248602
+TRAIN Median 50        ep=035 reward=    9.801 steps= 58 term=out_of_road collision=False wall=0.56s loss=0.241841
+TRAIN Median 50        ep=036 reward=   15.208 steps= 57 term=out_of_road collision=False wall=0.48s loss=0.276800
+TRAIN Median 50        ep=037 reward=   56.461 steps=119 term=collision   collision=True  wall=1.10s loss=0.303363
+TRAIN Median 50        ep=038 reward=   -6.416 steps= 76 term=out_of_road collision=False wall=0.62s loss=0.334429
+TRAIN Median 50        ep=039 reward=   16.086 steps=129 term=out_of_road collision=False wall=1.13s loss=0.321522
+TRAIN Median 50        ep=040 reward=   -6.250 steps=163 term=out_of_road collision=False wall=1.22s loss=0.284548
+TRAIN Median 50        ep=041 reward=   -6.492 steps=199 term=out_of_road collision=False wall=1.55s loss=0.264234
+TRAIN Median 50        ep=042 reward=   -8.022 steps= 61 term=out_of_road collision=False wall=0.45s loss=0.247670
+TRAIN Median 50        ep=043 reward=   -7.686 steps= 30 term=out_of_road collision=False wall=0.26s loss=0.186962
+TRAIN Median 50        ep=044 reward=    4.989 steps=174 term=out_of_road collision=False wall=1.71s loss=0.226620
+TRAIN Median 50        ep=045 reward=   38.139 steps= 97 term=out_of_road collision=False wall=0.91s loss=0.323179
+TRAIN Median 50        ep=046 reward=  124.931 steps=168 term=out_of_road collision=False wall=1.30s loss=0.277113
+TRAIN Median 50        ep=047 reward=   -7.451 steps=159 term=out_of_road collision=False wall=1.21s loss=0.238473
+TRAIN Median 50        ep=048 reward=   -5.249 steps=126 term=out_of_road collision=False wall=0.94s loss=0.234130
+TRAIN Median 50        ep=049 reward=   -8.654 steps= 68 term=out_of_road collision=False wall=0.52s loss=0.257082
+TRAIN Median 50        ep=050 reward=   -3.429 steps= 92 term=out_of_road collision=False wall=0.70s loss=0.206247
+TRAIN Median 50        ep=051 reward=   -7.647 steps= 20 term=out_of_road collision=False wall=0.17s loss=0.275085
+TRAIN Median 50        ep=052 reward=   -8.506 steps= 48 term=out_of_road collision=False wall=0.34s loss=0.200062
+TRAIN Median 50        ep=053 reward=   -8.396 steps= 67 term=out_of_road collision=False wall=0.48s loss=0.182011
+TRAIN Median 50        ep=054 reward=   -8.635 steps= 84 term=out_of_road collision=False wall=0.58s loss=0.233077
+TRAIN Median 50        ep=055 reward=   -8.600 steps= 66 term=out_of_road collision=False wall=0.46s loss=0.229824
+TRAIN Median 50        ep=056 reward=   55.447 steps=114 term=out_of_road collision=False wall=0.83s loss=0.234937
+TRAIN Median 50        ep=057 reward=   -4.219 steps= 24 term=out_of_road collision=False wall=0.15s loss=0.358843
+TRAIN Median 50        ep=058 reward=   -6.276 steps=145 term=out_of_road collision=False wall=1.15s loss=0.257049
+TRAIN Median 50        ep=059 reward=   -7.837 steps= 29 term=out_of_road collision=False wall=0.22s loss=0.240581
+TRAIN Median 50        ep=060 reward=   28.564 steps=354 term=out_of_road collision=False wall=3.57s loss=0.245524
+TRAIN Median 50        ep=061 reward=   -8.128 steps= 69 term=out_of_road collision=False wall=0.47s loss=0.218048
+TRAIN Median 50        ep=062 reward=   59.625 steps=120 term=out_of_road collision=False wall=1.02s loss=0.246597
+TRAIN Median 50        ep=063 reward=   -5.455 steps= 52 term=out_of_road collision=False wall=0.37s loss=0.139524
+TRAIN Median 50        ep=064 reward=   -9.370 steps= 16 term=out_of_road collision=False wall=0.12s loss=0.089994
+TRAIN Median 50        ep=065 reward=   -8.564 steps= 43 term=out_of_road collision=False wall=0.31s loss=0.190129
+TRAIN Median 50        ep=066 reward=   -9.463 steps= 17 term=out_of_road collision=False wall=0.13s loss=0.297504
+TRAIN Median 50        ep=067 reward=   -8.972 steps= 20 term=out_of_road collision=False wall=0.16s loss=0.313341
+TRAIN Median 50        ep=068 reward=   29.912 steps= 87 term=out_of_road collision=False wall=0.89s loss=0.303003
+TRAIN Median 50        ep=069 reward=   -7.054 steps= 77 term=out_of_road collision=False wall=0.56s loss=0.229442
+TRAIN Median 50        ep=070 reward=   -4.698 steps=191 term=out_of_road collision=False wall=1.37s loss=0.225167
+TRAIN Median 50        ep=071 reward=   38.258 steps=147 term=out_of_road collision=False wall=1.33s loss=0.226913
+TRAIN Median 50        ep=072 reward=   -6.363 steps= 44 term=out_of_road collision=False wall=0.30s loss=0.184718
+TRAIN Median 50        ep=073 reward=    4.322 steps= 46 term=out_of_road collision=False wall=0.35s loss=0.213852
+TRAIN Median 50        ep=074 reward=   -6.616 steps= 42 term=out_of_road collision=False wall=0.31s loss=0.192980
+TRAIN Median 50        ep=075 reward=   -9.345 steps= 10 term=out_of_road collision=False wall=0.08s loss=0.203914
+TRAIN Median 50        ep=076 reward=   -7.291 steps= 49 term=out_of_road collision=False wall=0.40s loss=0.185449
+TRAIN Median 50        ep=077 reward=   22.730 steps=123 term=out_of_road collision=False wall=1.09s loss=0.197792
+TRAIN Median 50        ep=078 reward=   -8.562 steps= 71 term=out_of_road collision=False wall=0.57s loss=0.120444
+TRAIN Median 50        ep=079 reward=    9.844 steps=115 term=out_of_road collision=False wall=0.96s loss=0.213459
+TRAIN Median 50        ep=080 reward=   30.039 steps= 77 term=out_of_road collision=False wall=0.87s loss=0.228084
+TRAIN Median 50        ep=081 reward=   -0.617 steps=120 term=collision   collision=True  wall=1.13s loss=0.260402
+TRAIN Median 50        ep=082 reward=    0.885 steps= 65 term=out_of_road collision=False wall=0.54s loss=0.190095
+TRAIN Median 50        ep=083 reward=   -7.545 steps= 20 term=out_of_road collision=False wall=0.16s loss=0.166880
+TRAIN Median 50        ep=084 reward=   -7.691 steps= 50 term=out_of_road collision=False wall=0.40s loss=0.220493
+TRAIN Median 50        ep=085 reward=   -8.148 steps= 61 term=out_of_road collision=False wall=0.50s loss=0.201414
+TRAIN Median 50        ep=086 reward=   -8.032 steps= 57 term=out_of_road collision=False wall=0.46s loss=0.170884
+TRAIN Median 50        ep=087 reward=   -7.420 steps= 50 term=out_of_road collision=False wall=0.35s loss=0.201370
+TRAIN Median 50        ep=088 reward=   -7.882 steps= 18 term=out_of_road collision=False wall=0.14s loss=0.236130
+TRAIN Median 50        ep=089 reward=   -8.389 steps= 40 term=out_of_road collision=False wall=0.29s loss=0.248812
+TRAIN Median 50        ep=090 reward=   -9.285 steps= 14 term=out_of_road collision=False wall=0.11s loss=0.344948
+TRAIN Median 50        ep=091 reward=   -4.973 steps= 34 term=out_of_road collision=False wall=0.25s loss=0.213736
+TRAIN Median 50        ep=092 reward=   -8.485 steps= 54 term=out_of_road collision=False wall=0.42s loss=0.223453
+TRAIN Median 50        ep=093 reward=   -8.464 steps= 46 term=out_of_road collision=False wall=0.35s loss=0.176822
+TRAIN Median 50        ep=094 reward=   61.658 steps=122 term=collision   collision=True  wall=1.32s loss=0.227034
+TRAIN Median 50        ep=095 reward=   52.191 steps= 72 term=out_of_road collision=False wall=0.63s loss=0.288122
+TRAIN Median 50        ep=096 reward=   31.016 steps=123 term=out_of_road collision=False wall=1.07s loss=0.197231
+TRAIN Median 50        ep=097 reward=   47.080 steps= 94 term=out_of_road collision=False wall=0.89s loss=0.233558
+TRAIN Median 50        ep=098 reward=   34.917 steps=131 term=out_of_road collision=False wall=1.48s loss=0.265174
+TRAIN Median 50        ep=099 reward=   -9.210 steps= 16 term=out_of_road collision=False wall=0.13s loss=0.207455
+TRAIN Median 50        ep=100 reward=   11.282 steps= 75 term=out_of_road collision=False wall=0.77s loss=0.255429
+TRAIN Median 50        ep=101 reward=   14.012 steps=103 term=out_of_road collision=False wall=0.85s loss=0.198794
+TRAIN Median 50        ep=102 reward=    2.951 steps= 55 term=out_of_road collision=False wall=0.47s loss=0.203332
+TRAIN Median 50        ep=103 reward=   -2.788 steps= 70 term=out_of_road collision=False wall=0.57s loss=0.255566
+TRAIN Median 50        ep=104 reward=   62.209 steps=168 term=out_of_road collision=False wall=1.36s loss=0.259335
+TRAIN Median 50        ep=105 reward=   63.296 steps=101 term=out_of_road collision=False wall=0.80s loss=0.219372
+TRAIN Median 50        ep=106 reward=    0.627 steps= 66 term=out_of_road collision=False wall=0.52s loss=0.253109
+TRAIN Median 50        ep=107 reward=   25.995 steps= 61 term=out_of_road collision=False wall=0.48s loss=0.210200
+TRAIN Median 50        ep=108 reward=   73.419 steps=156 term=out_of_road collision=False wall=1.28s loss=0.297937
+TRAIN Median 50        ep=109 reward=   37.115 steps= 98 term=out_of_road collision=False wall=1.21s loss=0.288403
+TRAIN Median 50        ep=110 reward=    9.044 steps= 66 term=out_of_road collision=False wall=0.70s loss=0.167771
+TRAIN Median 50        ep=111 reward=    5.645 steps= 68 term=out_of_road collision=False wall=0.57s loss=0.211194
+TRAIN Median 50        ep=112 reward=    6.453 steps=102 term=out_of_road collision=False wall=0.85s loss=0.208530
+TRAIN Median 50        ep=113 reward=   47.301 steps= 83 term=out_of_road collision=False wall=0.91s loss=0.302098
+TRAIN Median 50        ep=114 reward=   40.305 steps=153 term=out_of_road collision=False wall=2.14s loss=0.249837
+TRAIN Median 50        ep=115 reward=   34.753 steps=157 term=out_of_road collision=False wall=1.36s loss=0.236547
+TRAIN Median 50        ep=116 reward=   19.835 steps= 92 term=out_of_road collision=False wall=1.04s loss=0.293737
+TRAIN Median 50        ep=117 reward=    8.150 steps= 48 term=out_of_road collision=False wall=0.43s loss=0.323017
+TRAIN Median 50        ep=118 reward=   98.021 steps=185 term=out_of_road collision=False wall=1.93s loss=0.314651
+TRAIN Median 50        ep=119 reward=   68.234 steps=181 term=out_of_road collision=False wall=1.53s loss=0.233773
+TRAIN Median 50        ep=120 reward=   49.959 steps= 93 term=out_of_road collision=False wall=1.04s loss=0.286037
+TRAIN Median 50        ep=121 reward=   63.966 steps=157 term=out_of_road collision=False wall=1.59s loss=0.288170
+TRAIN Median 50        ep=122 reward=    5.242 steps=129 term=collision   collision=True  wall=1.05s loss=0.273010
+TRAIN Median 50        ep=123 reward=   21.631 steps=118 term=out_of_road collision=False wall=0.81s loss=0.247327
+TRAIN Median 50        ep=124 reward=   34.135 steps= 99 term=out_of_road collision=False wall=0.73s loss=0.259010
+TRAIN Median 50        ep=125 reward=  118.039 steps=263 term=out_of_road collision=False wall=2.47s loss=0.286878
+TRAIN Median 50        ep=126 reward=   49.235 steps=161 term=out_of_road collision=False wall=1.58s loss=0.261597
+TRAIN Median 50        ep=127 reward=   50.771 steps=156 term=out_of_road collision=False wall=1.21s loss=0.229641
+TRAIN Median 50        ep=128 reward=   37.938 steps=101 term=out_of_road collision=False wall=0.78s loss=0.286070
+TRAIN Median 50        ep=129 reward=   47.791 steps=149 term=out_of_road collision=False wall=1.38s loss=0.267958
+TRAIN Median 50        ep=130 reward=   23.673 steps= 74 term=out_of_road collision=False wall=0.74s loss=0.308063
+TRAIN Median 50        ep=131 reward=    3.432 steps= 51 term=out_of_road collision=False wall=0.42s loss=0.272562
+TRAIN Median 50        ep=132 reward=   45.567 steps=105 term=out_of_road collision=False wall=0.79s loss=0.306543
+TRAIN Median 50        ep=133 reward=    6.581 steps= 39 term=out_of_road collision=False wall=0.38s loss=0.264666
+TRAIN Median 50        ep=134 reward=   59.756 steps=111 term=out_of_road collision=False wall=0.75s loss=0.270876
+TRAIN Median 50        ep=135 reward=   71.254 steps=239 term=out_of_road collision=False wall=2.15s loss=0.309149
+TRAIN Median 50        ep=136 reward=   53.550 steps=121 term=out_of_road collision=False wall=1.39s loss=0.302775
+TRAIN Median 50        ep=137 reward=   58.255 steps=103 term=out_of_road collision=False wall=0.85s loss=0.253075
+TRAIN Median 50        ep=138 reward=   15.828 steps= 94 term=collision   collision=True  wall=0.94s loss=0.235421
+TRAIN Median 50        ep=139 reward=   -1.378 steps= 45 term=out_of_road collision=False wall=0.39s loss=0.288055
+TRAIN Median 50        ep=140 reward=   56.423 steps=196 term=collision   collision=True  wall=1.94s loss=0.209829
+TRAIN Median 50        ep=141 reward=   52.534 steps=109 term=out_of_road collision=False wall=1.18s loss=0.355921
+TRAIN Median 50        ep=142 reward=   33.836 steps=139 term=out_of_road collision=False wall=1.25s loss=0.259304
+TRAIN Median 50        ep=143 reward=   48.010 steps=149 term=out_of_road collision=False wall=1.28s loss=0.268994
+TRAIN Median 50        ep=144 reward=   68.906 steps=126 term=collision   collision=True  wall=1.18s loss=0.273526
+TRAIN Median 50        ep=145 reward=   -1.368 steps= 45 term=out_of_road collision=False wall=0.42s loss=0.351943
+TRAIN Median 50        ep=146 reward=   55.597 steps=123 term=out_of_road collision=False wall=1.46s loss=0.252727
+TRAIN Median 50        ep=147 reward=   78.465 steps=154 term=out_of_road collision=False wall=1.43s loss=0.242549
+TRAIN Median 50        ep=148 reward=   62.102 steps=204 term=out_of_road collision=False wall=2.24s loss=0.270252
+TRAIN Median 50        ep=149 reward=   35.311 steps=134 term=collision   collision=True  wall=1.22s loss=0.339782
+TRAIN Median 50        ep=150 reward=   53.620 steps=150 term=out_of_road collision=False wall=1.49s loss=0.285984
+TRAIN Median 50        ep=151 reward=   14.710 steps= 57 term=out_of_road collision=False wall=0.44s loss=0.208075
+TRAIN Median 50        ep=152 reward=   31.785 steps= 85 term=out_of_road collision=False wall=0.77s loss=0.341628
+TRAIN Median 50        ep=153 reward=    0.973 steps=150 term=collision   collision=True  wall=1.20s loss=0.252900
+TRAIN Median 50        ep=154 reward=   87.590 steps=153 term=collision   collision=True  wall=1.53s loss=0.340410
+TRAIN Median 50        ep=155 reward=   19.004 steps= 75 term=out_of_road collision=False wall=0.57s loss=0.295992
+TRAIN Median 50        ep=156 reward=   66.402 steps=334 term=out_of_road collision=False wall=3.54s loss=0.311517
+TRAIN Median 50        ep=157 reward=   72.297 steps=106 term=out_of_road collision=False wall=1.02s loss=0.265623
+TRAIN Median 50        ep=158 reward=   50.149 steps=179 term=out_of_road collision=False wall=2.00s loss=0.329617
+TRAIN Median 50        ep=159 reward=   15.048 steps=105 term=out_of_road collision=False wall=0.73s loss=0.361675
+TRAIN Median 50        ep=160 reward=   61.277 steps=122 term=collision   collision=True  wall=0.86s loss=0.321147
+TRAIN Median 50        ep=161 reward=   18.282 steps= 83 term=collision   collision=True  wall=0.67s loss=0.319222
+TRAIN Median 50        ep=162 reward=   55.137 steps=119 term=collision   collision=True  wall=1.02s loss=0.265394
+TRAIN Median 50        ep=163 reward=    4.304 steps= 58 term=out_of_road collision=False wall=0.46s loss=0.247635
+TRAIN Median 50        ep=164 reward=   57.561 steps=104 term=out_of_road collision=False wall=1.23s loss=0.372440
+TRAIN Median 50        ep=165 reward=    4.453 steps= 60 term=out_of_road collision=False wall=0.46s loss=0.337567
+TRAIN Median 50        ep=166 reward=  109.126 steps=151 term=out_of_road collision=False wall=1.37s loss=0.327301
+TRAIN Median 50        ep=167 reward=   64.138 steps=149 term=out_of_road collision=False wall=1.13s loss=0.279462
+TRAIN Median 50        ep=168 reward=    5.543 steps= 83 term=out_of_road collision=False wall=0.74s loss=0.350827
+TRAIN Median 50        ep=169 reward=  138.550 steps=205 term=collision   collision=True  wall=1.54s loss=0.289536
+TRAIN Median 50        ep=170 reward=   75.086 steps=142 term=out_of_road collision=False wall=1.08s loss=0.309555
+TRAIN Median 50        ep=171 reward=   35.805 steps=143 term=out_of_road collision=False wall=1.47s loss=0.308837
+TRAIN Median 50        ep=172 reward=   62.793 steps=178 term=out_of_road collision=False wall=1.98s loss=0.348696
+TRAIN Median 50        ep=173 reward=   18.026 steps= 84 term=out_of_road collision=False wall=0.69s loss=0.268495
+TRAIN Median 50        ep=174 reward=   44.664 steps=106 term=out_of_road collision=False wall=1.26s loss=0.316420
+TRAIN Median 50        ep=175 reward=   59.947 steps=179 term=out_of_road collision=False wall=1.33s loss=0.328389
+TRAIN Median 50        ep=176 reward=   60.315 steps=226 term=out_of_road collision=False wall=1.79s loss=0.315987
+TRAIN Median 50        ep=177 reward=   62.275 steps=149 term=out_of_road collision=False wall=1.19s loss=0.311530
+TRAIN Median 50        ep=178 reward=   68.513 steps=174 term=collision   collision=True  wall=1.45s loss=0.333831
+TRAIN Median 50        ep=179 reward=   53.706 steps=136 term=out_of_road collision=False wall=1.51s loss=0.325312
+TRAIN Median 50        ep=180 reward=   48.509 steps=122 term=out_of_road collision=False wall=1.32s loss=0.390636
+TRAIN Median 50        ep=181 reward=   73.894 steps=100 term=out_of_road collision=False wall=1.32s loss=0.332203
+TRAIN Median 50        ep=182 reward=   23.831 steps=157 term=out_of_road collision=False wall=1.10s loss=0.402863
+TRAIN Median 50        ep=183 reward=   34.373 steps= 86 term=out_of_road collision=False wall=0.85s loss=0.304669
+TRAIN Median 50        ep=184 reward=    4.141 steps= 73 term=out_of_road collision=False wall=0.64s loss=0.300264
+TRAIN Median 50        ep=185 reward=   71.903 steps=135 term=out_of_road collision=False wall=1.19s loss=0.336632
+TRAIN Median 50        ep=186 reward=   14.029 steps= 59 term=out_of_road collision=False wall=0.44s loss=0.291022
+TRAIN Median 50        ep=187 reward=   45.086 steps= 80 term=out_of_road collision=False wall=0.82s loss=0.322349
+TRAIN Median 50        ep=188 reward=   55.076 steps= 95 term=out_of_road collision=False wall=1.07s loss=0.337234
+TRAIN Median 50        ep=189 reward=    8.377 steps= 56 term=out_of_road collision=False wall=0.65s loss=0.438279
+TRAIN Median 50        ep=190 reward=   63.737 steps=186 term=out_of_road collision=False wall=2.30s loss=0.337500
+TRAIN Median 50        ep=191 reward=   12.911 steps= 53 term=out_of_road collision=False wall=0.52s loss=0.331120
+TRAIN Median 50        ep=192 reward=   23.795 steps= 97 term=out_of_road collision=False wall=0.81s loss=0.281093
+TRAIN Median 50        ep=193 reward=   72.841 steps=159 term=out_of_road collision=False wall=1.36s loss=0.335000
+TRAIN Median 50        ep=194 reward=    0.502 steps= 64 term=out_of_road collision=False wall=0.49s loss=0.318534
+TRAIN Median 50        ep=195 reward=   -1.606 steps= 61 term=out_of_road collision=False wall=0.51s loss=0.320980
+TRAIN Median 50        ep=196 reward=    7.513 steps= 47 term=out_of_road collision=False wall=0.43s loss=0.407925
+TRAIN Median 50        ep=197 reward=   43.841 steps=210 term=out_of_road collision=False wall=2.18s loss=0.373868
+TRAIN Median 50        ep=198 reward=   52.675 steps=102 term=out_of_road collision=False wall=0.82s loss=0.330947
+TRAIN Median 50        ep=199 reward=   95.859 steps=259 term=collision   collision=True  wall=2.66s loss=0.371605
+TRAIN Median 50        ep=200 reward=   42.891 steps=116 term=out_of_road collision=False wall=1.29s loss=0.343575
+TRAIN Median 50        ep=201 reward=    7.405 steps= 97 term=out_of_road collision=False wall=0.92s loss=0.304553
+TRAIN Median 50        ep=202 reward=   68.507 steps=148 term=collision   collision=True  wall=1.37s loss=0.359905
+TRAIN Median 50        ep=203 reward=   16.877 steps=122 term=out_of_road collision=False wall=0.93s loss=0.370787
+TRAIN Median 50        ep=204 reward=   55.238 steps=134 term=collision   collision=True  wall=1.02s loss=0.352452
+TRAIN Median 50        ep=205 reward=    7.479 steps= 59 term=out_of_road collision=False wall=0.46s loss=0.393828
+TRAIN Median 50        ep=206 reward=   96.594 steps=193 term=out_of_road collision=False wall=1.81s loss=0.375570
+TRAIN Median 50        ep=207 reward=   47.533 steps=115 term=out_of_road collision=False wall=1.05s loss=0.379992
+TRAIN Median 50        ep=208 reward=  108.642 steps=201 term=collision   collision=True  wall=2.03s loss=0.357052
+TRAIN Median 50        ep=209 reward=   67.400 steps=139 term=out_of_road collision=False wall=0.97s loss=0.374011
+TRAIN Median 50        ep=210 reward=   39.832 steps=143 term=out_of_road collision=False wall=1.64s loss=0.372278
+TRAIN Median 50        ep=211 reward=   47.113 steps=267 term=out_of_road collision=False wall=2.84s loss=0.380573
+TRAIN Median 50        ep=212 reward=    8.094 steps= 52 term=out_of_road collision=False wall=0.50s loss=0.426938
+TRAIN Median 50        ep=213 reward=   62.867 steps=177 term=out_of_road collision=False wall=1.28s loss=0.381517
+TRAIN Median 50        ep=214 reward=   16.602 steps= 77 term=out_of_road collision=False wall=0.64s loss=0.336625
+TRAIN Median 50        ep=215 reward=   10.170 steps= 54 term=out_of_road collision=False wall=0.44s loss=0.463582
+TRAIN Median 50        ep=216 reward=   51.776 steps= 93 term=out_of_road collision=False wall=1.06s loss=0.411384
+TRAIN Median 50        ep=217 reward=   53.460 steps=126 term=out_of_road collision=False wall=1.22s loss=0.382099
+TRAIN Median 50        ep=218 reward=    3.749 steps= 75 term=out_of_road collision=False wall=0.72s loss=0.303298
+TRAIN Median 50        ep=219 reward=   29.260 steps=106 term=out_of_road collision=False wall=0.97s loss=0.403345
+TRAIN Median 50        ep=220 reward=  140.795 steps=227 term=collision   collision=True  wall=2.48s loss=0.423809
+TRAIN Median 50        ep=221 reward=   55.817 steps=144 term=out_of_road collision=False wall=1.20s loss=0.410278
+TRAIN Median 50        ep=222 reward=    8.589 steps= 98 term=out_of_road collision=False wall=0.74s loss=0.363765
+TRAIN Median 50        ep=223 reward=   63.990 steps=156 term=out_of_road collision=False wall=1.47s loss=0.382875
+TRAIN Median 50        ep=224 reward=   21.151 steps= 59 term=out_of_road collision=False wall=0.44s loss=0.383128
+TRAIN Median 50        ep=225 reward=   95.525 steps=242 term=out_of_road collision=False wall=2.36s loss=0.381989
+TRAIN Median 50        ep=226 reward=   39.712 steps= 92 term=out_of_road collision=False wall=0.93s loss=0.325688
+TRAIN Median 50        ep=227 reward=   50.183 steps=187 term=out_of_road collision=False wall=2.03s loss=0.334110
+TRAIN Median 50        ep=228 reward=   -0.214 steps= 40 term=out_of_road collision=False wall=0.30s loss=0.449318
+TRAIN Median 50        ep=229 reward=   15.671 steps=114 term=out_of_road collision=False wall=1.04s loss=0.343867
+TRAIN Median 50        ep=230 reward=    5.746 steps= 99 term=out_of_road collision=False wall=0.75s loss=0.443866
+TRAIN Median 50        ep=231 reward=    2.659 steps= 39 term=out_of_road collision=False wall=0.30s loss=0.489861
+TRAIN Median 50        ep=232 reward=   61.495 steps=281 term=out_of_road collision=False wall=2.49s loss=0.382966
+TRAIN Median 50        ep=233 reward=   22.657 steps= 67 term=out_of_road collision=False wall=0.43s loss=0.306603
+TRAIN Median 50        ep=234 reward=  142.770 steps=208 term=out_of_road collision=False wall=1.61s loss=0.376910
+TRAIN Median 50        ep=235 reward=  136.104 steps=187 term=out_of_road collision=False wall=2.25s loss=0.396622
+TRAIN Median 50        ep=236 reward=   60.135 steps=165 term=out_of_road collision=False wall=1.76s loss=0.445455
+TRAIN Median 50        ep=237 reward=   31.115 steps=114 term=out_of_road collision=False wall=0.80s loss=0.394286
+TRAIN Median 50        ep=238 reward=   22.209 steps=134 term=collision   collision=True  wall=1.42s loss=0.431577
+TRAIN Median 50        ep=239 reward=   50.379 steps= 99 term=out_of_road collision=False wall=1.24s loss=0.421596
+TRAIN Median 50        ep=240 reward=   41.089 steps= 74 term=out_of_road collision=False wall=0.69s loss=0.401284
+TRAIN Median 50        ep=241 reward=    2.022 steps= 55 term=out_of_road collision=False wall=0.47s loss=0.371036
+TRAIN Median 50        ep=242 reward=   51.515 steps=155 term=out_of_road collision=False wall=1.92s loss=0.373240
+TRAIN Median 50        ep=243 reward=  154.880 steps=260 term=out_of_road collision=False wall=2.09s loss=0.430970
+TRAIN Median 50        ep=244 reward=  100.588 steps=116 term=out_of_road collision=False wall=1.13s loss=0.416733
+TRAIN Median 50        ep=245 reward=   69.645 steps=132 term=out_of_road collision=False wall=1.10s loss=0.455403
+TRAIN Median 50        ep=246 reward=   51.475 steps=105 term=out_of_road collision=False wall=1.20s loss=0.381204
+TRAIN Median 50        ep=247 reward=   87.220 steps=277 term=collision   collision=True  wall=2.59s loss=0.427895
+TRAIN Median 50        ep=248 reward=   68.723 steps=148 term=out_of_road collision=False wall=1.72s loss=0.426886
+TRAIN Median 50        ep=249 reward=   33.260 steps= 75 term=out_of_road collision=False wall=0.96s loss=0.500109
+TRAIN Median 50        ep=250 reward=  108.689 steps=151 term=out_of_road collision=False wall=1.34s loss=0.386894
+TRAIN Median 50        ep=251 reward=   36.778 steps=141 term=out_of_road collision=False wall=1.28s loss=0.417995
+TRAIN Median 50        ep=252 reward=   70.568 steps=130 term=out_of_road collision=False wall=1.47s loss=0.418464
+TRAIN Median 50        ep=253 reward=   16.242 steps=103 term=out_of_road collision=False wall=0.95s loss=0.446887
+TRAIN Median 50        ep=254 reward=   -1.381 steps= 65 term=out_of_road collision=False wall=0.46s loss=0.425657
+TRAIN Median 50        ep=255 reward=   57.369 steps=134 term=collision   collision=True  wall=1.24s loss=0.468180
+TRAIN Median 50        ep=256 reward=    3.140 steps= 36 term=out_of_road collision=False wall=0.34s loss=0.525815
+TRAIN Median 50        ep=257 reward=   50.849 steps=140 term=collision   collision=True  wall=1.13s loss=0.397030
+TRAIN Median 50        ep=258 reward=   54.520 steps=166 term=out_of_road collision=False wall=1.42s loss=0.480675
+TRAIN Median 50        ep=259 reward=   55.717 steps=265 term=collision   collision=True  wall=2.14s loss=0.477708
+TRAIN Median 50        ep=260 reward=   54.478 steps=181 term=collision   collision=True  wall=1.34s loss=0.457191
+TRAIN Median 50        ep=261 reward=   91.512 steps=207 term=out_of_road collision=False wall=1.79s loss=0.446431
+TRAIN Median 50        ep=262 reward=  189.318 steps=264 term=collision   collision=True  wall=2.89s loss=0.401441
+TRAIN Median 50        ep=263 reward=   55.250 steps= 96 term=out_of_road collision=False wall=0.99s loss=0.509951
+TRAIN Median 50        ep=264 reward=    7.403 steps= 62 term=out_of_road collision=False wall=0.61s loss=0.576838
+TRAIN Median 50        ep=265 reward=    7.004 steps=113 term=collision   collision=True  wall=0.99s loss=0.657705
+TRAIN Median 50        ep=266 reward=   15.331 steps= 53 term=out_of_road collision=False wall=0.43s loss=0.540176
+TRAIN Median 50        ep=267 reward=   53.489 steps=104 term=out_of_road collision=False wall=1.23s loss=0.446091
+TRAIN Median 50        ep=268 reward=   42.932 steps=172 term=out_of_road collision=False wall=1.68s loss=0.444389
+TRAIN Median 50        ep=269 reward=   65.057 steps=184 term=collision   collision=True  wall=1.42s loss=0.463314
+TRAIN Median 50        ep=270 reward=   42.106 steps=142 term=out_of_road collision=False wall=1.26s loss=0.427633
+TRAIN Median 50        ep=271 reward=   99.495 steps=345 term=out_of_road collision=False wall=2.65s loss=0.507209
+TRAIN Median 50        ep=272 reward=    8.226 steps=128 term=collision   collision=True  wall=1.32s loss=0.465828
+TRAIN Median 50        ep=273 reward=   10.040 steps= 78 term=collision   collision=True  wall=0.72s loss=0.532846
+TRAIN Median 50        ep=274 reward=   45.933 steps=118 term=out_of_road collision=False wall=1.09s loss=0.527890
+TRAIN Median 50        ep=275 reward=   62.435 steps=159 term=out_of_road collision=False wall=1.85s loss=0.440050
+TRAIN Median 50        ep=276 reward=   46.494 steps=120 term=out_of_road collision=False wall=1.27s loss=0.401715
+TRAIN Median 50        ep=277 reward=   49.195 steps=150 term=out_of_road collision=False wall=1.62s loss=0.363953
+TRAIN Median 50        ep=278 reward=   13.254 steps= 46 term=out_of_road collision=False wall=0.35s loss=0.487101
+TRAIN Median 50        ep=279 reward=   46.667 steps=110 term=out_of_road collision=False wall=1.13s loss=0.465188
+TRAIN Median 50        ep=280 reward=   15.112 steps= 88 term=collision   collision=True  wall=0.77s loss=0.495737
+TRAIN Median 50        ep=281 reward=   21.032 steps= 61 term=out_of_road collision=False wall=0.51s loss=0.462121
+TRAIN Median 50        ep=282 reward=   30.827 steps=128 term=out_of_road collision=False wall=1.05s loss=0.472802
+TRAIN Median 50        ep=283 reward=   21.805 steps=102 term=out_of_road collision=False wall=0.82s loss=0.458965
+TRAIN Median 50        ep=284 reward=    3.078 steps= 63 term=out_of_road collision=False wall=0.46s loss=0.467691
+TRAIN Median 50        ep=285 reward=  132.059 steps=126 term=collision   collision=True  wall=1.04s loss=0.499399
+TRAIN Median 50        ep=286 reward=    0.994 steps= 58 term=out_of_road collision=False wall=0.45s loss=0.503747
+TRAIN Median 50        ep=287 reward=  154.415 steps=197 term=out_of_road collision=False wall=2.06s loss=0.594348
+TRAIN Median 50        ep=288 reward=   57.431 steps=184 term=collision   collision=True  wall=1.47s loss=0.499272
+TRAIN Median 50        ep=289 reward=   58.002 steps=238 term=collision   collision=True  wall=1.98s loss=0.573470
+TRAIN Median 50        ep=290 reward=   83.634 steps=177 term=out_of_road collision=False wall=1.85s loss=0.467419
+TRAIN Median 50        ep=291 reward=    4.647 steps=107 term=out_of_road collision=False wall=1.06s loss=0.562455
+TRAIN Median 50        ep=292 reward=   98.570 steps=163 term=out_of_road collision=False wall=1.68s loss=0.496701
+TRAIN Median 50        ep=293 reward=    2.159 steps= 36 term=out_of_road collision=False wall=0.33s loss=0.512122
+TRAIN Median 50        ep=294 reward=   64.697 steps=129 term=out_of_road collision=False wall=1.22s loss=0.491899
+TRAIN Median 50        ep=295 reward=    6.218 steps= 40 term=out_of_road collision=False wall=0.35s loss=0.541460
+TRAIN Median 50        ep=296 reward=   80.402 steps=166 term=collision   collision=True  wall=1.57s loss=0.467405
+TRAIN Median 50        ep=297 reward=    0.927 steps= 33 term=out_of_road collision=False wall=0.27s loss=0.544990
+TRAIN Median 50        ep=298 reward=   10.156 steps= 66 term=out_of_road collision=False wall=0.65s loss=0.590979
+TRAIN Median 50        ep=299 reward=   11.253 steps= 66 term=out_of_road collision=False wall=0.54s loss=0.595030
+TRAIN Median 50        ep=300 reward=   44.635 steps=105 term=out_of_road collision=False wall=1.05s loss=0.521707
+TRAIN Median 50        ep=301 reward=    5.724 steps= 47 term=out_of_road collision=False wall=0.35s loss=0.476755
+TRAIN Median 50        ep=302 reward=   30.477 steps=121 term=out_of_road collision=False wall=1.56s loss=0.534005
+TRAIN Median 50        ep=303 reward=   33.813 steps= 89 term=out_of_road collision=False wall=0.87s loss=0.555593
+TRAIN Median 50        ep=304 reward=   68.764 steps=139 term=out_of_road collision=False wall=1.60s loss=0.556707
+TRAIN Median 50        ep=305 reward=   46.538 steps=110 term=out_of_road collision=False wall=1.11s loss=0.505514
+TRAIN Median 50        ep=306 reward=   15.167 steps= 56 term=out_of_road collision=False wall=0.62s loss=0.502965
+TRAIN Median 50        ep=307 reward=    6.257 steps= 80 term=out_of_road collision=False wall=0.65s loss=0.557877
+TRAIN Median 50        ep=308 reward=   64.266 steps=136 term=out_of_road collision=False wall=1.09s loss=0.469016
+TRAIN Median 50        ep=309 reward=   44.649 steps= 91 term=out_of_road collision=False wall=0.86s loss=0.568973
+TRAIN Median 50        ep=310 reward=   51.294 steps=158 term=out_of_road collision=False wall=1.66s loss=0.497924
+TRAIN Median 50        ep=311 reward=   53.776 steps=174 term=out_of_road collision=False wall=1.37s loss=0.524348
+TRAIN Median 50        ep=312 reward=   60.531 steps= 94 term=out_of_road collision=False wall=1.07s loss=0.540806
+TRAIN Median 50        ep=313 reward=   13.097 steps= 92 term=out_of_road collision=False wall=0.88s loss=0.460063
+TRAIN Median 50        ep=314 reward=   32.992 steps= 94 term=out_of_road collision=False wall=0.72s loss=0.489792
+TRAIN Median 50        ep=315 reward=    0.081 steps= 37 term=out_of_road collision=False wall=0.32s loss=0.634580
+TRAIN Median 50        ep=316 reward=  105.903 steps=262 term=collision   collision=True  wall=2.20s loss=0.569700
+TRAIN Median 50        ep=317 reward=   18.073 steps= 86 term=out_of_road collision=False wall=0.67s loss=0.509173
+TRAIN Median 50        ep=318 reward=   46.004 steps=148 term=collision   collision=True  wall=1.43s loss=0.603146
+TRAIN Median 50        ep=319 reward=  119.194 steps=154 term=out_of_road collision=False wall=1.31s loss=0.586835
+TRAIN Median 50        ep=320 reward=   53.375 steps=127 term=out_of_road collision=False wall=1.04s loss=0.558377
+TRAIN Median 50        ep=321 reward=   24.898 steps= 70 term=out_of_road collision=False wall=0.80s loss=0.543528
+TRAIN Median 50        ep=322 reward=   72.623 steps=172 term=collision   collision=True  wall=1.61s loss=0.563035
+TRAIN Median 50        ep=323 reward=   14.539 steps= 55 term=out_of_road collision=False wall=0.59s loss=0.486806
+TRAIN Median 50        ep=324 reward=   51.599 steps=123 term=out_of_road collision=False wall=1.47s loss=0.560350
+TRAIN Median 50        ep=325 reward=   31.245 steps=106 term=collision   collision=True  wall=0.95s loss=0.581122
+TRAIN Median 50        ep=326 reward=   17.242 steps= 57 term=out_of_road collision=False wall=0.58s loss=0.528045
+TRAIN Median 50        ep=327 reward=   -3.443 steps= 39 term=out_of_road collision=False wall=0.32s loss=0.692903
+TRAIN Median 50        ep=328 reward=   12.926 steps=155 term=out_of_road collision=False wall=1.11s loss=0.556462
+TRAIN Median 50        ep=329 reward=   35.560 steps=129 term=out_of_road collision=False wall=1.14s loss=0.577064
+TRAIN Median 50        ep=330 reward=   42.291 steps= 99 term=out_of_road collision=False wall=0.74s loss=0.562909
+TRAIN Median 50        ep=331 reward=   55.781 steps=135 term=out_of_road collision=False wall=1.19s loss=0.587293
+TRAIN Median 50        ep=332 reward=   36.540 steps=152 term=out_of_road collision=False wall=1.51s loss=0.590278
+TRAIN Median 50        ep=333 reward=   27.381 steps=145 term=out_of_road collision=False wall=1.50s loss=0.581783
+TRAIN Median 50        ep=334 reward=   82.239 steps=152 term=collision   collision=True  wall=1.43s loss=0.558586
+TRAIN Median 50        ep=335 reward=   79.467 steps=183 term=collision   collision=True  wall=1.91s loss=0.633236
+TRAIN Median 50        ep=336 reward=   48.902 steps=154 term=out_of_road collision=False wall=1.71s loss=0.604108
+TRAIN Median 50        ep=337 reward=   55.756 steps=130 term=collision   collision=True  wall=0.88s loss=0.584189
+TRAIN Median 50        ep=338 reward=   -0.924 steps= 32 term=out_of_road collision=False wall=0.32s loss=0.478552
+TRAIN Median 50        ep=339 reward=   43.702 steps=109 term=out_of_road collision=False wall=1.06s loss=0.703449
+TRAIN Median 50        ep=340 reward=   21.308 steps=113 term=out_of_road collision=False wall=1.11s loss=0.574434
+TRAIN Median 50        ep=341 reward=   94.748 steps=166 term=out_of_road collision=False wall=1.28s loss=0.594214
+TRAIN Median 50        ep=342 reward=   -2.514 steps=106 term=collision   collision=True  wall=1.08s loss=0.564317
+TRAIN Median 50        ep=343 reward=   53.834 steps= 88 term=out_of_road collision=False wall=0.80s loss=0.526793
+TRAIN Median 50        ep=344 reward=   69.644 steps=254 term=out_of_road collision=False wall=2.21s loss=0.652452
+TRAIN Median 50        ep=345 reward=   48.612 steps= 90 term=out_of_road collision=False wall=0.84s loss=0.486123
+TRAIN Median 50        ep=346 reward=   61.851 steps=197 term=out_of_road collision=False wall=1.64s loss=0.633937
+TRAIN Median 50        ep=347 reward=   11.415 steps=100 term=out_of_road collision=False wall=1.04s loss=0.529013
+TRAIN Median 50        ep=348 reward=   -0.143 steps= 82 term=collision   collision=True  wall=0.81s loss=0.643968
+TRAIN Median 50        ep=349 reward=    5.252 steps= 74 term=out_of_road collision=False wall=0.54s loss=0.526961
+TRAIN Median 50        ep=350 reward=   46.524 steps=222 term=out_of_road collision=False wall=2.40s loss=0.575527
+TRAIN Median 50        ep=351 reward=   17.125 steps= 79 term=out_of_road collision=False wall=0.70s loss=0.630012
+TRAIN Median 50        ep=352 reward=   59.472 steps=107 term=collision   collision=True  wall=0.84s loss=0.533690
+TRAIN Median 50        ep=353 reward=   39.330 steps= 88 term=out_of_road collision=False wall=0.88s loss=0.574904
+TRAIN Median 50        ep=354 reward=   13.184 steps=106 term=out_of_road collision=False wall=0.95s loss=0.493273
+TRAIN Median 50        ep=355 reward=   55.067 steps=250 term=out_of_road collision=False wall=2.38s loss=0.611428
+TRAIN Median 50        ep=356 reward=   33.268 steps= 64 term=collision   collision=True  wall=0.66s loss=0.681905
+TRAIN Median 50        ep=357 reward=   50.717 steps=123 term=out_of_road collision=False wall=1.04s loss=0.603176
+TRAIN Median 50        ep=358 reward=   11.612 steps= 74 term=out_of_road collision=False wall=0.63s loss=0.476976
+TRAIN Median 50        ep=359 reward=    6.469 steps= 56 term=out_of_road collision=False wall=0.52s loss=0.626743
+TRAIN Median 50        ep=360 reward=   26.004 steps=188 term=out_of_road collision=False wall=2.12s loss=0.618392
+TRAIN Median 50        ep=361 reward=   63.061 steps=145 term=out_of_road collision=False wall=1.42s loss=0.563561
+TRAIN Median 50        ep=362 reward=   48.147 steps=165 term=out_of_road collision=False wall=1.95s loss=0.514370
+TRAIN Median 50        ep=363 reward=   59.271 steps=296 term=out_of_road collision=False wall=2.25s loss=0.630282
+TRAIN Median 50        ep=364 reward=    1.898 steps= 38 term=out_of_road collision=False wall=0.41s loss=0.492682
+TRAIN Median 50        ep=365 reward=   63.549 steps=112 term=out_of_road collision=False wall=0.98s loss=0.678911
+TRAIN Median 50        ep=366 reward=   93.182 steps=175 term=collision   collision=True  wall=1.74s loss=0.726370
+TRAIN Median 50        ep=367 reward=    4.658 steps= 86 term=out_of_road collision=False wall=0.71s loss=0.636572
+TRAIN Median 50        ep=368 reward=   53.981 steps=145 term=collision   collision=True  wall=1.30s loss=0.652728
+TRAIN Median 50        ep=369 reward=   15.016 steps=100 term=out_of_road collision=False wall=0.91s loss=0.556302
+TRAIN Median 50        ep=370 reward=   55.064 steps=152 term=out_of_road collision=False wall=1.50s loss=0.723761
+TRAIN Median 50        ep=371 reward=   28.266 steps= 73 term=out_of_road collision=False wall=0.65s loss=0.601400
+TRAIN Median 50        ep=372 reward=   57.445 steps=188 term=collision   collision=True  wall=1.64s loss=0.615600
+TRAIN Median 50        ep=373 reward=   -0.677 steps=149 term=collision   collision=True  wall=1.34s loss=0.641476
+TRAIN Median 50        ep=374 reward=    7.384 steps= 71 term=out_of_road collision=False wall=0.71s loss=0.689974
+TRAIN Median 50        ep=375 reward=   55.615 steps=129 term=out_of_road collision=False wall=1.12s loss=0.582982
+TRAIN Median 50        ep=376 reward=   61.705 steps=119 term=out_of_road collision=False wall=1.41s loss=0.605528
+TRAIN Median 50        ep=377 reward=   52.501 steps=122 term=collision   collision=True  wall=1.17s loss=0.689461
+TRAIN Median 50        ep=378 reward=   75.810 steps=197 term=collision   collision=True  wall=1.92s loss=0.610249
+TRAIN Median 50        ep=379 reward=    7.776 steps= 58 term=out_of_road collision=False wall=0.56s loss=0.574620
+TRAIN Median 50        ep=380 reward=    4.486 steps= 51 term=out_of_road collision=False wall=0.38s loss=0.801545
+TRAIN Median 50        ep=381 reward=   28.836 steps=121 term=out_of_road collision=False wall=1.27s loss=0.803729
+TRAIN Median 50        ep=382 reward=   49.037 steps= 90 term=out_of_road collision=False wall=1.09s loss=0.696965
+TRAIN Median 50        ep=383 reward=   10.154 steps= 88 term=out_of_road collision=False wall=0.68s loss=0.664345
+TRAIN Median 50        ep=384 reward=   61.740 steps=259 term=out_of_road collision=False wall=1.92s loss=0.580395
+TRAIN Median 50        ep=385 reward=   69.781 steps=189 term=out_of_road collision=False wall=1.39s loss=0.612267
+TRAIN Median 50        ep=386 reward=   68.407 steps=188 term=out_of_road collision=False wall=1.42s loss=0.716332
+TRAIN Median 50        ep=387 reward=    0.459 steps= 40 term=out_of_road collision=False wall=0.37s loss=0.505359
+TRAIN Median 50        ep=388 reward=    3.911 steps= 60 term=out_of_road collision=False wall=0.49s loss=0.515013
+TRAIN Median 50        ep=389 reward=   53.655 steps= 95 term=out_of_road collision=False wall=1.06s loss=0.646832
+TRAIN Median 50        ep=390 reward=   53.147 steps=146 term=out_of_road collision=False wall=2.00s loss=0.755514
+TRAIN Median 50        ep=391 reward=   41.304 steps=148 term=out_of_road collision=False wall=1.28s loss=0.671551
+TRAIN Median 50        ep=392 reward=   45.242 steps= 86 term=out_of_road collision=False wall=0.74s loss=0.698920
+TRAIN Median 50        ep=393 reward=   75.913 steps=257 term=collision   collision=True  wall=2.60s loss=0.630656
+TRAIN Median 50        ep=394 reward=   50.756 steps=119 term=collision   collision=True  wall=0.92s loss=0.783312
+TRAIN Median 50        ep=395 reward=   38.222 steps=168 term=out_of_road collision=False wall=1.63s loss=0.716298
+TRAIN Median 50        ep=396 reward=   54.983 steps= 98 term=out_of_road collision=False wall=0.90s loss=0.681192
+TRAIN Median 50        ep=397 reward=   27.099 steps=106 term=out_of_road collision=False wall=0.82s loss=0.850485
+TRAIN Median 50        ep=398 reward=   31.717 steps= 70 term=out_of_road collision=False wall=0.65s loss=0.651207
+TRAIN Median 50        ep=399 reward=   21.631 steps= 91 term=out_of_road collision=False wall=1.01s loss=0.563554
+TRAIN Median 50        ep=400 reward=   43.687 steps= 74 term=out_of_road collision=False wall=0.93s loss=0.679206
+TRAIN Median 50        ep=401 reward=   58.186 steps=136 term=collision   collision=True  wall=1.19s loss=0.726209
+TRAIN Median 50        ep=402 reward=   -0.505 steps= 69 term=out_of_road collision=False wall=0.57s loss=0.586267
+TRAIN Median 50        ep=403 reward=   28.044 steps=126 term=out_of_road collision=False wall=1.38s loss=0.606243
+TRAIN Median 50        ep=404 reward=   66.937 steps=232 term=out_of_road collision=False wall=2.30s loss=0.757967
+TRAIN Median 50        ep=405 reward=   59.858 steps= 99 term=out_of_road collision=False wall=1.29s loss=0.678916
+TRAIN Median 50        ep=406 reward=   31.583 steps=104 term=out_of_road collision=False wall=1.02s loss=0.743691
+TRAIN Median 50        ep=407 reward=   69.351 steps=119 term=out_of_road collision=False wall=1.45s loss=0.755986
+TRAIN Median 50        ep=408 reward=   61.554 steps=126 term=out_of_road collision=False wall=1.34s loss=0.670991
+TRAIN Median 50        ep=409 reward=   14.015 steps=100 term=out_of_road collision=False wall=0.96s loss=0.763360
+TRAIN Median 50        ep=410 reward=   11.576 steps= 96 term=out_of_road collision=False wall=1.11s loss=0.774830
+TRAIN Median 50        ep=411 reward=   -6.506 steps= 51 term=out_of_road collision=False wall=0.39s loss=0.691510
+TRAIN Median 50        ep=412 reward=  146.640 steps=288 term=collision   collision=True  wall=3.08s loss=0.718837
+TRAIN Median 50        ep=413 reward=    7.670 steps= 85 term=collision   collision=True  wall=0.72s loss=0.678877
+TRAIN Median 50        ep=414 reward=   77.151 steps=162 term=out_of_road collision=False wall=1.25s loss=0.710752
+TRAIN Median 50        ep=415 reward=   10.658 steps=101 term=collision   collision=True  wall=0.78s loss=0.655721
+TRAIN Median 50        ep=416 reward=   47.901 steps=100 term=out_of_road collision=False wall=1.11s loss=0.716892
+TRAIN Median 50        ep=417 reward=   68.692 steps=145 term=out_of_road collision=False wall=1.60s loss=0.744976
+TRAIN Median 50        ep=418 reward=   56.812 steps=236 term=out_of_road collision=False wall=2.01s loss=0.753762
+TRAIN Median 50        ep=419 reward=   63.907 steps=117 term=out_of_road collision=False wall=0.95s loss=0.603824
+TRAIN Median 50        ep=420 reward=   11.021 steps= 68 term=out_of_road collision=False wall=0.67s loss=0.751579
+TRAIN Median 50        ep=421 reward=   26.910 steps= 94 term=out_of_road collision=False wall=0.80s loss=0.772480
+TRAIN Median 50        ep=422 reward=    3.515 steps=102 term=collision   collision=True  wall=0.93s loss=0.738379
+TRAIN Median 50        ep=423 reward=   11.491 steps= 55 term=out_of_road collision=False wall=0.52s loss=0.601738
+TRAIN Median 50        ep=424 reward=   32.229 steps= 98 term=out_of_road collision=False wall=1.03s loss=0.680534
+TRAIN Median 50        ep=425 reward=   48.249 steps=200 term=out_of_road collision=False wall=2.37s loss=0.680510
+TRAIN Median 50        ep=426 reward=   38.817 steps= 98 term=out_of_road collision=False wall=0.84s loss=0.629195
+TRAIN Median 50        ep=427 reward=   56.489 steps=217 term=collision   collision=True  wall=2.16s loss=0.746532
+TRAIN Median 50        ep=428 reward=   73.826 steps=128 term=out_of_road collision=False wall=1.17s loss=0.858112
+TRAIN Median 50        ep=429 reward=   12.146 steps= 91 term=collision   collision=True  wall=0.87s loss=0.868515
+TRAIN Median 50        ep=430 reward=    1.678 steps= 86 term=collision   collision=True  wall=0.96s loss=0.750699
+TRAIN Median 50        ep=431 reward=   14.102 steps= 74 term=out_of_road collision=False wall=0.68s loss=0.791521
+TRAIN Median 50        ep=432 reward=   67.465 steps=157 term=out_of_road collision=False wall=1.38s loss=0.739912
+TRAIN Median 50        ep=433 reward=   26.085 steps=161 term=out_of_road collision=False wall=2.00s loss=0.597512
+TRAIN Median 50        ep=434 reward=   24.279 steps= 75 term=out_of_road collision=False wall=0.56s loss=0.783332
+TRAIN Median 50        ep=435 reward=   49.790 steps= 86 term=out_of_road collision=False wall=0.75s loss=0.844655
+TRAIN Median 50        ep=436 reward=    3.033 steps= 97 term=collision   collision=True  wall=1.12s loss=0.841447
+TRAIN Median 50        ep=437 reward=   18.947 steps= 64 term=out_of_road collision=False wall=0.45s loss=0.689478
+TRAIN Median 50        ep=438 reward=   58.632 steps=163 term=out_of_road collision=False wall=1.84s loss=0.722758
+TRAIN Median 50        ep=439 reward=   77.548 steps=112 term=out_of_road collision=False wall=1.14s loss=0.761983
+TRAIN Median 50        ep=440 reward=  101.930 steps=197 term=collision   collision=True  wall=2.15s loss=0.704540
+TRAIN Median 50        ep=441 reward=  109.808 steps=272 term=out_of_road collision=False wall=2.11s loss=0.778317
+TRAIN Median 50        ep=442 reward=   -2.618 steps= 50 term=out_of_road collision=False wall=0.42s loss=0.691560
+TRAIN Median 50        ep=443 reward=   65.457 steps=150 term=out_of_road collision=False wall=1.29s loss=0.828313
+TRAIN Median 50        ep=444 reward=   28.540 steps=132 term=out_of_road collision=False wall=0.98s loss=0.827676
+TRAIN Median 50        ep=445 reward=  102.487 steps=227 term=collision   collision=True  wall=1.76s loss=0.775751
+TRAIN Median 50        ep=446 reward=   55.031 steps=155 term=out_of_road collision=False wall=1.46s loss=0.692326
+TRAIN Median 50        ep=447 reward=   68.348 steps=233 term=out_of_road collision=False wall=1.75s loss=0.764032
+TRAIN Median 50        ep=448 reward=   54.916 steps=113 term=out_of_road collision=False wall=1.41s loss=0.675495
+TRAIN Median 50        ep=449 reward=   61.686 steps=178 term=out_of_road collision=False wall=1.64s loss=0.705528
+TRAIN Median 50        ep=450 reward=    8.395 steps=118 term=collision   collision=True  wall=1.03s loss=0.817658
+TRAIN Median 50        ep=451 reward=   20.493 steps= 92 term=out_of_road collision=False wall=0.74s loss=0.819143
+TRAIN Median 50        ep=452 reward=   65.591 steps=198 term=out_of_road collision=False wall=1.82s loss=0.846056
+TRAIN Median 50        ep=453 reward=   44.883 steps=152 term=out_of_road collision=False wall=1.51s loss=0.812214
+TRAIN Median 50        ep=454 reward=   48.438 steps=101 term=out_of_road collision=False wall=0.69s loss=0.778832
+TRAIN Median 50        ep=455 reward=   63.528 steps=160 term=out_of_road collision=False wall=1.14s loss=0.663082
+TRAIN Median 50        ep=456 reward=   -1.362 steps= 86 term=out_of_road collision=False wall=0.61s loss=0.678304
+TRAIN Median 50        ep=457 reward=   22.617 steps=138 term=out_of_road collision=False wall=1.29s loss=0.751709
+TRAIN Median 50        ep=458 reward=  131.383 steps=359 term=out_of_road collision=False wall=3.45s loss=0.779059
+TRAIN Median 50        ep=459 reward=   26.069 steps=159 term=out_of_road collision=False wall=1.70s loss=0.681551
+TRAIN Median 50        ep=460 reward=    8.157 steps= 48 term=out_of_road collision=False wall=0.37s loss=0.878570
+TRAIN Median 50        ep=461 reward=   -0.038 steps= 38 term=out_of_road collision=False wall=0.29s loss=0.874392
+TRAIN Median 50        ep=462 reward=   19.900 steps= 85 term=out_of_road collision=False wall=0.60s loss=0.695002
+TRAIN Median 50        ep=463 reward=   15.413 steps= 72 term=out_of_road collision=False wall=0.60s loss=0.783050
+TRAIN Median 50        ep=464 reward=    2.524 steps= 61 term=out_of_road collision=False wall=0.59s loss=0.728251
+TRAIN Median 50        ep=465 reward=   32.429 steps=154 term=out_of_road collision=False wall=1.60s loss=0.771411
+TRAIN Median 50        ep=466 reward=   47.699 steps=112 term=out_of_road collision=False wall=1.21s loss=0.831394
+TRAIN Median 50        ep=467 reward=   29.296 steps=128 term=out_of_road collision=False wall=1.25s loss=0.784266
+TRAIN Median 50        ep=468 reward=   63.451 steps=132 term=out_of_road collision=False wall=1.03s loss=0.724601
+TRAIN Median 50        ep=469 reward=    7.906 steps=130 term=out_of_road collision=False wall=0.99s loss=0.785323
+TRAIN Median 50        ep=470 reward=  126.449 steps=262 term=out_of_road collision=False wall=3.00s loss=0.785672
+TRAIN Median 50        ep=471 reward=   33.073 steps=206 term=out_of_road collision=False wall=2.22s loss=0.791883
+TRAIN Median 50        ep=472 reward=   19.396 steps=133 term=out_of_road collision=False wall=1.30s loss=0.874066
+TRAIN Median 50        ep=473 reward=  167.731 steps=175 term=collision   collision=True  wall=1.59s loss=0.768827
+TRAIN Median 50        ep=474 reward=   24.897 steps= 92 term=out_of_road collision=False wall=0.93s loss=0.683908
+TRAIN Median 50        ep=475 reward=   48.107 steps=100 term=out_of_road collision=False wall=1.14s loss=0.817398
+TRAIN Median 50        ep=476 reward=   11.799 steps= 83 term=collision   collision=True  wall=0.74s loss=0.699978
+TRAIN Median 50        ep=477 reward=  121.142 steps=185 term=collision   collision=True  wall=1.68s loss=0.750744
+TRAIN Median 50        ep=478 reward=   22.149 steps= 70 term=out_of_road collision=False wall=0.69s loss=0.654983
+TRAIN Median 50        ep=479 reward=   87.259 steps=160 term=out_of_road collision=False wall=1.38s loss=0.889425
+TRAIN Median 50        ep=480 reward=   31.424 steps=187 term=out_of_road collision=False wall=1.63s loss=0.693281
+TRAIN Median 50        ep=481 reward=   68.130 steps=178 term=out_of_road collision=False wall=1.38s loss=0.778007
+TRAIN Median 50        ep=482 reward=  140.309 steps=357 term=out_of_road collision=False wall=3.58s loss=0.814151
+TRAIN Median 50        ep=483 reward=   61.222 steps=169 term=out_of_road collision=False wall=2.19s loss=0.834516
+TRAIN Median 50        ep=484 reward=  105.390 steps=160 term=out_of_road collision=False wall=1.72s loss=0.802460
+TRAIN Median 50        ep=485 reward=    4.374 steps= 91 term=out_of_road collision=False wall=0.71s loss=0.930723
+TRAIN Median 50        ep=486 reward=   63.332 steps=127 term=out_of_road collision=False wall=1.15s loss=0.770472
+TRAIN Median 50        ep=487 reward=  143.603 steps=185 term=out_of_road collision=False wall=1.56s loss=0.748586
+TRAIN Median 50        ep=488 reward=  165.361 steps=188 term=out_of_road collision=False wall=1.99s loss=0.824837
+TRAIN Median 50        ep=489 reward=   13.631 steps= 60 term=out_of_road collision=False wall=0.58s loss=0.734263
+TRAIN Median 50        ep=490 reward=   46.382 steps= 82 term=collision   collision=True  wall=0.75s loss=0.816303
+TRAIN Median 50        ep=491 reward=   50.629 steps=112 term=out_of_road collision=False wall=1.04s loss=0.923797
+TRAIN Median 50        ep=492 reward=    4.532 steps= 42 term=out_of_road collision=False wall=0.46s loss=0.825983
+TRAIN Median 50        ep=493 reward=   53.363 steps= 83 term=out_of_road collision=False wall=0.76s loss=0.873304
+TRAIN Median 50        ep=494 reward=   46.506 steps=139 term=out_of_road collision=False wall=1.57s loss=0.742481
+TRAIN Median 50        ep=495 reward=   45.253 steps=117 term=out_of_road collision=False wall=1.19s loss=0.919814
+TRAIN Median 50        ep=496 reward=   17.868 steps=182 term=out_of_road collision=False wall=1.76s loss=0.835653
+TRAIN Median 50        ep=497 reward=   37.573 steps=212 term=collision   collision=True  wall=1.93s loss=0.821299
+TRAIN Median 50        ep=498 reward=   26.967 steps= 93 term=out_of_road collision=False wall=1.19s loss=0.741387
+TRAIN Median 50        ep=499 reward=   18.872 steps=120 term=out_of_road collision=False wall=1.02s loss=0.714422
+===== TRAINING END: Median 50 =====
+Training duration: 663.31s
+
+===== TESTING START: Median 50 =====
+TEST  Median 50        ep=000 reward=   43.405 steps= 62 term=out_of_road collision=False wall=0.33s
+TEST  Median 50        ep=001 reward=   -5.311 steps= 55 term=collision   collision=True  wall=0.25s
+TEST  Median 50        ep=002 reward=   50.020 steps= 64 term=out_of_road collision=False wall=0.43s
+TEST  Median 50        ep=003 reward=   82.252 steps=100 term=collision   collision=True  wall=0.41s
+TEST  Median 50        ep=004 reward=   41.494 steps= 59 term=out_of_road collision=False wall=0.32s
+TEST  Median 50        ep=005 reward=   45.868 steps= 63 term=out_of_road collision=False wall=0.35s
+TEST  Median 50        ep=006 reward=  115.675 steps= 97 term=out_of_road collision=False wall=0.49s
+TEST  Median 50        ep=007 reward=   66.307 steps= 95 term=collision   collision=True  wall=0.56s
+TEST  Median 50        ep=008 reward=   44.119 steps= 62 term=out_of_road collision=False wall=0.46s
+TEST  Median 50        ep=009 reward=    9.513 steps= 67 term=collision   collision=True  wall=0.21s
+TEST  Median 50        ep=010 reward=   -0.648 steps= 59 term=collision   collision=True  wall=0.42s
+TEST  Median 50        ep=011 reward=   49.067 steps= 65 term=out_of_road collision=False wall=0.41s
+TEST  Median 50        ep=012 reward=  118.485 steps= 94 term=out_of_road collision=False wall=0.40s
+TEST  Median 50        ep=013 reward=   25.329 steps= 74 term=collision   collision=True  wall=0.42s
+TEST  Median 50        ep=014 reward=   -7.464 steps= 54 term=collision   collision=True  wall=0.33s
+TEST  Median 50        ep=015 reward=   68.816 steps= 91 term=out_of_road collision=False wall=0.33s
+TEST  Median 50        ep=016 reward=   57.548 steps= 69 term=out_of_road collision=False wall=0.23s
+TEST  Median 50        ep=017 reward=  120.949 steps= 94 term=out_of_road collision=False wall=0.36s
+TEST  Median 50        ep=018 reward=   63.012 steps= 94 term=out_of_road collision=False wall=0.37s
+TEST  Median 50        ep=019 reward=   68.435 steps= 92 term=out_of_road collision=False wall=0.26s
+TEST  Median 50        ep=020 reward=   56.733 steps= 88 term=collision   collision=True  wall=0.45s
+TEST  Median 50        ep=021 reward=   56.589 steps= 66 term=out_of_road collision=False wall=0.48s
+TEST  Median 50        ep=022 reward=  132.291 steps=120 term=collision   collision=True  wall=0.48s
+TEST  Median 50        ep=023 reward=   60.253 steps= 92 term=out_of_road collision=False wall=0.42s
+TEST  Median 50        ep=024 reward=    8.319 steps= 65 term=collision   collision=True  wall=0.40s
+TEST  Median 50        ep=025 reward=   49.112 steps= 64 term=collision   collision=True  wall=0.25s
+TEST  Median 50        ep=026 reward=   67.142 steps= 91 term=out_of_road collision=False wall=0.38s
+TEST  Median 50        ep=027 reward=   49.731 steps= 65 term=out_of_road collision=False wall=0.38s
+TEST  Median 50        ep=028 reward=  104.229 steps= 94 term=out_of_road collision=False wall=0.50s
+TEST  Median 50        ep=029 reward=  132.220 steps= 99 term=out_of_road collision=False wall=0.60s
+TEST  Median 50        ep=030 reward=   57.897 steps= 69 term=out_of_road collision=False wall=0.53s
+TEST  Median 50        ep=031 reward=   40.863 steps= 60 term=out_of_road collision=False wall=0.27s
+TEST  Median 50        ep=032 reward=   41.228 steps= 80 term=collision   collision=True  wall=0.41s
+TEST  Median 50        ep=033 reward=   67.233 steps= 91 term=out_of_road collision=False wall=0.29s
+TEST  Median 50        ep=034 reward=   68.888 steps= 93 term=out_of_road collision=False wall=0.41s
+TEST  Median 50        ep=035 reward=   43.947 steps= 61 term=out_of_road collision=False wall=0.47s
+TEST  Median 50        ep=036 reward=   60.347 steps= 91 term=out_of_road collision=False wall=0.28s
+TEST  Median 50        ep=037 reward=   52.509 steps= 85 term=collision   collision=True  wall=0.46s
+TEST  Median 50        ep=038 reward=   47.090 steps= 64 term=out_of_road collision=False wall=0.35s
+TEST  Median 50        ep=039 reward=   -4.949 steps= 55 term=collision   collision=True  wall=0.25s
+TEST  Median 50        ep=040 reward=   62.961 steps= 90 term=out_of_road collision=False wall=0.25s
+TEST  Median 50        ep=041 reward=    9.274 steps= 66 term=collision   collision=True  wall=0.21s
+TEST  Median 50        ep=042 reward=  130.393 steps=102 term=collision   collision=True  wall=0.27s
+TEST  Median 50        ep=043 reward=   64.178 steps= 71 term=out_of_road collision=False wall=0.41s
+TEST  Median 50        ep=044 reward=   62.433 steps= 90 term=out_of_road collision=False wall=0.23s
+TEST  Median 50        ep=045 reward=   62.983 steps= 94 term=out_of_road collision=False wall=0.35s
+TEST  Median 50        ep=046 reward=   13.848 steps= 65 term=collision   collision=True  wall=0.22s
+TEST  Median 50        ep=047 reward=   66.738 steps= 95 term=collision   collision=True  wall=0.53s
+TEST  Median 50        ep=048 reward=    3.483 steps= 60 term=collision   collision=True  wall=0.14s
+TEST  Median 50        ep=049 reward=   -2.717 steps= 58 term=collision   collision=True  wall=0.21s
+TEST  Median 50        ep=050 reward=   13.230 steps= 69 term=collision   collision=True  wall=0.34s
+TEST  Median 50        ep=051 reward=  109.767 steps=100 term=out_of_road collision=False wall=0.61s
+TEST  Median 50        ep=052 reward=   40.947 steps= 59 term=out_of_road collision=False wall=0.23s
+TEST  Median 50        ep=053 reward=   44.067 steps= 60 term=out_of_road collision=False wall=0.29s
+TEST  Median 50        ep=054 reward=   45.177 steps= 61 term=out_of_road collision=False wall=0.39s
+TEST  Median 50        ep=055 reward=  129.778 steps=100 term=out_of_road collision=False wall=0.43s
+TEST  Median 50        ep=056 reward=   51.453 steps= 75 term=out_of_road collision=False wall=0.29s
+TEST  Median 50        ep=057 reward=   36.525 steps= 77 term=collision   collision=True  wall=0.35s
+TEST  Median 50        ep=058 reward=   45.586 steps= 63 term=out_of_road collision=False wall=0.31s
+TEST  Median 50        ep=059 reward=   47.432 steps= 64 term=out_of_road collision=False wall=0.35s
+TEST  Median 50        ep=060 reward=   69.316 steps= 93 term=collision   collision=True  wall=0.32s
+TEST  Median 50        ep=061 reward=   39.226 steps= 59 term=out_of_road collision=False wall=0.23s
+TEST  Median 50        ep=062 reward=   55.438 steps= 66 term=collision   collision=True  wall=0.28s
+TEST  Median 50        ep=063 reward=   -6.131 steps= 54 term=collision   collision=True  wall=0.20s
+TEST  Median 50        ep=064 reward=   54.903 steps= 71 term=out_of_road collision=False wall=0.21s
+TEST  Median 50        ep=065 reward=   54.402 steps= 87 term=collision   collision=True  wall=0.31s
+TEST  Median 50        ep=066 reward=   22.924 steps= 70 term=collision   collision=True  wall=0.54s
+TEST  Median 50        ep=067 reward=   41.542 steps= 59 term=out_of_road collision=False wall=0.25s
+TEST  Median 50        ep=068 reward=   39.710 steps= 57 term=out_of_road collision=False wall=0.19s
+TEST  Median 50        ep=069 reward=   46.716 steps= 63 term=out_of_road collision=False wall=0.35s
+TEST  Median 50        ep=070 reward=   45.834 steps= 62 term=out_of_road collision=False wall=0.33s
+TEST  Median 50        ep=071 reward=  144.284 steps=126 term=out_of_road collision=False wall=0.42s
+TEST  Median 50        ep=072 reward=  110.300 steps=114 term=out_of_road collision=False wall=0.35s
+TEST  Median 50        ep=073 reward=   43.409 steps= 60 term=out_of_road collision=False wall=0.45s
+TEST  Median 50        ep=074 reward=   99.864 steps= 89 term=out_of_road collision=False wall=0.44s
+TEST  Median 50        ep=075 reward=   52.695 steps= 67 term=collision   collision=True  wall=0.36s
+TEST  Median 50        ep=076 reward=    3.487 steps= 59 term=collision   collision=True  wall=0.30s
+TEST  Median 50        ep=077 reward=   62.731 steps= 70 term=out_of_road collision=False wall=0.44s
+TEST  Median 50        ep=078 reward=   53.800 steps= 66 term=collision   collision=True  wall=0.22s
+TEST  Median 50        ep=079 reward=   60.493 steps= 91 term=out_of_road collision=False wall=0.26s
+TEST  Median 50        ep=080 reward=   68.767 steps= 90 term=out_of_road collision=False wall=0.31s
+TEST  Median 50        ep=081 reward=  144.603 steps=126 term=out_of_road collision=False wall=0.43s
+TEST  Median 50        ep=082 reward=   -2.737 steps= 58 term=collision   collision=True  wall=0.37s
+TEST  Median 50        ep=083 reward=   50.798 steps= 63 term=out_of_road collision=False wall=0.31s
+TEST  Median 50        ep=084 reward=   63.000 steps= 92 term=out_of_road collision=False wall=0.35s
+TEST  Median 50        ep=085 reward=   -5.843 steps= 54 term=collision   collision=True  wall=0.23s
+TEST  Median 50        ep=086 reward=  120.671 steps=100 term=out_of_road collision=False wall=0.69s
+TEST  Median 50        ep=087 reward=   67.263 steps= 94 term=out_of_road collision=False wall=0.37s
+TEST  Median 50        ep=088 reward=   44.148 steps= 79 term=collision   collision=True  wall=0.42s
+TEST  Median 50        ep=089 reward=   87.731 steps=102 term=collision   collision=True  wall=0.46s
+TEST  Median 50        ep=090 reward=    7.051 steps= 64 term=collision   collision=True  wall=0.49s
+TEST  Median 50        ep=091 reward=   65.155 steps= 91 term=collision   collision=True  wall=0.56s
+TEST  Median 50        ep=092 reward=   62.345 steps= 91 term=out_of_road collision=False wall=0.34s
+TEST  Median 50        ep=093 reward=   57.836 steps= 69 term=collision   collision=True  wall=0.34s
+TEST  Median 50        ep=094 reward=   44.961 steps= 62 term=out_of_road collision=False wall=0.29s
+TEST  Median 50        ep=095 reward=   68.848 steps= 92 term=out_of_road collision=False wall=0.27s
+TEST  Median 50        ep=096 reward=   99.399 steps= 89 term=collision   collision=True  wall=0.26s
+TEST  Median 50        ep=097 reward=   68.983 steps= 92 term=out_of_road collision=False wall=0.30s
+TEST  Median 50        ep=098 reward=   49.923 steps= 66 term=out_of_road collision=False wall=0.30s
+TEST  Median 50        ep=099 reward=   33.354 steps= 76 term=collision   collision=True  wall=0.37s
+TEST  Median 50        ep=100 reward=  107.518 steps= 91 term=out_of_road collision=False wall=0.51s
+TEST  Median 50        ep=101 reward=   70.291 steps= 96 term=collision   collision=True  wall=0.51s
+TEST  Median 50        ep=102 reward=   62.302 steps= 91 term=out_of_road collision=False wall=0.34s
+TEST  Median 50        ep=103 reward=   -0.285 steps= 57 term=collision   collision=True  wall=0.39s
+TEST  Median 50        ep=104 reward=   57.543 steps= 70 term=collision   collision=True  wall=0.29s
+TEST  Median 50        ep=105 reward=   50.882 steps= 65 term=out_of_road collision=False wall=0.45s
+TEST  Median 50        ep=106 reward=   43.095 steps= 82 term=collision   collision=True  wall=0.43s
+TEST  Median 50        ep=107 reward=   68.720 steps= 93 term=collision   collision=True  wall=0.30s
+TEST  Median 50        ep=108 reward=   51.830 steps= 84 term=collision   collision=True  wall=0.38s
+TEST  Median 50        ep=109 reward=   45.409 steps= 61 term=out_of_road collision=False wall=0.30s
+TEST  Median 50        ep=110 reward=   45.390 steps= 61 term=out_of_road collision=False wall=0.31s
+TEST  Median 50        ep=111 reward=   67.427 steps= 94 term=out_of_road collision=False wall=0.31s
+TEST  Median 50        ep=112 reward=   60.462 steps= 90 term=out_of_road collision=False wall=0.29s
+TEST  Median 50        ep=113 reward=   48.775 steps= 83 term=collision   collision=True  wall=0.24s
+TEST  Median 50        ep=114 reward=   58.943 steps= 70 term=out_of_road collision=False wall=0.20s
+TEST  Median 50        ep=115 reward=   48.033 steps= 65 term=out_of_road collision=False wall=0.35s
+TEST  Median 50        ep=116 reward=   36.760 steps= 80 term=collision   collision=True  wall=0.40s
+TEST  Median 50        ep=117 reward=   -1.888 steps= 56 term=collision   collision=True  wall=0.25s
+TEST  Median 50        ep=118 reward=   76.387 steps= 80 term=out_of_road collision=False wall=0.40s
+TEST  Median 50        ep=119 reward=   10.098 steps= 64 term=collision   collision=True  wall=0.23s
+TEST  Median 50        ep=120 reward=   67.462 steps= 91 term=out_of_road collision=False wall=0.28s
+TEST  Median 50        ep=121 reward=    2.072 steps= 60 term=collision   collision=True  wall=0.33s
+TEST  Median 50        ep=122 reward=   11.357 steps= 66 term=collision   collision=True  wall=0.21s
+TEST  Median 50        ep=123 reward=   46.754 steps= 64 term=out_of_road collision=False wall=0.35s
+TEST  Median 50        ep=124 reward=    1.309 steps= 61 term=collision   collision=True  wall=0.31s
+TEST  Median 50        ep=125 reward=   62.426 steps= 70 term=out_of_road collision=False wall=0.40s
+TEST  Median 50        ep=126 reward=   42.527 steps= 80 term=collision   collision=True  wall=0.42s
+TEST  Median 50        ep=127 reward=   62.088 steps= 90 term=out_of_road collision=False wall=0.28s
+TEST  Median 50        ep=128 reward=   62.301 steps= 92 term=out_of_road collision=False wall=0.33s
+TEST  Median 50        ep=129 reward=   62.560 steps= 71 term=out_of_road collision=False wall=0.43s
+TEST  Median 50        ep=130 reward=   49.231 steps= 63 term=out_of_road collision=False wall=0.36s
+TEST  Median 50        ep=131 reward=   60.142 steps= 92 term=out_of_road collision=False wall=0.25s
+TEST  Median 50        ep=132 reward=   27.806 steps= 74 term=collision   collision=True  wall=0.36s
+TEST  Median 50        ep=133 reward=   67.277 steps= 90 term=out_of_road collision=False wall=0.23s
+TEST  Median 50        ep=134 reward=   51.873 steps= 64 term=out_of_road collision=False wall=0.35s
+TEST  Median 50        ep=135 reward=   43.573 steps= 61 term=out_of_road collision=False wall=0.33s
+TEST  Median 50        ep=136 reward=    3.319 steps= 59 term=collision   collision=True  wall=0.41s
+TEST  Median 50        ep=137 reward=   12.265 steps= 67 term=collision   collision=True  wall=0.28s
+TEST  Median 50        ep=138 reward=  129.897 steps=102 term=collision   collision=True  wall=0.43s
+TEST  Median 50        ep=139 reward=   52.113 steps= 67 term=out_of_road collision=False wall=0.34s
+TEST  Median 50        ep=140 reward=   54.944 steps= 70 term=out_of_road collision=False wall=0.29s
+TEST  Median 50        ep=141 reward=  119.238 steps=126 term=collision   collision=True  wall=0.60s
+TEST  Median 50        ep=142 reward=   40.041 steps= 82 term=collision   collision=True  wall=0.28s
+TEST  Median 50        ep=143 reward=   87.592 steps= 85 term=out_of_road collision=False wall=0.46s
+TEST  Median 50        ep=144 reward=   29.357 steps= 77 term=collision   collision=True  wall=0.46s
+TEST  Median 50        ep=145 reward=  118.489 steps= 93 term=out_of_road collision=False wall=0.45s
+TEST  Median 50        ep=146 reward=   41.146 steps= 61 term=out_of_road collision=False wall=0.26s
+TEST  Median 50        ep=147 reward=  125.345 steps= 97 term=out_of_road collision=False wall=0.39s
+TEST  Median 50        ep=148 reward=   42.864 steps= 59 term=out_of_road collision=False wall=0.36s
+TEST  Median 50        ep=149 reward=   52.862 steps= 69 term=out_of_road collision=False wall=0.37s
+TEST  Median 50        ep=150 reward=    4.907 steps= 61 term=collision   collision=True  wall=0.32s
+TEST  Median 50        ep=151 reward=   68.892 steps= 90 term=out_of_road collision=False wall=0.28s
+TEST  Median 50        ep=152 reward=   48.271 steps= 64 term=out_of_road collision=False wall=0.38s
+TEST  Median 50        ep=153 reward=   12.461 steps= 65 term=collision   collision=True  wall=0.33s
+TEST  Median 50        ep=154 reward=   51.356 steps= 66 term=out_of_road collision=False wall=0.44s
+TEST  Median 50        ep=155 reward=   91.207 steps= 83 term=out_of_road collision=False wall=0.47s
+TEST  Median 50        ep=156 reward=   18.837 steps= 67 term=collision   collision=True  wall=0.28s
+TEST  Median 50        ep=157 reward=   50.606 steps= 66 term=out_of_road collision=False wall=0.44s
+TEST  Median 50        ep=158 reward=   57.580 steps= 67 term=out_of_road collision=False wall=0.54s
+TEST  Median 50        ep=159 reward=   56.855 steps= 66 term=out_of_road collision=False wall=0.47s
+TEST  Median 50        ep=160 reward=   64.696 steps= 77 term=out_of_road collision=False wall=0.42s
+TEST  Median 50        ep=161 reward=    4.113 steps= 62 term=collision   collision=True  wall=0.32s
+TEST  Median 50        ep=162 reward=   56.502 steps= 69 term=out_of_road collision=False wall=0.47s
+TEST  Median 50        ep=163 reward=   58.337 steps= 68 term=collision   collision=True  wall=0.35s
+TEST  Median 50        ep=164 reward=   -7.453 steps= 53 term=collision   collision=True  wall=0.23s
+TEST  Median 50        ep=165 reward=   43.672 steps= 62 term=out_of_road collision=False wall=0.33s
+TEST  Median 50        ep=166 reward=   25.663 steps= 73 term=collision   collision=True  wall=0.27s
+TEST  Median 50        ep=167 reward=    6.496 steps= 62 term=collision   collision=True  wall=0.49s
+TEST  Median 50        ep=168 reward=    2.073 steps= 60 term=collision   collision=True  wall=0.36s
+TEST  Median 50        ep=169 reward=    2.287 steps= 60 term=collision   collision=True  wall=0.22s
+TEST  Median 50        ep=170 reward=    0.420 steps= 58 term=collision   collision=True  wall=0.24s
+TEST  Median 50        ep=171 reward=  126.016 steps=101 term=out_of_road collision=False wall=0.62s
+TEST  Median 50        ep=172 reward=   68.859 steps= 94 term=out_of_road collision=False wall=0.35s
+TEST  Median 50        ep=173 reward=   47.683 steps= 85 term=collision   collision=True  wall=0.46s
+TEST  Median 50        ep=174 reward=   44.069 steps= 83 term=collision   collision=True  wall=0.46s
+TEST  Median 50        ep=175 reward=   13.981 steps= 68 term=collision   collision=True  wall=0.26s
+TEST  Median 50        ep=176 reward=   51.098 steps= 65 term=out_of_road collision=False wall=0.31s
+TEST  Median 50        ep=177 reward=   57.070 steps= 67 term=out_of_road collision=False wall=0.49s
+TEST  Median 50        ep=178 reward=    2.838 steps= 62 term=collision   collision=True  wall=0.43s
+TEST  Median 50        ep=179 reward=   51.437 steps= 65 term=collision   collision=True  wall=0.30s
+TEST  Median 50        ep=180 reward=   62.292 steps= 92 term=out_of_road collision=False wall=0.25s
+TEST  Median 50        ep=181 reward=   62.305 steps= 91 term=out_of_road collision=False wall=0.32s
+TEST  Median 50        ep=182 reward=   56.342 steps= 69 term=collision   collision=True  wall=0.34s
+TEST  Median 50        ep=183 reward=  114.269 steps=112 term=out_of_road collision=False wall=0.41s
+TEST  Median 50        ep=184 reward=   67.214 steps= 74 term=collision   collision=True  wall=0.37s
+TEST  Median 50        ep=185 reward=   28.662 steps= 78 term=collision   collision=True  wall=0.42s
+TEST  Median 50        ep=186 reward=   48.971 steps= 63 term=out_of_road collision=False wall=0.25s
+TEST  Median 50        ep=187 reward=   55.368 steps= 69 term=out_of_road collision=False wall=0.28s
+TEST  Median 50        ep=188 reward=   47.848 steps= 64 term=out_of_road collision=False wall=0.38s
+TEST  Median 50        ep=189 reward=   83.953 steps= 79 term=out_of_road collision=False wall=0.35s
+TEST  Median 50        ep=190 reward=  111.498 steps= 94 term=out_of_road collision=False wall=0.58s
+TEST  Median 50        ep=191 reward=    9.729 steps= 63 term=collision   collision=True  wall=0.28s
+TEST  Median 50        ep=192 reward=   43.191 steps= 60 term=out_of_road collision=False wall=0.43s
+TEST  Median 50        ep=193 reward=   72.116 steps= 81 term=out_of_road collision=False wall=0.34s
+TEST  Median 50        ep=194 reward=   10.668 steps= 64 term=collision   collision=True  wall=0.31s
+TEST  Median 50        ep=195 reward=   49.337 steps= 65 term=out_of_road collision=False wall=0.42s
+TEST  Median 50        ep=196 reward=   55.928 steps= 69 term=out_of_road collision=False wall=0.44s
+TEST  Median 50        ep=197 reward=    6.255 steps= 63 term=collision   collision=True  wall=0.28s
+TEST  Median 50        ep=198 reward=  101.299 steps= 87 term=out_of_road collision=False wall=0.37s
+TEST  Median 50        ep=199 reward=   45.276 steps= 62 term=out_of_road collision=False wall=0.38s
+TEST  Median 50        ep=200 reward=  152.119 steps=128 term=collision   collision=True  wall=0.47s
+TEST  Median 50        ep=201 reward=  136.191 steps=122 term=out_of_road collision=False wall=0.39s
+TEST  Median 50        ep=202 reward=   12.986 steps= 67 term=collision   collision=True  wall=0.22s
+TEST  Median 50        ep=203 reward=   49.546 steps= 63 term=collision   collision=True  wall=0.24s
+TEST  Median 50        ep=204 reward=    0.134 steps= 60 term=collision   collision=True  wall=0.47s
+TEST  Median 50        ep=205 reward=   57.949 steps= 67 term=out_of_road collision=False wall=0.40s
+TEST  Median 50        ep=206 reward=    6.960 steps= 62 term=collision   collision=True  wall=0.30s
+TEST  Median 50        ep=207 reward=   62.967 steps= 94 term=out_of_road collision=False wall=0.36s
+TEST  Median 50        ep=208 reward=   40.095 steps= 60 term=out_of_road collision=False wall=0.23s
+TEST  Median 50        ep=209 reward=  123.566 steps=129 term=out_of_road collision=False wall=0.66s
+TEST  Median 50        ep=210 reward=   34.970 steps= 83 term=collision   collision=True  wall=0.47s
+TEST  Median 50        ep=211 reward=  129.954 steps=102 term=collision   collision=True  wall=0.39s
+TEST  Median 50        ep=212 reward=   15.855 steps= 68 term=collision   collision=True  wall=0.23s
+TEST  Median 50        ep=213 reward=   40.621 steps= 60 term=out_of_road collision=False wall=0.26s
+TEST  Median 50        ep=214 reward=    9.604 steps= 65 term=collision   collision=True  wall=0.29s
+TEST  Median 50        ep=215 reward=   62.433 steps= 90 term=out_of_road collision=False wall=0.33s
+TEST  Median 50        ep=216 reward=    1.492 steps= 59 term=collision   collision=True  wall=0.24s
+TEST  Median 50        ep=217 reward=  120.804 steps= 98 term=out_of_road collision=False wall=0.29s
+TEST  Median 50        ep=218 reward=  122.551 steps=102 term=collision   collision=True  wall=0.45s
+TEST  Median 50        ep=219 reward=  108.581 steps= 94 term=out_of_road collision=False wall=0.52s
+TEST  Median 50        ep=220 reward=   57.539 steps= 67 term=out_of_road collision=False wall=0.39s
+TEST  Median 50        ep=221 reward=   56.426 steps= 67 term=collision   collision=True  wall=0.25s
+TEST  Median 50        ep=222 reward=   49.913 steps= 65 term=collision   collision=True  wall=0.29s
+TEST  Median 50        ep=223 reward=    3.553 steps= 62 term=collision   collision=True  wall=0.25s
+TEST  Median 50        ep=224 reward=    3.856 steps= 61 term=collision   collision=True  wall=0.45s
+TEST  Median 50        ep=225 reward=   78.061 steps= 76 term=out_of_road collision=False wall=0.37s
+TEST  Median 50        ep=226 reward=  143.063 steps=125 term=out_of_road collision=False wall=0.61s
+TEST  Median 50        ep=227 reward=   73.920 steps= 84 term=out_of_road collision=False wall=0.47s
+TEST  Median 50        ep=228 reward=   -1.466 steps= 57 term=collision   collision=True  wall=0.26s
+TEST  Median 50        ep=229 reward=  130.341 steps=100 term=collision   collision=True  wall=0.31s
+TEST  Median 50        ep=230 reward=  118.595 steps= 97 term=out_of_road collision=False wall=0.50s
+TEST  Median 50        ep=231 reward=  126.010 steps=100 term=out_of_road collision=False wall=0.42s
+TEST  Median 50        ep=232 reward=   51.130 steps= 64 term=out_of_road collision=False wall=0.38s
+TEST  Median 50        ep=233 reward=   47.399 steps= 82 term=collision   collision=True  wall=0.43s
+TEST  Median 50        ep=234 reward=   -1.097 steps= 57 term=collision   collision=True  wall=0.44s
+TEST  Median 50        ep=235 reward=   76.308 steps= 81 term=out_of_road collision=False wall=0.42s
+TEST  Median 50        ep=236 reward=   13.852 steps= 69 term=collision   collision=True  wall=0.27s
+TEST  Median 50        ep=237 reward=    6.059 steps= 64 term=collision   collision=True  wall=0.25s
+TEST  Median 50        ep=238 reward=   62.976 steps= 70 term=out_of_road collision=False wall=0.49s
+TEST  Median 50        ep=239 reward=   43.842 steps= 62 term=out_of_road collision=False wall=0.45s
+TEST  Median 50        ep=240 reward=   14.036 steps= 71 term=collision   collision=True  wall=0.31s
+TEST  Median 50        ep=241 reward=   27.961 steps= 72 term=collision   collision=True  wall=0.26s
+TEST  Median 50        ep=242 reward=  110.287 steps= 90 term=out_of_road collision=False wall=0.37s
+TEST  Median 50        ep=243 reward=   61.892 steps= 69 term=out_of_road collision=False wall=0.43s
+TEST  Median 50        ep=244 reward=   63.029 steps= 91 term=out_of_road collision=False wall=0.37s
+TEST  Median 50        ep=245 reward=   41.400 steps= 61 term=out_of_road collision=False wall=0.30s
+TEST  Median 50        ep=246 reward=    4.862 steps= 63 term=collision   collision=True  wall=0.32s
+TEST  Median 50        ep=247 reward=   62.302 steps= 91 term=out_of_road collision=False wall=0.42s
+TEST  Median 50        ep=248 reward=   23.341 steps= 70 term=collision   collision=True  wall=0.20s
+TEST  Median 50        ep=249 reward=   42.196 steps= 60 term=out_of_road collision=False wall=0.29s
+TEST  Median 50        ep=250 reward=    9.416 steps= 63 term=collision   collision=True  wall=0.27s
+TEST  Median 50        ep=251 reward=   63.079 steps= 92 term=out_of_road collision=False wall=0.39s
+TEST  Median 50        ep=252 reward=   62.457 steps= 94 term=out_of_road collision=False wall=0.37s
+TEST  Median 50        ep=253 reward=  147.406 steps=108 term=out_of_road collision=False wall=0.41s
+TEST  Median 50        ep=254 reward=   62.612 steps= 72 term=out_of_road collision=False wall=0.46s
+TEST  Median 50        ep=255 reward=    2.026 steps= 61 term=collision   collision=True  wall=0.28s
+TEST  Median 50        ep=256 reward=   15.856 steps= 69 term=collision   collision=True  wall=0.19s
+TEST  Median 50        ep=257 reward=   53.535 steps= 67 term=collision   collision=True  wall=0.24s
+TEST  Median 50        ep=258 reward=   57.271 steps= 70 term=out_of_road collision=False wall=0.49s
+TEST  Median 50        ep=259 reward=   68.870 steps= 91 term=out_of_road collision=False wall=0.40s
+TEST  Median 50        ep=260 reward=   77.931 steps= 96 term=collision   collision=True  wall=0.55s
+TEST  Median 50        ep=261 reward=   92.209 steps=100 term=collision   collision=True  wall=0.56s
+TEST  Median 50        ep=262 reward=   10.829 steps= 65 term=collision   collision=True  wall=0.39s
+TEST  Median 50        ep=263 reward=   44.565 steps= 61 term=out_of_road collision=False wall=0.35s
+TEST  Median 50        ep=264 reward=   56.950 steps= 67 term=out_of_road collision=False wall=0.59s
+TEST  Median 50        ep=265 reward=   63.899 steps= 73 term=out_of_road collision=False wall=0.60s
+TEST  Median 50        ep=266 reward=   48.174 steps= 65 term=out_of_road collision=False wall=0.20s
+TEST  Median 50        ep=267 reward=  133.178 steps=107 term=out_of_road collision=False wall=0.52s
+TEST  Median 50        ep=268 reward=   26.957 steps= 72 term=collision   collision=True  wall=0.20s
+TEST  Median 50        ep=269 reward=   56.922 steps= 69 term=out_of_road collision=False wall=0.51s
+TEST  Median 50        ep=270 reward=   60.488 steps= 91 term=out_of_road collision=False wall=0.28s
+TEST  Median 50        ep=271 reward=    1.290 steps= 60 term=collision   collision=True  wall=0.27s
+TEST  Median 50        ep=272 reward=   50.401 steps= 65 term=out_of_road collision=False wall=0.41s
+TEST  Median 50        ep=273 reward=   47.108 steps= 63 term=out_of_road collision=False wall=0.36s
+TEST  Median 50        ep=274 reward=   80.576 steps=102 term=collision   collision=True  wall=0.55s
+TEST  Median 50        ep=275 reward=   68.909 steps= 93 term=out_of_road collision=False wall=0.29s
+TEST  Median 50        ep=276 reward=   -9.026 steps= 52 term=collision   collision=True  wall=0.27s
+TEST  Median 50        ep=277 reward=   68.933 steps= 93 term=out_of_road collision=False wall=0.26s
+TEST  Median 50        ep=278 reward=   18.807 steps= 70 term=collision   collision=True  wall=0.33s
+TEST  Median 50        ep=279 reward=   96.083 steps= 91 term=out_of_road collision=False wall=0.35s
+TEST  Median 50        ep=280 reward=   55.727 steps= 71 term=out_of_road collision=False wall=0.23s
+TEST  Median 50        ep=281 reward=   86.475 steps=104 term=collision   collision=True  wall=0.44s
+TEST  Median 50        ep=282 reward=   40.550 steps= 60 term=out_of_road collision=False wall=0.23s
+TEST  Median 50        ep=283 reward=   41.160 steps= 61 term=out_of_road collision=False wall=0.22s
+TEST  Median 50        ep=284 reward=   56.029 steps= 69 term=collision   collision=True  wall=0.23s
+TEST  Median 50        ep=285 reward=   19.968 steps= 70 term=collision   collision=True  wall=0.32s
+TEST  Median 50        ep=286 reward=   43.754 steps= 86 term=collision   collision=True  wall=0.46s
+TEST  Median 50        ep=287 reward=   62.996 steps= 88 term=collision   collision=True  wall=0.34s
+TEST  Median 50        ep=288 reward=   42.921 steps= 61 term=out_of_road collision=False wall=0.43s
+TEST  Median 50        ep=289 reward=   57.017 steps= 67 term=out_of_road collision=False wall=0.47s
+TEST  Median 50        ep=290 reward=   60.128 steps= 69 term=out_of_road collision=False wall=0.39s
+TEST  Median 50        ep=291 reward=  136.639 steps=104 term=out_of_road collision=False wall=0.58s
+TEST  Median 50        ep=292 reward=   -7.571 steps= 54 term=collision   collision=True  wall=0.41s
+TEST  Median 50        ep=293 reward=   66.701 steps=114 term=out_of_road collision=False wall=0.72s
+TEST  Median 50        ep=294 reward=   67.105 steps= 91 term=out_of_road collision=False wall=0.26s
+TEST  Median 50        ep=295 reward=  103.632 steps= 91 term=out_of_road collision=False wall=0.48s
+TEST  Median 50        ep=296 reward=   55.189 steps= 71 term=collision   collision=True  wall=0.25s
+TEST  Median 50        ep=297 reward=    8.152 steps= 64 term=collision   collision=True  wall=0.48s
+TEST  Median 50        ep=298 reward=   60.130 steps= 92 term=out_of_road collision=False wall=0.25s
+TEST  Median 50        ep=299 reward=   20.235 steps= 68 term=collision   collision=True  wall=0.20s
+===== TESTING END: Median 50 =====
+Testing duration: 177.53s
+
+Experiment completed successfully.
+Primary metrics: /workspace/DQNMedian50/convergence/metadirve/results/results_metadrive_dqn_500_300_500/four_primary_test_metrics.csv
+Results saved to: /workspace/DQNMedian50/convergence/metadirve/results/results_metadrive_dqn_500_300_500

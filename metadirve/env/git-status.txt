@@ -1,0 +1,18 @@
+ D ../sumo/results/results_sumo_collision_final_500_300_500/all_episode_results.csv
+ D ../sumo/results/results_sumo_collision_final_500_300_500/average_test_reward.png
+ D ../sumo/results/results_sumo_collision_final_500_300_500/config.json
+ D ../sumo/results/results_sumo_collision_final_500_300_500/summary.json
+ D ../sumo/results/results_sumo_collision_final_500_300_500/sumo_collision_final.log
+ D ../sumo/results/results_sumo_collision_final_500_300_500/sumo_scenario/episode_106262_137447155348160.rou.xml
+ D ../sumo/results/results_sumo_collision_final_500_300_500/sumo_scenario/straight.edg.xml
+ D ../sumo/results/results_sumo_collision_final_500_300_500/sumo_scenario/straight.net.xml
+ D ../sumo/results/results_sumo_collision_final_500_300_500/sumo_scenario/straight.nod.xml
+ D ../sumo/results/results_sumo_collision_final_500_300_500/tables/epsilon_greedy_q_table.npz
+ D ../sumo/results/results_sumo_collision_final_500_300_500/tables/median_50_q_table.npz
+ D ../sumo/results/results_sumo_collision_final_500_300_500/test_reward_boxplot.png
+ D ../sumo/results/results_sumo_collision_final_500_300_500/test_reward_vs_episode.png
+ D ../sumo/results/results_sumo_collision_final_500_300_500/train_reward_vs_episode.png
+ M ../sumo/src/sumo_dqn_median50.py
+?? ./
+?? ../sumo/results/results_sumo_collision_final_500_300_500_bkup1/
+?? ../sumo/src/sumo_dqn_median50_bkup2.py
