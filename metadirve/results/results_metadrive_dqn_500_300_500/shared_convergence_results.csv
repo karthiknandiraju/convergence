@@ -1,0 +1,3 @@
+experiment,method,convergence_target_type,convergence_threshold_fraction,convergence_reference_reward,convergence_target_reward,convergence_window_episodes,convergence_target_reached,rolling_reward_at_convergence,convergence_episode,convergence_time_seconds,total_training_wall_time_seconds
+standard_epsilon,Epsilon,shared_best_frozen_test_mean,0.9,53.74719479085468,48.372475311769215,10,True,50.72057782263728,107,68.55310225486755,409.57251238822937
+median_50,Median 50,shared_best_frozen_test_mean,0.9,53.74719479085468,48.372475311769215,10,True,48.72104987400975,126,99.06507611274719,548.0256867408752

@@ -1,7 +1,0 @@
-1
-metadrive_dqn_median50.py
-metadrive_env/pyvenv.cfg
-metadrive_py311_env/.gitignore
-metadrive_py311_env/.lock
-metadrive_py311_env/CACHEDIR.TAG
-metadrive_py311_env/pyvenv.cfg
