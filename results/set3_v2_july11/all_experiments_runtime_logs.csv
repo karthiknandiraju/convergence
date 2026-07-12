@@ -1,0 +1,7 @@
+phase,experiment,method,learning_rate,lr_multiplier,total_wall_time_seconds,total_cpu_time_seconds,total_gpu_time_seconds,gpu_memory_mb,process_memory_mb,episodes,model_path,network_frozen,updates_during_test
+train,noisy_count,Noisy + Count,5e-05,1.0,4423.101828336716,2683.9035865009996,4202.891904785158,2.03515625,0.0,500,/workspace/DQNMedian50/DQNMedian50/results/set3_v2_july11/models/noisy_count_lrmult_1.pt,,
+train,rnd_count,RND + Count,5e-05,1.0,4044.8980247974396,2489.8575130619997,3823.603162168504,2.52587890625,0.0,500,/workspace/DQNMedian50/DQNMedian50/results/set3_v2_july11/models/rnd_count_lrmult_1.pt,,
+train,ensemble_own_noisy_rnd_count,Ensemble,5e-05,1.0,5197.728293418884,3672.8638081829995,4975.855990356445,3.61669921875,0.0,500,/workspace/DQNMedian50/DQNMedian50/results/set3_v2_july11/models/ensemble_own_noisy_rnd_count_lrmult_1.pt,,
+test,noisy_count,Noisy + Count,5e-05,1.0,2056.7398295402527,645.3958623060007,1922.1613305664064,3.41748046875,0.0,300,,True,0.0
+test,rnd_count,RND + Count,5e-05,1.0,371.73443579673767,108.26743343799899,240.33508581542964,3.41748046875,0.0,300,,True,0.0
+test,ensemble_own_noisy_rnd_count,Ensemble,5e-05,1.0,368.9599995613098,134.45938466700136,236.7357244873046,3.41748046875,0.0,300,,True,0.0
