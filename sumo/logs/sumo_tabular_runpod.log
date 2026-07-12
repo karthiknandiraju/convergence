@@ -1,0 +1,3230 @@
+nohup: ignoring input
+========================================================================
+SUMO TABULAR Q-LEARNING EXPERIMENT
+========================================================================
+Python: 3.12.3
+Algorithm: pure tabular Q-learning
+Experiments: epsilon_greedy, median_50
+Separate Q-table per experiment: yes
+Frozen greedy testing: yes
+Train/Test/Max steps: 500 300 500
+Epsilon: 0.2
+State bins: (8, 12, 12, 10, 8)
+Q-table states: 92160
+Q-table entries per experiment: 276480
+========================================================================
+
+===== TRAINING START: Epsilon Greedy =====
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0000 reward=   280.33 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0001 reward=   273.22 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0002 reward=   586.40 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0003 reward=   261.03 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0004 reward=   284.58 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0005 reward=   259.28 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0006 reward=  1041.50 steps=499 term=goal       wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0007 reward=  1032.40 steps=492 term=goal       wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0008 reward=   261.93 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0009 reward=   256.90 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0010 reward=   274.19 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0011 reward=   551.13 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0012 reward=   846.94 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0013 reward=   274.33 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0014 reward=   259.28 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0015 reward=   262.32 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0016 reward=   612.78 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0017 reward=   258.87 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0018 reward=   932.86 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0019 reward=   918.85 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0020 reward=   226.99 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0021 reward=   541.39 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0022 reward=   550.43 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0023 reward=   583.16 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0024 reward=   286.32 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0025 reward=   809.44 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0026 reward=   700.11 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0027 reward=   234.03 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0028 reward=   652.71 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0029 reward=   599.12 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0030 reward=   251.10 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0031 reward=   826.19 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0032 reward=   295.84 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0033 reward=   557.34 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0034 reward=   280.70 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0035 reward=   259.51 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0036 reward=   631.04 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0037 reward=   277.55 steps=500 term=max_steps  wall=0.36s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0038 reward=   242.49 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0039 reward=   628.43 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0040 reward=   296.91 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0041 reward=   585.63 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0042 reward=   266.32 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0043 reward=   563.74 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0044 reward=   286.06 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0045 reward=   279.02 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0046 reward=   578.16 steps=500 term=max_steps  wall=0.34s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0047 reward=   267.01 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0048 reward=   583.77 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0049 reward=   609.30 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0050 reward=   268.53 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0051 reward=   290.89 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0052 reward=   569.19 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0053 reward=   866.91 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0054 reward=   265.08 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0055 reward=   198.10 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0056 reward=   262.81 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0057 reward=   525.53 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0058 reward=   236.74 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0059 reward=   254.32 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0060 reward=   614.97 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0061 reward=   927.12 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0062 reward=   258.04 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0063 reward=   281.87 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0064 reward=   249.81 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0065 reward=   237.76 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0066 reward=   132.51 steps=500 term=max_steps  wall=0.35s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0067 reward=   870.88 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0068 reward=   306.07 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0069 reward=   858.54 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0070 reward=   589.74 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0071 reward=   588.62 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0072 reward=   306.07 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0073 reward=   291.90 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0074 reward=   805.95 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0075 reward=   331.17 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0076 reward=   304.96 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0077 reward=   318.76 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0078 reward=   275.29 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0079 reward=   283.85 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0080 reward=   366.43 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0081 reward=   367.25 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0082 reward=   345.35 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0083 reward=   305.56 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0084 reward=   681.71 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0085 reward=   565.02 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0086 reward=   296.87 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0087 reward=   841.44 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0088 reward=   641.63 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0089 reward=   333.36 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0090 reward=   606.06 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0091 reward=   445.24 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0092 reward=   312.64 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0093 reward=   566.00 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0094 reward=   609.44 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0095 reward=   285.25 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0096 reward=   283.92 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0097 reward=   608.95 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0098 reward=   335.28 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0099 reward=   343.73 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0100 reward=   558.88 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0101 reward=   602.63 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0102 reward=   381.23 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0103 reward=   315.73 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0104 reward=   433.05 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0105 reward=   447.52 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0106 reward=   665.85 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0107 reward=   587.52 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0108 reward=   546.59 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0109 reward=  1024.93 steps=426 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0110 reward=   888.89 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0111 reward=   456.72 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0112 reward=   320.10 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0113 reward=   920.35 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0114 reward=   594.82 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0115 reward=   872.06 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0116 reward=   367.66 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0117 reward=   336.22 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0118 reward=   679.11 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0119 reward=   685.88 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0120 reward=   596.35 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0121 reward=   373.90 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0122 reward=   573.85 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0123 reward=   537.62 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0124 reward=   426.20 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0125 reward=   610.39 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0126 reward=   561.93 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0127 reward=   502.66 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0128 reward=   296.82 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0129 reward=   603.32 steps=500 term=max_steps  wall=0.34s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0130 reward=   582.75 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0131 reward=   740.31 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0132 reward=   355.49 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0133 reward=   315.82 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0134 reward=   419.42 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0135 reward=   572.27 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0136 reward=   338.08 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0137 reward=   351.96 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0138 reward=   303.31 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0139 reward=   401.66 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0140 reward=   628.64 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0141 reward=   305.07 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0142 reward=   559.05 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0143 reward=   557.37 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0144 reward=   516.85 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0145 reward=   427.88 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0146 reward=   457.72 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0147 reward=   609.98 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0148 reward=   547.97 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0149 reward=   449.85 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0150 reward=   385.74 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0151 reward=   573.58 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0152 reward=   430.43 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0153 reward=   575.34 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0154 reward=   680.29 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0155 reward=   459.50 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0156 reward=   353.78 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0157 reward=   394.37 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0158 reward=   348.45 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0159 reward=   466.84 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0160 reward=   622.63 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0161 reward=   369.54 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0162 reward=   540.33 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0163 reward=   427.58 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0164 reward=   365.54 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0165 reward=  1034.37 steps=491 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0166 reward=   423.23 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0167 reward=  1032.90 steps=488 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0168 reward=   350.21 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0169 reward=   833.44 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0170 reward=   310.62 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0171 reward=   357.63 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0172 reward=   554.02 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0173 reward=   449.95 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0174 reward=   382.83 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0175 reward=   369.09 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0176 reward=   449.56 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0177 reward=   309.19 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0178 reward=   487.86 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0179 reward=   603.81 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0180 reward=   579.73 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0181 reward=   384.64 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0182 reward=   595.24 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0183 reward=   353.60 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0184 reward=   352.53 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0185 reward=   645.60 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0186 reward=   349.15 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0187 reward=   450.01 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0188 reward=   559.42 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0189 reward=   690.31 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0190 reward=   376.55 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0191 reward=   622.73 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0192 reward=   427.75 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0193 reward=   846.49 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0194 reward=   371.15 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0195 reward=   637.39 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0196 reward=   637.77 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0197 reward=   564.74 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0198 reward=   300.41 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0199 reward=   884.16 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0200 reward=   752.45 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0201 reward=   649.05 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0202 reward=   599.93 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0203 reward=   644.95 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0204 reward=   567.45 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0205 reward=   363.75 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0206 reward=   328.01 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0207 reward=   484.83 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0208 reward=   547.59 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0209 reward=   621.10 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0210 reward=   395.01 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0211 reward=   545.20 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0212 reward=   663.43 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0213 reward=   459.39 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0214 reward=   661.52 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0215 reward=  1053.05 steps=479 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0216 reward=   583.99 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0217 reward=   339.97 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0218 reward=   474.75 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0219 reward=   583.90 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0220 reward=   572.47 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0221 reward=   573.65 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0222 reward=   592.55 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0223 reward=   565.48 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0224 reward=   520.14 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0225 reward=   328.56 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0226 reward=   498.46 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0227 reward=   573.15 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0228 reward=   601.11 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0229 reward=   403.84 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0230 reward=   642.63 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0231 reward=   515.69 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0232 reward=   429.43 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0233 reward=   374.44 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0234 reward=   360.70 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0235 reward=   665.36 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0236 reward=   318.59 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0237 reward=   504.16 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0238 reward=   460.77 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0239 reward=   636.57 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0240 reward=   387.67 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0241 reward=   388.43 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0242 reward=   401.51 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0243 reward=   587.76 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0244 reward=   640.57 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0245 reward=   430.29 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0246 reward=   346.25 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0247 reward=   467.84 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0248 reward=   627.59 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0249 reward=   597.35 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0250 reward=   365.96 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0251 reward=   500.54 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0252 reward=   344.86 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0253 reward=   564.89 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0254 reward=   339.69 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0255 reward=   595.59 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0256 reward=   630.90 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0257 reward=   368.72 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0258 reward=   338.98 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0259 reward=   526.38 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0260 reward=  1045.31 steps=473 term=goal       wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0261 reward=   539.17 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0262 reward=   645.39 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0263 reward=   402.13 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0264 reward=   595.56 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0265 reward=  1053.21 steps=487 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0266 reward=   412.53 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0267 reward=   585.20 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0268 reward=   575.82 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0269 reward=   627.10 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0270 reward=   637.65 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0271 reward=  1056.31 steps=495 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0272 reward=   471.03 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0273 reward=  1058.09 steps=484 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0274 reward=   493.80 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0275 reward=   527.48 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0276 reward=   433.58 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0277 reward=   543.64 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0278 reward=   441.33 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0279 reward=   374.24 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0280 reward=   552.76 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0281 reward=   547.40 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0282 reward=   520.12 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0283 reward=   530.80 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0284 reward=   576.29 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0285 reward=   381.67 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0286 reward=   442.76 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0287 reward=   535.17 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0288 reward=   460.21 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0289 reward=   587.10 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0290 reward=   603.68 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0291 reward=   458.81 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0292 reward=   648.52 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0293 reward=   568.04 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0294 reward=   452.53 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0295 reward=   564.70 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0296 reward=   402.11 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0297 reward=   546.74 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0298 reward=   798.56 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0299 reward=   370.09 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0300 reward=   371.06 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0301 reward=   420.61 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0302 reward=   346.89 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0303 reward=   422.24 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0304 reward=   505.80 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0305 reward=   549.51 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0306 reward=   537.29 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0307 reward=   550.38 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0308 reward=   520.67 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0309 reward=   467.38 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0310 reward=   535.10 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0311 reward=   474.44 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0312 reward=   438.28 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0313 reward=   573.15 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0314 reward=   567.31 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0315 reward=   561.32 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0316 reward=   442.77 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0317 reward=   600.72 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0318 reward=   392.14 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0319 reward=   597.24 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0320 reward=   646.07 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0321 reward=   852.48 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0322 reward=   602.79 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0323 reward=   356.57 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0324 reward=   636.20 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0325 reward=   584.35 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0326 reward=   543.54 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0327 reward=   372.17 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0328 reward=   412.22 steps=500 term=max_steps  wall=0.36s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0329 reward=   586.24 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0330 reward=   390.10 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0331 reward=  1052.54 steps=445 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0332 reward=   617.51 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0333 reward=   521.01 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0334 reward=   562.23 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0335 reward=   488.40 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0336 reward=   373.15 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0337 reward=   315.66 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0338 reward=   522.79 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0339 reward=   371.44 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0340 reward=   448.25 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0341 reward=   745.00 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0342 reward=   611.32 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0343 reward=   585.11 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0344 reward=   441.13 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0345 reward=   624.29 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0346 reward=   543.25 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0347 reward=   611.42 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0348 reward=   377.81 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0349 reward=   561.92 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0350 reward=   540.51 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0351 reward=   611.98 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0352 reward=   558.92 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0353 reward=   611.23 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0354 reward=   615.78 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0355 reward=   630.99 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0356 reward=  1057.47 steps=471 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0357 reward=   402.83 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0358 reward=   563.66 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0359 reward=   377.05 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0360 reward=   536.42 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0361 reward=   564.53 steps=500 term=max_steps  wall=0.41s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0362 reward=   569.87 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0363 reward=   575.49 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0364 reward=   592.05 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0365 reward=   751.85 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0366 reward=   367.38 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0367 reward=   608.11 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0368 reward=   663.25 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0369 reward=   731.75 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0370 reward=   369.27 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0371 reward=   664.33 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0372 reward=   579.83 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0373 reward=   380.17 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0374 reward=   578.15 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0375 reward=   491.72 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0376 reward=   516.76 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0377 reward=   483.58 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0378 reward=   465.09 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0379 reward=   458.33 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0380 reward=   370.11 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0381 reward=   362.79 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0382 reward=   421.94 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0383 reward=   586.95 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0384 reward=   617.31 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0385 reward=   649.60 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0386 reward=   430.37 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0387 reward=   699.25 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0388 reward=   424.75 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0389 reward=   589.96 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0390 reward=   487.64 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0391 reward=   623.83 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0392 reward=   867.85 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0393 reward=   463.79 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0394 reward=   598.41 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0395 reward=   523.30 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0396 reward=   468.89 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0397 reward=   494.57 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0398 reward=   498.10 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0399 reward=   539.29 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0400 reward=   614.40 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0401 reward=   780.24 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0402 reward=   469.99 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0403 reward=   706.72 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0404 reward=  1058.12 steps=488 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0405 reward=   463.16 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0406 reward=   767.25 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0407 reward=   475.89 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0408 reward=   604.00 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0409 reward=   497.38 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0410 reward=   500.95 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0411 reward=   887.74 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0412 reward=   630.74 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0413 reward=   595.73 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0414 reward=   619.07 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0415 reward=  1042.24 steps=499 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0416 reward=   437.17 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0417 reward=   511.08 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0418 reward=   774.64 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0419 reward=   473.41 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0420 reward=   460.26 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0421 reward=   484.59 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0422 reward=   605.34 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0423 reward=   556.56 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0424 reward=   535.05 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0425 reward=   558.25 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0426 reward=   455.66 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0427 reward=   596.25 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0428 reward=   525.70 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0429 reward=   470.90 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0430 reward=  1049.23 steps=469 term=goal       wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0431 reward=   499.73 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0432 reward=   501.68 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0433 reward=   756.99 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0434 reward=   742.69 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0435 reward=   466.51 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0436 reward=   486.95 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0437 reward=   577.05 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0438 reward=   458.56 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0439 reward=   507.43 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0440 reward=   565.32 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0441 reward=   806.23 steps=500 term=max_steps  wall=0.35s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0442 reward=   806.40 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0443 reward=   699.37 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0444 reward=   452.58 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0445 reward=   681.58 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0446 reward=   782.96 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0447 reward=   442.06 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0448 reward=   908.55 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0449 reward=   495.33 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0450 reward=   555.28 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0451 reward=   435.84 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0452 reward=   598.22 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0453 reward=   954.52 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0454 reward=   485.11 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0455 reward=   748.54 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0456 reward=   438.49 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0457 reward=   483.74 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0458 reward=   433.10 steps=500 term=max_steps  wall=0.33s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0459 reward=   489.54 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0460 reward=   802.56 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0461 reward=   680.35 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0462 reward=   767.58 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0463 reward=   452.07 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0464 reward=   638.28 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0465 reward=   636.82 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0466 reward=   595.17 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0467 reward=  1045.15 steps=495 term=goal       wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0468 reward=   907.83 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0469 reward=   507.73 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0470 reward=   574.56 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0471 reward=   552.41 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0472 reward=   447.18 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0473 reward=   947.50 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0474 reward=   809.53 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0475 reward=   409.72 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0476 reward=   573.38 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0477 reward=   530.66 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0478 reward=   580.46 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0479 reward=   490.07 steps=500 term=max_steps  wall=0.34s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0480 reward=   660.39 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0481 reward=   727.96 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0482 reward=   785.82 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0483 reward=   403.92 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0484 reward=   598.10 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0485 reward=   863.26 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0486 reward=   650.39 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0487 reward=   819.81 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0488 reward=   469.80 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0489 reward=   458.35 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0490 reward=   614.11 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0491 reward=   524.68 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0492 reward=   878.56 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0493 reward=   580.06 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0494 reward=   859.29 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0495 reward=   602.90 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0496 reward=   645.20 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0497 reward=   513.04 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0498 reward=   535.65 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy   ep=0499 reward=   924.24 steps=500 term=max_steps  wall=0.26s
+===== TRAINING END: Epsilon Greedy (636.92s) =====
+
+===== TESTING START: Epsilon Greedy =====
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0000 reward=  1046.06 steps=476 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0001 reward=   553.88 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0002 reward=   714.59 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0003 reward=   752.00 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0004 reward=   546.39 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0005 reward=   521.67 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0006 reward=   733.70 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0007 reward=   779.71 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0008 reward=   770.97 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0009 reward=   516.05 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0010 reward=   726.86 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0011 reward=  1044.78 steps=469 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0012 reward=  1033.15 steps=421 term=goal       wall=0.21s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0013 reward=  1049.99 steps=499 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0014 reward=   887.69 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0015 reward=   788.33 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0016 reward=   778.67 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0017 reward=   802.88 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0018 reward=   773.87 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0019 reward=  1040.18 steps=453 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0020 reward=   753.61 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0021 reward=   770.27 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0022 reward=   772.47 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0023 reward=   764.15 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0024 reward=   917.41 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0025 reward=   738.55 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0026 reward=   786.38 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0027 reward=   795.73 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0028 reward=   749.26 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0029 reward=  1041.01 steps=455 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0030 reward=  1040.33 steps=454 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0031 reward=  1049.84 steps=495 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0032 reward=  1045.27 steps=472 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0033 reward=   714.59 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0034 reward=   764.32 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0035 reward=   776.95 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0036 reward=   930.75 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0037 reward=   729.86 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0038 reward=   560.57 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0039 reward=  1043.37 steps=468 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0040 reward=   526.40 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0041 reward=  1047.73 steps=482 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0042 reward=   750.44 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0043 reward=   289.09 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0044 reward=   878.68 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0045 reward=   759.92 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0046 reward=  1048.92 steps=488 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0047 reward=   733.90 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0048 reward=   529.34 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0049 reward=   796.15 steps=500 term=max_steps  wall=0.36s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0050 reward=   619.18 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0051 reward=   720.31 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0052 reward=   763.71 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0053 reward=   797.30 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0054 reward=   787.60 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0055 reward=  1041.95 steps=460 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0056 reward=   798.18 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0057 reward=  1046.98 steps=483 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0058 reward=   894.30 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0059 reward=   785.54 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0060 reward=  1045.70 steps=479 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0061 reward=   524.61 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0062 reward=  1051.02 steps=497 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0063 reward=   778.54 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0064 reward=   781.64 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0065 reward=   756.35 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0066 reward=  1049.47 steps=495 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0067 reward=  1047.26 steps=481 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0068 reward=  1044.53 steps=473 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0069 reward=  1046.86 steps=479 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0070 reward=  1042.93 steps=461 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0071 reward=   725.02 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0072 reward=   930.04 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0073 reward=   516.56 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0074 reward=  1048.60 steps=491 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0075 reward=   781.64 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0076 reward=   710.27 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0077 reward=  1042.17 steps=463 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0078 reward=   943.64 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0079 reward=  1050.56 steps=499 term=goal       wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0080 reward=   732.72 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0081 reward=   792.08 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0082 reward=  1047.08 steps=482 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0083 reward=   756.82 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0084 reward=   950.33 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0085 reward=   690.08 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0086 reward=   753.61 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0087 reward=   886.89 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0088 reward=   763.68 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0089 reward=  1034.03 steps=424 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0090 reward=   935.45 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0091 reward=   776.18 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0092 reward=   944.18 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0093 reward=   461.32 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0094 reward=   924.10 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0095 reward=   544.22 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0096 reward=   786.83 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0097 reward=   930.88 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0098 reward=   185.27 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0099 reward=   751.73 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0100 reward=   604.07 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0101 reward=   924.53 steps=500 term=max_steps  wall=0.39s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0102 reward=   779.01 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0103 reward=   789.81 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0104 reward=   913.87 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0105 reward=   923.53 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0106 reward=   516.19 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0107 reward=   522.95 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0108 reward=  1035.04 steps=427 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0109 reward=   795.02 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0110 reward=   772.44 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0111 reward=   773.45 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0112 reward=   776.18 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0113 reward=   731.26 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0114 reward=   558.78 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0115 reward=   521.27 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0116 reward=   766.58 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0117 reward=   953.48 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0118 reward=  1033.90 steps=426 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0119 reward=  1045.07 steps=473 term=goal       wall=0.33s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0120 reward=   596.45 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0121 reward=   790.36 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0122 reward=   786.87 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0123 reward=   561.57 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0124 reward=   738.96 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0125 reward=   752.01 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0126 reward=   936.54 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0127 reward=   752.01 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0128 reward=   952.16 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0129 reward=   554.15 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0130 reward=   505.89 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0131 reward=   761.37 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0132 reward=  1054.07 steps=497 term=goal       wall=0.29s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0133 reward=   523.14 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0134 reward=   696.79 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0135 reward=   795.73 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0136 reward=   750.13 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0137 reward=  1045.53 steps=475 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0138 reward=   941.33 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0139 reward=   713.06 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0140 reward=   923.97 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0141 reward=   910.32 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0142 reward=   926.03 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0143 reward=   884.58 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0144 reward=  1055.34 steps=499 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0145 reward=   789.60 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0146 reward=   807.27 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0147 reward=   764.15 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0148 reward=   798.78 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0149 reward=   560.07 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0150 reward=   945.43 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0151 reward=   923.73 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0152 reward=   750.44 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0153 reward=   764.15 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0154 reward=   797.30 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0155 reward=   770.82 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0156 reward=   798.21 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0157 reward=   554.15 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0158 reward=   800.73 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0159 reward=   946.25 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0160 reward=   766.31 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0161 reward=   937.39 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0162 reward=   795.27 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0163 reward=   808.60 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0164 reward=   766.15 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0165 reward=   720.31 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0166 reward=   924.18 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0167 reward=   512.28 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0168 reward=   782.20 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0169 reward=  1033.74 steps=425 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0170 reward=   913.02 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0171 reward=  1044.11 steps=471 term=goal       wall=0.32s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0172 reward=   947.81 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0173 reward=   752.01 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0174 reward=   944.46 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0175 reward=   927.37 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0176 reward=   793.06 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0177 reward=   928.20 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0178 reward=   954.60 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0179 reward=   543.82 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0180 reward=   880.99 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0181 reward=   792.78 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0182 reward=   600.98 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0183 reward=   727.07 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0184 reward=   510.11 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0185 reward=  1046.06 steps=475 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0186 reward=   765.13 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0187 reward=  1046.72 steps=481 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0188 reward=   583.06 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0189 reward=   754.90 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0190 reward=   754.90 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0191 reward=   949.38 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0192 reward=   751.15 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0193 reward=   789.04 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0194 reward=   522.58 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0195 reward=   769.33 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0196 reward=  1042.13 steps=459 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0197 reward=   596.41 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0198 reward=   754.63 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0199 reward=  1049.36 steps=493 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0200 reward=   529.34 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0201 reward=   929.80 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0202 reward=   766.79 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0203 reward=   776.81 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0204 reward=   752.16 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0205 reward=   908.53 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0206 reward=   515.68 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0207 reward=   766.76 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0208 reward=   514.32 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0209 reward=   524.56 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0210 reward=   800.70 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0211 reward=   755.21 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0212 reward=   547.41 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0213 reward=  1043.97 steps=467 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0214 reward=  1047.37 steps=486 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0215 reward=   553.88 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0216 reward=   718.88 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0217 reward=  1054.91 steps=500 term=goal       wall=0.31s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0218 reward=   925.27 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0219 reward=   560.57 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0220 reward=   525.66 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0221 reward=  1048.85 steps=487 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0222 reward=   508.32 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0223 reward=   560.76 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0224 reward=   936.90 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0225 reward=   751.42 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0226 reward=   916.66 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0227 reward=   779.65 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0228 reward=   512.28 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0229 reward=   277.64 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0230 reward=   784.65 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0231 reward=   738.03 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0232 reward=   528.74 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0233 reward=   543.82 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0234 reward=   923.54 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0235 reward=   797.50 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0236 reward=  1047.28 steps=483 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0237 reward=  1044.65 steps=469 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0238 reward=   747.51 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0239 reward=   706.45 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0240 reward=   606.45 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0241 reward=  1042.56 steps=465 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0242 reward=   766.89 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0243 reward=   760.66 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0244 reward=  1046.02 steps=479 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0245 reward=  1043.73 steps=466 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0246 reward=   549.74 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0247 reward=   703.78 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0248 reward=   784.37 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0249 reward=   756.35 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0250 reward=  1032.99 steps=425 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0251 reward=   753.77 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0252 reward=   701.72 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0253 reward=  1049.33 steps=490 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0254 reward=   748.99 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0255 reward=   931.51 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0256 reward=   527.92 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0257 reward=   761.96 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0258 reward=   752.00 steps=500 term=max_steps  wall=0.33s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0259 reward=  1043.06 steps=467 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0260 reward=   936.86 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0261 reward=   884.06 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0262 reward=   773.87 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0263 reward=   955.10 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0264 reward=   529.34 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0265 reward=  1050.89 steps=498 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0266 reward=   510.44 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0267 reward=   585.90 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0268 reward=   761.80 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0269 reward=   762.97 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0270 reward=  1050.82 steps=499 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0271 reward=  1049.44 steps=489 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0272 reward=   936.81 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0273 reward=   512.92 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0274 reward=  1043.80 steps=466 term=goal       wall=0.32s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0275 reward=   546.12 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0276 reward=   700.55 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0277 reward=   773.73 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0278 reward=  1049.48 steps=493 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0279 reward=   929.55 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0280 reward=  1046.29 steps=476 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0281 reward=   941.39 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0282 reward=  1045.64 steps=478 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0283 reward=   191.99 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0284 reward=  1049.69 steps=492 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0285 reward=   592.71 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0286 reward=  1050.71 steps=500 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0287 reward=   226.07 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0288 reward=   530.35 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0289 reward=  1053.92 steps=499 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0290 reward=   941.64 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0291 reward=   801.96 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0292 reward=   710.27 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0293 reward=   752.01 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0294 reward=   714.18 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0295 reward=  1055.02 steps=500 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0296 reward=   926.58 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0297 reward=   779.86 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0298 reward=   882.02 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TEST  Epsilon Greedy   ep=0299 reward=   945.06 steps=500 term=max_steps  wall=0.28s
+===== TESTING END: Epsilon Greedy (380.91s) =====
+
+===== TRAINING START: Median 50 =====
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0000 reward=   573.69 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0001 reward=   394.58 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0002 reward=   267.47 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0003 reward=   476.44 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0004 reward=  1010.88 steps=481 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0005 reward=   527.31 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0006 reward=   831.89 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0007 reward=   859.29 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0008 reward=   510.20 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0009 reward=   551.60 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0010 reward=   496.60 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0011 reward=   300.77 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0012 reward=   910.57 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0013 reward=  1009.60 steps=498 term=goal       wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0014 reward=   817.95 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0015 reward=   491.19 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0016 reward=   806.31 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0017 reward=   472.48 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0018 reward=   871.42 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0019 reward=   751.03 steps=500 term=max_steps  wall=0.33s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0020 reward=   533.18 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0021 reward=   676.20 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0022 reward=  1010.43 steps=473 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0023 reward=   293.12 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0024 reward=   540.99 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0025 reward=   858.68 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0026 reward=   639.97 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0027 reward=   482.64 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0028 reward=   669.86 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0029 reward=   856.85 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0030 reward=   512.51 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0031 reward=   809.44 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0032 reward=   519.85 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0033 reward=   682.86 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0034 reward=   499.08 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0035 reward=  1004.34 steps=420 term=goal       wall=0.21s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0036 reward=   809.38 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0037 reward=   496.34 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0038 reward=   468.59 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0039 reward=   677.33 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0040 reward=  1016.97 steps=399 term=goal       wall=0.20s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0041 reward=   672.51 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0042 reward=   490.53 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0043 reward=   285.46 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0044 reward=  1005.86 steps=486 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0045 reward=   497.52 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0046 reward=   801.32 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0047 reward=   510.15 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0048 reward=   841.92 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0049 reward=   606.19 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0050 reward=   496.51 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0051 reward=   576.96 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0052 reward=   912.44 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0053 reward=   532.64 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0054 reward=   479.90 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0055 reward=   452.55 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0056 reward=   594.16 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0057 reward=   622.46 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0058 reward=   531.37 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0059 reward=   580.25 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0060 reward=   774.54 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0061 reward=   860.60 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0062 reward=   530.25 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0063 reward=   484.54 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0064 reward=   617.18 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0065 reward=   500.05 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0066 reward=   541.32 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0067 reward=   629.90 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0068 reward=   594.69 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0069 reward=   645.29 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0070 reward=   380.54 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0071 reward=   347.09 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0072 reward=   492.13 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0073 reward=   569.30 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0074 reward=   626.62 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0075 reward=   529.34 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0076 reward=  1000.26 steps=445 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0077 reward=  1036.40 steps=403 term=goal       wall=0.21s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0078 reward=   522.30 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0079 reward=   553.30 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0080 reward=   565.08 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0081 reward=   466.99 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0082 reward=   479.16 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0083 reward=   558.00 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0084 reward=   321.28 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0085 reward=   351.93 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0086 reward=  1001.40 steps=445 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0087 reward=   614.33 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0088 reward=   684.87 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0089 reward=   530.89 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0090 reward=   397.33 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0091 reward=   809.75 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0092 reward=  1004.33 steps=488 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0093 reward=   626.12 steps=500 term=max_steps  wall=0.33s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0094 reward=   331.99 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0095 reward=   513.35 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0096 reward=   482.45 steps=500 term=max_steps  wall=0.33s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0097 reward=   714.98 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0098 reward=   501.75 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0099 reward=   546.23 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0100 reward=   325.72 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0101 reward=   791.66 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0102 reward=  1003.80 steps=440 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0103 reward=   514.90 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0104 reward=   506.94 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0105 reward=  1004.60 steps=490 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0106 reward=   486.01 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0107 reward=   488.46 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0108 reward=   307.89 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0109 reward=   660.01 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0110 reward=   725.14 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0111 reward=  1002.90 steps=425 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0112 reward=   528.21 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0113 reward=   822.18 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0114 reward=   740.76 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0115 reward=   715.13 steps=500 term=max_steps  wall=0.33s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0116 reward=  1021.93 steps=328 term=goal       wall=0.18s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0117 reward=   488.62 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0118 reward=   594.55 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0119 reward=   592.55 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0120 reward=   355.52 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0121 reward=   491.29 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0122 reward=   646.14 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0123 reward=   583.06 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0124 reward=   505.49 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0125 reward=   371.53 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0126 reward=   592.09 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0127 reward=   573.72 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0128 reward=   482.55 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0129 reward=   320.79 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0130 reward=   277.82 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0131 reward=   265.77 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0132 reward=   457.25 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0133 reward=   495.40 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0134 reward=   457.39 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0135 reward=   614.51 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0136 reward=   444.29 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0137 reward=   478.90 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0138 reward=   457.48 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0139 reward=   471.48 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0140 reward=   357.54 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0141 reward=   551.21 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0142 reward=   317.24 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0143 reward=   586.19 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0144 reward=   638.54 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0145 reward=   852.16 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0146 reward=   283.99 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0147 reward=   596.85 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0148 reward=   638.68 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0149 reward=   735.71 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0150 reward=   486.81 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0151 reward=   659.78 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0152 reward=   543.63 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0153 reward=   279.66 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0154 reward=  1012.32 steps=482 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0155 reward=   501.71 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0156 reward=   543.89 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0157 reward=   481.28 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0158 reward=   497.94 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0159 reward=  1020.49 steps=313 term=goal       wall=0.17s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0160 reward=   678.61 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0161 reward=   570.73 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0162 reward=   615.13 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0163 reward=   533.33 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0164 reward=   536.06 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0165 reward=   913.43 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0166 reward=  1028.59 steps=371 term=goal       wall=0.20s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0167 reward=   618.16 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0168 reward=   571.46 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0169 reward=   661.14 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0170 reward=   581.75 steps=500 term=max_steps  wall=0.36s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0171 reward=   550.85 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0172 reward=   285.04 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0173 reward=   520.30 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0174 reward=   501.13 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0175 reward=   472.05 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0176 reward=  1025.11 steps=328 term=goal       wall=0.17s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0177 reward=   515.68 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0178 reward=   560.56 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0179 reward=   739.24 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0180 reward=   685.97 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0181 reward=   553.81 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0182 reward=   701.16 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0183 reward=   545.67 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0184 reward=   497.79 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0185 reward=   720.34 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0186 reward=   569.20 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0187 reward=   555.63 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0188 reward=   310.10 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0189 reward=   739.50 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0190 reward=   478.91 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0191 reward=   315.94 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0192 reward=   503.08 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0193 reward=   676.38 steps=500 term=max_steps  wall=0.35s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0194 reward=   508.46 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0195 reward=   638.19 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0196 reward=   723.06 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0197 reward=   313.52 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0198 reward=   544.04 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0199 reward=   889.17 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0200 reward=   333.67 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0201 reward=   887.25 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0202 reward=   349.40 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0203 reward=   878.40 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0204 reward=   936.97 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0205 reward=   535.32 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0206 reward=   514.19 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0207 reward=   548.22 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0208 reward=   835.51 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0209 reward=   784.07 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0210 reward=   488.24 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0211 reward=   910.54 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0212 reward=   863.35 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0213 reward=   495.46 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0214 reward=   486.96 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0215 reward=   495.08 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0216 reward=   868.71 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0217 reward=   475.14 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0218 reward=   621.82 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0219 reward=   881.62 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0220 reward=   510.62 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0221 reward=   777.62 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0222 reward=   774.50 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0223 reward=   879.77 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0224 reward=   830.88 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0225 reward=   570.43 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0226 reward=  1021.51 steps=319 term=goal       wall=0.18s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0227 reward=   882.44 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0228 reward=   735.69 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0229 reward=   605.49 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0230 reward=   879.45 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0231 reward=   707.75 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0232 reward=   863.32 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0233 reward=   475.63 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0234 reward=   588.14 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0235 reward=   807.80 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0236 reward=   604.92 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0237 reward=   335.59 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0238 reward=  1039.04 steps=471 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0239 reward=   681.71 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0240 reward=   571.13 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0241 reward=   608.99 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0242 reward=   533.68 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0243 reward=   250.82 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0244 reward=   830.17 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0245 reward=   642.38 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0246 reward=   641.03 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0247 reward=   669.85 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0248 reward=   857.07 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0249 reward=   832.22 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0250 reward=   639.53 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0251 reward=   652.18 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0252 reward=   634.16 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0253 reward=   238.77 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0254 reward=   623.86 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0255 reward=   305.93 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0256 reward=   776.90 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0257 reward=   620.60 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0258 reward=   639.10 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0259 reward=   832.46 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0260 reward=   629.00 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0261 reward=   854.73 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0262 reward=   791.32 steps=500 term=max_steps  wall=0.33s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0263 reward=   613.65 steps=500 term=max_steps  wall=0.35s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0264 reward=   337.58 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0265 reward=   615.35 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0266 reward=   617.74 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0267 reward=   741.04 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0268 reward=   735.61 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0269 reward=   344.93 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0270 reward=   792.98 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0271 reward=   679.27 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0272 reward=   707.26 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0273 reward=   663.16 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0274 reward=   874.40 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0275 reward=   606.20 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0276 reward=   788.03 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0277 reward=   819.04 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0278 reward=   660.85 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0279 reward=   620.36 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0280 reward=   885.05 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0281 reward=   817.74 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0282 reward=   849.35 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0283 reward=   718.49 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0284 reward=   293.83 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0285 reward=   610.60 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0286 reward=   632.69 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0287 reward=   853.16 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0288 reward=  1039.82 steps=481 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0289 reward=   831.31 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0290 reward=   314.67 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0291 reward=  1017.64 steps=454 term=goal       wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0292 reward=   746.98 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0293 reward=   863.56 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0294 reward=   698.07 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0295 reward=   322.68 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0296 reward=   672.05 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0297 reward=   832.66 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0298 reward=   609.86 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0299 reward=   573.57 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0300 reward=   622.85 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0301 reward=   663.41 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0302 reward=   748.51 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0303 reward=   595.81 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0304 reward=   805.24 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0305 reward=   829.69 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0306 reward=   826.29 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0307 reward=   729.28 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0308 reward=   628.04 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0309 reward=   579.56 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0310 reward=   825.32 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0311 reward=   540.81 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0312 reward=   614.42 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0313 reward=   835.13 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0314 reward=   742.98 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0315 reward=   838.09 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0316 reward=   598.26 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0317 reward=   751.45 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0318 reward=   691.72 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0319 reward=   744.61 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0320 reward=   352.02 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0321 reward=  1025.79 steps=487 term=goal       wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0322 reward=   366.44 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0323 reward=   667.75 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0324 reward=   390.38 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0325 reward=   778.09 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0326 reward=   770.16 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0327 reward=   689.71 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0328 reward=   652.53 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0329 reward=   740.22 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0330 reward=   655.15 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0331 reward=   653.39 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0332 reward=   369.41 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0333 reward=   608.00 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0334 reward=   745.91 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0335 reward=   849.32 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0336 reward=   852.26 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0337 reward=   559.38 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0338 reward=   855.11 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0339 reward=   574.23 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0340 reward=   777.55 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0341 reward=   250.64 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0342 reward=   823.81 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0343 reward=   714.66 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0344 reward=   766.45 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0345 reward=   797.56 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0346 reward=   763.88 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0347 reward=   297.79 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0348 reward=   635.82 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0349 reward=   271.01 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0350 reward=   816.60 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0351 reward=   782.04 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0352 reward=   539.69 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0353 reward=   312.23 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0354 reward=   754.62 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0355 reward=   833.69 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0356 reward=   693.00 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0357 reward=   677.15 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0358 reward=   849.24 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0359 reward=   675.66 steps=500 term=max_steps  wall=0.34s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0360 reward=   735.77 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0361 reward=   795.94 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0362 reward=   839.06 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0363 reward=   649.87 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0364 reward=   299.67 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0365 reward=   328.65 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0366 reward=   653.51 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0367 reward=   842.25 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0368 reward=   723.71 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0369 reward=   343.22 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0370 reward=   651.64 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0371 reward=   358.61 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0372 reward=   701.89 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0373 reward=   612.41 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0374 reward=   235.55 steps=500 term=max_steps  wall=0.33s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0375 reward=   700.03 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0376 reward=   768.60 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0377 reward=  1031.08 steps=393 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0378 reward=   672.14 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0379 reward=   787.80 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0380 reward=   661.42 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0381 reward=   649.67 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0382 reward=   858.03 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0383 reward=   394.20 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0384 reward=   799.56 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0385 reward=   762.32 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0386 reward=   659.90 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0387 reward=   752.41 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0388 reward=   681.33 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0389 reward=   232.58 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0390 reward=   629.63 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0391 reward=   834.86 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0392 reward=   821.72 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0393 reward=   724.54 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0394 reward=   785.07 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0395 reward=   775.53 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0396 reward=   658.28 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0397 reward=   916.79 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0398 reward=  1019.54 steps=319 term=goal       wall=0.17s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0399 reward=   784.92 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0400 reward=   801.33 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0401 reward=   363.06 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0402 reward=   619.71 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0403 reward=   731.78 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0404 reward=   622.73 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0405 reward=   574.35 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0406 reward=   238.63 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0407 reward=   602.60 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0408 reward=   794.84 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0409 reward=   759.09 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0410 reward=   903.43 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0411 reward=   751.88 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0412 reward=   325.85 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0413 reward=   850.88 steps=500 term=max_steps  wall=0.33s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0414 reward=   841.97 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0415 reward=   837.25 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0416 reward=   708.13 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0417 reward=   715.62 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0418 reward=   280.90 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0419 reward=   688.68 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0420 reward=   673.95 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0421 reward=  1024.85 steps=486 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0422 reward=   764.80 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0423 reward=   715.82 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0424 reward=   736.29 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0425 reward=   828.55 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0426 reward=   690.89 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0427 reward=   783.01 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0428 reward=   697.97 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0429 reward=   692.63 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0430 reward=  1037.64 steps=497 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0431 reward=   698.13 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0432 reward=   682.25 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0433 reward=   322.07 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0434 reward=   248.06 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0435 reward=   697.40 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0436 reward=   825.96 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0437 reward=   782.51 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0438 reward=   660.25 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0439 reward=   683.32 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0440 reward=   924.22 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0441 reward=   289.46 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0442 reward=   349.86 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0443 reward=   697.58 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0444 reward=   682.35 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0445 reward=   705.08 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0446 reward=   333.11 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0447 reward=   589.93 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0448 reward=   801.88 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0449 reward=   589.64 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0450 reward=   622.46 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0451 reward=   723.21 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0452 reward=   710.62 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0453 reward=   647.67 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0454 reward=   640.14 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0455 reward=   751.18 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0456 reward=   628.43 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0457 reward=   668.20 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0458 reward=   578.79 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0459 reward=   911.92 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0460 reward=   374.49 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0461 reward=   818.28 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0462 reward=   214.67 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0463 reward=   546.47 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0464 reward=   796.32 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0465 reward=   766.25 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0466 reward=   700.28 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0467 reward=   825.82 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0468 reward=   626.67 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0469 reward=   635.65 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0470 reward=   742.22 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0471 reward=   815.25 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0472 reward=   623.06 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0473 reward=   646.90 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0474 reward=   377.93 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0475 reward=   686.57 steps=500 term=max_steps  wall=0.36s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0476 reward=   738.99 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0477 reward=   373.70 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0478 reward=   844.96 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0479 reward=   665.41 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0480 reward=   338.25 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0481 reward=   291.73 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0482 reward=   598.99 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0483 reward=   616.03 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0484 reward=   812.46 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0485 reward=   720.63 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0486 reward=   683.07 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0487 reward=   298.06 steps=500 term=max_steps  wall=0.33s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0488 reward=   807.33 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0489 reward=   687.74 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0490 reward=   321.11 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0491 reward=   615.28 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0492 reward=   746.27 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0493 reward=   900.47 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0494 reward=   887.95 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0495 reward=   912.23 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0496 reward=   826.10 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0497 reward=   534.16 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0498 reward=   937.13 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TRAIN Median 50        ep=0499 reward=   671.42 steps=500 term=max_steps  wall=0.27s
+===== TRAINING END: Median 50 (640.11s) =====
+
+===== TESTING START: Median 50 =====
+ Retrying in 1 seconds
+TEST  Median 50        ep=0000 reward=   904.08 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0001 reward=  1028.97 steps=343 term=goal       wall=0.18s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0002 reward=   900.20 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0003 reward=   911.52 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0004 reward=  1030.55 steps=345 term=goal       wall=0.19s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0005 reward=   403.36 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0006 reward=   333.11 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0007 reward=  1019.71 steps=477 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0008 reward=  1016.18 steps=480 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0009 reward=   376.23 steps=500 term=max_steps  wall=0.33s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0010 reward=   902.88 steps=500 term=max_steps  wall=0.32s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0011 reward=   896.06 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0012 reward=   893.84 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0013 reward=   917.73 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0014 reward=   852.47 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0015 reward=  1008.43 steps=432 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0016 reward=  1017.64 steps=480 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0017 reward=  1008.34 steps=430 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0018 reward=  1017.52 steps=483 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0019 reward=   893.84 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0020 reward=  1018.20 steps=494 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0021 reward=  1010.86 steps=421 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0022 reward=  1019.77 steps=480 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0023 reward=  1018.36 steps=485 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0024 reward=   870.87 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0025 reward=   888.69 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0026 reward=  1010.54 steps=439 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0027 reward=  1018.75 steps=475 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0028 reward=  1018.13 steps=500 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0029 reward=   893.84 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0030 reward=   893.84 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0031 reward=   908.51 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0032 reward=   900.64 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0033 reward=   893.62 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0034 reward=  1022.04 steps=467 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0035 reward=  1010.27 steps=443 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0036 reward=  1007.98 steps=474 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0037 reward=   892.16 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0038 reward=   397.40 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0039 reward=   896.06 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0040 reward=   418.20 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0041 reward=   909.38 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0042 reward=  1009.40 steps=460 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0043 reward=   422.41 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0044 reward=  1006.73 steps=462 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0045 reward=  1018.84 steps=488 term=goal       wall=0.29s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0046 reward=   914.99 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0047 reward=   374.10 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0048 reward=   432.80 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0049 reward=  1007.15 steps=421 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0050 reward=   332.01 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0051 reward=   900.20 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0052 reward=  1009.21 steps=447 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0053 reward=  1008.91 steps=434 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0054 reward=  1020.75 steps=481 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0055 reward=   893.84 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0056 reward=  1010.04 steps=427 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0057 reward=   907.26 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0058 reward=   857.10 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0059 reward=  1021.66 steps=480 term=goal       wall=0.29s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0060 reward=   907.90 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0061 reward=   413.36 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0062 reward=   913.81 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0063 reward=  1010.97 steps=422 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0064 reward=  1006.80 steps=436 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0065 reward=  1018.03 steps=491 term=goal       wall=0.29s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0066 reward=   917.60 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0067 reward=   907.90 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0068 reward=  1066.01 steps=495 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0069 reward=   905.78 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0070 reward=   893.84 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0071 reward=   891.37 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0072 reward=   881.43 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0073 reward=   555.24 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0074 reward=   888.25 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0075 reward=  1008.52 steps=439 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0076 reward=   893.84 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0077 reward=   893.84 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0078 reward=   893.12 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0079 reward=   947.30 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0080 reward=   898.44 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0081 reward=  1019.96 steps=473 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0082 reward=   904.89 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0083 reward=  1018.57 steps=496 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0084 reward=   914.37 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0085 reward=   667.40 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0086 reward=  1017.07 steps=498 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0087 reward=   851.79 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0088 reward=  1008.23 steps=449 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0089 reward=   893.84 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0090 reward=   898.89 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0091 reward=  1009.86 steps=437 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0092 reward=   857.52 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0093 reward=   412.85 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0094 reward=   529.13 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0095 reward=   361.74 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0096 reward=  1006.71 steps=432 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0097 reward=   859.83 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0098 reward=   436.80 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0099 reward=  1009.37 steps=462 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0100 reward=   333.53 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0101 reward=   882.95 steps=500 term=max_steps  wall=0.34s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0102 reward=  1009.95 steps=438 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0103 reward=  1019.50 steps=479 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0104 reward=   867.79 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0105 reward=   856.91 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0106 reward=   527.97 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0107 reward=   409.67 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0108 reward=   893.84 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0109 reward=  1020.81 steps=472 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0110 reward=  1018.07 steps=486 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0111 reward=  1018.04 steps=484 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0112 reward=  1008.45 steps=439 term=goal       wall=0.21s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0113 reward=   904.84 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0114 reward=  1031.24 steps=349 term=goal       wall=0.17s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0115 reward=   425.64 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0116 reward=  1008.79 steps=450 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0117 reward=  1005.46 steps=462 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0118 reward=   893.84 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0119 reward=  1066.01 steps=495 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0120 reward=   374.37 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0121 reward=  1017.10 steps=472 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0122 reward=  1021.38 steps=472 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0123 reward=  1018.78 steps=311 term=goal       wall=0.17s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0124 reward=   888.69 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0125 reward=  1018.91 steps=499 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0126 reward=   857.80 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0127 reward=  1019.65 steps=498 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0128 reward=   887.50 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0129 reward=  1029.30 steps=351 term=goal       wall=0.17s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0130 reward=   597.11 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0131 reward=  1005.97 steps=446 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0132 reward=  1005.17 steps=469 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0133 reward=   431.22 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0134 reward=   348.45 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0135 reward=  1021.52 steps=476 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0136 reward=  1006.17 steps=456 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0137 reward=   902.33 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0138 reward=   865.98 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0139 reward=   900.20 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0140 reward=   874.36 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0141 reward=   870.57 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0142 reward=   873.37 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0143 reward=   850.65 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0144 reward=   868.97 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0145 reward=  1006.56 steps=432 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0146 reward=  1020.15 steps=468 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0147 reward=  1019.19 steps=492 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0148 reward=  1010.74 steps=428 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0149 reward=  1029.46 steps=353 term=goal       wall=0.18s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0150 reward=   884.80 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0151 reward=   855.58 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0152 reward=  1008.22 steps=460 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0153 reward=  1020.31 steps=490 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0154 reward=  1007.55 steps=429 term=goal       wall=0.21s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0155 reward=  1019.88 steps=481 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0156 reward=  1018.27 steps=474 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0157 reward=  1027.46 steps=345 term=goal       wall=0.18s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0158 reward=  1007.46 steps=427 term=goal       wall=0.21s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0159 reward=   883.90 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0160 reward=  1006.80 steps=442 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0161 reward=   907.97 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0162 reward=  1020.23 steps=483 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0163 reward=  1018.79 steps=470 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0164 reward=  1017.64 steps=488 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0165 reward=   891.92 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0166 reward=   946.83 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0167 reward=   670.68 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0168 reward=  1010.93 steps=436 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0169 reward=   893.84 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0170 reward=   872.20 steps=500 term=max_steps  wall=0.30s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0171 reward=   898.89 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0172 reward=   902.62 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0173 reward=  1019.66 steps=499 term=goal       wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0174 reward=   881.16 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0175 reward=   847.60 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0176 reward=  1020.35 steps=474 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0177 reward=   606.64 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0178 reward=   874.87 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0179 reward=  1030.55 steps=345 term=goal       wall=0.18s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0180 reward=  1008.77 steps=462 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0181 reward=  1019.12 steps=472 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0182 reward=   330.12 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0183 reward=   903.60 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0184 reward=   581.93 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0185 reward=   904.08 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0186 reward=  1019.51 steps=484 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0187 reward=   909.52 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0188 reward=   667.40 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0189 reward=   914.34 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0190 reward=  1007.41 steps=453 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0191 reward=   915.66 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0192 reward=  1008.63 steps=459 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0193 reward=  1009.82 steps=433 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0194 reward=   414.57 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0195 reward=  1020.86 steps=466 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0196 reward=   893.84 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0197 reward=   377.46 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0198 reward=  1020.18 steps=497 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0199 reward=   854.24 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0200 reward=   432.80 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0201 reward=   871.89 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0202 reward=  1017.46 steps=487 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0203 reward=  1020.50 steps=483 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0204 reward=  1009.37 steps=457 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0205 reward=   869.79 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0206 reward=   520.93 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0207 reward=  1009.21 steps=441 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0208 reward=   367.84 steps=500 term=max_steps  wall=0.31s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0209 reward=   421.43 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0210 reward=  1019.85 steps=474 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0211 reward=  1015.48 steps=492 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0212 reward=  1030.00 steps=344 term=goal       wall=0.21s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0213 reward=   894.98 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0214 reward=   923.74 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0215 reward=  1031.71 steps=362 term=goal       wall=0.20s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0216 reward=   900.20 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0217 reward=   884.72 steps=500 term=max_steps  wall=0.33s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0218 reward=  1005.24 steps=470 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0219 reward=   393.75 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0220 reward=   421.50 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0221 reward=   925.44 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0222 reward=   685.65 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0223 reward=  1027.56 steps=344 term=goal       wall=0.18s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0224 reward=   859.66 steps=500 term=max_steps  wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0225 reward=   905.14 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0226 reward=   870.10 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0227 reward=  1017.95 steps=480 term=goal       wall=0.34s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0228 reward=   581.93 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0229 reward=   434.13 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0230 reward=  1019.35 steps=482 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0231 reward=   889.09 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0232 reward=   383.55 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0233 reward=  1030.37 steps=345 term=goal       wall=0.18s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0234 reward=   862.13 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0235 reward=  1020.64 steps=474 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0236 reward=   895.49 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0237 reward=   897.50 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0238 reward=  1006.78 steps=463 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0239 reward=   495.30 steps=500 term=max_steps  wall=0.29s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0240 reward=   405.47 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0241 reward=   893.84 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0242 reward=  1008.76 steps=443 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0243 reward=  1020.15 steps=493 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0244 reward=  1064.79 steps=495 term=goal       wall=0.30s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0245 reward=   893.84 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0246 reward=  1028.97 steps=343 term=goal       wall=0.19s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0247 reward=   575.58 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0248 reward=  1020.95 steps=480 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0249 reward=  1005.65 steps=451 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0250 reward=   893.84 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0251 reward=  1018.48 steps=490 term=goal       wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0252 reward=   515.41 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0253 reward=   889.93 steps=500 term=max_steps  wall=0.33s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0254 reward=   598.35 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0255 reward=   886.48 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0256 reward=   422.51 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0257 reward=  1009.70 steps=448 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0258 reward=  1020.21 steps=500 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0259 reward=   896.06 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0260 reward=   893.69 steps=500 term=max_steps  wall=0.33s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0261 reward=   858.13 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0262 reward=  1017.62 steps=483 term=goal       wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0263 reward=  1007.72 steps=462 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0264 reward=   432.80 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0265 reward=   910.39 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0266 reward=   658.37 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0267 reward=   667.40 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0268 reward=  1019.10 steps=494 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0269 reward=  1009.21 steps=447 term=goal       wall=0.22s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0270 reward=   895.30 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0271 reward=   962.19 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0272 reward=   912.91 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0273 reward=   559.30 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0274 reward=   893.84 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0275 reward=  1030.19 steps=349 term=goal       wall=0.21s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0276 reward=   580.13 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0277 reward=  1019.29 steps=488 term=goal       wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0278 reward=   913.48 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0279 reward=   884.43 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0280 reward=   904.08 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0281 reward=   889.44 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0282 reward=   907.53 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0283 reward=   436.01 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0284 reward=   889.41 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0285 reward=   580.13 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0286 reward=   942.58 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0287 reward=   427.76 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0288 reward=   434.94 steps=500 term=max_steps  wall=0.28s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0289 reward=   851.26 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0290 reward=   900.34 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0291 reward=  1020.38 steps=467 term=goal       wall=0.23s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0292 reward=   893.84 steps=500 term=max_steps  wall=0.25s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0293 reward=  1008.01 steps=454 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0294 reward=   893.23 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0295 reward=   881.53 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0296 reward=   875.55 steps=500 term=max_steps  wall=0.27s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0297 reward=  1008.40 steps=435 term=goal       wall=0.24s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0298 reward=   894.09 steps=500 term=max_steps  wall=0.26s
+ Retrying in 1 seconds
+TEST  Median 50        ep=0299 reward=   900.06 steps=500 term=max_steps  wall=0.26s
+===== TESTING END: Median 50 (377.80s) =====
+
+Experiment completed successfully.
+Results saved to: /workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn/results/results_sumo_tabular_runpod

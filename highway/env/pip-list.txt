@@ -1,0 +1,9 @@
+Package    Version
+---------- -------
+libsumo    1.18.0
+libtraci   1.18.0
+pip        24.0
+setuptools 68.1.2
+sumolib    1.18.0
+traci      1.18.0
+wheel      0.42.0

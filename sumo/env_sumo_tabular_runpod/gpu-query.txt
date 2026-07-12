@@ -1,0 +1,2 @@
+$ nvidia-smi --query-gpu=name,uuid,serial,driver_version,memory.total,pci.bus_id --format=csv,noheader
+NVIDIA RTX 6000 Ada Generation, GPU-4baa54e1-563c-7a85-4911-2cfe5c5dcb0a, 1714123005406, 550.127.05, 49140 MiB, 00000000:C1:00.0

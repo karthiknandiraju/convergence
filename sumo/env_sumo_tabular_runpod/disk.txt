@@ -1,0 +1,17 @@
+$ df -h
+Filesystem                   Size  Used Avail Use% Mounted on
+overlay                      100G   57G   44G  57% /
+tmpfs                         64M     0   64M   0% /dev
+mfs#us-wa-1.runpod.net:9421  479T  325T  154T  68% /karthikeya
+shm                           29G  8.0K   29G   1% /dev/shm
+/dev/md127                    14T  1.2T   13T   9% /etc/hosts
+/dev/nvme0n1p2               1.8T   33G  1.6T   2% /usr/bin/nvidia-smi
+tmpfs                        252G     0  252G   0% /sys/fs/cgroup
+tmpfs                        252G   12K  252G   1% /proc/driver/nvidia
+tmpfs                        252G  4.0K  252G   1% /etc/nvidia/nvidia-application-profiles-rc.d
+tmpfs                         51G   34M   51G   1% /run/nvidia-persistenced/socket
+tmpfs                        252G     0  252G   0% /proc/asound
+tmpfs                        252G     0  252G   0% /proc/acpi
+tmpfs                        252G     0  252G   0% /proc/scsi
+tmpfs                        252G     0  252G   0% /sys/firmware
+tmpfs                        252G     0  252G   0% /sys/devices/virtual/powercap

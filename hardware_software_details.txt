@@ -1,0 +1,409 @@
+==================================================
+HARDWARE AND SOFTWARE DETAILS
+==================================================
+Sat Jul 11 19:09:01 UTC 2026
+
+===== USER =====
+root
+uid=0(root) gid=0(root) groups=0(root)
+
+===== HOSTNAME =====
+9ac5423e3781
+
+===== OS =====
+PRETTY_NAME="Ubuntu 24.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.1 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+===== KERNEL =====
+Linux 9ac5423e3781 6.8.0-52-generic #53~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jan 15 19:18:46 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+===== CPU =====
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        48 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               128
+On-line CPU(s) list:                  0-127
+Vendor ID:                            AuthenticAMD
+Model name:                           AMD EPYC 75F3 32-Core Processor
+CPU family:                           25
+Model:                                1
+Thread(s) per core:                   2
+Core(s) per socket:                   32
+Socket(s):                            2
+Stepping:                             1
+Frequency boost:                      enabled
+CPU(s) scaling MHz:                   57%
+CPU max MHz:                          4041.8450
+CPU min MHz:                          1500.0000
+BogoMIPS:                             5900.42
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local user_shstk clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin brs arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca debug_swap
+Virtualization:                       AMD-V
+L1d cache:                            2 MiB (64 instances)
+L1i cache:                            2 MiB (64 instances)
+L2 cache:                             32 MiB (64 instances)
+L3 cache:                             512 MiB (16 instances)
+NUMA node(s):                         2
+NUMA node0 CPU(s):                    0-31,64-95
+NUMA node1 CPU(s):                    32-63,96-127
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Not affected
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Not affected
+Vulnerability Spec rstack overflow:   Mitigation; Safe RET
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Not affected
+
+===== MEMORY =====
+               total        used        free      shared  buff/cache   available
+Mem:           503Gi        73Gi       126Gi       1.4Gi       311Gi       430Gi
+Swap:             0B          0B          0B
+
+===== GPU =====
+Sat Jul 11 19:09:01 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.127.05             Driver Version: 550.127.05     CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA RTX 6000 Ada Gene...    On  |   00000000:C1:00.0 Off |                  Off |
+| 30%   39C    P2            154W /  300W |    5343MiB /  49140MiB |     39%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
++-----------------------------------------------------------------------------------------+
+
+===== CUDA =====
+
+===== PYTHON =====
+Python 3.12.3
+
+===== PYTORCH =====
+
+===== DISK =====
+Filesystem                   Size  Used Avail Use% Mounted on
+overlay                      100G   57G   44G  57% /
+tmpfs                         64M     0   64M   0% /dev
+mfs#us-wa-1.runpod.net:9421  479T  325T  154T  68% /karthikeya
+shm                           29G  8.0K   29G   1% /dev/shm
+/dev/md127                    14T  1.2T   13T   9% /etc/hosts
+/dev/nvme0n1p2               1.8T   33G  1.6T   2% /usr/bin/nvidia-smi
+tmpfs                        252G     0  252G   0% /sys/fs/cgroup
+tmpfs                        252G   12K  252G   1% /proc/driver/nvidia
+tmpfs                        252G  4.0K  252G   1% /etc/nvidia/nvidia-application-profiles-rc.d
+tmpfs                         51G   34M   51G   1% /run/nvidia-persistenced/socket
+tmpfs                        252G     0  252G   0% /proc/asound
+tmpfs                        252G     0  252G   0% /proc/acpi
+tmpfs                        252G     0  252G   0% /proc/scsi
+tmpfs                        252G     0  252G   0% /sys/firmware
+tmpfs                        252G     0  252G   0% /sys/devices/virtual/powercap
+
+===== NETWORK =====
+172.24.0.2 
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0@if124176: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1450 qdisc noqueue state UP group default 
+    link/ether fe:02:1c:03:97:03 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 172.24.0.2/16 brd 172.24.255.255 scope global eth0
+       valid_lft forever preferred_lft forever
+
+===== PCI DEVICES =====
+00:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+00:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Milan IOMMU (rev 01)
+00:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+00:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+00:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+00:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+00:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+00:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+00:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+00:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+00:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+00:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+00:14.0 SMBus: Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller (rev 61)
+00:14.3 ISA bridge: Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge (rev 51)
+00:18.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 0
+00:18.1 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 1
+00:18.2 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 2
+00:18.3 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 3
+00:18.4 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 4
+00:18.5 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 5
+00:18.6 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 6
+00:18.7 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 7
+00:19.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 0
+00:19.1 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 1
+00:19.2 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 2
+00:19.3 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 3
+00:19.4 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 4
+00:19.5 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 5
+00:19.6 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 6
+00:19.7 Host bridge: Advanced Micro Devices, Inc. [AMD] Milan Data Fabric; Function 7
+01:00.0 VGA compatible controller: NVIDIA Corporation AD102GL [RTX 6000 Ada Generation] (rev a1)
+01:00.1 Audio device: NVIDIA Corporation AD102 High Definition Audio Controller (rev a1)
+02:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+02:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+03:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+03:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+03:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Starship USB 3.0 Host Controller
+20:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+20:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Milan IOMMU (rev 01)
+20:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+20:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+20:01.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+20:01.3 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+20:01.4 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+20:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+20:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+20:03.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+20:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+20:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+20:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+20:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+20:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+20:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+20:08.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+20:08.3 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+21:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd NVMe SSD Controller PM9A1/PM9A3/980PRO
+22:00.0 Ethernet controller: Intel Corporation Ethernet Controller X550 (rev 01)
+22:00.1 Ethernet controller: Intel Corporation Ethernet Controller X550 (rev 01)
+23:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd NVMe SSD Controller PM9A1/PM9A3/980PRO
+24:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd NVMe SSD Controller PM9A1/PM9A3/980PRO
+25:00.0 VGA compatible controller: NVIDIA Corporation AD102GL [RTX 6000 Ada Generation] (rev a1)
+25:00.1 Audio device: NVIDIA Corporation AD102 High Definition Audio Controller (rev a1)
+26:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+26:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+27:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+27:00.1 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Cryptographic Coprocessor PSPCPP
+27:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+27:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Starship USB 3.0 Host Controller
+28:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 51)
+29:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 51)
+40:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+40:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Milan IOMMU (rev 01)
+40:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+40:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+40:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+40:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+40:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+40:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+40:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+40:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+40:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+40:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+40:08.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+40:08.3 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+41:00.0 VGA compatible controller: NVIDIA Corporation AD102GL [RTX 6000 Ada Generation] (rev a1)
+41:00.1 Audio device: NVIDIA Corporation AD102 High Definition Audio Controller (rev a1)
+42:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+42:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+43:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+43:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+44:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 51)
+45:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 51)
+60:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+60:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Milan IOMMU (rev 01)
+60:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+60:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+60:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+60:03.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+60:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+60:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+60:05.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship PCIe GPP Bridge [1:0]
+60:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+60:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+60:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+60:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+61:00.0 VGA compatible controller: NVIDIA Corporation AD102GL [RTX 6000 Ada Generation] (rev a1)
+61:00.1 Audio device: NVIDIA Corporation AD102 High Definition Audio Controller (rev a1)
+62:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04)
+63:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+64:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+64:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+65:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+65:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+80:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+80:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Milan IOMMU (rev 01)
+80:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+80:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+80:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+80:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+80:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+80:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+80:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+80:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+80:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+80:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+81:00.0 VGA compatible controller: NVIDIA Corporation AD102GL [RTX 6000 Ada Generation] (rev a1)
+81:00.1 Audio device: NVIDIA Corporation AD102 High Definition Audio Controller (rev a1)
+82:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+82:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+83:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+83:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+83:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Starship USB 3.0 Host Controller
+a0:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+a0:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Milan IOMMU (rev 01)
+a0:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+a0:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+a0:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+a0:03.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+a0:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+a0:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+a0:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+a0:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+a0:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+a0:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+a0:08.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+a0:08.3 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+a1:00.0 VGA compatible controller: NVIDIA Corporation AD102GL [RTX 6000 Ada Generation] (rev a1)
+a1:00.1 Audio device: NVIDIA Corporation AD102 High Definition Audio Controller (rev a1)
+a2:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+a2:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+a3:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+a3:00.1 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Cryptographic Coprocessor PSPCPP
+a3:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+a3:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Starship USB 3.0 Host Controller
+a4:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 51)
+a5:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 51)
+c0:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+c0:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Milan IOMMU (rev 01)
+c0:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+c0:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+c0:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+c0:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+c0:03.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+c0:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+c0:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+c0:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+c0:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+c0:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+c0:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+c0:08.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+c0:08.3 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+c1:00.0 VGA compatible controller: NVIDIA Corporation AD102GL [RTX 6000 Ada Generation] (rev a1)
+c1:00.1 Audio device: NVIDIA Corporation AD102 High Definition Audio Controller (rev a1)
+c2:00.0 Ethernet controller: Mellanox Technologies MT2892 Family [ConnectX-6 Dx]
+c2:00.1 Ethernet controller: Mellanox Technologies MT2892 Family [ConnectX-6 Dx]
+c3:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+c3:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+c4:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+c4:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+c5:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 51)
+c6:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 51)
+e0:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+e0:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Milan IOMMU (rev 01)
+e0:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+e0:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+e0:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+e0:03.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+e0:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+e0:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+e0:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+e0:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+e0:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+e0:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+e1:00.0 VGA compatible controller: NVIDIA Corporation AD102GL [RTX 6000 Ada Generation] (rev a1)
+e1:00.1 Audio device: NVIDIA Corporation AD102 High Definition Audio Controller (rev a1)
+e2:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+e2:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+e3:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+e3:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+
+===== USB DEVICES =====
+Bus 001 Device 001: ID 1d6b:0002 Linux 6.8.0-52-generic xhci-hcd xHCI Host Controller
+Bus 002 Device 001: ID 1d6b:0003 Linux 6.8.0-52-generic xhci-hcd xHCI Host Controller
+Bus 003 Device 001: ID 1d6b:0002 Linux 6.8.0-52-generic xhci-hcd xHCI Host Controller
+Bus 003 Device 002: ID 046b:ff01 American Megatrends Inc. Virtual Hub
+Bus 003 Device 003: ID 05e3:0610  USB2.0 Hub
+Bus 003 Device 004: ID 046b:ffb0 American Megatrends Inc. Virtual Ethernet
+Bus 003 Device 005: ID 046b:ff10 American Megatrends Inc. Virtual Keyboard and Mouse
+Bus 004 Device 001: ID 1d6b:0003 Linux 6.8.0-52-generic xhci-hcd xHCI Host Controller
+Bus 005 Device 001: ID 1d6b:0002 Linux 6.8.0-52-generic xhci-hcd xHCI Host Controller
+Bus 006 Device 001: ID 1d6b:0003 Linux 6.8.0-52-generic xhci-hcd xHCI Host Controller
+Bus 007 Device 001: ID 1d6b:0002 Linux 6.8.0-52-generic xhci-hcd xHCI Host Controller
+Bus 008 Device 001: ID 1d6b:0003 Linux 6.8.0-52-generic xhci-hcd xHCI Host Controller
+
+===== NVIDIA DRIVER =====
+NVRM version: NVIDIA UNIX x86_64 Kernel Module  550.127.05  Tue Oct  8 03:22:07 UTC 2024
+GCC version:  gcc version 12.3.0 (Ubuntu 12.3.0-1ubuntu1~22.04) 
+
+===== ENVIRONMENT =====
+
+
+CUDA_VERSION=12.8.1
+DEBIAN_FRONTEND=noninteractive
+HOME=/root
+HOSTNAME=9ac5423e3781
+JUPYTER_PASSWORD=fo788isugapxsaat3grd
+LD_LIBRARY_PATH=/usr/local/cuda/lib64
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LESSOPEN=| /usr/bin/lesspipe %s
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+NCCL_VERSION=2.25.1-1
+NVARCH=x86_64
+NVIDIA_DRIVER_CAPABILITIES=compute,utility
+NVIDIA_PRODUCT_NAME=CUDA
+NVIDIA_REQUIRE_CUDA=cuda>=12.8 brand=unknown,driver>=470,driver<471 brand=grid,driver>=470,driver<471 brand=tesla,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=vapps,driver>=470,driver<471 brand=vpc,driver>=470,driver<471 brand=vcs,driver>=470,driver<471 brand=vws,driver>=470,driver<471 brand=cloudgaming,driver>=470,driver<471 brand=unknown,driver>=535,driver<536 brand=grid,driver>=535,driver<536 brand=tesla,driver>=535,driver<536 brand=nvidia,driver>=535,driver<536 brand=quadro,driver>=535,driver<536 brand=quadrortx,driver>=535,driver<536 brand=nvidiartx,driver>=535,driver<536 brand=vapps,driver>=535,driver<536 brand=vpc,driver>=535,driver<536 brand=vcs,driver>=535,driver<536 brand=vws,driver>=535,driver<536 brand=cloudgaming,driver>=535,driver<536 brand=unknown,driver>=550,driver<551 brand=grid,driver>=550,driver<551 brand=tesla,driver>=550,driver<551 brand=nvidia,driver>=550,driver<551 brand=quadro,driver>=550,driver<551 brand=quadrortx,driver>=550,driver<551 brand=nvidiartx,driver>=550,driver<551 brand=vapps,driver>=550,driver<551 brand=vpc,driver>=550,driver<551 brand=vcs,driver>=550,driver<551 brand=vws,driver>=550,driver<551 brand=cloudgaming,driver>=550,driver<551 brand=unknown,driver>=560,driver<561 brand=grid,driver>=560,driver<561 brand=tesla,driver>=560,driver<561 brand=nvidia,driver>=560,driver<561 brand=quadro,driver>=560,driver<561 brand=quadrortx,driver>=560,driver<561 brand=nvidiartx,driver>=560,driver<561 brand=vapps,driver>=560,driver<561 brand=vpc,driver>=560,driver<561 brand=vcs,driver>=560,driver<561 brand=vws,driver>=560,driver<561 brand=cloudgaming,driver>=560,driver<561 brand=unknown,driver>=565,driver<566 brand=grid,driver>=565,driver<566 brand=tesla,driver>=565,driver<566 brand=nvidia,driver>=565,driver<566 brand=quadro,driver>=565,driver<566 brand=quadrortx,driver>=565,driver<566 brand=nvidiartx,driver>=565,driver<566 brand=vapps,driver>=565,driver<566 brand=vpc,driver>=565,driver<566 brand=vcs,driver>=565,driver<566 brand=vws,driver>=565,driver<566 brand=cloudgaming,driver>=565,driver<566
+NVIDIA_VISIBLE_DEVICES=all
+NV_CUDA_CUDART_VERSION=12.8.90-1
+NV_CUDA_LIB_VERSION=12.8.1-1
+NV_CUDNN_PACKAGE=libcudnn9-cuda-12=9.8.0.87-1
+NV_CUDNN_PACKAGE_NAME=libcudnn9-cuda-12
+NV_CUDNN_VERSION=9.8.0.87-1
+NV_LIBCUBLAS_PACKAGE=libcublas-12-8=12.8.4.1-1
+NV_LIBCUBLAS_PACKAGE_NAME=libcublas-12-8
+NV_LIBCUBLAS_VERSION=12.8.4.1-1
+NV_LIBCUSPARSE_VERSION=12.5.8.93-1
+NV_LIBNCCL_PACKAGE=libnccl2=2.25.1-1+cuda12.8
+NV_LIBNCCL_PACKAGE_NAME=libnccl2
+NV_LIBNCCL_PACKAGE_VERSION=2.25.1-1
+NV_LIBNPP_PACKAGE=libnpp-12-8=12.3.3.100-1
+NV_LIBNPP_VERSION=12.3.3.100-1
+NV_NVTX_VERSION=12.8.90-1
+OLDPWD=/workspace
+PATH=/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PUBLIC_KEY=ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIbjT5HhgPYrqzVA6GMErFhfVzCDXDnnars0NnD9j2wr thibault.garel@edu.ece.fr
+PWD=/workspace/DQNMedian50/DQNMedian50
+RUNPOD_CPU_COUNT=16
+RUNPOD_DC_ID=US-WA-1
+RUNPOD_GPU_COUNT=1
+RUNPOD_GPU_NAME=NVIDIA+RTX+6000+Ada+Generation
+RUNPOD_MEM_GB=62
+RUNPOD_POD_HOSTNAME=z0o2ky6vc0lk24-6441117f
+RUNPOD_POD_ID=z0o2ky6vc0lk24
+SHLVL=1
+TERM=xterm
+_=/usr/bin/env
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFv1HkXyg8ucWsElbd9ZEovMNKferlBth9UO6UZGxWiZ stage@E1-EMxxx-xx
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIVKGjCvqkG2OF1KGefqKPM4NvhNYLhTAYSkaiPxtbHD jarfino.houngbadji@edu.ece.fr
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKvKWGht4wx7jLXC3BDj5YmP+hz2bSGPInxlkXbZ3FoE saidurgakarthik.nandiraju@edu.ece.fr
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP2nUhPmvGHPxlRlun7x3qqYRWfmj1JekMGBR38U6CjE philemon.vittet@edu.ece.fr
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCaZQmzMJ52JajH0Tb1ImvqxyOza0xxq63y4zvbSBrO/b4MlyVWJCU4plMyFDvuUjkn9JhtZeLQQLKAnq60lMmx5QkcABW8v4++jL+JWfQwD20+uTs1j8YHyJYu8X9XSUabcZmRxj3VYReANnv4zxuM2vJCnvIiSLZjfi3XFhx2qjUJgXExhw2gH1ED/9a33dX6kNqOt4RcVye3eX3UP+T6CYzGTjugN4+e0m7DZNaFHcUovZrZuxK+SVnPc0GMtQ/tvojgUrQE7ZsmUBzTa1fcg9kF3YBH/W4BdwKctQX1MTi+wGcTAAcEkf49MrWjt7fG4gThenAmoWHR885vL8BT runpodctl-ssh-key

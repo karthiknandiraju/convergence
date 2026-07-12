@@ -1,0 +1,23 @@
+These identifiers may be unavailable, virtualized, or shared by the cloud provider.
+
+[/sys/class/dmi/id/product_name]
+ROME2D32GM-2T
+
+[/sys/class/dmi/id/product_uuid]
+unavailable
+
+[/sys/class/dmi/id/product_serial]
+unavailable
+
+[/sys/class/dmi/id/board_name]
+ROME2D32GM-2T
+
+[/sys/class/dmi/id/board_serial]
+unavailable
+
+[/sys/class/dmi/id/bios_vendor]
+American Megatrends International, LLC.
+
+[/sys/class/dmi/id/bios_version]
+P3.50
+

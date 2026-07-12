@@ -1,0 +1,2 @@
+$ /workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn/sumoenv/bin/python --version
+Python 3.12.3

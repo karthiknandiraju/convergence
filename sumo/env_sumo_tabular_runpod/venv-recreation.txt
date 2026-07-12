@@ -1,0 +1,8 @@
+# Original virtual environment
+/workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn/sumoenv
+
+# Recreate approximately with:
+python3 -m venv sumoenv
+source sumoenv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r pip-freeze.txt

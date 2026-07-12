@@ -1,0 +1,24 @@
+cd /workspace/DQNMedian50/DQNMedian50
+
+export CARLA_ROOT="/workspace/CARLA_0.9.14"
+export PYTHONPATH="$CARLA_ROOT/PythonAPI/carla/dist/carla-0.9.14-py3.7-linux-x86_64.egg:$CARLA_ROOT/PythonAPI/carla:$PYTHONPATH"
+
+mkdir -p /workspace/results/set4_v3
+
+nohup "/usr/local/bin/python3.7" -u -m carla.set4_v3july08 \
+    --train-episodes 500 \
+    --test-episodes 300 \
+    --max-episode-steps 500 \
+    --epsilon 0.2 \
+    --gamma 0.99 \
+    --raw-learning-rate 5e-5 \
+    --batch-size 64 \
+    --replay-capacity 50000 \
+    --target-update-interval 1000 \
+    --rnd-beta 0.01 \
+    --count-beta 0.05 \
+    --count-state-bin-size 1.0 \
+    --device cuda \
+    --seed 42 \
+    --output-dir /workspace/results/set4_v3 \
+    > /workspace/results/set4_v3/carla_set4_v3.log 2>&1 &

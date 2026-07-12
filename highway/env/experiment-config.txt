@@ -1,0 +1,29 @@
+Highway DQN Experiment Configuration
+====================================
+
+Environment: highway-env / highway-v0
+
+Experiments:
+1. Epsilon Greedy
+2. Median 50
+
+Algorithm:
+Deep Q-Network (DQN)
+Target Network
+Replay Buffer
+Adam Optimizer
+
+Training Episodes: 500
+Testing Episodes: 300
+Maximum Episode Steps: 500
+
+Epsilon: 0.2
+Gamma: 0.99
+Batch Size: 64
+Replay Capacity: 50000
+Target Update Interval: 1000
+
+Device: CUDA when available
+Seed: 42
+Convergence Threshold: 0.95
+Analysis Block Size: 100 episodes

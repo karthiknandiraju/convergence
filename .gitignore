@@ -1,0 +1,13 @@
+# Generated Python environments
+sumo/sumoenv/
+**/__pycache__/
+*.py[cod]
+
+# Large generated archives
+*.tar.gz
+*.zip
+
+# Local environment files
+.env
+.venv/
+venv/

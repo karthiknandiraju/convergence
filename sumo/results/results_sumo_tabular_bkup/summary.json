@@ -1,0 +1,32 @@
+{
+  "epsilon_greedy": {
+    "train_average_reward": 953.3741067769947,
+    "train_median_reward": 1058.5010630215997,
+    "train_std_reward": 176.79087938379158,
+    "test_average_reward": 988.8573452929013,
+    "test_median_reward": 1064.3184039929836,
+    "test_std_reward": 143.9834723031788,
+    "test_min_reward": 545.9161151079123,
+    "test_max_reward": 1078.537165656055
+  },
+  "median_50": {
+    "train_average_reward": 882.5534733971136,
+    "train_median_reward": 893.8893525179808,
+    "train_std_reward": 177.75068626916382,
+    "test_average_reward": 1002.0062803205625,
+    "test_median_reward": 1065.5285537692046,
+    "test_std_reward": 106.88356909677276,
+    "test_min_reward": 743.234307282549,
+    "test_max_reward": 1075.2515107913675
+  },
+  "median_50_first": {
+    "train_average_reward": 536.9125290895083,
+    "train_median_reward": 569.262374100718,
+    "train_std_reward": 386.43483823734977,
+    "test_average_reward": 690.0739512976371,
+    "test_median_reward": 582.406906474819,
+    "test_std_reward": 222.39991889186734,
+    "test_min_reward": 395.63683453237434,
+    "test_max_reward": 1055.7905035971237
+  }
+}

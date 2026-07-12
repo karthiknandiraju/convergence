@@ -1,0 +1,13 @@
+SUMO EXPERIMENT ENVIRONMENT EVIDENCE
+====================================
+Captured: 2026-07-11T19:18:58+00:00
+Project directory: /workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn
+Current user: root
+UID/GID: uid=0(root) gid=0(root) groups=0(root)
+Hostname/container ID: 9ac5423e3781
+Conda environment: not active
+Virtual environment: /workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn/sumoenv
+Python executable: /workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn/sumoenv/bin/python
+SUMO_HOME: not set
+PATH: /workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn/sumoenv/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PYTHONPATH: not set

@@ -1,0 +1,19 @@
+{
+  "train_episodes": 500,
+  "test_episodes": 300,
+  "max_episode_steps": 500,
+  "epsilon": 0.2,
+  "alpha": 0.1,
+  "gamma": 0.99,
+  "state_bins": [
+    8,
+    12,
+    12,
+    10,
+    8
+  ],
+  "target_speed": 8.333333,
+  "seed": 42,
+  "output_dir": "/workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn/results/results_sumo_tabular_runpod",
+  "gui": false
+}

@@ -1,0 +1,5 @@
+phase,experiment,method,learning_rate,lr_multiplier,total_wall_time_seconds,total_cpu_time_seconds,total_gpu_time_seconds,gpu_memory_mb,process_memory_mb,episodes,model_path,network_frozen,updates_during_test
+train,standard_epsilon,Epsilon Greedy,5e-05,1.0,2103.7729773521423,1564.096009767,1588.141926513672,18.20849609375,1028.453125,500,/workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn/results/results_sumo_dqn_runpod/models/standard_epsilon_lrmult_1.pt,,
+train,median_50,Median 50,5e-05,1.0,2049.782370567322,1510.865742,1535.0824465332032,19.0361328125,1032.453125,500,/workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn/results/results_sumo_dqn_runpod/models/median_50_lrmult_1.pt,,
+test,standard_epsilon,Epsilon Greedy,5e-05,1.0,467.68033170700073,139.03011123500028,157.80994192504883,18.90673828125,1032.453125,300,,True,0.0
+test,median_50,Median 50,5e-05,1.0,463.3813409805298,136.4436382509998,154.56133279418944,18.90673828125,1032.453125,300,,True,0.0

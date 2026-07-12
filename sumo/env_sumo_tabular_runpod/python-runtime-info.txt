@@ -1,0 +1,18 @@
+Python: 3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]
+Executable: /workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn/sumoenv/bin/python
+Platform: Linux-6.8.0-52-generic-x86_64-with-glibc2.39
+Architecture: x86_64
+Prefix: /workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn/sumoenv
+Base prefix: /usr
+Virtual environment: /workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn/sumoenv
+Conda environment: not active
+numpy: 2.5.1
+pandas: 3.0.3
+matplotlib: 3.11.0
+gymnasium: 1.3.0
+traci: 1.27.1
+sumolib: 1.27.1
+torch: 2.5.1+cu124
+Torch CUDA available: True
+Torch CUDA version: 12.4
+Torch GPU: NVIDIA RTX 6000 Ada Generation

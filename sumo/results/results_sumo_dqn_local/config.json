@@ -1,0 +1,16 @@
+{
+  "train_episodes": 500,
+  "test_episodes": 300,
+  "max_episode_steps": 500,
+  "epsilon": 0.2,
+  "learning_rate": 0.0001,
+  "gamma": 0.99,
+  "batch_size": 64,
+  "replay_capacity": 50000,
+  "target_update_steps": 1000,
+  "target_speed": 13.9,
+  "seed": 42,
+  "device": "cuda",
+  "output_dir": "results_sumo_lr1e4",
+  "gui": false
+}

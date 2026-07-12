@@ -1,0 +1,1187 @@
+nohup: ignoring input
+========================================================================
+set3_v2 ensemble-only: load Noisy/RND experts, train Ensemble, test all
+Output dir: /workspace/results/set3_v2_july09
+CUDA: True  GPU: NVIDIA RTX 6000 Ada Generation
+========================================================================
+Loading Noisy + Count expert: /workspace/results/set3_v2_july09/models/noisy_count_lrmult_1.pt
+========================================================================
+DQN PyTorch device : cuda
+GPU name           : NVIDIA RTX 6000 Ada Generation
+CUDA version       : 11.7
+PyTorch version    : 1.13.1+cu117
+Total VRAM         : 47.5 GB
+========================================================================
+Loading RND + Count expert: /workspace/results/set3_v2_july09/models/rnd_count_lrmult_1.pt
+
+===== TRAINING START: Ensemble =====
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=000 reward=107.55 steps=50 wall=1.91s cpu=1.71s gpu=1.91s gpu_util=29.0% vram=6250/49140MB loss=0.00000
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 25 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=001 reward=272.44 steps=295 wall=6.43s cpu=4.29s gpu=6.43s gpu_util=36.0% vram=6250/49140MB loss=36.79475
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 28 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=002 reward=262.05 steps=298 wall=6.47s cpu=4.39s gpu=6.47s gpu_util=38.0% vram=6250/49140MB loss=103.23082
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 31 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=003 reward=255.53 steps=285 wall=6.50s cpu=4.86s gpu=6.50s gpu_util=33.0% vram=6250/49140MB loss=144.80657
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 34 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=004 reward=304.59 steps=313 wall=6.44s cpu=4.39s gpu=6.44s gpu_util=37.0% vram=6250/49140MB loss=127.88409
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 37 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=005 reward=273.85 steps=301 wall=6.47s cpu=4.86s gpu=6.47s gpu_util=40.0% vram=6250/49140MB loss=120.56971
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 40 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=006 reward=267.90 steps=302 wall=6.45s cpu=4.76s gpu=6.45s gpu_util=37.0% vram=6250/49140MB loss=122.21498
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 43 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=007 reward=284.22 steps=307 wall=6.48s cpu=4.41s gpu=6.48s gpu_util=41.0% vram=6250/49140MB loss=98.49838
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 46 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=008 reward=308.14 steps=322 wall=6.53s cpu=4.13s gpu=6.53s gpu_util=37.0% vram=6250/49140MB loss=122.22407
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 49 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=009 reward=254.12 steps=294 wall=6.67s cpu=4.97s gpu=6.67s gpu_util=37.0% vram=6250/49140MB loss=117.91524
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 52 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=010 reward=220.91 steps=299 wall=7.20s cpu=5.72s gpu=7.20s gpu_util=36.0% vram=6250/49140MB loss=131.68016
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 55 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=011 reward=306.89 steps=328 wall=7.36s cpu=5.91s gpu=7.36s gpu_util=41.0% vram=6250/49140MB loss=118.11455
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 58 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=012 reward=337.53 steps=362 wall=7.97s cpu=6.67s gpu=7.97s gpu_util=38.0% vram=6250/49140MB loss=142.37041
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 61 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=013 reward=385.28 steps=379 wall=7.27s cpu=5.77s gpu=7.27s gpu_util=46.0% vram=6250/49140MB loss=130.93500
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 64 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=014 reward=290.41 steps=324 wall=7.34s cpu=6.05s gpu=7.34s gpu_util=36.0% vram=6250/49140MB loss=85.39733
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 67 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=015 reward=238.22 steps=293 wall=6.89s cpu=5.41s gpu=6.89s gpu_util=38.0% vram=6250/49140MB loss=110.96967
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 70 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=016 reward=226.60 steps=287 wall=6.89s cpu=5.34s gpu=6.88s gpu_util=35.0% vram=6250/49140MB loss=112.02772
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 73 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=017 reward=-198.00 steps=1 wall=0.03s cpu=0.03s gpu=0.02s gpu_util=34.0% vram=6250/49140MB loss=0.99602
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 76 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=018 reward=282.37 steps=343 wall=7.70s cpu=6.00s gpu=7.70s gpu_util=34.0% vram=6250/49140MB loss=122.28421
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 79 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=019 reward=261.57 steps=329 wall=7.69s cpu=6.16s gpu=7.69s gpu_util=39.0% vram=6250/49140MB loss=148.08760
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 82 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=020 reward=264.75 steps=324 wall=7.41s cpu=5.55s gpu=7.41s gpu_util=36.0% vram=6250/49140MB loss=107.36575
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 85 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=021 reward=245.93 steps=314 wall=7.09s cpu=5.40s gpu=7.09s gpu_util=33.0% vram=6250/49140MB loss=155.97870
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 88 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=022 reward=248.23 steps=310 wall=7.04s cpu=5.40s gpu=7.04s gpu_util=39.0% vram=6250/49140MB loss=131.59053
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 91 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=023 reward=295.92 steps=344 wall=7.25s cpu=5.66s gpu=7.25s gpu_util=38.0% vram=6250/49140MB loss=138.70884
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 94 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=024 reward=266.40 steps=314 wall=7.15s cpu=5.43s gpu=7.15s gpu_util=36.0% vram=6250/49140MB loss=122.75540
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 97 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=025 reward=273.10 steps=325 wall=7.53s cpu=5.96s gpu=7.53s gpu_util=33.0% vram=6250/49140MB loss=140.79855
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 100 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=026 reward=233.08 steps=301 wall=6.88s cpu=5.27s gpu=6.88s gpu_util=37.0% vram=6250/49140MB loss=135.26094
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 103 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=027 reward=238.58 steps=303 wall=7.02s cpu=5.66s gpu=7.02s gpu_util=38.0% vram=6250/49140MB loss=136.97762
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 106 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=028 reward=265.33 steps=314 wall=6.90s cpu=5.60s gpu=6.90s gpu_util=38.0% vram=6250/49140MB loss=156.05124
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 109 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=029 reward=248.64 steps=305 wall=7.00s cpu=5.69s gpu=7.00s gpu_util=34.0% vram=6250/49140MB loss=155.76464
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 112 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=030 reward=272.78 steps=321 wall=7.00s cpu=5.28s gpu=7.00s gpu_util=35.0% vram=6250/49140MB loss=112.36552
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 115 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=031 reward=260.49 steps=313 wall=6.91s cpu=5.29s gpu=6.91s gpu_util=34.0% vram=6250/49140MB loss=125.97163
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 118 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=032 reward=231.30 steps=290 wall=6.88s cpu=5.25s gpu=6.88s gpu_util=39.0% vram=6250/49140MB loss=148.45343
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 121 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=033 reward=232.34 steps=290 wall=6.81s cpu=5.41s gpu=6.81s gpu_util=43.0% vram=6250/49140MB loss=125.82989
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 124 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=034 reward=235.33 steps=295 wall=6.72s cpu=5.31s gpu=6.72s gpu_util=40.0% vram=6250/49140MB loss=124.63177
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 127 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=035 reward=232.40 steps=302 wall=6.86s cpu=5.18s gpu=6.86s gpu_util=35.0% vram=6250/49140MB loss=102.19799
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 130 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=036 reward=228.00 steps=293 wall=6.82s cpu=5.13s gpu=6.82s gpu_util=39.0% vram=6250/49140MB loss=116.64115
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 133 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=037 reward=248.60 steps=302 wall=6.78s cpu=5.17s gpu=6.78s gpu_util=39.0% vram=6250/49140MB loss=117.06643
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 136 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=038 reward=237.16 steps=305 wall=6.95s cpu=5.30s gpu=6.95s gpu_util=40.0% vram=6250/49140MB loss=118.39462
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 139 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=039 reward=254.56 steps=315 wall=6.89s cpu=5.41s gpu=6.89s gpu_util=35.0% vram=6250/49140MB loss=133.04806
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 142 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=040 reward=248.02 steps=306 wall=6.84s cpu=5.36s gpu=6.84s gpu_util=41.0% vram=6250/49140MB loss=130.71639
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 145 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=041 reward=259.60 steps=309 wall=6.69s cpu=5.28s gpu=6.69s gpu_util=40.0% vram=6250/49140MB loss=122.77235
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 148 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=042 reward=222.44 steps=291 wall=6.78s cpu=5.08s gpu=6.78s gpu_util=38.0% vram=6250/49140MB loss=119.74564
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 151 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=043 reward=216.13 steps=289 wall=6.84s cpu=5.13s gpu=6.84s gpu_util=34.0% vram=6250/49140MB loss=142.69461
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 154 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=044 reward=221.15 steps=293 wall=6.77s cpu=5.02s gpu=6.77s gpu_util=41.0% vram=6250/49140MB loss=105.55331
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 157 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=045 reward=214.31 steps=291 wall=6.84s cpu=5.21s gpu=6.84s gpu_util=38.0% vram=6250/49140MB loss=136.23497
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 160 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=046 reward=264.11 steps=315 wall=6.92s cpu=4.99s gpu=6.92s gpu_util=37.0% vram=6250/49140MB loss=109.78429
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 163 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=047 reward=227.65 steps=297 wall=6.86s cpu=5.47s gpu=6.86s gpu_util=36.0% vram=6250/49140MB loss=130.11424
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 166 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=048 reward=245.57 steps=308 wall=6.78s cpu=5.31s gpu=6.78s gpu_util=35.0% vram=6250/49140MB loss=119.01808
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 169 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=049 reward=266.17 steps=318 wall=7.12s cpu=5.61s gpu=7.12s gpu_util=40.0% vram=6250/49140MB loss=94.26457
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 172 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=050 reward=259.11 steps=312 wall=6.98s cpu=5.53s gpu=6.98s gpu_util=37.0% vram=6250/49140MB loss=131.04816
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 175 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=051 reward=258.14 steps=317 wall=6.88s cpu=5.23s gpu=6.88s gpu_util=40.0% vram=6250/49140MB loss=110.10978
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 178 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=052 reward=273.86 steps=319 wall=7.03s cpu=5.40s gpu=7.03s gpu_util=41.0% vram=6250/49140MB loss=118.30218
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 181 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=053 reward=235.30 steps=300 wall=6.97s cpu=5.35s gpu=6.97s gpu_util=36.0% vram=6250/49140MB loss=107.67477
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 184 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=054 reward=246.62 steps=308 wall=6.90s cpu=5.20s gpu=6.90s gpu_util=41.0% vram=6250/49140MB loss=120.77193
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 187 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=055 reward=256.24 steps=309 wall=7.00s cpu=5.53s gpu=7.00s gpu_util=31.0% vram=6250/49140MB loss=103.51180
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 190 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=056 reward=244.30 steps=304 wall=6.93s cpu=5.24s gpu=6.93s gpu_util=35.0% vram=6250/49140MB loss=109.81642
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 193 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=057 reward=233.70 steps=296 wall=7.04s cpu=5.20s gpu=7.04s gpu_util=34.0% vram=6250/49140MB loss=87.94686
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 196 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=058 reward=236.13 steps=313 wall=7.40s cpu=5.44s gpu=7.40s gpu_util=32.0% vram=6250/49140MB loss=103.14409
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 199 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=059 reward=238.47 steps=295 wall=7.09s cpu=5.24s gpu=7.09s gpu_util=35.0% vram=6250/49140MB loss=117.75236
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 202 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=060 reward=227.04 steps=298 wall=6.99s cpu=5.07s gpu=6.99s gpu_util=32.0% vram=6250/49140MB loss=102.74056
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 205 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=061 reward=239.85 steps=303 wall=6.90s cpu=5.00s gpu=6.90s gpu_util=43.0% vram=6250/49140MB loss=94.25046
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 208 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=062 reward=497.58 steps=389 wall=7.65s cpu=5.81s gpu=7.65s gpu_util=38.0% vram=6250/49140MB loss=135.86631
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 211 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=063 reward=257.16 steps=324 wall=7.25s cpu=5.67s gpu=7.24s gpu_util=37.0% vram=6250/49140MB loss=125.54496
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 214 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=064 reward=236.90 steps=315 wall=7.36s cpu=5.47s gpu=7.36s gpu_util=37.0% vram=6250/49140MB loss=101.94440
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 217 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=065 reward=458.14 steps=326 wall=7.32s cpu=5.79s gpu=7.32s gpu_util=36.0% vram=6250/49140MB loss=106.65806
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 220 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=066 reward=420.17 steps=335 wall=7.76s cpu=6.00s gpu=7.76s gpu_util=35.0% vram=6250/49140MB loss=106.97068
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 223 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=067 reward=442.28 steps=328 wall=7.45s cpu=5.72s gpu=7.45s gpu_util=33.0% vram=6250/49140MB loss=108.12272
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 226 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=068 reward=467.76 steps=340 wall=7.40s cpu=5.88s gpu=7.40s gpu_util=42.0% vram=6250/49140MB loss=117.76143
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 229 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=069 reward=462.09 steps=318 wall=7.23s cpu=5.62s gpu=7.23s gpu_util=43.0% vram=6250/49140MB loss=120.65170
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 232 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=070 reward=561.70 steps=419 wall=7.52s cpu=6.06s gpu=7.52s gpu_util=37.0% vram=6250/49140MB loss=102.46286
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 235 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=071 reward=288.70 steps=334 wall=7.53s cpu=5.98s gpu=7.53s gpu_util=36.0% vram=6250/49140MB loss=87.62109
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 238 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=072 reward=270.03 steps=317 wall=7.48s cpu=5.73s gpu=7.48s gpu_util=32.0% vram=6250/49140MB loss=85.66134
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 241 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=073 reward=468.49 steps=417 wall=8.03s cpu=6.37s gpu=8.03s gpu_util=34.0% vram=6250/49140MB loss=93.34495
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 244 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=074 reward=418.69 steps=307 wall=7.19s cpu=5.23s gpu=7.19s gpu_util=30.0% vram=6250/49140MB loss=93.92870
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 247 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=075 reward=275.30 steps=330 wall=7.55s cpu=5.70s gpu=7.55s gpu_util=38.0% vram=6250/49140MB loss=96.59682
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 250 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=076 reward=438.52 steps=331 wall=7.58s cpu=5.65s gpu=7.57s gpu_util=35.0% vram=6250/49140MB loss=86.47159
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 253 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=077 reward=429.94 steps=315 wall=7.07s cpu=5.19s gpu=7.07s gpu_util=33.0% vram=6250/49140MB loss=90.98904
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 256 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=078 reward=392.59 steps=296 wall=6.84s cpu=5.12s gpu=6.84s gpu_util=34.0% vram=6250/49140MB loss=88.24673
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 259 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=079 reward=471.38 steps=374 wall=7.46s cpu=5.31s gpu=7.46s gpu_util=43.0% vram=6250/49140MB loss=84.96853
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 262 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=080 reward=475.10 steps=348 wall=7.58s cpu=5.78s gpu=7.58s gpu_util=42.0% vram=6250/49140MB loss=97.32784
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 265 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=081 reward=297.47 steps=343 wall=7.58s cpu=6.04s gpu=7.58s gpu_util=39.0% vram=6250/49140MB loss=99.69307
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 268 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=082 reward=413.80 steps=350 wall=7.63s cpu=5.93s gpu=7.63s gpu_util=37.0% vram=6250/49140MB loss=89.68214
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 271 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=083 reward=451.20 steps=332 wall=7.51s cpu=5.36s gpu=7.51s gpu_util=39.0% vram=6250/49140MB loss=80.76576
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 274 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=084 reward=285.88 steps=331 wall=7.35s cpu=5.33s gpu=7.35s gpu_util=38.0% vram=6250/49140MB loss=100.44031
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 277 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=085 reward=440.37 steps=345 wall=7.54s cpu=5.37s gpu=7.54s gpu_util=39.0% vram=6250/49140MB loss=91.08259
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 280 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=086 reward=553.63 steps=500 wall=10.58s cpu=8.45s gpu=10.58s gpu_util=36.0% vram=6250/49140MB loss=87.40753
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 283 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=087 reward=534.06 steps=466 wall=10.54s cpu=8.09s gpu=10.54s gpu_util=36.0% vram=6250/49140MB loss=83.29866
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 286 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=088 reward=490.77 steps=500 wall=11.43s cpu=8.89s gpu=11.43s gpu_util=36.0% vram=6250/49140MB loss=83.68002
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 289 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=089 reward=509.51 steps=465 wall=9.84s cpu=7.17s gpu=9.84s gpu_util=40.0% vram=6250/49140MB loss=90.98101
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 292 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=090 reward=520.67 steps=399 wall=8.45s cpu=6.61s gpu=8.45s gpu_util=40.0% vram=6250/49140MB loss=68.40010
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 295 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=091 reward=599.04 steps=500 wall=11.38s cpu=8.91s gpu=11.38s gpu_util=36.0% vram=6250/49140MB loss=64.51819
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 298 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=092 reward=500.53 steps=417 wall=8.77s cpu=6.48s gpu=8.77s gpu_util=42.0% vram=6250/49140MB loss=92.40909
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 301 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=093 reward=510.23 steps=500 wall=10.87s cpu=8.66s gpu=10.87s gpu_util=39.0% vram=6250/49140MB loss=66.08351
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 304 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=094 reward=275.22 steps=370 wall=7.93s cpu=6.26s gpu=7.93s gpu_util=39.0% vram=6250/49140MB loss=76.98926
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 307 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=095 reward=514.62 steps=500 wall=10.51s cpu=8.54s gpu=10.51s gpu_util=41.0% vram=6250/49140MB loss=63.21475
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 310 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=096 reward=531.86 steps=500 wall=10.72s cpu=8.89s gpu=10.72s gpu_util=40.0% vram=6250/49140MB loss=73.80546
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 313 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=097 reward=246.30 steps=355 wall=7.83s cpu=6.28s gpu=7.83s gpu_util=36.0% vram=6250/49140MB loss=86.44575
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 316 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=098 reward=500.16 steps=500 wall=10.67s cpu=8.74s gpu=10.67s gpu_util=34.0% vram=6250/49140MB loss=56.41974
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 319 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=099 reward=461.11 steps=500 wall=10.64s cpu=8.40s gpu=10.64s gpu_util=42.0% vram=6250/49140MB loss=57.17404
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 322 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=100 reward=496.19 steps=500 wall=11.00s cpu=8.57s gpu=11.00s gpu_util=41.0% vram=6250/49140MB loss=69.43829
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 325 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=101 reward=516.05 steps=450 wall=9.92s cpu=7.88s gpu=9.92s gpu_util=37.0% vram=6250/49140MB loss=56.30058
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 328 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=102 reward=452.89 steps=471 wall=10.55s cpu=8.14s gpu=10.55s gpu_util=45.0% vram=6250/49140MB loss=69.23455
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 331 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=103 reward=398.50 steps=319 wall=7.07s cpu=5.64s gpu=7.07s gpu_util=35.0% vram=6250/49140MB loss=53.04321
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 334 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=104 reward=515.07 steps=500 wall=11.15s cpu=8.78s gpu=11.15s gpu_util=38.0% vram=6250/49140MB loss=67.67305
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 337 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=105 reward=233.68 steps=312 wall=6.75s cpu=4.77s gpu=6.75s gpu_util=41.0% vram=6250/49140MB loss=60.55925
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 340 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=106 reward=1199.84 steps=500 wall=10.74s cpu=8.21s gpu=10.73s gpu_util=40.0% vram=6250/49140MB loss=58.21382
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 343 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=107 reward=470.08 steps=496 wall=11.14s cpu=8.39s gpu=11.14s gpu_util=38.0% vram=6250/49140MB loss=59.13462
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 346 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=108 reward=522.59 steps=408 wall=8.59s cpu=6.50s gpu=8.59s gpu_util=33.0% vram=6250/49140MB loss=67.30223
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 349 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=109 reward=365.53 steps=283 wall=6.82s cpu=5.25s gpu=6.82s gpu_util=38.0% vram=6250/49140MB loss=51.65944
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 352 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=110 reward=300.36 steps=319 wall=7.26s cpu=5.69s gpu=7.26s gpu_util=33.0% vram=6250/49140MB loss=63.38750
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 355 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=111 reward=217.47 steps=265 wall=6.24s cpu=4.95s gpu=6.24s gpu_util=33.0% vram=6250/49140MB loss=59.01390
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 358 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=112 reward=181.95 steps=270 wall=6.55s cpu=5.02s gpu=6.55s gpu_util=34.0% vram=6250/49140MB loss=66.87285
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 361 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=113 reward=475.15 steps=471 wall=10.83s cpu=8.54s gpu=10.83s gpu_util=38.0% vram=6250/49140MB loss=61.07634
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 364 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=114 reward=1202.27 steps=500 wall=11.42s cpu=9.20s gpu=11.42s gpu_util=43.0% vram=6250/49140MB loss=54.80922
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 367 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=115 reward=1209.47 steps=500 wall=10.87s cpu=9.15s gpu=10.87s gpu_util=41.0% vram=6250/49140MB loss=52.45013
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 370 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=116 reward=243.80 steps=260 wall=6.18s cpu=4.63s gpu=6.18s gpu_util=39.0% vram=6250/49140MB loss=53.11002
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 373 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=117 reward=452.97 steps=333 wall=7.64s cpu=5.79s gpu=7.64s gpu_util=34.0% vram=6250/49140MB loss=62.17871
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 376 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=118 reward=1184.87 steps=500 wall=11.20s cpu=8.90s gpu=11.20s gpu_util=36.0% vram=6250/49140MB loss=50.80687
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 379 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=119 reward=1054.63 steps=500 wall=11.30s cpu=9.31s gpu=11.30s gpu_util=37.0% vram=6250/49140MB loss=49.71795
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 382 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=120 reward=406.16 steps=345 wall=7.86s cpu=6.04s gpu=7.86s gpu_util=42.0% vram=6250/49140MB loss=53.15907
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 385 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=121 reward=1034.44 steps=500 wall=10.50s cpu=8.17s gpu=10.50s gpu_util=38.0% vram=6250/49140MB loss=50.61706
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 388 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=122 reward=398.89 steps=381 wall=8.96s cpu=6.75s gpu=8.96s gpu_util=37.0% vram=6250/49140MB loss=57.09505
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 391 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=123 reward=1228.49 steps=500 wall=11.01s cpu=8.27s gpu=11.01s gpu_util=36.0% vram=6250/49140MB loss=50.22429
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 394 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=124 reward=1245.40 steps=500 wall=11.24s cpu=8.98s gpu=11.24s gpu_util=37.0% vram=6250/49140MB loss=59.01347
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 397 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=125 reward=1204.58 steps=500 wall=11.66s cpu=9.48s gpu=11.66s gpu_util=35.0% vram=6250/49140MB loss=48.93151
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 400 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=126 reward=438.47 steps=337 wall=7.33s cpu=5.82s gpu=7.33s gpu_util=37.0% vram=6250/49140MB loss=47.22536
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 403 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=127 reward=1207.86 steps=500 wall=10.82s cpu=8.53s gpu=10.81s gpu_util=37.0% vram=6250/49140MB loss=51.58055
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 406 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=128 reward=448.09 steps=334 wall=7.56s cpu=5.82s gpu=7.56s gpu_util=37.0% vram=6250/49140MB loss=51.14598
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 409 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=129 reward=482.95 steps=344 wall=7.45s cpu=6.02s gpu=7.45s gpu_util=39.0% vram=6250/49140MB loss=48.68078
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 412 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=130 reward=314.00 steps=325 wall=6.06s cpu=4.78s gpu=6.06s gpu_util=37.0% vram=6250/49140MB loss=37.37270
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 415 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=131 reward=481.66 steps=379 wall=7.75s cpu=5.57s gpu=7.75s gpu_util=35.0% vram=6250/49140MB loss=47.23958
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 418 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=132 reward=953.82 steps=500 wall=10.07s cpu=8.16s gpu=10.08s gpu_util=37.0% vram=6250/49140MB loss=48.29750
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 421 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=133 reward=1021.26 steps=500 wall=10.16s cpu=8.06s gpu=10.16s gpu_util=42.0% vram=6250/49140MB loss=39.15016
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 424 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=134 reward=309.72 steps=318 wall=6.12s cpu=4.80s gpu=6.12s gpu_util=44.0% vram=6250/49140MB loss=49.64064
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 427 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=135 reward=410.51 steps=346 wall=7.63s cpu=5.96s gpu=7.63s gpu_util=32.0% vram=6250/49140MB loss=52.36825
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 430 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=136 reward=1231.99 steps=500 wall=11.16s cpu=8.99s gpu=11.16s gpu_util=44.0% vram=6250/49140MB loss=41.77469
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 433 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=137 reward=500.26 steps=361 wall=7.55s cpu=6.11s gpu=7.55s gpu_util=39.0% vram=6250/49140MB loss=56.94964
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 436 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=138 reward=305.02 steps=425 wall=8.98s cpu=7.22s gpu=8.98s gpu_util=35.0% vram=6250/49140MB loss=53.03344
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 439 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=139 reward=1107.02 steps=500 wall=10.70s cpu=8.76s gpu=10.70s gpu_util=28.0% vram=6250/49140MB loss=42.31199
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 442 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=140 reward=1226.28 steps=500 wall=10.77s cpu=8.45s gpu=10.77s gpu_util=40.0% vram=6250/49140MB loss=55.96919
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 445 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=141 reward=1258.04 steps=500 wall=11.33s cpu=9.05s gpu=11.33s gpu_util=36.0% vram=6250/49140MB loss=44.61993
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 448 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=142 reward=298.37 steps=298 wall=7.00s cpu=5.33s gpu=7.00s gpu_util=38.0% vram=6250/49140MB loss=40.78741
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 451 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=143 reward=1256.73 steps=500 wall=11.14s cpu=8.71s gpu=11.14s gpu_util=35.0% vram=6250/49140MB loss=41.90209
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 454 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=144 reward=1112.49 steps=500 wall=11.02s cpu=8.23s gpu=11.02s gpu_util=40.0% vram=6250/49140MB loss=39.85538
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 457 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=145 reward=518.21 steps=431 wall=9.82s cpu=7.74s gpu=9.82s gpu_util=38.0% vram=6250/49140MB loss=44.23024
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 460 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=146 reward=-197.98 steps=1 wall=0.03s cpu=0.02s gpu=0.03s gpu_util=37.0% vram=6250/49140MB loss=2.98898
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 463 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=147 reward=436.42 steps=417 wall=8.40s cpu=6.31s gpu=8.40s gpu_util=42.0% vram=6250/49140MB loss=44.48619
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 466 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=148 reward=550.59 steps=415 wall=9.03s cpu=7.42s gpu=9.03s gpu_util=33.0% vram=6250/49140MB loss=48.01255
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 469 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=149 reward=1172.88 steps=500 wall=10.69s cpu=8.51s gpu=10.69s gpu_util=38.0% vram=6250/49140MB loss=37.97113
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 472 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=150 reward=1275.28 steps=500 wall=10.89s cpu=8.85s gpu=10.89s gpu_util=41.0% vram=6250/49140MB loss=36.43981
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 475 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=151 reward=1024.31 steps=500 wall=10.70s cpu=8.40s gpu=10.70s gpu_util=36.0% vram=6250/49140MB loss=45.56447
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 478 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=152 reward=522.50 steps=415 wall=7.51s cpu=5.85s gpu=7.51s gpu_util=39.0% vram=6250/49140MB loss=32.29098
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 481 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=153 reward=501.37 steps=401 wall=7.65s cpu=6.17s gpu=7.65s gpu_util=43.0% vram=6250/49140MB loss=35.49875
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 484 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=154 reward=1215.48 steps=500 wall=11.10s cpu=9.01s gpu=11.10s gpu_util=39.0% vram=6250/49140MB loss=41.56927
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 487 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=155 reward=1276.09 steps=500 wall=11.47s cpu=9.07s gpu=11.47s gpu_util=39.0% vram=6250/49140MB loss=30.07396
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 490 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=156 reward=1225.85 steps=500 wall=10.91s cpu=8.75s gpu=10.91s gpu_util=34.0% vram=6250/49140MB loss=37.01862
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 493 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=157 reward=1212.84 steps=500 wall=11.38s cpu=9.13s gpu=11.38s gpu_util=39.0% vram=6250/49140MB loss=30.14185
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 496 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=158 reward=1022.33 steps=500 wall=10.72s cpu=7.70s gpu=10.72s gpu_util=37.0% vram=6250/49140MB loss=39.97158
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 499 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=159 reward=1226.30 steps=500 wall=10.60s cpu=8.48s gpu=10.60s gpu_util=44.0% vram=6250/49140MB loss=33.62882
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 502 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=160 reward=1247.15 steps=500 wall=10.85s cpu=8.59s gpu=10.85s gpu_util=35.0% vram=6250/49140MB loss=29.02285
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 505 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=161 reward=1248.83 steps=500 wall=10.70s cpu=8.37s gpu=10.70s gpu_util=36.0% vram=6250/49140MB loss=36.50979
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 508 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=162 reward=326.25 steps=325 wall=7.16s cpu=5.58s gpu=7.16s gpu_util=40.0% vram=6250/49140MB loss=30.39748
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 511 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=163 reward=1231.30 steps=500 wall=9.27s cpu=6.81s gpu=9.27s gpu_util=38.0% vram=6250/49140MB loss=29.33586
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 514 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=164 reward=1259.59 steps=500 wall=10.13s cpu=7.74s gpu=10.13s gpu_util=41.0% vram=6250/49140MB loss=29.95650
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 517 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=165 reward=1276.07 steps=500 wall=11.21s cpu=9.02s gpu=11.21s gpu_util=38.0% vram=6250/49140MB loss=27.45496
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 520 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=166 reward=1096.30 steps=500 wall=10.96s cpu=9.07s gpu=10.96s gpu_util=41.0% vram=6250/49140MB loss=32.68880
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 523 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=167 reward=1246.88 steps=500 wall=10.41s cpu=8.47s gpu=10.41s gpu_util=38.0% vram=6250/49140MB loss=27.51551
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 526 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=168 reward=1251.29 steps=500 wall=10.48s cpu=8.30s gpu=10.48s gpu_util=39.0% vram=6250/49140MB loss=31.81332
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 529 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=169 reward=1253.88 steps=500 wall=10.36s cpu=7.69s gpu=10.36s gpu_util=36.0% vram=6250/49140MB loss=33.41217
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 532 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=170 reward=1266.47 steps=500 wall=10.88s cpu=8.93s gpu=10.88s gpu_util=42.0% vram=6250/49140MB loss=25.94765
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 535 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=171 reward=1189.71 steps=500 wall=10.53s cpu=8.27s gpu=10.53s gpu_util=42.0% vram=6250/49140MB loss=32.88351
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 538 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=172 reward=1104.69 steps=500 wall=10.77s cpu=8.26s gpu=10.77s gpu_util=45.0% vram=6250/49140MB loss=29.67360
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 541 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=173 reward=1166.14 steps=500 wall=9.90s cpu=7.92s gpu=9.90s gpu_util=39.0% vram=6250/49140MB loss=26.93899
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 544 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=174 reward=1013.08 steps=500 wall=10.12s cpu=8.18s gpu=10.12s gpu_util=45.0% vram=6250/49140MB loss=29.90631
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 547 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=175 reward=1157.58 steps=500 wall=10.66s cpu=8.49s gpu=10.65s gpu_util=39.0% vram=6250/49140MB loss=29.11048
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 550 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=176 reward=1061.91 steps=500 wall=10.21s cpu=8.29s gpu=10.21s gpu_util=44.0% vram=6250/49140MB loss=26.39171
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 553 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=177 reward=1241.93 steps=500 wall=9.29s cpu=7.24s gpu=9.29s gpu_util=47.0% vram=6250/49140MB loss=30.11953
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 556 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=178 reward=1176.73 steps=500 wall=10.35s cpu=8.06s gpu=10.35s gpu_util=36.0% vram=6250/49140MB loss=22.36320
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 559 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=179 reward=1278.05 steps=500 wall=11.29s cpu=9.07s gpu=11.29s gpu_util=37.0% vram=6250/49140MB loss=35.17180
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 562 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=180 reward=1265.12 steps=500 wall=10.83s cpu=8.40s gpu=10.83s gpu_util=44.0% vram=6250/49140MB loss=25.23902
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 565 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=181 reward=1146.49 steps=500 wall=11.18s cpu=9.02s gpu=11.18s gpu_util=32.0% vram=6250/49140MB loss=26.48095
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 568 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=182 reward=838.97 steps=500 wall=9.96s cpu=7.14s gpu=9.96s gpu_util=33.0% vram=6250/49140MB loss=33.91969
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 571 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=183 reward=1184.40 steps=500 wall=10.97s cpu=8.01s gpu=10.97s gpu_util=36.0% vram=6250/49140MB loss=31.39116
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 574 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=184 reward=1136.11 steps=500 wall=11.17s cpu=8.60s gpu=11.17s gpu_util=37.0% vram=6250/49140MB loss=26.96999
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 577 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=185 reward=1195.67 steps=500 wall=10.27s cpu=7.67s gpu=10.26s gpu_util=36.0% vram=6250/49140MB loss=20.94022
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 580 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=186 reward=1256.81 steps=500 wall=10.65s cpu=8.18s gpu=10.65s gpu_util=42.0% vram=6250/49140MB loss=28.09401
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 583 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=187 reward=995.66 steps=500 wall=10.43s cpu=8.30s gpu=10.43s gpu_util=36.0% vram=6250/49140MB loss=22.03441
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 586 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=188 reward=1266.31 steps=500 wall=10.46s cpu=7.90s gpu=10.46s gpu_util=34.0% vram=6250/49140MB loss=23.73742
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 589 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=189 reward=1028.51 steps=500 wall=10.84s cpu=8.65s gpu=10.84s gpu_util=38.0% vram=6250/49140MB loss=24.97294
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 592 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=190 reward=1270.58 steps=500 wall=10.96s cpu=8.77s gpu=10.96s gpu_util=36.0% vram=6250/49140MB loss=28.08130
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 595 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=191 reward=1259.65 steps=500 wall=10.10s cpu=6.77s gpu=10.10s gpu_util=42.0% vram=6250/49140MB loss=33.47840
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 598 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=192 reward=1191.31 steps=500 wall=9.42s cpu=5.64s gpu=9.42s gpu_util=36.0% vram=6250/49140MB loss=24.15419
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 601 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=193 reward=1128.57 steps=500 wall=8.70s cpu=5.40s gpu=8.70s gpu_util=41.0% vram=6250/49140MB loss=26.55441
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 604 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=194 reward=1253.66 steps=500 wall=9.25s cpu=5.63s gpu=9.25s gpu_util=43.0% vram=6250/49140MB loss=30.74943
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 607 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=195 reward=1259.95 steps=500 wall=9.14s cpu=5.24s gpu=9.14s gpu_util=42.0% vram=6250/49140MB loss=26.13139
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 610 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=196 reward=1148.91 steps=500 wall=8.73s cpu=5.31s gpu=8.73s gpu_util=44.0% vram=6250/49140MB loss=30.71726
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 613 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=197 reward=1260.41 steps=500 wall=9.97s cpu=5.67s gpu=9.97s gpu_util=43.0% vram=6250/49140MB loss=31.82155
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 616 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=198 reward=1214.06 steps=500 wall=9.85s cpu=5.87s gpu=9.85s gpu_util=37.0% vram=6250/49140MB loss=26.48019
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 619 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=199 reward=984.78 steps=500 wall=10.99s cpu=7.67s gpu=10.99s gpu_util=39.0% vram=6250/49140MB loss=26.55229
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 622 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=200 reward=939.16 steps=500 wall=10.60s cpu=7.27s gpu=10.60s gpu_util=30.0% vram=6250/49140MB loss=24.93043
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 625 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=201 reward=1004.50 steps=500 wall=10.83s cpu=7.63s gpu=10.83s gpu_util=37.0% vram=6250/49140MB loss=27.40306
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 628 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=202 reward=1098.81 steps=500 wall=10.63s cpu=7.15s gpu=10.63s gpu_util=41.0% vram=6250/49140MB loss=25.38848
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 631 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=203 reward=1260.58 steps=500 wall=9.72s cpu=6.88s gpu=9.72s gpu_util=36.0% vram=6250/49140MB loss=33.64527
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 634 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=204 reward=1243.01 steps=500 wall=9.19s cpu=6.76s gpu=9.19s gpu_util=43.0% vram=6250/49140MB loss=26.08212
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 637 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=205 reward=1167.17 steps=500 wall=9.97s cpu=6.15s gpu=9.97s gpu_util=39.0% vram=6250/49140MB loss=31.98513
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 640 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=206 reward=1254.09 steps=500 wall=9.60s cpu=6.63s gpu=9.60s gpu_util=43.0% vram=6250/49140MB loss=29.31084
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 643 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=207 reward=1265.68 steps=500 wall=10.70s cpu=7.85s gpu=10.70s gpu_util=34.0% vram=6250/49140MB loss=26.34266
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 646 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=208 reward=1206.91 steps=500 wall=9.84s cpu=6.35s gpu=9.84s gpu_util=40.0% vram=6250/49140MB loss=31.85566
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 649 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=209 reward=1213.71 steps=500 wall=10.01s cpu=6.97s gpu=10.01s gpu_util=36.0% vram=6250/49140MB loss=29.53305
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 652 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=210 reward=1264.36 steps=500 wall=9.93s cpu=7.03s gpu=9.93s gpu_util=43.0% vram=6250/49140MB loss=28.69774
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 655 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=211 reward=1134.04 steps=500 wall=10.88s cpu=7.39s gpu=10.88s gpu_util=40.0% vram=6250/49140MB loss=32.54699
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 658 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=212 reward=979.80 steps=500 wall=11.06s cpu=8.57s gpu=11.06s gpu_util=38.0% vram=6250/49140MB loss=37.47994
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 661 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=213 reward=1252.28 steps=500 wall=10.43s cpu=7.97s gpu=10.43s gpu_util=43.0% vram=6250/49140MB loss=30.95744
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 664 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=214 reward=1218.77 steps=500 wall=9.23s cpu=7.08s gpu=9.23s gpu_util=42.0% vram=6250/49140MB loss=28.85928
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 667 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=215 reward=1259.33 steps=500 wall=10.61s cpu=7.95s gpu=10.61s gpu_util=38.0% vram=6250/49140MB loss=32.26739
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 670 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=216 reward=1270.79 steps=500 wall=11.25s cpu=8.67s gpu=11.25s gpu_util=38.0% vram=6250/49140MB loss=33.87442
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 673 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=217 reward=1171.46 steps=500 wall=11.56s cpu=8.99s gpu=11.56s gpu_util=35.0% vram=6250/49140MB loss=32.01269
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 676 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=218 reward=1015.51 steps=500 wall=11.36s cpu=9.10s gpu=11.35s gpu_util=46.0% vram=6250/49140MB loss=30.00595
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 679 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=219 reward=1106.55 steps=500 wall=10.94s cpu=8.81s gpu=10.94s gpu_util=41.0% vram=6250/49140MB loss=26.20422
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 682 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=220 reward=1273.50 steps=500 wall=11.09s cpu=9.28s gpu=11.09s gpu_util=38.0% vram=6250/49140MB loss=26.30590
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 685 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=221 reward=1263.02 steps=500 wall=10.70s cpu=8.89s gpu=10.70s gpu_util=36.0% vram=6250/49140MB loss=27.52946
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 688 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=222 reward=1276.09 steps=500 wall=11.39s cpu=9.11s gpu=11.39s gpu_util=39.0% vram=6250/49140MB loss=33.80761
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 691 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=223 reward=1269.60 steps=500 wall=11.20s cpu=8.86s gpu=11.20s gpu_util=34.0% vram=6250/49140MB loss=27.96198
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 694 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=224 reward=1273.98 steps=500 wall=11.30s cpu=8.70s gpu=11.30s gpu_util=38.0% vram=6250/49140MB loss=29.91245
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 697 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=225 reward=1260.43 steps=500 wall=10.67s cpu=8.91s gpu=10.67s gpu_util=45.0% vram=6250/49140MB loss=30.29604
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 700 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=226 reward=1109.63 steps=500 wall=10.79s cpu=8.68s gpu=10.79s gpu_util=37.0% vram=6250/49140MB loss=29.93931
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 703 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=227 reward=1030.06 steps=500 wall=11.79s cpu=9.57s gpu=11.79s gpu_util=34.0% vram=6250/49140MB loss=30.53640
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 706 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=228 reward=590.72 steps=343 wall=7.65s cpu=6.21s gpu=7.65s gpu_util=39.0% vram=6250/49140MB loss=24.90943
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 709 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=229 reward=683.26 steps=403 wall=8.81s cpu=7.16s gpu=8.81s gpu_util=37.0% vram=6250/49140MB loss=39.97200
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 712 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=230 reward=1072.75 steps=500 wall=10.81s cpu=8.81s gpu=10.81s gpu_util=37.0% vram=6250/49140MB loss=35.80230
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 715 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=231 reward=858.83 steps=448 wall=9.64s cpu=8.22s gpu=9.64s gpu_util=35.0% vram=6250/49140MB loss=29.96322
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 718 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=232 reward=702.82 steps=425 wall=9.49s cpu=7.72s gpu=9.49s gpu_util=40.0% vram=6250/49140MB loss=36.53555
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 721 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=233 reward=-198.01 steps=1 wall=0.03s cpu=0.02s gpu=0.03s gpu_util=35.0% vram=6250/49140MB loss=1.04514
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 724 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=234 reward=1266.11 steps=500 wall=11.47s cpu=9.22s gpu=11.47s gpu_util=36.0% vram=6250/49140MB loss=28.22800
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 727 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=235 reward=984.44 steps=500 wall=11.36s cpu=9.08s gpu=11.36s gpu_util=35.0% vram=6250/49140MB loss=47.26336
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 730 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=236 reward=948.19 steps=500 wall=10.43s cpu=8.25s gpu=10.43s gpu_util=39.0% vram=6250/49140MB loss=37.34693
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 733 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=237 reward=1235.42 steps=500 wall=11.41s cpu=9.28s gpu=11.41s gpu_util=37.0% vram=6250/49140MB loss=34.14587
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 736 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=238 reward=1260.90 steps=500 wall=10.51s cpu=9.03s gpu=10.51s gpu_util=37.0% vram=6250/49140MB loss=48.76317
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 739 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=239 reward=1041.34 steps=500 wall=10.50s cpu=8.90s gpu=10.50s gpu_util=38.0% vram=6250/49140MB loss=34.42755
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 742 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=240 reward=958.71 steps=500 wall=10.69s cpu=8.96s gpu=10.69s gpu_util=42.0% vram=6250/49140MB loss=26.79014
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 745 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=241 reward=1077.22 steps=500 wall=10.72s cpu=8.56s gpu=10.72s gpu_util=35.0% vram=6250/49140MB loss=36.57720
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 748 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=242 reward=1252.32 steps=500 wall=10.63s cpu=8.47s gpu=10.63s gpu_util=40.0% vram=6250/49140MB loss=45.56558
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 751 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=243 reward=1269.96 steps=500 wall=11.23s cpu=9.51s gpu=11.23s gpu_util=36.0% vram=6250/49140MB loss=37.77621
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 754 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=244 reward=1181.31 steps=500 wall=10.83s cpu=9.22s gpu=10.83s gpu_util=41.0% vram=6250/49140MB loss=43.30253
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 757 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=245 reward=1269.77 steps=500 wall=10.86s cpu=9.18s gpu=10.86s gpu_util=37.0% vram=6250/49140MB loss=35.41199
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 760 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=246 reward=1034.01 steps=500 wall=11.12s cpu=9.28s gpu=11.12s gpu_util=41.0% vram=6250/49140MB loss=49.51131
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 763 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=247 reward=1089.53 steps=500 wall=10.95s cpu=8.87s gpu=10.95s gpu_util=35.0% vram=6250/49140MB loss=46.54338
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 766 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=248 reward=1268.78 steps=500 wall=10.51s cpu=8.09s gpu=10.50s gpu_util=36.0% vram=6250/49140MB loss=34.64020
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 769 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=249 reward=1156.89 steps=500 wall=10.87s cpu=8.58s gpu=10.86s gpu_util=33.0% vram=6250/49140MB loss=42.51283
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 772 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=250 reward=950.63 steps=500 wall=10.78s cpu=8.61s gpu=10.78s gpu_util=43.0% vram=6250/49140MB loss=38.94339
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 775 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=251 reward=961.46 steps=500 wall=8.99s cpu=6.11s gpu=8.99s gpu_util=43.0% vram=6250/49140MB loss=29.72954
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 778 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=252 reward=1068.67 steps=500 wall=10.56s cpu=8.01s gpu=10.56s gpu_util=41.0% vram=6250/49140MB loss=27.05332
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 781 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=253 reward=1265.23 steps=500 wall=10.63s cpu=8.36s gpu=10.63s gpu_util=40.0% vram=6250/49140MB loss=37.01785
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 784 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=254 reward=1026.00 steps=500 wall=10.57s cpu=8.87s gpu=10.57s gpu_util=39.0% vram=6250/49140MB loss=34.31961
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 787 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=255 reward=1253.13 steps=500 wall=10.81s cpu=8.71s gpu=10.81s gpu_util=35.0% vram=6250/49140MB loss=34.37617
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 790 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=256 reward=1066.79 steps=500 wall=11.33s cpu=9.25s gpu=11.33s gpu_util=36.0% vram=6250/49140MB loss=29.82379
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 793 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=257 reward=1273.36 steps=500 wall=11.64s cpu=9.44s gpu=11.64s gpu_util=41.0% vram=6250/49140MB loss=44.31633
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 796 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=258 reward=907.83 steps=500 wall=10.50s cpu=8.22s gpu=10.50s gpu_util=38.0% vram=6250/49140MB loss=43.62320
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 799 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=259 reward=1271.78 steps=500 wall=10.91s cpu=8.96s gpu=10.91s gpu_util=38.0% vram=6250/49140MB loss=28.26375
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 802 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=260 reward=1262.75 steps=500 wall=10.82s cpu=8.66s gpu=10.82s gpu_util=37.0% vram=6250/49140MB loss=34.75857
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 805 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=261 reward=1229.80 steps=500 wall=9.90s cpu=7.24s gpu=9.90s gpu_util=41.0% vram=6250/49140MB loss=32.52593
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 808 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=262 reward=1249.73 steps=500 wall=9.42s cpu=7.10s gpu=9.42s gpu_util=37.0% vram=6250/49140MB loss=36.49456
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 811 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=263 reward=1021.91 steps=500 wall=10.66s cpu=8.47s gpu=10.66s gpu_util=33.0% vram=6250/49140MB loss=39.35538
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 814 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=264 reward=1271.55 steps=500 wall=11.33s cpu=9.38s gpu=11.33s gpu_util=40.0% vram=6250/49140MB loss=38.86206
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 817 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=265 reward=1227.11 steps=500 wall=11.02s cpu=8.88s gpu=11.02s gpu_util=36.0% vram=6250/49140MB loss=36.89476
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 820 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=266 reward=1263.09 steps=500 wall=11.41s cpu=9.22s gpu=11.41s gpu_util=39.0% vram=6250/49140MB loss=42.76889
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 823 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=267 reward=1273.76 steps=500 wall=11.34s cpu=9.45s gpu=11.34s gpu_util=36.0% vram=6250/49140MB loss=41.73727
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 826 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=268 reward=1277.42 steps=500 wall=10.90s cpu=8.90s gpu=10.90s gpu_util=38.0% vram=6250/49140MB loss=23.13170
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 829 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=269 reward=1247.04 steps=500 wall=10.14s cpu=8.05s gpu=10.14s gpu_util=45.0% vram=6250/49140MB loss=61.16845
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 832 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=270 reward=1265.36 steps=500 wall=10.69s cpu=8.99s gpu=10.69s gpu_util=37.0% vram=6250/49140MB loss=44.39023
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 835 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=271 reward=1250.21 steps=500 wall=10.50s cpu=8.59s gpu=10.50s gpu_util=37.0% vram=6250/49140MB loss=35.77308
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 838 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=272 reward=1235.16 steps=500 wall=10.84s cpu=8.90s gpu=10.84s gpu_util=34.0% vram=6250/49140MB loss=40.40151
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 841 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=273 reward=1206.99 steps=500 wall=10.45s cpu=7.85s gpu=10.44s gpu_util=36.0% vram=6250/49140MB loss=52.17460
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 844 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=274 reward=1256.70 steps=500 wall=10.14s cpu=7.57s gpu=10.14s gpu_util=41.0% vram=6250/49140MB loss=33.12162
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 847 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=275 reward=1107.83 steps=500 wall=10.51s cpu=8.76s gpu=10.51s gpu_util=35.0% vram=6250/49140MB loss=39.37784
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 850 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=276 reward=1225.67 steps=500 wall=10.75s cpu=8.23s gpu=10.75s gpu_util=34.0% vram=6250/49140MB loss=40.98566
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 853 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=277 reward=1040.34 steps=500 wall=10.75s cpu=7.90s gpu=10.75s gpu_util=38.0% vram=6250/49140MB loss=38.23208
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 856 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=278 reward=1212.83 steps=500 wall=10.76s cpu=8.57s gpu=10.76s gpu_util=34.0% vram=6250/49140MB loss=47.59758
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 859 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=279 reward=1262.38 steps=500 wall=10.86s cpu=8.44s gpu=10.87s gpu_util=35.0% vram=6250/49140MB loss=58.58592
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 862 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=280 reward=1274.02 steps=500 wall=11.13s cpu=9.20s gpu=11.13s gpu_util=37.0% vram=6250/49140MB loss=40.56755
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 865 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=281 reward=1091.45 steps=500 wall=11.48s cpu=9.14s gpu=11.48s gpu_util=36.0% vram=6250/49140MB loss=50.83530
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 868 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=282 reward=608.89 steps=500 wall=11.15s cpu=8.54s gpu=11.15s gpu_util=36.0% vram=6250/49140MB loss=44.59923
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 871 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=283 reward=1109.43 steps=500 wall=11.29s cpu=9.15s gpu=11.29s gpu_util=34.0% vram=6250/49140MB loss=41.70490
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 874 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=284 reward=447.25 steps=422 wall=9.26s cpu=7.11s gpu=9.26s gpu_util=31.0% vram=6250/49140MB loss=52.63987
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 877 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=285 reward=1259.67 steps=500 wall=10.63s cpu=8.00s gpu=10.63s gpu_util=38.0% vram=6250/49140MB loss=44.53237
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 880 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=286 reward=1177.55 steps=500 wall=10.57s cpu=7.14s gpu=10.57s gpu_util=35.0% vram=6250/49140MB loss=56.64559
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 883 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=287 reward=1234.04 steps=500 wall=10.25s cpu=6.46s gpu=10.25s gpu_util=34.0% vram=6250/49140MB loss=40.17448
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 886 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=288 reward=1140.18 steps=500 wall=10.60s cpu=7.22s gpu=10.60s gpu_util=39.0% vram=6250/49140MB loss=36.65006
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 889 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=289 reward=1180.70 steps=500 wall=11.46s cpu=8.65s gpu=11.46s gpu_util=36.0% vram=6250/49140MB loss=38.52967
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 892 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=290 reward=1224.87 steps=500 wall=10.62s cpu=7.73s gpu=10.62s gpu_util=38.0% vram=6250/49140MB loss=49.43321
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 895 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=291 reward=997.85 steps=500 wall=10.72s cpu=8.16s gpu=10.72s gpu_util=32.0% vram=6250/49140MB loss=34.11933
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 898 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=292 reward=1228.95 steps=500 wall=10.95s cpu=8.68s gpu=10.95s gpu_util=37.0% vram=6250/49140MB loss=47.76069
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 901 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=293 reward=1066.56 steps=500 wall=11.41s cpu=9.33s gpu=11.41s gpu_util=37.0% vram=6250/49140MB loss=46.45573
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 904 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=294 reward=1242.32 steps=500 wall=11.14s cpu=9.18s gpu=11.14s gpu_util=37.0% vram=6250/49140MB loss=45.70274
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 907 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=295 reward=1101.93 steps=500 wall=11.04s cpu=9.04s gpu=11.04s gpu_util=33.0% vram=6250/49140MB loss=42.80123
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 910 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=296 reward=1270.11 steps=500 wall=11.25s cpu=9.19s gpu=11.25s gpu_util=43.0% vram=6250/49140MB loss=40.20981
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 913 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=297 reward=1179.50 steps=500 wall=11.04s cpu=9.19s gpu=11.04s gpu_util=37.0% vram=6250/49140MB loss=57.88962
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 916 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=298 reward=1253.49 steps=500 wall=10.11s cpu=8.40s gpu=10.11s gpu_util=44.0% vram=6250/49140MB loss=55.27964
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 919 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=299 reward=1081.05 steps=500 wall=11.50s cpu=9.48s gpu=11.50s gpu_util=44.0% vram=6250/49140MB loss=46.36936
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 922 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=300 reward=1192.90 steps=500 wall=10.42s cpu=8.70s gpu=10.42s gpu_util=37.0% vram=6250/49140MB loss=48.53559
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 925 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=301 reward=1177.29 steps=500 wall=10.34s cpu=8.43s gpu=10.34s gpu_util=32.0% vram=6250/49140MB loss=49.38820
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 928 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=302 reward=1236.09 steps=500 wall=11.28s cpu=9.17s gpu=11.28s gpu_util=31.0% vram=6250/49140MB loss=53.45350
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 931 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=303 reward=1265.45 steps=500 wall=10.85s cpu=8.69s gpu=10.85s gpu_util=39.0% vram=6250/49140MB loss=39.91995
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 934 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=304 reward=1225.28 steps=500 wall=10.87s cpu=8.45s gpu=10.87s gpu_util=40.0% vram=6250/49140MB loss=42.42544
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 937 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=305 reward=1275.48 steps=500 wall=11.12s cpu=8.95s gpu=11.12s gpu_util=37.0% vram=6250/49140MB loss=39.78099
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 940 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=306 reward=1221.23 steps=500 wall=11.17s cpu=8.97s gpu=11.17s gpu_util=43.0% vram=6250/49140MB loss=48.75989
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 943 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=307 reward=1024.58 steps=500 wall=10.72s cpu=8.82s gpu=10.72s gpu_util=38.0% vram=6250/49140MB loss=51.16852
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 946 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=308 reward=1260.86 steps=500 wall=10.70s cpu=8.04s gpu=10.70s gpu_util=38.0% vram=6250/49140MB loss=54.82767
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 949 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=309 reward=1131.39 steps=500 wall=11.60s cpu=9.49s gpu=11.60s gpu_util=39.0% vram=6250/49140MB loss=50.70594
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 952 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=310 reward=1257.66 steps=500 wall=10.48s cpu=8.25s gpu=10.48s gpu_util=38.0% vram=6250/49140MB loss=58.47666
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 955 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=311 reward=1272.48 steps=500 wall=11.00s cpu=8.84s gpu=11.00s gpu_util=34.0% vram=6250/49140MB loss=47.18436
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 958 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=312 reward=1020.97 steps=500 wall=10.79s cpu=8.65s gpu=10.79s gpu_util=35.0% vram=6250/49140MB loss=65.30131
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 961 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=313 reward=1268.48 steps=500 wall=10.96s cpu=8.91s gpu=10.96s gpu_util=34.0% vram=6250/49140MB loss=57.39336
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 964 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=314 reward=1271.45 steps=500 wall=11.26s cpu=9.15s gpu=11.26s gpu_util=46.0% vram=6250/49140MB loss=67.35397
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 967 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=315 reward=1130.40 steps=500 wall=10.99s cpu=8.95s gpu=10.99s gpu_util=40.0% vram=6250/49140MB loss=67.08466
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 970 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=316 reward=1257.92 steps=500 wall=10.71s cpu=7.81s gpu=10.71s gpu_util=37.0% vram=6250/49140MB loss=47.03401
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 973 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=317 reward=1269.14 steps=500 wall=11.09s cpu=8.43s gpu=11.09s gpu_util=38.0% vram=6250/49140MB loss=52.22580
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 976 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=318 reward=1241.21 steps=500 wall=11.66s cpu=9.43s gpu=11.66s gpu_util=44.0% vram=6250/49140MB loss=48.90759
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 979 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=319 reward=1275.31 steps=500 wall=10.95s cpu=8.94s gpu=10.95s gpu_util=39.0% vram=6250/49140MB loss=56.81069
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 982 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=320 reward=1269.73 steps=500 wall=11.64s cpu=9.19s gpu=11.64s gpu_util=39.0% vram=6250/49140MB loss=53.46719
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 985 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=321 reward=492.19 steps=404 wall=9.19s cpu=7.19s gpu=9.19s gpu_util=39.0% vram=6250/49140MB loss=58.71211
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 988 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=322 reward=904.20 steps=500 wall=10.17s cpu=7.68s gpu=10.17s gpu_util=42.0% vram=6250/49140MB loss=52.42440
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 991 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=323 reward=1003.84 steps=500 wall=10.49s cpu=8.01s gpu=10.49s gpu_util=39.0% vram=6250/49140MB loss=52.32205
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 994 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=324 reward=902.20 steps=500 wall=10.45s cpu=7.56s gpu=10.45s gpu_util=39.0% vram=6250/49140MB loss=50.56750
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 997 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=325 reward=1110.90 steps=500 wall=10.27s cpu=8.46s gpu=10.27s gpu_util=39.0% vram=6250/49140MB loss=60.02437
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1000 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=326 reward=1235.28 steps=500 wall=10.43s cpu=8.48s gpu=10.43s gpu_util=47.0% vram=6250/49140MB loss=69.52571
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1003 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=327 reward=1106.80 steps=500 wall=11.50s cpu=9.15s gpu=11.50s gpu_util=37.0% vram=6250/49140MB loss=59.72366
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1006 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=328 reward=1219.62 steps=500 wall=10.01s cpu=7.54s gpu=10.01s gpu_util=41.0% vram=6250/49140MB loss=56.70551
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1009 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=329 reward=1250.55 steps=500 wall=10.57s cpu=8.34s gpu=10.57s gpu_util=39.0% vram=6250/49140MB loss=55.95277
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1012 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=330 reward=1273.48 steps=500 wall=11.50s cpu=9.46s gpu=11.50s gpu_util=39.0% vram=6250/49140MB loss=46.77876
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1015 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=331 reward=1050.86 steps=500 wall=11.42s cpu=9.07s gpu=11.42s gpu_util=40.0% vram=6250/49140MB loss=48.03461
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1018 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=332 reward=806.79 steps=500 wall=10.09s cpu=7.55s gpu=10.09s gpu_util=44.0% vram=6250/49140MB loss=55.98757
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1021 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=333 reward=1212.82 steps=500 wall=9.72s cpu=7.42s gpu=9.72s gpu_util=46.0% vram=6250/49140MB loss=47.13607
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1024 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=334 reward=1268.07 steps=500 wall=10.61s cpu=8.02s gpu=10.61s gpu_util=42.0% vram=6250/49140MB loss=38.24159
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1027 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=335 reward=1116.41 steps=500 wall=10.39s cpu=8.44s gpu=10.39s gpu_util=31.0% vram=6250/49140MB loss=46.76091
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1030 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=336 reward=1268.89 steps=500 wall=11.82s cpu=9.59s gpu=11.82s gpu_util=36.0% vram=6250/49140MB loss=55.75569
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1033 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=337 reward=1172.95 steps=500 wall=10.79s cpu=8.40s gpu=10.79s gpu_util=35.0% vram=6250/49140MB loss=61.63339
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1036 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=338 reward=803.67 steps=500 wall=10.31s cpu=8.11s gpu=10.31s gpu_util=46.0% vram=6250/49140MB loss=51.19978
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1039 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=339 reward=1201.20 steps=500 wall=10.77s cpu=8.47s gpu=10.77s gpu_util=36.0% vram=6250/49140MB loss=46.70885
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1042 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=340 reward=1261.22 steps=500 wall=11.18s cpu=9.05s gpu=11.18s gpu_util=40.0% vram=6250/49140MB loss=47.62019
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1045 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=341 reward=1058.90 steps=500 wall=10.95s cpu=9.16s gpu=10.95s gpu_util=35.0% vram=6250/49140MB loss=47.14107
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1048 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=342 reward=1270.18 steps=500 wall=10.75s cpu=8.93s gpu=10.75s gpu_util=34.0% vram=6250/49140MB loss=53.88230
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1051 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=343 reward=1130.25 steps=500 wall=10.71s cpu=8.74s gpu=10.71s gpu_util=36.0% vram=6250/49140MB loss=52.58926
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1054 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=344 reward=1256.25 steps=500 wall=9.50s cpu=7.32s gpu=9.50s gpu_util=38.0% vram=6250/49140MB loss=50.62041
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1057 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=345 reward=1158.84 steps=500 wall=10.49s cpu=8.69s gpu=10.49s gpu_util=38.0% vram=6250/49140MB loss=44.26936
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1060 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=346 reward=1265.88 steps=500 wall=10.25s cpu=8.53s gpu=10.25s gpu_util=47.0% vram=6250/49140MB loss=52.61567
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1063 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=347 reward=1149.17 steps=500 wall=10.58s cpu=8.97s gpu=10.58s gpu_util=41.0% vram=6250/49140MB loss=49.30750
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1066 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=348 reward=1257.19 steps=500 wall=10.25s cpu=8.41s gpu=10.25s gpu_util=36.0% vram=6250/49140MB loss=37.33091
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1069 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=349 reward=1252.11 steps=500 wall=10.41s cpu=8.23s gpu=10.41s gpu_util=46.0% vram=6250/49140MB loss=40.64277
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1072 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=350 reward=1232.14 steps=500 wall=10.48s cpu=8.56s gpu=10.48s gpu_util=37.0% vram=6250/49140MB loss=56.46119
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1075 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=351 reward=1250.45 steps=500 wall=9.92s cpu=7.70s gpu=9.92s gpu_util=44.0% vram=6250/49140MB loss=55.49955
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1078 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=352 reward=1258.17 steps=500 wall=10.16s cpu=8.25s gpu=10.16s gpu_util=38.0% vram=6250/49140MB loss=39.16964
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1081 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=353 reward=1113.20 steps=500 wall=10.55s cpu=8.46s gpu=10.55s gpu_util=38.0% vram=6250/49140MB loss=50.21292
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1084 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=354 reward=1247.85 steps=500 wall=9.66s cpu=7.81s gpu=9.66s gpu_util=48.0% vram=6250/49140MB loss=48.29523
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1087 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=355 reward=1096.69 steps=500 wall=10.26s cpu=7.82s gpu=10.26s gpu_util=34.0% vram=6250/49140MB loss=42.40615
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1090 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=356 reward=1258.75 steps=500 wall=11.04s cpu=7.50s gpu=11.04s gpu_util=34.0% vram=6250/49140MB loss=45.62404
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1093 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=357 reward=1083.74 steps=500 wall=10.62s cpu=6.99s gpu=10.62s gpu_util=45.0% vram=6250/49140MB loss=40.93816
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1096 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=358 reward=1267.25 steps=500 wall=10.36s cpu=7.34s gpu=10.36s gpu_util=40.0% vram=6250/49140MB loss=47.88971
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1099 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=359 reward=1184.08 steps=500 wall=10.25s cpu=6.76s gpu=10.25s gpu_util=36.0% vram=6250/49140MB loss=62.37390
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1102 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=360 reward=1262.96 steps=500 wall=10.50s cpu=7.62s gpu=10.49s gpu_util=38.0% vram=6250/49140MB loss=66.55932
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1105 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=361 reward=1258.63 steps=500 wall=10.42s cpu=7.18s gpu=10.42s gpu_util=32.0% vram=6250/49140MB loss=41.59512
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1108 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=362 reward=1080.42 steps=500 wall=10.40s cpu=6.89s gpu=10.40s gpu_util=36.0% vram=6250/49140MB loss=61.19808
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1111 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=363 reward=1187.43 steps=500 wall=10.24s cpu=6.72s gpu=10.24s gpu_util=34.0% vram=6250/49140MB loss=54.05067
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1114 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=364 reward=1254.78 steps=500 wall=10.97s cpu=7.42s gpu=10.97s gpu_util=37.0% vram=6250/49140MB loss=40.05468
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1117 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=365 reward=1046.83 steps=500 wall=10.46s cpu=7.26s gpu=10.46s gpu_util=31.0% vram=6250/49140MB loss=55.59490
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1120 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=366 reward=964.33 steps=500 wall=11.02s cpu=8.50s gpu=11.02s gpu_util=37.0% vram=6250/49140MB loss=64.23077
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1123 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=367 reward=1202.68 steps=500 wall=9.99s cpu=6.39s gpu=9.99s gpu_util=33.0% vram=6250/49140MB loss=55.89085
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1126 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=368 reward=1125.59 steps=500 wall=11.96s cpu=8.77s gpu=11.96s gpu_util=33.0% vram=6250/49140MB loss=63.43516
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1129 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=369 reward=1250.94 steps=500 wall=11.90s cpu=8.48s gpu=11.90s gpu_util=30.0% vram=6250/49140MB loss=54.20600
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1132 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=370 reward=1192.10 steps=500 wall=10.41s cpu=8.02s gpu=10.41s gpu_util=36.0% vram=6250/49140MB loss=68.55216
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1135 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=371 reward=1094.76 steps=500 wall=10.22s cpu=7.50s gpu=10.22s gpu_util=41.0% vram=6250/49140MB loss=62.43410
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1138 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=372 reward=1095.14 steps=500 wall=11.57s cpu=9.57s gpu=11.57s gpu_util=42.0% vram=6250/49140MB loss=46.67595
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1141 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=373 reward=1251.41 steps=500 wall=11.50s cpu=9.60s gpu=11.50s gpu_util=38.0% vram=6250/49140MB loss=56.55140
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1144 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=374 reward=1062.89 steps=500 wall=10.95s cpu=9.23s gpu=10.95s gpu_util=34.0% vram=6250/49140MB loss=51.04036
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1147 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=375 reward=1149.37 steps=500 wall=10.36s cpu=8.14s gpu=10.36s gpu_util=36.0% vram=6250/49140MB loss=59.48799
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1150 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=376 reward=1260.36 steps=500 wall=11.23s cpu=9.18s gpu=11.23s gpu_util=42.0% vram=6250/49140MB loss=63.23815
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1153 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=377 reward=1170.90 steps=500 wall=10.75s cpu=8.65s gpu=10.75s gpu_util=32.0% vram=6250/49140MB loss=63.83426
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1156 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=378 reward=1180.78 steps=500 wall=11.34s cpu=9.38s gpu=11.34s gpu_util=35.0% vram=6250/49140MB loss=63.88288
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1159 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=379 reward=1248.63 steps=500 wall=10.78s cpu=8.75s gpu=10.78s gpu_util=35.0% vram=6250/49140MB loss=60.55228
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1162 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=380 reward=1183.78 steps=500 wall=11.00s cpu=9.30s gpu=11.00s gpu_util=32.0% vram=6250/49140MB loss=67.47903
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1165 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=381 reward=1190.43 steps=500 wall=11.22s cpu=9.64s gpu=11.22s gpu_util=38.0% vram=6250/49140MB loss=71.15611
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1168 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=382 reward=1126.88 steps=500 wall=10.01s cpu=8.31s gpu=10.01s gpu_util=41.0% vram=6250/49140MB loss=56.88955
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1171 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=383 reward=1119.24 steps=500 wall=11.05s cpu=8.63s gpu=11.05s gpu_util=36.0% vram=6250/49140MB loss=50.90531
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1174 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=384 reward=1036.70 steps=500 wall=11.28s cpu=9.08s gpu=11.28s gpu_util=38.0% vram=6250/49140MB loss=69.96399
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1177 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=385 reward=1272.29 steps=500 wall=11.78s cpu=9.30s gpu=11.78s gpu_util=31.0% vram=6250/49140MB loss=64.02091
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1180 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=386 reward=1162.04 steps=500 wall=10.44s cpu=8.09s gpu=10.44s gpu_util=33.0% vram=6250/49140MB loss=65.81910
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1183 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=387 reward=1110.53 steps=500 wall=10.79s cpu=8.03s gpu=10.79s gpu_util=34.0% vram=6250/49140MB loss=50.57276
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1186 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=388 reward=1098.93 steps=500 wall=11.42s cpu=9.45s gpu=11.42s gpu_util=34.0% vram=6250/49140MB loss=55.40076
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1189 (sensor.other.collision) 
+Using vehicle blueprint: vehicle.tesla.model3
+TRAIN Ensemble       ep=389 reward=1163.91 steps=500 wall=10.67s cpu=9.22s gpu=10.67s gpu_util=36.0% vram=6250/49140MB loss=63.09425
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 1192 (sensor.other.collision) 

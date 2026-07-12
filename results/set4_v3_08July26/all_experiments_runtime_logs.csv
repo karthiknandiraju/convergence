@@ -1,0 +1,9 @@
+phase,experiment,method,learning_rate,lr_multiplier,total_wall_time_seconds,total_cpu_time_seconds,total_gpu_time_seconds,gpu_memory_mb,process_memory_mb,episodes,model_path,network_frozen,updates_during_test
+train,standard_epsilon,Epsilon,5e-05,1.0,20312.385238170624,4168.790031832999,6017.9117997436515,2.00634765625,0.0,500,/workspace/results/set4_v3_08July26/models/standard_epsilon_lrmult_1.pt,,
+train,median_50_first,Median First,5e-05,1.0,20330.585576295853,4281.447275547,6029.698697795871,2.8779296875,0.0,500,/workspace/results/set4_v3_08July26/models/median_50_first_lrmult_1.pt,,
+train,median_50,Median 50,5e-05,1.0,19802.69392156601,3952.972676132,5500.9920506973285,3.74951171875,0.0,500,/workspace/results/set4_v3_08July26/models/median_50_lrmult_1.pt,,
+train,ensemble_epsilon_medianfirst_median50,Ensemble,5e-05,1.0,18812.043840408325,3500.841128336,4513.8520620117215,4.62109375,0.0,500,/workspace/results/set4_v3_08July26/models/ensemble_epsilon_medianfirst_median50_lrmult_1.pt,,
+test,standard_epsilon,Epsilon,5e-05,1.0,10168.012800216675,891.4018277949981,1586.6759143066395,4.48779296875,0.0,300,,True,0.0
+test,median_50_first,Median First,5e-05,1.0,11376.918961524963,1274.686128182002,2793.4978999633768,4.48779296875,0.0,300,,True,0.0
+test,median_50,Median 50,5e-05,1.0,11773.854884147644,1447.4334237500007,3190.214281593323,4.48779296875,0.0,300,,True,0.0
+test,ensemble_epsilon_medianfirst_median50,Ensemble,5e-05,1.0,10550.11749124527,1293.1754767929997,1964.6700935668955,4.48779296875,0.0,300,,True,0.0

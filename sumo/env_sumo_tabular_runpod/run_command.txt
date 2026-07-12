@@ -1,0 +1,1 @@
+python -u src/sumo_tabular_median50.py   --train-episodes 500   --test-episodes 300   --max-episode-steps 500   --epsilon 0.2   --alpha 0.1   --gamma 0.99   --state-bins 8 12 12 10 8   --target-speed 13.9   --seed 42   --output-dir results/results_sumo_tabular_runpod

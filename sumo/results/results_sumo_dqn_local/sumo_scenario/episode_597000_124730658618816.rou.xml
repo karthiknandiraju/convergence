@@ -1,0 +1,33 @@
+<routes>
+    <vType id="egoType"
+           accel="3.0"
+           decel="6.0"
+           sigma="0.0"
+           length="5.0"
+           minGap="2.5"
+           maxSpeed="25.0"
+           guiShape="passenger"/>
+
+    <vType id="leaderType"
+           accel="2.0"
+           decel="4.5"
+           sigma="0.0"
+           length="5.0"
+           minGap="2.5"
+           maxSpeed="10.091"
+           guiShape="passenger"/>
+
+    <route id="mainRoute" edges="road"/>
+
+    <vehicle id="leader"
+             type="leaderType"
+             route="mainRoute"
+             depart="0.148"
+             departSpeed="10.091"/>
+
+    <vehicle id="ego"
+             type="egoType"
+             route="mainRoute"
+             depart="2.0"
+             departSpeed="5.0"/>
+</routes>

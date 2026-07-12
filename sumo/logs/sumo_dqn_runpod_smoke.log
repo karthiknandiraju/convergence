@@ -1,0 +1,32 @@
+nohup: ignoring input
+========================================================================
+SUMO set4_v2: DQN + RND + Count + Target + Replay + Adam
+Experiments: Epsilon Greedy, Median 50
+Python: 3.12.3
+PyTorch: 2.5.1+cu124
+CUDA available: True
+Selected device: cuda
+Output dir: /workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn/results/results_sumo_dqn_runpod_smoke
+========================================================================
+
+===== TRAINING START: Epsilon Greedy =====
+ Retrying in 1 seconds
+TRAIN Epsilon Greedy ep=000 reward=0.62 total=0.67 steps=1 term=max_steps coll=none wall=0.25s cpu=0.25s gpu=0.25s ram=71954/515790MB vram=5878/49140MB loss=0.00000
+===== TRAINING END: Epsilon Greedy =====
+
+===== TRAINING START: Median 50 =====
+ Retrying in 1 seconds
+TRAIN Median 50      ep=000 reward=0.90 total=0.95 steps=1 term=max_steps coll=none wall=0.00s cpu=0.00s gpu=0.00s ram=71963/515790MB vram=5878/49140MB loss=0.00000
+===== TRAINING END: Median 50 =====
+
+===== TESTING START: Epsilon Greedy =====
+ Retrying in 1 seconds
+TEST  Epsilon Greedy ep=000 reward=0.62 steps=1 term=max_steps coll=none wall=0.00s cpu=0.00s gpu=0.00s ram=71959/515790MB vram=5880/49140MB
+===== TESTING END: Epsilon Greedy =====
+
+===== TESTING START: Median 50 =====
+ Retrying in 1 seconds
+TEST  Median 50      ep=000 reward=1.04 steps=1 term=max_steps coll=none wall=0.00s cpu=0.00s gpu=0.00s ram=71973/515790MB vram=5880/49140MB
+===== TESTING END: Median 50 =====
+
+Saved SUMO set4_v2 outputs to: /workspace/DQNMedian50/DQNMedian50/sumo_tabular_dqn/results/results_sumo_dqn_runpod_smoke

@@ -1,0 +1,4 @@
+experiment,method,training_duration_seconds,testing_duration_seconds,model_path
+standard_epsilon,Epsilon,1547.1286396980286,790.4168229103088,/workspace/highway/results_highway_dqn_500_300_500/models/standard_epsilon_model.pt
+median_50,Median 50,1555.8584485054016,856.1427125930786,/workspace/highway/results_highway_dqn_500_300_500/models/median_50_model.pt
+median_50_first,Median First 50,5059.447614908218,736.3649110794067,/workspace/highway/results_highway_dqn_500_300_500/models/median_50_first_model.pt
