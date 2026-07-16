@@ -1,0 +1,356 @@
+# Value-Guided Bounded State-Conditioned One-Pass Action Coverage
+
+
+
+**Author:** Sai Durga Karthik Nandiraju
+
+**Date:** 16 July 2026
+
+
+
+## Algorithm
+
+
+
+**Input**
+
+
+
+* Current state (observation)
+
+* Online DQN
+
+* Maximum number of state pools = maximum episode steps
+
+* State similarity threshold (e.g., 90%)
+
+* Number of discrete actions (9)
+
+
+
+**Output**
+
+
+
+* Selected action
+
+
+
+---
+
+
+
+### Step 1
+
+
+
+Receive the current state from the environment.
+
+
+
+---
+
+
+
+### Step 2
+
+
+
+Compute the Q-values for all actions using the online DQN.
+
+
+
+---
+
+
+
+### Step 3
+
+
+
+Compare the current state with all existing state-pool representatives.
+
+
+
+Find the pool having the highest similarity.
+
+
+
+---
+
+
+
+### Step 4
+
+
+
+If the best similarity is greater than or equal to the similarity threshold:
+
+
+
+* Assign the current state to that state pool.
+
+
+
+Otherwise:
+
+
+
+* If the number of existing pools is smaller than the maximum number of pools,
+
+  create a new state pool.
+
+* Store the current state as the representative of the new pool.
+
+* Initialise the action mask with all actions available.
+
+
+
+Otherwise:
+
+
+
+* No suitable pool exists and the maximum number of pools has already been created.
+
+* Select the normal maximum-Q action.
+
+* Execute the action.
+
+* Continue normal DQN training.
+
+
+
+---
+
+
+
+### Step 5
+
+
+
+Read the action mask associated with the selected state pool.
+
+
+
+If every action has already been explored (mask is empty):
+
+
+
+* Select the normal maximum-Q action.
+
+* Execute the action.
+
+* Continue normal DQN training.
+
+
+
+---
+
+
+
+### Step 6
+
+
+
+Otherwise:
+
+
+
+Among the actions that are still available in the mask,
+
+
+
+select the action having the highest predicted Q-value.
+
+
+
+---
+
+
+
+### Step 7
+
+
+
+Remove the selected action from the action mask.
+
+
+
+The action will never be deliberately selected again for that state pool.
+
+
+
+---
+
+
+
+### Step 8
+
+
+
+Execute the selected action.
+
+
+
+Observe:
+
+
+
+* next state
+
+* reward
+
+* termination status
+
+
+
+---
+
+
+
+### Step 9
+
+
+
+Store the transition
+
+
+
+(State, Action, Reward, Next State, Done)
+
+
+
+in the replay buffer.
+
+
+
+---
+
+
+
+### Step 10
+
+
+
+Sample a mini-batch from replay memory.
+
+
+
+Update the online DQN using:
+
+
+
+* target network
+
+* Huber loss
+
+* Adam optimiser
+
+* gradient clipping
+
+
+
+Synchronise the target network periodically.
+
+
+
+---
+
+
+
+### Testing
+
+
+
+During testing:
+
+
+
+* state pools are disabled
+
+* action masks are disabled
+
+* replay memory is not updated
+
+* optimiser is disabled
+
+* target network is frozen
+
+
+
+The agent always selects the normal maximum-Q action.
+
+
+
+---
+
+
+
+# Behaviour
+
+
+
+For each discovered state pool:
+
+
+
+* First visit: highest-Q unused action.
+
+* Second visit: highest-Q among the remaining unused actions.
+
+* Continue until every action has been deliberately selected once.
+
+* After every action has been explored, always select the normal maximum-Q action.
+
+* Action masks are never refilled.
+
+
+
+---
+
+
+
+# Pool Capacity
+
+
+
+Maximum number of state pools:
+
+
+
+Maximum Episode Steps
+
+
+
+If a similar state exists:
+
+
+
+* Use its state pool.
+
+
+
+If no similar state exists and pool capacity is available:
+
+
+
+* Create a new state pool.
+
+
+
+If no similar state exists and pool capacity has been reached:
+
+
+
+* Use the normal maximum-Q action.
+
+* Do not create another pool.
+
+* Do not replace an existing pool.
+
+* Do not force the state into an unrelated pool.
+
+
+
+---
+
