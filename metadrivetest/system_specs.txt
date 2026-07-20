@@ -1,0 +1,28 @@
+]633;E;echo "===== OPERATING SYSTEM =====";a4a8cc40-a2f8-4d0c-87e8-8569e8c19e8c]633;C===== OPERATING SYSTEM =====
+OS: Ubuntu 26.04 LTS
+Kernel: 7.0.0-27-generic
+Architecture: x86_64
+
+===== CPU =====
+CPU(s): 12
+Model name: 13th Gen Intel(R) Core(TM) i5-13420H
+Thread(s) per core: 2
+Core(s) per socket: 8
+Socket(s): 1
+
+===== MEMORY =====
+Total RAM: 31Gi
+
+===== GPU =====
+NVIDIA GeForce RTX 5050 Laptop GPU, 8151 MiB, 595.71.05
+
+===== SOFTWARE =====
+Python 3.11.15
+conda 25.11.1
+gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+torch: 2.7.1+cu128
+numpy: 1.26.4
+gymnasium: 1.3.0
+metadrive: installed
+PyTorch CUDA: 12.8
+CUDA available: True
