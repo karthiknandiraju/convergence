@@ -1,3 +1,0 @@
-policy_folder,display_label,evaluation_variant,source_name,source_csv,experiment,method
-Karthikeya27adv8,Policy (Karthikeya27adv8),standard,Karthikeya27adv8,/home/karthik/Desktop/Karthikeya/genadv/metadrivetest/metadrive_canonical_baselines/policy_results/seed_33/Karthikeya27adv8/all_episode_results.csv,Karthikeya27adv8,Karthikeya27adv8
-Karthikeya27adv8,Karthikeya27adv8 Pure DQN,pure_dqn,Karthikeya27adv8,/home/karthik/Desktop/Karthikeya/genadv/metadrivetest/metadrive_canonical_baselines/policy_results/seed_33/Karthikeya27adv8/all_episode_results.csv,Karthikeya27adv8,Karthikeya27adv8 Pure DQN
