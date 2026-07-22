@@ -1,0 +1,2 @@
+candidate_id,status,visit_count,first_episode,last_episode,visits_remaining_for_promotion,unique_actions_executed,unknown_mask,safe_mask,blocked_mask,total_action_attempts,total_safe_outcomes,total_collision_outcomes,total_out_of_road_outcomes,total_warnings,action_attempt_counts,safe_outcome_counts,collision_outcome_counts,out_of_road_outcome_counts,warning_counts
+0,CANDIDATE,1,0,0,2,1,507,0,4,1,0,0,1,0,0|0|1|0|0|0|0|0|0,0|0|0|0|0|0|0|0|0,0|0|0|0|0|0|0|0|0,0|0|1|0|0|0|0|0|0,0|0|0|0|0|0|0|0|0

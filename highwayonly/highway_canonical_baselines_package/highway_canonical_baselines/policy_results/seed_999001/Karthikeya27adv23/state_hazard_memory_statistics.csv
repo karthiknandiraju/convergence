@@ -1,0 +1,2 @@
+hazard_id,status,archived_episode,last_hit_episode,hit_count,archive_cycles,source_candidate_visits,unknown_actions,safe_actions,blocked_actions,unknown_mask,safe_mask,blocked_mask,total_action_attempts,total_safe_outcomes,total_collision_outcomes,total_out_of_road_outcomes,total_warnings,action_attempt_counts,safe_outcome_counts,collision_outcome_counts,out_of_road_outcome_counts,warning_counts
+1,HAZARD,0,-1,0,1,0,8,0,1,507,0,4,1,0,0,1,0,0|0|1|0|0|0|0|0|0,0|0|0|0|0|0|0|0|0,0|0|0|0|0|0|0|0|0,0|0|1|0|0|0|0|0|0,0|0|0|0|0|0|0|0|0
