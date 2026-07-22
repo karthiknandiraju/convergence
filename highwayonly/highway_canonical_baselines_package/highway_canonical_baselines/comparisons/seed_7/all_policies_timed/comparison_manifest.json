@@ -1,6 +1,6 @@
 {
   "automatic_policy_discovery": true,
-  "baseline_root": "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/canonical_baselines_timed/seed_5",
+  "baseline_root": "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/canonical_baselines_timed/seed_7",
   "block_size": 25,
   "graphs": [
     "test_reward_boxplot.png",
@@ -20,8 +20,7 @@
     "max_steps_rate": "Episodes reaching the configured horizon divided by test episodes."
   },
   "policy_sources": [
-    "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_5/Karthikeya27adv23",
-    "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_5/Karthikeya27adv8956"
+    "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_7/Karthikeya27adv8956"
   ],
   "series": [
     {
@@ -44,13 +43,6 @@
       "series_id": "rnd",
       "source_kind": "baseline",
       "source_name": "rnd"
-    },
-    {
-      "evaluation_variant": "standard",
-      "method": "Policy (Karthikeya27adv23)",
-      "series_id": "Karthikeya27adv23",
-      "source_kind": "policy",
-      "source_name": "Karthikeya27adv23"
     },
     {
       "evaluation_variant": "standard",

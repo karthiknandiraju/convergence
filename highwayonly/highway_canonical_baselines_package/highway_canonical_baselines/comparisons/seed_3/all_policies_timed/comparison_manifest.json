@@ -1,6 +1,6 @@
 {
   "automatic_policy_discovery": true,
-  "baseline_root": "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/canonical_baselines/seed_3",
+  "baseline_root": "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/canonical_baselines_timed/seed_3",
   "block_size": 25,
   "graphs": [
     "test_reward_boxplot.png",
