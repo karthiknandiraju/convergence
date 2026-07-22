@@ -1,0 +1,53 @@
+nohup: ignoring input
+===== SEED 33: START =====
+===== SEED 33: TRAINING BASELINES: rnd =====
+
+===== TRAIN DQN + RND / seed 33 =====
+DQN + RND train 25/500
+DQN + RND train 50/500
+DQN + RND train 75/500
+DQN + RND train 100/500
+DQN + RND train 125/500
+DQN + RND train 150/500
+DQN + RND train 175/500
+DQN + RND train 200/500
+DQN + RND train 225/500
+DQN + RND train 250/500
+DQN + RND train 275/500
+DQN + RND train 300/500
+DQN + RND train 325/500
+DQN + RND train 350/500
+DQN + RND train 375/500
+DQN + RND train 400/500
+DQN + RND train 425/500
+DQN + RND train 450/500
+DQN + RND train 475/500
+DQN + RND train 500/500
+DQN + RND training duration: 634.51s wall, 632.01s CPU
+DQN + RND testing final episode-500 model
+===== TEST DQN + RND / seed 33 =====
+DQN + RND test 25/300
+DQN + RND test 50/300
+DQN + RND test 75/300
+DQN + RND test 100/300
+DQN + RND test 125/300
+DQN + RND test 150/300
+DQN + RND test 175/300
+DQN + RND test 200/300
+DQN + RND test 225/300
+DQN + RND test 250/300
+DQN + RND test 275/300
+DQN + RND test 300/300
+DQN + RND testing duration: 472.44s wall, 471.89s CPU
+
+Canonical baselines saved to: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/canonical_baselines_timed/seed_33
+===== SEED 33: BASELINES FINISHED =====
+===== SEED 33: KARTHIKEYA27ADV8956HWY START =====
+Traceback (most recent call last):
+  File "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policies/Karthikeya27adv8956hwy.py", line 7789, in <module>
+    main()
+  File "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policies/Karthikeya27adv8956hwy.py", line 7550, in main
+    prepare_output_dir(output_dir, args.force)
+  File "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policies/Karthikeya27adv8956hwy.py", line 7508, in prepare_output_dir
+    raise FileExistsError(
+FileExistsError: Karthikeya27adv8956 output directory is not empty: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_33/Karthikeya27adv8956. Reuse it or pass --force to remove the previous partial/completed run.

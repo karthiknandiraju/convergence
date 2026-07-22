@@ -102,3 +102,9 @@ DQN + RND train 500/500
 DQN + RND training duration: 660.03s wall, 658.98s CPU
 DQN + RND testing final episode-500 model
 ===== TEST DQN + RND / seed 13 =====
+DQN + RND test 25/300
+DQN + RND test 50/300
+DQN + RND test 75/300
+DQN + RND test 100/300
+DQN + RND test 125/300
+DQN + RND test 150/300

@@ -1,0 +1,973 @@
+nohup: ignoring input
+===== SEED 61: START =====
+===== SEED 61: RUNNING BASELINES: epsilon noisy rnd =====
+
+===== TRAIN Epsilon Greedy / seed 61 =====
+Epsilon Greedy train 25/500
+Epsilon Greedy train 50/500
+Epsilon Greedy train 75/500
+Epsilon Greedy train 100/500
+Epsilon Greedy train 125/500
+Epsilon Greedy train 150/500
+Epsilon Greedy train 175/500
+Epsilon Greedy train 200/500
+Epsilon Greedy train 225/500
+Epsilon Greedy train 250/500
+Epsilon Greedy train 275/500
+Epsilon Greedy train 300/500
+Epsilon Greedy train 325/500
+Epsilon Greedy train 350/500
+Epsilon Greedy train 375/500
+Epsilon Greedy train 400/500
+Epsilon Greedy train 425/500
+Epsilon Greedy train 450/500
+Epsilon Greedy train 475/500
+Epsilon Greedy train 500/500
+Epsilon Greedy training duration: 653.93s wall, 653.11s CPU
+Epsilon Greedy testing final episode-500 model
+===== TEST Epsilon Greedy / seed 61 =====
+Epsilon Greedy test 25/300
+Epsilon Greedy test 50/300
+Epsilon Greedy test 75/300
+Epsilon Greedy test 100/300
+Epsilon Greedy test 125/300
+Epsilon Greedy test 150/300
+Epsilon Greedy test 175/300
+Epsilon Greedy test 200/300
+Epsilon Greedy test 225/300
+Epsilon Greedy test 250/300
+Epsilon Greedy test 275/300
+Epsilon Greedy test 300/300
+Epsilon Greedy testing duration: 551.81s wall, 551.09s CPU
+
+===== TRAIN NoisyNet DQN / seed 61 =====
+NoisyNet DQN train 25/500
+NoisyNet DQN train 50/500
+NoisyNet DQN train 75/500
+NoisyNet DQN train 100/500
+NoisyNet DQN train 125/500
+NoisyNet DQN train 150/500
+NoisyNet DQN train 175/500
+NoisyNet DQN train 200/500
+NoisyNet DQN train 225/500
+NoisyNet DQN train 250/500
+NoisyNet DQN train 275/500
+NoisyNet DQN train 300/500
+NoisyNet DQN train 325/500
+NoisyNet DQN train 350/500
+NoisyNet DQN train 375/500
+NoisyNet DQN train 400/500
+NoisyNet DQN train 425/500
+NoisyNet DQN train 450/500
+NoisyNet DQN train 475/500
+NoisyNet DQN train 500/500
+NoisyNet DQN training duration: 759.10s wall, 758.04s CPU
+NoisyNet DQN testing final episode-500 model
+===== TEST NoisyNet DQN / seed 61 =====
+NoisyNet DQN test 25/300
+NoisyNet DQN test 50/300
+NoisyNet DQN test 75/300
+NoisyNet DQN test 100/300
+NoisyNet DQN test 125/300
+NoisyNet DQN test 150/300
+NoisyNet DQN test 175/300
+NoisyNet DQN test 200/300
+NoisyNet DQN test 225/300
+NoisyNet DQN test 250/300
+NoisyNet DQN test 275/300
+NoisyNet DQN test 300/300
+NoisyNet DQN testing duration: 465.94s wall, 465.61s CPU
+
+===== TRAIN DQN + RND / seed 61 =====
+DQN + RND train 25/500
+DQN + RND train 50/500
+DQN + RND train 75/500
+DQN + RND train 100/500
+DQN + RND train 125/500
+DQN + RND train 150/500
+DQN + RND train 175/500
+DQN + RND train 200/500
+DQN + RND train 225/500
+DQN + RND train 250/500
+DQN + RND train 275/500
+DQN + RND train 300/500
+DQN + RND train 325/500
+DQN + RND train 350/500
+DQN + RND train 375/500
+DQN + RND train 400/500
+DQN + RND train 425/500
+DQN + RND train 450/500
+DQN + RND train 475/500
+DQN + RND train 500/500
+DQN + RND training duration: 674.62s wall, 674.25s CPU
+DQN + RND testing final episode-500 model
+===== TEST DQN + RND / seed 61 =====
+DQN + RND test 25/300
+DQN + RND test 50/300
+DQN + RND test 75/300
+DQN + RND test 100/300
+DQN + RND test 125/300
+DQN + RND test 150/300
+DQN + RND test 175/300
+DQN + RND test 200/300
+DQN + RND test 225/300
+DQN + RND test 250/300
+DQN + RND test 275/300
+DQN + RND test 300/300
+DQN + RND testing duration: 539.97s wall, 539.82s CPU
+
+Canonical baselines saved to: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/canonical_baselines_timed/seed_61
+===== SEED 61: BASELINES FINISHED =====
+===== SEED 61: KARTHIKEYA27ADV8956HWY START =====
+============================================================================
+HIGHWAYENV KARTHIKEYA27ADV8956 RETAINED-EVIDENCE SAFETY POLICY
+============================================================================
+Python: 3.12.3
+PyTorch: 2.11.0+cu128
+HighwayEnv: 1.12.0
+Device: cuda
+Experiments: Karthikeya27adv8956
+Plain DQN + Target + Replay + Adam: yes
+RND intrinsic reward: no
+Count-based intrinsic reward: no
+Frozen Pure-DQN testing only: yes
+Train/Test/Max steps: 500 300 500
+Training seeds: 61 through 560
+Testing seeds: 100000 through 100299
+Discrete actions: 9
+Learning rate: 5e-05
+Output directory: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956
+Policy name: Karthikeya27adv8956
+Initial combined active + retired pools: 500
+Maximum permanent capacity: 500
+Adaptive capacity formula applied: False
+Pool general representation: full flattened observation
+Pool safety representation: lane_boundary_clearance, nearest_collision_hazard_center_distance, absolute_lane_offset, absolute_heading_error, ego_speed_km_h
+Unified record statuses: CANDIDATE | ACTIVE | RETIRED | HAZARD
+Lookup: safety-strict HAZARD + ACTIVE -> RETIRED -> CANDIDATE
+Testing policy: frozen pure DQN
+Auto threshold calibration: True
+Calibration state target: 3000
+Candidate soft limit: 125
+Candidate hard limit: 150
+Candidate batch eviction count: 25
+Candidate promotion visits: 4
+Hazard-memory capacity: 125
+Hazard-memory fraction: 0.25
+Clean outcomes required for SAFE: 2
+Delayed safety horizon: 5
+Minimum progress reward for SAFE: 0.01
+Warnings required to block: 2
+First-pass priority: highest-Q SAFE, then UNKNOWN; BLOCKED excluded
+Candidate centroid shift threshold: 0.01
+Candidate stable updates: 2
+Maximum candidate centroid updates: 4
+Overwrite existing completed run: False
+State similarity threshold: 0.9
+Permanent RMS threshold: 0.2
+Candidate cosine threshold: 0.9
+Candidate RMS threshold: 0.25
+General matching: RMS plus cosine when norms are stable
+Normal general-match cosine/RMS relaxation: 0.02 0.02
+Relaxed general matching keeps both safety gates strict: yes
+Safety matching gate: RMS distance plus cosine when norms are stable
+Capacity-pressure fallback: True
+Capacity fallback scope: candidate hard limit, permanent capacity, or eviction
+Capacity fallback cosine/RMS relaxation: 0.02 0.1
+Capacity fallback safety improvement: 0.1
+Directional safety: lane/threat larger; offset/heading smaller
+Speed directional fallback requirement: no; strict gates only
+Capacity-fallback safety gates relaxed: no
+Pool representatives use adaptive centroid freezing: yes
+Centroid shift threshold: 0.01
+Consecutive stable updates required: 3
+Maximum centroid updates per pool: 10
+Centroid stability distance threshold: 0.1
+Pool-active training fraction: 0.8
+Final pure-DQN argmax training fraction: 0.19999999999999996
+Final phase: pure DQN argmax; no pool lookup, safety extraction, or safety masks
+Pool mutations disabled from episode: 400
+Similarity metrics: cosine similarity + RMS distance
+Pool lookup: preallocated vectorized linear matching
+Representative storage dtype: float32
+Replay sampling: indexed ring buffer, O(batch_size)
+Test safety extraction: no (pure-DQN argmax only)
+Available actions per new pool: 9
+Candidate visits use outcome-filtered DQN ranking: yes
+Candidate actions are recorded for mask initialization: yes
+Promotion occurs before promotion-visit action selection: yes
+Active initial pass: every eligible non-BLOCKED action once
+Scheduled UNKNOWN-only passes: 1
+UNKNOWN pass excludes BLOCKED actions: yes
+Final UNKNOWN action waits for its five-step outcome: yes
+Missing safety: skip pools and use fresh DQN argmax
+Retired post-pass selection: 80% greedy, 20% UNKNOWN-only random
+Post-pass greedy: highest-Q across SAFE and UNKNOWN
+Post-pass random eligibility: UNKNOWN only; never SAFE or BLOCKED
+No UNKNOWN on random draw: fall back to eligible DQN maximum
+BLOCKED actions excluded while SAFE or UNKNOWN is available
+All-BLOCKED fallback: least failures, then highest fresh DQN Q
+Collision/out-of-road penalties: 50.0 50.0
+Time-limit truncations bootstrap in replay: yes
+Stored retired action values or rankings: no
+Removal: clear selected bit in O(1)
+Promotion and retirement: O(1) status-tag changes
+Pass advance/retirement: after observing final transition
+Absolute permanent capacity full: do not create new candidates; use maximum-Q
+Availability mask refills: once, for the UNKNOWN-only pass
+RMST event/tau: collision 500
+============================================================================
+
+===== TRAINING START: Karthikeya27adv8956 =====
+TRAIN Karthikeya27adv8956 ep=025 reward=  -47.600 steps=  8 term=out_of_road collision=False wall=2.26s loss=8.038316
+TRAIN Karthikeya27adv8956 ep=050 reward=  -40.494 steps= 10 term=collision   collision=True  wall=2.82s loss=7.735865
+TRAIN Karthikeya27adv8956 ep=075 reward=  -45.800 steps=  4 term=collision   collision=True  wall=1.12s loss=9.386001
+TRAIN Karthikeya27adv8956 ep=100 reward=  -44.000 steps=  6 term=collision   collision=True  wall=1.66s loss=7.680474
+TRAIN Karthikeya27adv8956 ep=125 reward=  -48.000 steps=  2 term=collision   collision=True  wall=0.57s loss=8.162983
+TRAIN Karthikeya27adv8956 ep=150 reward=  -46.850 steps=  4 term=collision   collision=True  wall=1.11s loss=7.967819
+TRAIN Karthikeya27adv8956 ep=175 reward=  -42.300 steps=  7 term=collision   collision=True  wall=1.92s loss=9.991704
+TRAIN Karthikeya27adv8956 ep=200 reward=  -46.132 steps=  4 term=collision   collision=True  wall=1.12s loss=9.047871
+TRAIN Karthikeya27adv8956 ep=225 reward=  -44.500 steps=  5 term=collision   collision=True  wall=1.38s loss=7.696571
+TRAIN Karthikeya27adv8956 ep=250 reward=  -45.850 steps=  5 term=collision   collision=True  wall=1.37s loss=9.908160
+TRAIN Karthikeya27adv8956 ep=275 reward=  -48.819 steps=  2 term=collision   collision=True  wall=0.57s loss=9.428535
+TRAIN Karthikeya27adv8956 ep=300 reward=  -47.188 steps=  3 term=collision   collision=True  wall=0.89s loss=5.776651
+TRAIN Karthikeya27adv8956 ep=325 reward=  -44.667 steps=  5 term=collision   collision=True  wall=1.43s loss=9.139506
+TRAIN Karthikeya27adv8956 ep=350 reward=  -45.800 steps=  4 term=collision   collision=True  wall=1.14s loss=9.039190
+TRAIN Karthikeya27adv8956 ep=375 reward=  -44.056 steps=  6 term=collision   collision=True  wall=1.70s loss=10.588755
+TRAIN Karthikeya27adv8956 ep=400 reward=  -48.000 steps=  3 term=collision   collision=True  wall=0.84s loss=7.329251
+TRAIN Karthikeya27adv8956 ep=425 reward=  -44.856 steps=  5 term=collision   collision=True  wall=1.38s loss=6.690974
+TRAIN Karthikeya27adv8956 ep=450 reward=  -45.000 steps=  5 term=collision   collision=True  wall=1.40s loss=9.442184
+TRAIN Karthikeya27adv8956 ep=475 reward=  -47.000 steps=  3 term=collision   collision=True  wall=0.85s loss=9.546313
+TRAIN Karthikeya27adv8956 ep=500 reward=  -43.932 steps=  6 term=collision   collision=True  wall=1.69s loss=8.038284
+===== TRAINING END: Karthikeya27adv8956 =====
+Training duration: 791.83s
+Testing final episode-500 model with pure DQN
+
+===== TESTING START: Karthikeya27adv8956 (pure DQN) =====
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=025 reward=  -43.400 steps=  6 term=collision   collision=True  wall=1.63s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=050 reward=  -47.700 steps=  3 term=collision   collision=True  wall=0.81s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=075 reward=  -47.850 steps=  3 term=collision   collision=True  wall=0.83s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=100 reward=  -43.400 steps=  6 term=collision   collision=True  wall=1.65s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=125 reward=  -45.600 steps=  4 term=collision   collision=True  wall=1.08s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=150 reward=  -32.400 steps= 16 term=collision   collision=True  wall=4.50s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=175 reward=  -46.850 steps=  3 term=collision   collision=True  wall=0.87s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=200 reward=  -42.650 steps=  7 term=collision   collision=True  wall=1.97s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=225 reward=  -46.600 steps=  4 term=collision   collision=True  wall=1.13s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=250 reward=  -43.867 steps=  6 term=collision   collision=True  wall=1.67s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=275 reward=  -48.000 steps=  3 term=collision   collision=True  wall=0.86s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=300 reward=  -46.132 steps=  4 term=collision   collision=True  wall=1.13s
+===== TESTING END: Karthikeya27adv8956 (pure DQN) =====
+Testing duration: 467.84s
+
+Experiment completed successfully.
+Episode results: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956/all_episode_results.csv
+Frozen test policy: pure-DQN argmax
+Collision metrics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956/collision_metrics.csv
+Policy safety-stop metrics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956/policy_safety_stop_metrics.csv
+Pool statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956/state_pool_statistics.csv
+Pool summary: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956/state_pool_global_summary.csv
+Candidate statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956/state_candidate_statistics.csv
+Evicted candidate history: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956/state_evicted_candidate_history.csv
+Matching calibration: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956/state_matching_calibration.csv
+Matching rejection statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956/state_matching_rejection_statistics.csv
+Capacity growth: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956/state_pool_capacity_growth.csv
+Retired pool statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956/state_retired_pool_statistics.csv
+Hazard memory statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956/state_hazard_memory_statistics.csv
+Runtime statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956/runtime_statistics.csv
+Manifest: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956/manifest.json
+Pool occupancy plot: not created (no active pools remained)
+Policy folder name: Karthikeya27adv8956
+Results saved to: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_61/Karthikeya27adv8956
+===== SEED 61: KARTHIKEYA27ADV8956HWY FINISHED =====
+===== SEED 61: COMPARISON START =====
+Timed baseline source: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/canonical_baselines_timed/seed_61
+Output directory: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/comparisons/seed_61/all_policies_timed
+Eight-graph compact comparison saved to: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/comparisons/seed_61/all_policies_timed
+===== SEED 61: COMPARISON FINISHED =====
+===== SEED 61: COMPLETE =====
+===== SEED 63: START =====
+===== SEED 63: RUNNING BASELINES: epsilon noisy rnd =====
+
+===== TRAIN Epsilon Greedy / seed 63 =====
+Epsilon Greedy train 25/500
+Epsilon Greedy train 50/500
+Epsilon Greedy train 75/500
+Epsilon Greedy train 100/500
+Epsilon Greedy train 125/500
+Epsilon Greedy train 150/500
+Epsilon Greedy train 175/500
+Epsilon Greedy train 200/500
+Epsilon Greedy train 225/500
+Epsilon Greedy train 250/500
+Epsilon Greedy train 275/500
+Epsilon Greedy train 300/500
+Epsilon Greedy train 325/500
+Epsilon Greedy train 350/500
+Epsilon Greedy train 375/500
+Epsilon Greedy train 400/500
+Epsilon Greedy train 425/500
+Epsilon Greedy train 450/500
+Epsilon Greedy train 475/500
+Epsilon Greedy train 500/500
+Epsilon Greedy training duration: 707.04s wall, 705.77s CPU
+Epsilon Greedy testing final episode-500 model
+===== TEST Epsilon Greedy / seed 63 =====
+Epsilon Greedy test 25/300
+Epsilon Greedy test 50/300
+Epsilon Greedy test 75/300
+Epsilon Greedy test 100/300
+Epsilon Greedy test 125/300
+Epsilon Greedy test 150/300
+Epsilon Greedy test 175/300
+Epsilon Greedy test 200/300
+Epsilon Greedy test 225/300
+Epsilon Greedy test 250/300
+Epsilon Greedy test 275/300
+Epsilon Greedy test 300/300
+Epsilon Greedy testing duration: 462.92s wall, 462.63s CPU
+
+===== TRAIN NoisyNet DQN / seed 63 =====
+NoisyNet DQN train 25/500
+NoisyNet DQN train 50/500
+NoisyNet DQN train 75/500
+NoisyNet DQN train 100/500
+NoisyNet DQN train 125/500
+NoisyNet DQN train 150/500
+NoisyNet DQN train 175/500
+NoisyNet DQN train 200/500
+NoisyNet DQN train 225/500
+NoisyNet DQN train 250/500
+NoisyNet DQN train 275/500
+NoisyNet DQN train 300/500
+NoisyNet DQN train 325/500
+NoisyNet DQN train 350/500
+NoisyNet DQN train 375/500
+NoisyNet DQN train 400/500
+NoisyNet DQN train 425/500
+NoisyNet DQN train 450/500
+NoisyNet DQN train 475/500
+NoisyNet DQN train 500/500
+NoisyNet DQN training duration: 1121.88s wall, 1120.86s CPU
+NoisyNet DQN testing final episode-500 model
+===== TEST NoisyNet DQN / seed 63 =====
+NoisyNet DQN test 25/300
+NoisyNet DQN test 50/300
+NoisyNet DQN test 75/300
+NoisyNet DQN test 100/300
+NoisyNet DQN test 125/300
+NoisyNet DQN test 150/300
+NoisyNet DQN test 175/300
+NoisyNet DQN test 200/300
+NoisyNet DQN test 225/300
+NoisyNet DQN test 250/300
+NoisyNet DQN test 275/300
+NoisyNet DQN test 300/300
+NoisyNet DQN testing duration: 464.92s wall, 464.81s CPU
+
+===== TRAIN DQN + RND / seed 63 =====
+DQN + RND train 25/500
+DQN + RND train 50/500
+DQN + RND train 75/500
+DQN + RND train 100/500
+DQN + RND train 125/500
+DQN + RND train 150/500
+DQN + RND train 175/500
+DQN + RND train 200/500
+DQN + RND train 225/500
+DQN + RND train 250/500
+DQN + RND train 275/500
+DQN + RND train 300/500
+DQN + RND train 325/500
+DQN + RND train 350/500
+DQN + RND train 375/500
+DQN + RND train 400/500
+DQN + RND train 425/500
+DQN + RND train 450/500
+DQN + RND train 475/500
+DQN + RND train 500/500
+DQN + RND training duration: 736.30s wall, 735.07s CPU
+DQN + RND testing final episode-500 model
+===== TEST DQN + RND / seed 63 =====
+DQN + RND test 25/300
+DQN + RND test 50/300
+DQN + RND test 75/300
+DQN + RND test 100/300
+DQN + RND test 125/300
+DQN + RND test 150/300
+DQN + RND test 175/300
+DQN + RND test 200/300
+DQN + RND test 225/300
+DQN + RND test 250/300
+DQN + RND test 275/300
+DQN + RND test 300/300
+DQN + RND testing duration: 472.67s wall, 472.50s CPU
+
+Canonical baselines saved to: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/canonical_baselines_timed/seed_63
+===== SEED 63: BASELINES FINISHED =====
+===== SEED 63: KARTHIKEYA27ADV8956HWY START =====
+============================================================================
+HIGHWAYENV KARTHIKEYA27ADV8956 RETAINED-EVIDENCE SAFETY POLICY
+============================================================================
+Python: 3.12.3
+PyTorch: 2.11.0+cu128
+HighwayEnv: 1.12.0
+Device: cuda
+Experiments: Karthikeya27adv8956
+Plain DQN + Target + Replay + Adam: yes
+RND intrinsic reward: no
+Count-based intrinsic reward: no
+Frozen Pure-DQN testing only: yes
+Train/Test/Max steps: 500 300 500
+Training seeds: 63 through 562
+Testing seeds: 100000 through 100299
+Discrete actions: 9
+Learning rate: 5e-05
+Output directory: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956
+Policy name: Karthikeya27adv8956
+Initial combined active + retired pools: 500
+Maximum permanent capacity: 500
+Adaptive capacity formula applied: False
+Pool general representation: full flattened observation
+Pool safety representation: lane_boundary_clearance, nearest_collision_hazard_center_distance, absolute_lane_offset, absolute_heading_error, ego_speed_km_h
+Unified record statuses: CANDIDATE | ACTIVE | RETIRED | HAZARD
+Lookup: safety-strict HAZARD + ACTIVE -> RETIRED -> CANDIDATE
+Testing policy: frozen pure DQN
+Auto threshold calibration: True
+Calibration state target: 3000
+Candidate soft limit: 125
+Candidate hard limit: 150
+Candidate batch eviction count: 25
+Candidate promotion visits: 4
+Hazard-memory capacity: 125
+Hazard-memory fraction: 0.25
+Clean outcomes required for SAFE: 2
+Delayed safety horizon: 5
+Minimum progress reward for SAFE: 0.01
+Warnings required to block: 2
+First-pass priority: highest-Q SAFE, then UNKNOWN; BLOCKED excluded
+Candidate centroid shift threshold: 0.01
+Candidate stable updates: 2
+Maximum candidate centroid updates: 4
+Overwrite existing completed run: False
+State similarity threshold: 0.9
+Permanent RMS threshold: 0.2
+Candidate cosine threshold: 0.9
+Candidate RMS threshold: 0.25
+General matching: RMS plus cosine when norms are stable
+Normal general-match cosine/RMS relaxation: 0.02 0.02
+Relaxed general matching keeps both safety gates strict: yes
+Safety matching gate: RMS distance plus cosine when norms are stable
+Capacity-pressure fallback: True
+Capacity fallback scope: candidate hard limit, permanent capacity, or eviction
+Capacity fallback cosine/RMS relaxation: 0.02 0.1
+Capacity fallback safety improvement: 0.1
+Directional safety: lane/threat larger; offset/heading smaller
+Speed directional fallback requirement: no; strict gates only
+Capacity-fallback safety gates relaxed: no
+Pool representatives use adaptive centroid freezing: yes
+Centroid shift threshold: 0.01
+Consecutive stable updates required: 3
+Maximum centroid updates per pool: 10
+Centroid stability distance threshold: 0.1
+Pool-active training fraction: 0.8
+Final pure-DQN argmax training fraction: 0.19999999999999996
+Final phase: pure DQN argmax; no pool lookup, safety extraction, or safety masks
+Pool mutations disabled from episode: 400
+Similarity metrics: cosine similarity + RMS distance
+Pool lookup: preallocated vectorized linear matching
+Representative storage dtype: float32
+Replay sampling: indexed ring buffer, O(batch_size)
+Test safety extraction: no (pure-DQN argmax only)
+Available actions per new pool: 9
+Candidate visits use outcome-filtered DQN ranking: yes
+Candidate actions are recorded for mask initialization: yes
+Promotion occurs before promotion-visit action selection: yes
+Active initial pass: every eligible non-BLOCKED action once
+Scheduled UNKNOWN-only passes: 1
+UNKNOWN pass excludes BLOCKED actions: yes
+Final UNKNOWN action waits for its five-step outcome: yes
+Missing safety: skip pools and use fresh DQN argmax
+Retired post-pass selection: 80% greedy, 20% UNKNOWN-only random
+Post-pass greedy: highest-Q across SAFE and UNKNOWN
+Post-pass random eligibility: UNKNOWN only; never SAFE or BLOCKED
+No UNKNOWN on random draw: fall back to eligible DQN maximum
+BLOCKED actions excluded while SAFE or UNKNOWN is available
+All-BLOCKED fallback: least failures, then highest fresh DQN Q
+Collision/out-of-road penalties: 50.0 50.0
+Time-limit truncations bootstrap in replay: yes
+Stored retired action values or rankings: no
+Removal: clear selected bit in O(1)
+Promotion and retirement: O(1) status-tag changes
+Pass advance/retirement: after observing final transition
+Absolute permanent capacity full: do not create new candidates; use maximum-Q
+Availability mask refills: once, for the UNKNOWN-only pass
+RMST event/tau: collision 500
+============================================================================
+
+===== TRAINING START: Karthikeya27adv8956 =====
+TRAIN Karthikeya27adv8956 ep=025 reward=  -49.900 steps=  2 term=out_of_road collision=False wall=0.56s loss=0.000000
+TRAIN Karthikeya27adv8956 ep=050 reward=  -50.000 steps=  1 term=out_of_road collision=False wall=0.30s loss=21.023148
+TRAIN Karthikeya27adv8956 ep=075 reward=  -50.000 steps=  2 term=out_of_road collision=False wall=0.55s loss=15.949559
+TRAIN Karthikeya27adv8956 ep=100 reward=  -50.000 steps=  2 term=out_of_road collision=False wall=0.56s loss=17.493027
+TRAIN Karthikeya27adv8956 ep=125 reward=  -49.900 steps=  2 term=out_of_road collision=False wall=0.57s loss=17.452073
+TRAIN Karthikeya27adv8956 ep=150 reward=  -49.950 steps=  2 term=out_of_road collision=False wall=0.57s loss=15.902721
+TRAIN Karthikeya27adv8956 ep=175 reward=  -46.320 steps= 11 term=out_of_road collision=False wall=3.09s loss=12.357772
+TRAIN Karthikeya27adv8956 ep=200 reward=  -46.320 steps= 11 term=out_of_road collision=False wall=3.11s loss=11.213518
+TRAIN Karthikeya27adv8956 ep=225 reward=  -46.320 steps= 11 term=out_of_road collision=False wall=3.13s loss=12.353658
+TRAIN Karthikeya27adv8956 ep=250 reward=  -49.950 steps=  2 term=out_of_road collision=False wall=0.55s loss=8.371521
+TRAIN Karthikeya27adv8956 ep=275 reward=  -50.000 steps=  1 term=out_of_road collision=False wall=0.30s loss=9.801087
+TRAIN Karthikeya27adv8956 ep=300 reward=  -46.320 steps= 11 term=out_of_road collision=False wall=3.04s loss=11.266113
+TRAIN Karthikeya27adv8956 ep=325 reward=  -50.000 steps=  2 term=out_of_road collision=False wall=0.58s loss=13.756333
+TRAIN Karthikeya27adv8956 ep=350 reward=  -46.320 steps= 11 term=out_of_road collision=False wall=3.12s loss=10.584204
+TRAIN Karthikeya27adv8956 ep=375 reward=  -50.000 steps=  2 term=out_of_road collision=False wall=0.59s loss=11.248938
+TRAIN Karthikeya27adv8956 ep=400 reward=  -50.000 steps=  2 term=out_of_road collision=False wall=0.57s loss=10.036437
+TRAIN Karthikeya27adv8956 ep=425 reward=  -50.000 steps=  2 term=out_of_road collision=False wall=0.59s loss=12.258645
+TRAIN Karthikeya27adv8956 ep=450 reward=  -50.000 steps=  2 term=out_of_road collision=False wall=0.58s loss=11.084448
+TRAIN Karthikeya27adv8956 ep=475 reward=  -49.950 steps=  2 term=out_of_road collision=False wall=0.58s loss=9.486920
+TRAIN Karthikeya27adv8956 ep=500 reward=  -50.000 steps=  1 term=out_of_road collision=False wall=0.31s loss=10.757748
+===== TRAINING END: Karthikeya27adv8956 =====
+Training duration: 609.92s
+Testing final episode-500 model with pure DQN
+
+===== TESTING START: Karthikeya27adv8956 (pure DQN) =====
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=025 reward=  -47.600 steps=  8 term=out_of_road collision=False wall=2.24s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=050 reward=  -49.900 steps=  4 term=out_of_road collision=False wall=1.11s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=075 reward=  -50.000 steps=  2 term=out_of_road collision=False wall=0.57s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=100 reward=  -49.900 steps=  4 term=out_of_road collision=False wall=1.14s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=125 reward=  -47.600 steps=  8 term=out_of_road collision=False wall=2.22s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=150 reward=  -47.600 steps=  8 term=out_of_road collision=False wall=2.23s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=175 reward=  -50.000 steps=  2 term=out_of_road collision=False wall=0.56s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=200 reward=  -50.000 steps=  2 term=out_of_road collision=False wall=0.56s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=225 reward=  -47.600 steps=  8 term=out_of_road collision=False wall=2.17s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=250 reward=  -50.000 steps=  2 term=out_of_road collision=False wall=0.56s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=275 reward=  -50.000 steps=  1 term=out_of_road collision=False wall=0.30s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=300 reward=  -49.900 steps=  4 term=out_of_road collision=False wall=1.11s
+===== TESTING END: Karthikeya27adv8956 (pure DQN) =====
+Testing duration: 291.33s
+
+Experiment completed successfully.
+Episode results: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956/all_episode_results.csv
+Frozen test policy: pure-DQN argmax
+Collision metrics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956/collision_metrics.csv
+Policy safety-stop metrics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956/policy_safety_stop_metrics.csv
+Pool statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956/state_pool_statistics.csv
+Pool summary: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956/state_pool_global_summary.csv
+Candidate statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956/state_candidate_statistics.csv
+Evicted candidate history: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956/state_evicted_candidate_history.csv
+Matching calibration: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956/state_matching_calibration.csv
+Matching rejection statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956/state_matching_rejection_statistics.csv
+Capacity growth: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956/state_pool_capacity_growth.csv
+Retired pool statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956/state_retired_pool_statistics.csv
+Hazard memory statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956/state_hazard_memory_statistics.csv
+Runtime statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956/runtime_statistics.csv
+Manifest: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956/manifest.json
+Pool occupancy plot: not created (no active pools remained)
+Policy folder name: Karthikeya27adv8956
+Results saved to: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_63/Karthikeya27adv8956
+===== SEED 63: KARTHIKEYA27ADV8956HWY FINISHED =====
+===== SEED 63: COMPARISON START =====
+Timed baseline source: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/canonical_baselines_timed/seed_63
+Output directory: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/comparisons/seed_63/all_policies_timed
+Eight-graph compact comparison saved to: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/comparisons/seed_63/all_policies_timed
+===== SEED 63: COMPARISON FINISHED =====
+===== SEED 63: COMPLETE =====
+===== SEED 65: START =====
+===== SEED 65: RUNNING BASELINES: epsilon noisy rnd =====
+
+===== TRAIN Epsilon Greedy / seed 65 =====
+Epsilon Greedy train 25/500
+Epsilon Greedy train 50/500
+Epsilon Greedy train 75/500
+Epsilon Greedy train 100/500
+Epsilon Greedy train 125/500
+Epsilon Greedy train 150/500
+Epsilon Greedy train 175/500
+Epsilon Greedy train 200/500
+Epsilon Greedy train 225/500
+Epsilon Greedy train 250/500
+Epsilon Greedy train 275/500
+Epsilon Greedy train 300/500
+Epsilon Greedy train 325/500
+Epsilon Greedy train 350/500
+Epsilon Greedy train 375/500
+Epsilon Greedy train 400/500
+Epsilon Greedy train 425/500
+Epsilon Greedy train 450/500
+Epsilon Greedy train 475/500
+Epsilon Greedy train 500/500
+Epsilon Greedy training duration: 613.34s wall, 612.58s CPU
+Epsilon Greedy testing final episode-500 model
+===== TEST Epsilon Greedy / seed 65 =====
+Epsilon Greedy test 25/300
+Epsilon Greedy test 50/300
+Epsilon Greedy test 75/300
+Epsilon Greedy test 100/300
+Epsilon Greedy test 125/300
+Epsilon Greedy test 150/300
+Epsilon Greedy test 175/300
+Epsilon Greedy test 200/300
+Epsilon Greedy test 225/300
+Epsilon Greedy test 250/300
+Epsilon Greedy test 275/300
+Epsilon Greedy test 300/300
+Epsilon Greedy testing duration: 489.88s wall, 489.69s CPU
+
+===== TRAIN NoisyNet DQN / seed 65 =====
+NoisyNet DQN train 25/500
+NoisyNet DQN train 50/500
+NoisyNet DQN train 75/500
+NoisyNet DQN train 100/500
+NoisyNet DQN train 125/500
+NoisyNet DQN train 150/500
+NoisyNet DQN train 175/500
+NoisyNet DQN train 200/500
+NoisyNet DQN train 225/500
+NoisyNet DQN train 250/500
+NoisyNet DQN train 275/500
+NoisyNet DQN train 300/500
+NoisyNet DQN train 325/500
+NoisyNet DQN train 350/500
+NoisyNet DQN train 375/500
+NoisyNet DQN train 400/500
+NoisyNet DQN train 425/500
+NoisyNet DQN train 450/500
+NoisyNet DQN train 475/500
+NoisyNet DQN train 500/500
+NoisyNet DQN training duration: 1260.34s wall, 1256.57s CPU
+NoisyNet DQN testing final episode-500 model
+===== TEST NoisyNet DQN / seed 65 =====
+NoisyNet DQN test 25/300
+NoisyNet DQN test 50/300
+NoisyNet DQN test 75/300
+NoisyNet DQN test 100/300
+NoisyNet DQN test 125/300
+NoisyNet DQN test 150/300
+NoisyNet DQN test 175/300
+NoisyNet DQN test 200/300
+NoisyNet DQN test 225/300
+NoisyNet DQN test 250/300
+NoisyNet DQN test 275/300
+NoisyNet DQN test 300/300
+NoisyNet DQN testing duration: 1426.61s wall, 1425.81s CPU
+
+===== TRAIN DQN + RND / seed 65 =====
+DQN + RND train 25/500
+DQN + RND train 50/500
+DQN + RND train 75/500
+DQN + RND train 100/500
+DQN + RND train 125/500
+DQN + RND train 150/500
+DQN + RND train 175/500
+DQN + RND train 200/500
+DQN + RND train 225/500
+DQN + RND train 250/500
+DQN + RND train 275/500
+DQN + RND train 300/500
+DQN + RND train 325/500
+DQN + RND train 350/500
+DQN + RND train 375/500
+DQN + RND train 400/500
+DQN + RND train 425/500
+DQN + RND train 450/500
+DQN + RND train 475/500
+DQN + RND train 500/500
+DQN + RND training duration: 643.29s wall, 640.62s CPU
+DQN + RND testing final episode-500 model
+===== TEST DQN + RND / seed 65 =====
+DQN + RND test 25/300
+DQN + RND test 50/300
+DQN + RND test 75/300
+DQN + RND test 100/300
+DQN + RND test 125/300
+DQN + RND test 150/300
+DQN + RND test 175/300
+DQN + RND test 200/300
+DQN + RND test 225/300
+DQN + RND test 250/300
+DQN + RND test 275/300
+DQN + RND test 300/300
+DQN + RND testing duration: 489.27s wall, 488.59s CPU
+
+Canonical baselines saved to: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/canonical_baselines_timed/seed_65
+===== SEED 65: BASELINES FINISHED =====
+===== SEED 65: KARTHIKEYA27ADV8956HWY START =====
+============================================================================
+HIGHWAYENV KARTHIKEYA27ADV8956 RETAINED-EVIDENCE SAFETY POLICY
+============================================================================
+Python: 3.12.3
+PyTorch: 2.11.0+cu128
+HighwayEnv: 1.12.0
+Device: cuda
+Experiments: Karthikeya27adv8956
+Plain DQN + Target + Replay + Adam: yes
+RND intrinsic reward: no
+Count-based intrinsic reward: no
+Frozen Pure-DQN testing only: yes
+Train/Test/Max steps: 500 300 500
+Training seeds: 65 through 564
+Testing seeds: 100000 through 100299
+Discrete actions: 9
+Learning rate: 5e-05
+Output directory: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956
+Policy name: Karthikeya27adv8956
+Initial combined active + retired pools: 500
+Maximum permanent capacity: 500
+Adaptive capacity formula applied: False
+Pool general representation: full flattened observation
+Pool safety representation: lane_boundary_clearance, nearest_collision_hazard_center_distance, absolute_lane_offset, absolute_heading_error, ego_speed_km_h
+Unified record statuses: CANDIDATE | ACTIVE | RETIRED | HAZARD
+Lookup: safety-strict HAZARD + ACTIVE -> RETIRED -> CANDIDATE
+Testing policy: frozen pure DQN
+Auto threshold calibration: True
+Calibration state target: 3000
+Candidate soft limit: 125
+Candidate hard limit: 150
+Candidate batch eviction count: 25
+Candidate promotion visits: 4
+Hazard-memory capacity: 125
+Hazard-memory fraction: 0.25
+Clean outcomes required for SAFE: 2
+Delayed safety horizon: 5
+Minimum progress reward for SAFE: 0.01
+Warnings required to block: 2
+First-pass priority: highest-Q SAFE, then UNKNOWN; BLOCKED excluded
+Candidate centroid shift threshold: 0.01
+Candidate stable updates: 2
+Maximum candidate centroid updates: 4
+Overwrite existing completed run: False
+State similarity threshold: 0.9
+Permanent RMS threshold: 0.2
+Candidate cosine threshold: 0.9
+Candidate RMS threshold: 0.25
+General matching: RMS plus cosine when norms are stable
+Normal general-match cosine/RMS relaxation: 0.02 0.02
+Relaxed general matching keeps both safety gates strict: yes
+Safety matching gate: RMS distance plus cosine when norms are stable
+Capacity-pressure fallback: True
+Capacity fallback scope: candidate hard limit, permanent capacity, or eviction
+Capacity fallback cosine/RMS relaxation: 0.02 0.1
+Capacity fallback safety improvement: 0.1
+Directional safety: lane/threat larger; offset/heading smaller
+Speed directional fallback requirement: no; strict gates only
+Capacity-fallback safety gates relaxed: no
+Pool representatives use adaptive centroid freezing: yes
+Centroid shift threshold: 0.01
+Consecutive stable updates required: 3
+Maximum centroid updates per pool: 10
+Centroid stability distance threshold: 0.1
+Pool-active training fraction: 0.8
+Final pure-DQN argmax training fraction: 0.19999999999999996
+Final phase: pure DQN argmax; no pool lookup, safety extraction, or safety masks
+Pool mutations disabled from episode: 400
+Similarity metrics: cosine similarity + RMS distance
+Pool lookup: preallocated vectorized linear matching
+Representative storage dtype: float32
+Replay sampling: indexed ring buffer, O(batch_size)
+Test safety extraction: no (pure-DQN argmax only)
+Available actions per new pool: 9
+Candidate visits use outcome-filtered DQN ranking: yes
+Candidate actions are recorded for mask initialization: yes
+Promotion occurs before promotion-visit action selection: yes
+Active initial pass: every eligible non-BLOCKED action once
+Scheduled UNKNOWN-only passes: 1
+UNKNOWN pass excludes BLOCKED actions: yes
+Final UNKNOWN action waits for its five-step outcome: yes
+Missing safety: skip pools and use fresh DQN argmax
+Retired post-pass selection: 80% greedy, 20% UNKNOWN-only random
+Post-pass greedy: highest-Q across SAFE and UNKNOWN
+Post-pass random eligibility: UNKNOWN only; never SAFE or BLOCKED
+No UNKNOWN on random draw: fall back to eligible DQN maximum
+BLOCKED actions excluded while SAFE or UNKNOWN is available
+All-BLOCKED fallback: least failures, then highest fresh DQN Q
+Collision/out-of-road penalties: 50.0 50.0
+Time-limit truncations bootstrap in replay: yes
+Stored retired action values or rankings: no
+Removal: clear selected bit in O(1)
+Promotion and retirement: O(1) status-tag changes
+Pass advance/retirement: after observing final transition
+Absolute permanent capacity full: do not create new candidates; use maximum-Q
+Availability mask refills: once, for the UNKNOWN-only pass
+RMST event/tau: collision 500
+============================================================================
+
+===== TRAINING START: Karthikeya27adv8956 =====
+TRAIN Karthikeya27adv8956 ep=025 reward=  -49.950 steps=  3 term=out_of_road collision=False wall=0.84s loss=0.000000
+TRAIN Karthikeya27adv8956 ep=050 reward=  -49.950 steps=  2 term=out_of_road collision=False wall=0.59s loss=28.702631
+TRAIN Karthikeya27adv8956 ep=075 reward=  -48.122 steps=  4 term=collision   collision=True  wall=1.13s loss=17.226213
+TRAIN Karthikeya27adv8956 ep=100 reward=  -42.250 steps= 15 term=collision   collision=True  wall=4.35s loss=8.652802
+TRAIN Karthikeya27adv8956 ep=125 reward=  -47.850 steps=  3 term=collision   collision=True  wall=0.86s loss=6.305497
+TRAIN Karthikeya27adv8956 ep=150 reward=  -41.532 steps=  9 term=collision   collision=True  wall=2.59s loss=6.766597
+TRAIN Karthikeya27adv8956 ep=175 reward=  -34.956 steps= 14 term=collision   collision=True  wall=4.02s loss=6.706925
+TRAIN Karthikeya27adv8956 ep=200 reward=  -45.000 steps=  5 term=collision   collision=True  wall=1.43s loss=6.586969
+TRAIN Karthikeya27adv8956 ep=225 reward=  -41.600 steps=  8 term=collision   collision=True  wall=2.33s loss=7.153202
+TRAIN Karthikeya27adv8956 ep=250 reward=  -41.550 steps=  9 term=collision   collision=True  wall=2.61s loss=7.674986
+TRAIN Karthikeya27adv8956 ep=275 reward=  -47.676 steps=  3 term=collision   collision=True  wall=0.86s loss=7.948856
+TRAIN Karthikeya27adv8956 ep=300 reward=  -46.800 steps=  4 term=collision   collision=True  wall=1.15s loss=7.839183
+TRAIN Karthikeya27adv8956 ep=325 reward=  -48.000 steps=  3 term=collision   collision=True  wall=0.87s loss=7.490543
+TRAIN Karthikeya27adv8956 ep=350 reward=  -44.400 steps=  6 term=collision   collision=True  wall=1.76s loss=6.137267
+TRAIN Karthikeya27adv8956 ep=375 reward=  -43.700 steps=  6 term=collision   collision=True  wall=1.74s loss=7.898133
+TRAIN Karthikeya27adv8956 ep=400 reward=  -46.850 steps=  4 term=collision   collision=True  wall=1.15s loss=7.396145
+TRAIN Karthikeya27adv8956 ep=425 reward=  -37.486 steps= 12 term=collision   collision=True  wall=3.40s loss=7.312132
+TRAIN Karthikeya27adv8956 ep=450 reward=  -43.554 steps=  6 term=collision   collision=True  wall=1.74s loss=9.096002
+TRAIN Karthikeya27adv8956 ep=475 reward=  -46.000 steps=  4 term=collision   collision=True  wall=1.14s loss=7.198408
+TRAIN Karthikeya27adv8956 ep=500 reward=  -47.000 steps=  4 term=collision   collision=True  wall=1.17s loss=8.638620
+===== TRAINING END: Karthikeya27adv8956 =====
+Training duration: 917.82s
+Testing final episode-500 model with pure DQN
+
+===== TESTING START: Karthikeya27adv8956 (pure DQN) =====
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=025 reward=  -42.644 steps=  7 term=collision   collision=True  wall=2.00s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=050 reward=  -47.700 steps=  3 term=collision   collision=True  wall=0.87s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=075 reward=  -47.850 steps=  3 term=collision   collision=True  wall=0.85s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=100 reward=  -40.000 steps= 10 term=collision   collision=True  wall=2.84s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=125 reward=  -45.500 steps=  5 term=collision   collision=True  wall=1.40s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=150 reward=  -30.200 steps= 18 term=collision   collision=True  wall=5.10s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=175 reward=  -46.800 steps=  4 term=collision   collision=True  wall=1.14s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=200 reward=  -41.535 steps=  9 term=collision   collision=True  wall=2.50s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=225 reward=  -46.600 steps=  4 term=collision   collision=True  wall=1.13s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=250 reward=  -42.994 steps=  7 term=collision   collision=True  wall=1.98s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=275 reward=  -48.000 steps=  3 term=collision   collision=True  wall=0.86s
+TEST  Karthikeya27adv8956 policy=pure DQN        ep=300 reward=  -45.600 steps=  4 term=collision   collision=True  wall=1.16s
+===== TESTING END: Karthikeya27adv8956 (pure DQN) =====
+Testing duration: 512.21s
+
+Experiment completed successfully.
+Episode results: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956/all_episode_results.csv
+Frozen test policy: pure-DQN argmax
+Collision metrics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956/collision_metrics.csv
+Policy safety-stop metrics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956/policy_safety_stop_metrics.csv
+Pool statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956/state_pool_statistics.csv
+Pool summary: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956/state_pool_global_summary.csv
+Candidate statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956/state_candidate_statistics.csv
+Evicted candidate history: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956/state_evicted_candidate_history.csv
+Matching calibration: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956/state_matching_calibration.csv
+Matching rejection statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956/state_matching_rejection_statistics.csv
+Capacity growth: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956/state_pool_capacity_growth.csv
+Retired pool statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956/state_retired_pool_statistics.csv
+Hazard memory statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956/state_hazard_memory_statistics.csv
+Runtime statistics: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956/runtime_statistics.csv
+Manifest: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956/manifest.json
+Pool occupancy plot: not created (no active pools remained)
+Policy folder name: Karthikeya27adv8956
+Results saved to: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_65/Karthikeya27adv8956
+===== SEED 65: KARTHIKEYA27ADV8956HWY FINISHED =====
+===== SEED 65: COMPARISON START =====
+Timed baseline source: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/canonical_baselines_timed/seed_65
+Output directory: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/comparisons/seed_65/all_policies_timed
+Eight-graph compact comparison saved to: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/comparisons/seed_65/all_policies_timed
+===== SEED 65: COMPARISON FINISHED =====
+===== SEED 65: COMPLETE =====
+===== SEED 71: START =====
+===== SEED 71: RUNNING BASELINES: epsilon noisy rnd =====
+
+===== TRAIN Epsilon Greedy / seed 71 =====
+Epsilon Greedy train 25/500
+Epsilon Greedy train 50/500
+Epsilon Greedy train 75/500
+Epsilon Greedy train 100/500
+Epsilon Greedy train 125/500
+Epsilon Greedy train 150/500
+Epsilon Greedy train 175/500
+Epsilon Greedy train 200/500
+Epsilon Greedy train 225/500
+Epsilon Greedy train 250/500
+Epsilon Greedy train 275/500
+Epsilon Greedy train 300/500
+Epsilon Greedy train 325/500
+Epsilon Greedy train 350/500
+Epsilon Greedy train 375/500
+Epsilon Greedy train 400/500
+Epsilon Greedy train 425/500
+Epsilon Greedy train 450/500
+Epsilon Greedy train 475/500
+Epsilon Greedy train 500/500
+Epsilon Greedy training duration: 591.20s wall, 589.63s CPU
+Epsilon Greedy testing final episode-500 model
+===== TEST Epsilon Greedy / seed 71 =====
+Epsilon Greedy test 25/300
+Epsilon Greedy test 50/300
+Epsilon Greedy test 75/300
+Epsilon Greedy test 100/300
+Epsilon Greedy test 125/300
+Epsilon Greedy test 150/300
+Epsilon Greedy test 175/300
+Epsilon Greedy test 200/300
+Epsilon Greedy test 225/300
+Epsilon Greedy test 250/300
+Epsilon Greedy test 275/300
+Epsilon Greedy test 300/300
+Epsilon Greedy testing duration: 706.20s wall, 705.76s CPU
+
+===== TRAIN NoisyNet DQN / seed 71 =====
+NoisyNet DQN train 25/500
+NoisyNet DQN train 50/500
+NoisyNet DQN train 75/500
+NoisyNet DQN train 100/500
+NoisyNet DQN train 125/500
+NoisyNet DQN train 150/500
+NoisyNet DQN train 175/500
+NoisyNet DQN train 200/500
+NoisyNet DQN train 225/500
+NoisyNet DQN train 250/500
+NoisyNet DQN train 275/500
+NoisyNet DQN train 300/500
+NoisyNet DQN train 325/500
+NoisyNet DQN train 350/500
+NoisyNet DQN train 375/500
+NoisyNet DQN train 400/500
+NoisyNet DQN train 425/500
+NoisyNet DQN train 450/500
+NoisyNet DQN train 475/500
+NoisyNet DQN train 500/500
+NoisyNet DQN training duration: 799.48s wall, 797.18s CPU
+NoisyNet DQN testing final episode-500 model
+===== TEST NoisyNet DQN / seed 71 =====
+NoisyNet DQN test 25/300
+NoisyNet DQN test 50/300
+NoisyNet DQN test 75/300
+NoisyNet DQN test 100/300
+NoisyNet DQN test 125/300
+NoisyNet DQN test 150/300
+NoisyNet DQN test 175/300
+NoisyNet DQN test 200/300
+NoisyNet DQN test 225/300
+NoisyNet DQN test 250/300
+NoisyNet DQN test 275/300
+NoisyNet DQN test 300/300
+NoisyNet DQN testing duration: 477.86s wall, 477.54s CPU
+
+===== TRAIN DQN + RND / seed 71 =====
+DQN + RND train 25/500
+DQN + RND train 50/500
+DQN + RND train 75/500
+DQN + RND train 100/500
+DQN + RND train 125/500
+DQN + RND train 150/500
+DQN + RND train 175/500
+DQN + RND train 200/500
+DQN + RND train 225/500
+DQN + RND train 250/500
+DQN + RND train 275/500
+DQN + RND train 300/500
+DQN + RND train 325/500
+DQN + RND train 350/500
+DQN + RND train 375/500
+DQN + RND train 400/500
+DQN + RND train 425/500
+DQN + RND train 450/500
+DQN + RND train 475/500
+DQN + RND train 500/500
+DQN + RND training duration: 621.96s wall, 619.77s CPU
+DQN + RND testing final episode-500 model
+===== TEST DQN + RND / seed 71 =====
+DQN + RND test 25/300
+DQN + RND test 50/300
+DQN + RND test 75/300
+DQN + RND test 100/300
+DQN + RND test 125/300
+DQN + RND test 150/300
+DQN + RND test 175/300
+DQN + RND test 200/300
+DQN + RND test 225/300
+DQN + RND test 250/300
+DQN + RND test 275/300

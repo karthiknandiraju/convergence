@@ -1,0 +1,3 @@
+method,method_label,phase,episodes,phase_wall_time_seconds,phase_cpu_time_seconds,summed_episode_wall_time_seconds,summed_episode_cpu_time_seconds,average_wall_time_seconds_per_episode,average_cpu_time_seconds_per_episode
+rnd,DQN + RND,train,500,660.029592545703,658.9828147190001,659.9725537043996,658.9269408889927,1.3199451074087993,1.3178538817779855
+rnd,DQN + RND,test,300,445.4584067435935,445.2915058249996,445.43671455513686,445.2707481249986,1.484789048517123,1.4842358270833287

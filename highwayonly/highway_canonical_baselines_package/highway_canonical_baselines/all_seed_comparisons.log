@@ -1,0 +1,73 @@
+nohup: ignoring input
+ERROR: Another Highway comparison batch is already running.
+ON START =====
+bash: line 44: : command not found
+===== SEED 3: COMPARISON FAILED (127) =====
+
+===== SEED 5: COMPARISON CHECK =====
+===== SEED 5: COMPARISON START =====
+bash: line 44: : command not found
+===== SEED 5: COMPARISON FAILED (127) =====
+
+===== SEED 7: COMPARISON CHECK =====
+===== SEED 7: COMPARISON START =====
+bash: line 44: : command not found
+===== SEED 7: COMPARISON FAILED (127) =====
+
+===== SEED 9: COMPARISON CHECK =====
+===== SEED 9: COMPARISON START =====
+bash: line 44: : command not found
+===== SEED 9: COMPARISON FAILED (127) =====
+
+===== SEED 11: COMPARISON CHECK =====
+SKIPPED: Seed 11 is missing baselines: epsilon noisy rnd
+
+===== SEED 13: COMPARISON CHECK =====
+===== SEED 13: COMPARISON START =====
+bash: line 44: : command not found
+===== SEED 13: COMPARISON FAILED (127) =====
+
+===== SEED 17: COMPARISON CHECK =====
+===== SEED 17: COMPARISON START =====
+bash: line 44: : command not found
+===== SEED 17: COMPARISON FAILED (127) =====
+
+===== SEED 27: COMPARISON CHECK =====
+===== SEED 27: COMPARISON START =====
+bash: line 44: : command not found
+===== SEED 27: COMPARISON FAILED (127) =====
+
+===== SEED 31: COMPARISON CHECK =====
+===== SEED 31: COMPARISON START =====
+bash: line 44: : command not found
+===== SEED 31: COMPARISON FAILED (127) =====
+
+===== SEED 33: COMPARISON CHECK =====
+===== SEED 33: COMPARISON START =====
+bash: line 44: : command not found
+===== SEED 33: COMPARISON FAILED (127) =====
+
+===== SEED 45: COMPARISON CHECK =====
+===== SEED 45: COMPARISON START =====
+bash: line 44: : command not found
+===== SEED 45: COMPARISON FAILED (127) =====
+
+===== SEED 61: COMPARISON CHECK =====
+===== SEED 61: COMPARISON START =====
+bash: line 44: : command not found
+===== SEED 61: COMPARISON FAILED (127) =====
+
+===== SEED 63: COMPARISON CHECK =====
+===== SEED 63: COMPARISON START =====
+bash: line 44: : command not found
+===== SEED 63: COMPARISON FAILED (127) =====
+
+===== SEED 65: COMPARISON CHECK =====
+===== SEED 65: COMPARISON START =====
+bash: line 44: : command not found
+===== SEED 65: COMPARISON FAILED (127) =====
+
+===== SEED 999001: COMPARISON CHECK =====
+SKIPPED: Seed 999001 is missing baselines: epsilon noisy rnd
+
+===== ALL AVAILABLE SEED COMPARISONS FINISHED =====

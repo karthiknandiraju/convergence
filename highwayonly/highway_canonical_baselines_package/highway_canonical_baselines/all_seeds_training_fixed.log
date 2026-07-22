@@ -72,3 +72,12 @@ NoisyNet DQN train 400/500
 NoisyNet DQN train 425/500
 NoisyNet DQN train 450/500
 NoisyNet DQN train 475/500
+NoisyNet DQN train 500/500
+NoisyNet DQN training duration: 715.69s wall, 714.94s CPU
+NoisyNet DQN testing final episode-500 model
+===== TEST NoisyNet DQN / seed 9 =====
+NoisyNet DQN test 25/300
+NoisyNet DQN test 50/300
+NoisyNet DQN test 75/300
+NoisyNet DQN test 100/300
+NoisyNet DQN test 125/300
