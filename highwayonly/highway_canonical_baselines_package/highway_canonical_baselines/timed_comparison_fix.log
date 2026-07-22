@@ -1,0 +1,6 @@
+nohup: ignoring input
+===== SEED 3: TIMED COMPARISON START =====
+Traceback (most recent call last):
+  File "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/compare_safety_policies.py", line 40, in <module>
+    import matplotlib
+ModuleNotFoundError: No module named 'matplotlib'

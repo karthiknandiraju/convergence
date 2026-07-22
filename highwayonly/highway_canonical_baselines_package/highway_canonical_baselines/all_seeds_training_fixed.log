@@ -1,0 +1,74 @@
+nohup: ignoring input
+===== SEED 7: START =====
+===== SEED 7: epsilon BASELINE ALREADY COMPLETE =====
+===== SEED 7: noisy BASELINE ALREADY COMPLETE =====
+===== SEED 7: rnd BASELINE ALREADY COMPLETE =====
+===== SEED 7: ALL BASELINES ALREADY COMPLETE =====
+===== SEED 7: KARTHIKEYA27ADV8956HWY ALREADY COMPLETE =====
+===== SEED 7: COMPARISON START =====
+Timed baseline source: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/canonical_baselines_timed/seed_7
+Output directory: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/comparisons/seed_7/all_policies_timed
+Eight-graph compact comparison saved to: /workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/comparisons/seed_7/all_policies_timed
+===== SEED 7: COMPARISON FINISHED =====
+===== SEED 7: COMPLETE =====
+===== SEED 9: START =====
+===== SEED 9: RUNNING MISSING BASELINES: epsilon noisy rnd =====
+
+===== TRAIN Epsilon Greedy / seed 9 =====
+Epsilon Greedy train 25/500
+Epsilon Greedy train 50/500
+Epsilon Greedy train 75/500
+Epsilon Greedy train 100/500
+Epsilon Greedy train 125/500
+Epsilon Greedy train 150/500
+Epsilon Greedy train 175/500
+Epsilon Greedy train 200/500
+Epsilon Greedy train 225/500
+Epsilon Greedy train 250/500
+Epsilon Greedy train 275/500
+Epsilon Greedy train 300/500
+Epsilon Greedy train 325/500
+Epsilon Greedy train 350/500
+Epsilon Greedy train 375/500
+Epsilon Greedy train 400/500
+Epsilon Greedy train 425/500
+Epsilon Greedy train 450/500
+Epsilon Greedy train 475/500
+Epsilon Greedy train 500/500
+Epsilon Greedy training duration: 641.26s wall, 640.81s CPU
+Epsilon Greedy testing final episode-500 model
+===== TEST Epsilon Greedy / seed 9 =====
+Epsilon Greedy test 25/300
+Epsilon Greedy test 50/300
+Epsilon Greedy test 75/300
+Epsilon Greedy test 100/300
+Epsilon Greedy test 125/300
+Epsilon Greedy test 150/300
+Epsilon Greedy test 175/300
+Epsilon Greedy test 200/300
+Epsilon Greedy test 225/300
+Epsilon Greedy test 250/300
+Epsilon Greedy test 275/300
+Epsilon Greedy test 300/300
+Epsilon Greedy testing duration: 568.59s wall, 568.35s CPU
+
+===== TRAIN NoisyNet DQN / seed 9 =====
+NoisyNet DQN train 25/500
+NoisyNet DQN train 50/500
+NoisyNet DQN train 75/500
+NoisyNet DQN train 100/500
+NoisyNet DQN train 125/500
+NoisyNet DQN train 150/500
+NoisyNet DQN train 175/500
+NoisyNet DQN train 200/500
+NoisyNet DQN train 225/500
+NoisyNet DQN train 250/500
+NoisyNet DQN train 275/500
+NoisyNet DQN train 300/500
+NoisyNet DQN train 325/500
+NoisyNet DQN train 350/500
+NoisyNet DQN train 375/500
+NoisyNet DQN train 400/500
+NoisyNet DQN train 425/500
+NoisyNet DQN train 450/500
+NoisyNet DQN train 475/500
