@@ -1,0 +1,3 @@
+method,method_label,phase,episodes,phase_wall_time_seconds,phase_cpu_time_seconds,summed_episode_wall_time_seconds,summed_episode_cpu_time_seconds,average_wall_time_seconds_per_episode,average_cpu_time_seconds_per_episode
+Karthikeya27adv8,Karthikeya27adv8,train,500,437.3520792509953,3753.13966502,434.2517357142642,3747.523301722001,0.8685034714285285,7.495046603444003
+Karthikeya27adv8,Karthikeya27adv8,test,300,162.2339586050075,162.37941740899987,160.3634908788954,160.5076061569971,0.5345449695963179,0.535025353856657

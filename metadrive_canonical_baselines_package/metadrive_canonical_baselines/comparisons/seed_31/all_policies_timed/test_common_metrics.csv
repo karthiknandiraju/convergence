@@ -1,0 +1,6 @@
+series_id,method,source_kind,source_name,evaluation_variant,phase,episodes,mean_reward,median_reward,mean_episode_steps,median_episode_steps,collision_count,collision_rate,collisions_per_1000_steps,out_of_road_count,out_of_road_rate,safety_failure_count,safety_failure_rate,goal_count,goal_rate,max_steps_count,max_steps_rate
+epsilon,Epsilon Greedy,baseline,epsilon,standard,test,300,29.613131902215173,18.337794991411954,76.86666666666666,70.0,150,0.5,6.5047701647875105,173,0.5766666666666667,300,1.0,0,0.0,0,0.0
+noisy,NoisyNet DQN,baseline,noisy,standard,test,300,29.709006842641404,18.5876836985781,76.04333333333334,70.0,150,0.5,6.575198351816947,175,0.5833333333333334,299,0.9966666666666667,1,0.0033333333333333335,0,0.0
+rnd,DQN + RND,baseline,rnd,standard,test,300,30.55633317701133,18.850933941959322,77.08333333333333,70.0,151,0.5033333333333333,6.52972972972973,176,0.5866666666666667,300,1.0,0,0.0,0,0.0
+Karthikeya27adv8,Karthikeya27adv8 Pure DQN,policy,Karthikeya27adv8,pure_dqn,test,300,-33.90798423852781,-47.61745221248435,156.14333333333335,19.0,11,0.03666666666666667,0.23482697521508017,213,0.71,213,0.71,0,0.0,87,0.29
+Karthikeya27adv23,Karthikeya27adv23 Pure DQN,policy,Karthikeya27adv23,pure_dqn,test,300,-48.2068397746942,-47.791686708270774,18.826666666666668,19.0,0,0.0,0.0,300,1.0,300,1.0,0,0.0,0,0.0

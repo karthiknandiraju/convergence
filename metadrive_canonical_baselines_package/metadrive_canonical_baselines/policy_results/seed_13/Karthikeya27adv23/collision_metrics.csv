@@ -1,0 +1,3 @@
+method,method_label,phase,episodes,collision_count,out_of_road_count,total_steps,collision_rmst_event_definition,collision_rmst,collisions_per_1000_steps,collision_rate,out_of_road_rate,goal_count,goal_rate,combined_safety_failure_count,combined_safety_failure_rate,combined_safety_failures_per_1000_steps,combined_safety_rmst_event_definition,combined_safety_rmst
+Karthikeya27adv23,Karthikeya27adv23,train,500,9,298,117303,collision,486.92613715567035,0.07672438045062786,0.018,0.596,0,0.0,298,0.596,2.5404294860319,collision_or_out_of_road,234.6059999999999
+Karthikeya27adv23,Karthikeya27adv23,test,300,0,101,120749,collision,500.0,0.0,0.0,0.33666666666666667,0,0.0,101,0.33666666666666667,0.8364458504832338,collision_or_out_of_road,402.4966666666667

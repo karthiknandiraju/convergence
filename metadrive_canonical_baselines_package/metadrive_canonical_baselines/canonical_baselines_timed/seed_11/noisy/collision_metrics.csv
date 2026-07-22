@@ -1,0 +1,3 @@
+method,method_label,phase,episodes,collision_count,out_of_road_count,total_steps,collision_rmst_event_definition,collision_rmst,collisions_per_1000_steps,collision_rate,out_of_road_rate,goal_count,goal_rate,combined_safety_failure_count,combined_safety_failure_rate,combined_safety_failures_per_1000_steps,combined_safety_rmst_event_definition,combined_safety_rmst
+noisy,NoisyNet DQN,train,500,115,388,45993,collision,297.5441027262712,2.5003804926836692,0.23,0.776,2,0.004,483,0.966,10.501598069271411,collision_or_out_of_road,92.8277408123791
+noisy,NoisyNet DQN,test,300,116,203,17391,collision,89.716788574254,6.670116727042723,0.38666666666666666,0.6766666666666666,0,0.0,300,1.0,17.250301880282905,collision_or_out_of_road,57.97

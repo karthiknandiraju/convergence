@@ -1,0 +1,3 @@
+method,method_label,phase,episodes,collision_count,total_steps,collision_rmst,collisions_per_1000_steps,collision_rate
+noisy,NoisyNet DQN,train,500,117,46494,296.0958480154534,2.516453735965931,0.234
+noisy,NoisyNet DQN,test,300,50,5218,253.63187361419068,9.582215408202376,0.16666666666666666

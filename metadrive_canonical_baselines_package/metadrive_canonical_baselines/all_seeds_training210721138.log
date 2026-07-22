@@ -1,0 +1,669 @@
+===== STARTING SEED 29 =====
+===== SEED 29: KARTHIKEYA27ADV20 START =====
+============================================================================
+METADRIVE KARTHIKEYA27ADV20 RETAINED-EVIDENCE SAFETY POLICY
+============================================================================
+Python: 3.11.15
+PyTorch: 2.7.1+cu128
+MetaDrive: installed
+Device: cuda
+Experiments: Karthikeya27adv20
+Plain DQN + Target + Replay + Adam: yes
+RND intrinsic reward: no
+Count-based intrinsic reward: no
+Frozen Pure-DQN testing only: yes
+Train/Test/Max steps: 500 300 500
+Training seeds: 29 through 528
+Testing seeds: 100000 through 100299
+Discrete actions: 9
+Learning rate: 5e-05
+Output directory: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20
+Policy name: Karthikeya27adv20
+Initial combined active + retired pools: 500
+Maximum permanent capacity: 500
+Adaptive capacity formula applied: False
+Pool general representation: full flattened observation
+Pool safety representation: lane_boundary_clearance, nearest_collision_hazard_center_distance, absolute_lane_offset, absolute_heading_error, ego_speed_km_h
+Unified record statuses: CANDIDATE | ACTIVE | RETIRED | HAZARD
+Lookup: safety-strict HAZARD + ACTIVE -> RETIRED -> CANDIDATE
+Testing policy: frozen pure DQN
+Auto threshold calibration: True
+Calibration state target: 3000
+Candidate soft limit: 125
+Candidate hard limit: 150
+Candidate batch eviction count: 25
+Candidate promotion visits: 3
+Hazard-memory capacity: 125
+Hazard-memory fraction: 0.25
+Clean outcomes required for SAFE: 2
+Delayed safety horizon: 5
+Minimum progress reward for SAFE: 0.01
+Warnings required to block: 2
+Initial-pass order: fresh DQN max across all remaining non-BLOCKED actions
+Candidate centroid shift threshold: 0.01
+Candidate stable updates: 2
+Maximum candidate centroid updates: 4
+Overwrite existing completed run: False
+State similarity threshold: 0.9
+Permanent RMS threshold: 0.2
+Candidate cosine threshold: 0.9
+Candidate RMS threshold: 0.25
+General matching: RMS plus cosine when norms are stable
+Normal general-match cosine/RMS relaxation: 0.02 0.02
+Relaxed general matching keeps both safety gates strict: yes
+Safety matching gate: RMS distance plus cosine when norms are stable
+Capacity-pressure fallback: True
+Capacity fallback scope: candidate hard limit, permanent capacity, or eviction
+Capacity fallback cosine/RMS relaxation: 0.02 0.1
+Capacity fallback safety improvement: 0.1
+Directional safety: lane/threat larger; offset/heading smaller
+Speed directional fallback requirement: no; strict gates only
+Capacity-fallback safety gates relaxed: no
+Pool representatives use adaptive centroid freezing: yes
+Centroid shift threshold: 0.01
+Consecutive stable updates required: 3
+Maximum centroid updates per pool: 10
+Centroid stability distance threshold: 0.1
+Pool-active training fraction: 0.8
+Final pure-DQN argmax training fraction: 0.19999999999999996
+Final phase: pure DQN argmax; no pool lookup, safety extraction, or safety masks
+Pool mutations disabled from episode: 400
+Similarity metrics: cosine similarity + RMS distance
+Pool lookup: preallocated vectorized linear matching
+Representative storage dtype: float32
+Replay sampling: indexed ring buffer, O(batch_size)
+Test safety extraction: no (pure-DQN argmax only)
+Available actions per new pool: 9
+Candidate visits use outcome-filtered DQN ranking: yes
+Candidate actions are recorded for mask initialization: yes
+Promotion occurs before promotion-visit action selection: yes
+Active initial pass: every eligible non-BLOCKED action once
+Scheduled UNKNOWN-only passes: 1
+UNKNOWN pass excludes BLOCKED actions: yes
+Final UNKNOWN action waits for its five-step outcome: yes
+Missing safety: skip pools and use fresh DQN argmax
+Retired post-pass selection: fresh DQN maximum on every match
+Post-pass eligibility: SAFE or UNKNOWN; BLOCKED excluded
+Post-pass random exploration: no
+BLOCKED actions excluded while SAFE or UNKNOWN is available
+All-BLOCKED fallback: least failures, then highest fresh DQN Q
+Collision/out-of-road penalties: 50.0 50.0
+Time-limit truncations bootstrap in replay: yes
+Stored retired action values or rankings: no
+Removal: clear selected bit in O(1)
+Promotion and retirement: O(1) status-tag changes
+Pass advance/retirement: after observing final transition
+Absolute permanent capacity full: do not create new candidates; use maximum-Q
+Availability mask refills: once, for the UNKNOWN-only pass
+RMST event/tau: collision 500
+============================================================================
+
+===== TRAINING START: Karthikeya27adv20 =====
+TRAIN Karthikeya27adv20 ep=025 reward=   23.035 steps= 92 term=out_of_road collision=False wall=0.76s loss=0.670858
+TRAIN Karthikeya27adv20 ep=050 reward=  -36.836 steps= 36 term=out_of_road collision=False wall=0.48s loss=0.805233
+TRAIN Karthikeya27adv20 ep=075 reward=  -46.831 steps= 40 term=out_of_road collision=False wall=0.49s loss=1.189374
+TRAIN Karthikeya27adv20 ep=100 reward=  -47.695 steps= 30 term=out_of_road collision=False wall=0.49s loss=0.953653
+TRAIN Karthikeya27adv20 ep=125 reward=  -45.701 steps= 23 term=out_of_road collision=False wall=0.40s loss=1.209169
+TRAIN Karthikeya27adv20 ep=150 reward=  -43.406 steps= 34 term=out_of_road collision=False wall=0.59s loss=1.387947
+TRAIN Karthikeya27adv20 ep=175 reward=  -39.839 steps= 65 term=out_of_road collision=False wall=0.86s loss=1.246262
+TRAIN Karthikeya27adv20 ep=200 reward=   33.718 steps= 85 term=out_of_road collision=False wall=0.99s loss=1.299777
+TRAIN Karthikeya27adv20 ep=225 reward=  -19.119 steps= 54 term=out_of_road collision=False wall=0.98s loss=1.062961
+TRAIN Karthikeya27adv20 ep=250 reward=   -5.960 steps= 68 term=collision   collision=True  wall=0.95s loss=1.344125
+TRAIN Karthikeya27adv20 ep=275 reward=   96.030 steps=118 term=out_of_road collision=False wall=1.43s loss=1.194022
+TRAIN Karthikeya27adv20 ep=300 reward=  -39.733 steps= 32 term=out_of_road collision=False wall=0.56s loss=1.529652
+TRAIN Karthikeya27adv20 ep=325 reward=   15.239 steps= 81 term=collision   collision=True  wall=0.98s loss=1.281267
+TRAIN Karthikeya27adv20 ep=350 reward=    7.600 steps= 74 term=out_of_road collision=False wall=1.14s loss=1.267890
+TRAIN Karthikeya27adv20 ep=375 reward=   58.244 steps= 90 term=out_of_road collision=False wall=1.32s loss=1.271063
+TRAIN Karthikeya27adv20 ep=400 reward=   28.255 steps=103 term=out_of_road collision=False wall=1.17s loss=1.248296
+TRAIN Karthikeya27adv20 ep=425 reward=   52.802 steps= 82 term=out_of_road collision=False wall=0.74s loss=1.743099
+TRAIN Karthikeya27adv20 ep=450 reward=    9.456 steps= 64 term=out_of_road collision=False wall=0.80s loss=1.631742
+TRAIN Karthikeya27adv20 ep=475 reward=   24.085 steps= 92 term=out_of_road collision=False wall=0.67s loss=1.671515
+TRAIN Karthikeya27adv20 ep=500 reward=   23.230 steps= 91 term=out_of_road collision=False wall=0.78s loss=1.385413
+===== TRAINING END: Karthikeya27adv20 =====
+Training duration: 444.10s
+Testing final episode-500 model with pure DQN
+
+===== TESTING START: Karthikeya27adv20 (pure DQN) =====
+TEST  Karthikeya27adv20 policy=pure DQN        ep=025 reward=   21.364 steps= 72 term=out_of_road collision=False wall=0.50s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=050 reward=   14.272 steps= 68 term=collision   collision=True  wall=0.33s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=075 reward=   70.259 steps= 92 term=collision   collision=True  wall=0.56s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=100 reward=   -3.603 steps= 56 term=collision   collision=True  wall=0.34s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=125 reward=   69.749 steps= 93 term=collision   collision=True  wall=0.64s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=150 reward=   58.397 steps= 88 term=collision   collision=True  wall=0.58s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=175 reward=   34.689 steps= 78 term=collision   collision=True  wall=0.56s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=200 reward=    5.276 steps= 62 term=out_of_road collision=False wall=0.55s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=225 reward=   13.047 steps= 66 term=collision   collision=True  wall=0.64s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=250 reward=    2.196 steps= 60 term=out_of_road collision=False wall=0.36s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=275 reward=   51.040 steps= 82 term=collision   collision=True  wall=0.51s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=300 reward=   12.068 steps= 64 term=collision   collision=True  wall=0.29s
+===== TESTING END: Karthikeya27adv20 (pure DQN) =====
+Testing duration: 143.92s
+
+Experiment completed successfully.
+Episode results: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/all_episode_results.csv
+Frozen test policy: pure-DQN argmax
+Collision metrics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/collision_metrics.csv
+Policy safety-stop metrics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/policy_safety_stop_metrics.csv
+Pool statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/state_pool_statistics.csv
+Pool summary: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/state_pool_global_summary.csv
+Candidate statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/state_candidate_statistics.csv
+Evicted candidate history: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/state_evicted_candidate_history.csv
+Matching calibration: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/state_matching_calibration.csv
+Matching rejection statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/state_matching_rejection_statistics.csv
+Capacity growth: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/state_pool_capacity_growth.csv
+Retired pool statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/state_retired_pool_statistics.csv
+Hazard memory statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/state_hazard_memory_statistics.csv
+Runtime statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/runtime_statistics.csv
+Manifest: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/manifest.json
+Pool occupancy plot: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20/plots/state_pool_occupancy.png
+Policy folder name: Karthikeya27adv20
+Results saved to: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_29/Karthikeya27adv20
+===== SEED 29: KARTHIKEYA27ADV20 FINISHED =====
+===== SEED 29: COMPARISON START =====
+Timed baseline source: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/canonical_baselines_timed/seed_29
+Output directory: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/comparisons/seed_29/all_policies_timed
+Eight-graph compact comparison saved to: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/comparisons/seed_29/all_policies_timed
+===== SEED 29: COMPARISON FINISHED =====
+===== COMPLETED SEED 29 =====
+===== STARTING SEED 108 =====
+===== SEED 108: KARTHIKEYA27ADV20 START =====
+============================================================================
+METADRIVE KARTHIKEYA27ADV20 RETAINED-EVIDENCE SAFETY POLICY
+============================================================================
+Python: 3.11.15
+PyTorch: 2.7.1+cu128
+MetaDrive: installed
+Device: cuda
+Experiments: Karthikeya27adv20
+Plain DQN + Target + Replay + Adam: yes
+RND intrinsic reward: no
+Count-based intrinsic reward: no
+Frozen Pure-DQN testing only: yes
+Train/Test/Max steps: 500 300 500
+Training seeds: 108 through 607
+Testing seeds: 100000 through 100299
+Discrete actions: 9
+Learning rate: 5e-05
+Output directory: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20
+Policy name: Karthikeya27adv20
+Initial combined active + retired pools: 500
+Maximum permanent capacity: 500
+Adaptive capacity formula applied: False
+Pool general representation: full flattened observation
+Pool safety representation: lane_boundary_clearance, nearest_collision_hazard_center_distance, absolute_lane_offset, absolute_heading_error, ego_speed_km_h
+Unified record statuses: CANDIDATE | ACTIVE | RETIRED | HAZARD
+Lookup: safety-strict HAZARD + ACTIVE -> RETIRED -> CANDIDATE
+Testing policy: frozen pure DQN
+Auto threshold calibration: True
+Calibration state target: 3000
+Candidate soft limit: 125
+Candidate hard limit: 150
+Candidate batch eviction count: 25
+Candidate promotion visits: 3
+Hazard-memory capacity: 125
+Hazard-memory fraction: 0.25
+Clean outcomes required for SAFE: 2
+Delayed safety horizon: 5
+Minimum progress reward for SAFE: 0.01
+Warnings required to block: 2
+Initial-pass order: fresh DQN max across all remaining non-BLOCKED actions
+Candidate centroid shift threshold: 0.01
+Candidate stable updates: 2
+Maximum candidate centroid updates: 4
+Overwrite existing completed run: False
+State similarity threshold: 0.9
+Permanent RMS threshold: 0.2
+Candidate cosine threshold: 0.9
+Candidate RMS threshold: 0.25
+General matching: RMS plus cosine when norms are stable
+Normal general-match cosine/RMS relaxation: 0.02 0.02
+Relaxed general matching keeps both safety gates strict: yes
+Safety matching gate: RMS distance plus cosine when norms are stable
+Capacity-pressure fallback: True
+Capacity fallback scope: candidate hard limit, permanent capacity, or eviction
+Capacity fallback cosine/RMS relaxation: 0.02 0.1
+Capacity fallback safety improvement: 0.1
+Directional safety: lane/threat larger; offset/heading smaller
+Speed directional fallback requirement: no; strict gates only
+Capacity-fallback safety gates relaxed: no
+Pool representatives use adaptive centroid freezing: yes
+Centroid shift threshold: 0.01
+Consecutive stable updates required: 3
+Maximum centroid updates per pool: 10
+Centroid stability distance threshold: 0.1
+Pool-active training fraction: 0.8
+Final pure-DQN argmax training fraction: 0.19999999999999996
+Final phase: pure DQN argmax; no pool lookup, safety extraction, or safety masks
+Pool mutations disabled from episode: 400
+Similarity metrics: cosine similarity + RMS distance
+Pool lookup: preallocated vectorized linear matching
+Representative storage dtype: float32
+Replay sampling: indexed ring buffer, O(batch_size)
+Test safety extraction: no (pure-DQN argmax only)
+Available actions per new pool: 9
+Candidate visits use outcome-filtered DQN ranking: yes
+Candidate actions are recorded for mask initialization: yes
+Promotion occurs before promotion-visit action selection: yes
+Active initial pass: every eligible non-BLOCKED action once
+Scheduled UNKNOWN-only passes: 1
+UNKNOWN pass excludes BLOCKED actions: yes
+Final UNKNOWN action waits for its five-step outcome: yes
+Missing safety: skip pools and use fresh DQN argmax
+Retired post-pass selection: fresh DQN maximum on every match
+Post-pass eligibility: SAFE or UNKNOWN; BLOCKED excluded
+Post-pass random exploration: no
+BLOCKED actions excluded while SAFE or UNKNOWN is available
+All-BLOCKED fallback: least failures, then highest fresh DQN Q
+Collision/out-of-road penalties: 50.0 50.0
+Time-limit truncations bootstrap in replay: yes
+Stored retired action values or rankings: no
+Removal: clear selected bit in O(1)
+Promotion and retirement: O(1) status-tag changes
+Pass advance/retirement: after observing final transition
+Absolute permanent capacity full: do not create new candidates; use maximum-Q
+Availability mask refills: once, for the UNKNOWN-only pass
+RMST event/tau: collision 500
+============================================================================
+
+===== TRAINING START: Karthikeya27adv20 =====
+TRAIN Karthikeya27adv20 ep=025 reward=   -1.894 steps=500 term=max_steps   collision=False wall=5.10s loss=0.021738
+TRAIN Karthikeya27adv20 ep=050 reward=    0.112 steps=500 term=max_steps   collision=False wall=6.46s loss=0.015525
+TRAIN Karthikeya27adv20 ep=075 reward=   -0.089 steps=500 term=max_steps   collision=False wall=5.20s loss=0.004662
+TRAIN Karthikeya27adv20 ep=100 reward=    1.113 steps=500 term=max_steps   collision=False wall=5.26s loss=0.009313
+TRAIN Karthikeya27adv20 ep=125 reward=    0.175 steps=500 term=max_steps   collision=False wall=5.48s loss=0.010862
+TRAIN Karthikeya27adv20 ep=150 reward=    1.931 steps=500 term=max_steps   collision=False wall=5.51s loss=0.000006
+TRAIN Karthikeya27adv20 ep=175 reward=   -0.064 steps=500 term=max_steps   collision=False wall=5.01s loss=0.001555
+TRAIN Karthikeya27adv20 ep=200 reward=   -0.095 steps=500 term=max_steps   collision=False wall=5.20s loss=0.003105
+TRAIN Karthikeya27adv20 ep=225 reward=    0.013 steps=500 term=max_steps   collision=False wall=5.19s loss=0.000004
+TRAIN Karthikeya27adv20 ep=250 reward=  -50.069 steps=473 term=out_of_road collision=False wall=5.01s loss=0.001642
+TRAIN Karthikeya27adv20 ep=275 reward=   -0.016 steps=500 term=max_steps   collision=False wall=5.89s loss=0.003104
+TRAIN Karthikeya27adv20 ep=300 reward=   -0.033 steps=500 term=max_steps   collision=False wall=5.08s loss=0.009299
+TRAIN Karthikeya27adv20 ep=325 reward=    0.220 steps=500 term=max_steps   collision=False wall=6.30s loss=0.000006
+TRAIN Karthikeya27adv20 ep=350 reward=   -0.303 steps=500 term=max_steps   collision=False wall=4.86s loss=0.003105
+TRAIN Karthikeya27adv20 ep=375 reward=    0.020 steps=500 term=max_steps   collision=False wall=5.79s loss=0.001556
+TRAIN Karthikeya27adv20 ep=400 reward=    4.721 steps= 63 term=out_of_road collision=False wall=1.12s loss=0.018744
+TRAIN Karthikeya27adv20 ep=425 reward=    9.080 steps= 65 term=collision   collision=True  wall=0.53s loss=0.062095
+TRAIN Karthikeya27adv20 ep=450 reward=   17.226 steps= 67 term=out_of_road collision=False wall=0.95s loss=0.047754
+TRAIN Karthikeya27adv20 ep=475 reward=  128.109 steps=117 term=collision   collision=True  wall=0.96s loss=0.082435
+TRAIN Karthikeya27adv20 ep=500 reward=    3.787 steps= 61 term=out_of_road collision=False wall=0.69s loss=0.207043
+===== TRAINING END: Karthikeya27adv20 =====
+Training duration: 2045.17s
+Testing final episode-500 model with pure DQN
+
+===== TESTING START: Karthikeya27adv20 (pure DQN) =====
+TEST  Karthikeya27adv20 policy=pure DQN        ep=025 reward=   21.364 steps= 72 term=out_of_road collision=False wall=0.52s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=050 reward=   14.474 steps= 68 term=collision   collision=True  wall=0.34s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=075 reward=   70.259 steps= 92 term=collision   collision=True  wall=0.58s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=100 reward=   -4.929 steps= 55 term=collision   collision=True  wall=0.32s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=125 reward=   69.749 steps= 93 term=collision   collision=True  wall=0.66s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=150 reward=   58.406 steps= 88 term=collision   collision=True  wall=0.77s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=175 reward=   34.689 steps= 78 term=collision   collision=True  wall=0.57s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=200 reward=    5.276 steps= 62 term=out_of_road collision=False wall=0.57s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=225 reward=   13.062 steps= 66 term=collision   collision=True  wall=0.65s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=250 reward=    2.196 steps= 60 term=out_of_road collision=False wall=0.36s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=275 reward=   51.053 steps= 82 term=collision   collision=True  wall=0.52s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=300 reward=   12.068 steps= 64 term=collision   collision=True  wall=0.30s
+===== TESTING END: Karthikeya27adv20 (pure DQN) =====
+Testing duration: 146.91s
+
+Experiment completed successfully.
+Episode results: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/all_episode_results.csv
+Frozen test policy: pure-DQN argmax
+Collision metrics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/collision_metrics.csv
+Policy safety-stop metrics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/policy_safety_stop_metrics.csv
+Pool statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/state_pool_statistics.csv
+Pool summary: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/state_pool_global_summary.csv
+Candidate statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/state_candidate_statistics.csv
+Evicted candidate history: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/state_evicted_candidate_history.csv
+Matching calibration: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/state_matching_calibration.csv
+Matching rejection statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/state_matching_rejection_statistics.csv
+Capacity growth: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/state_pool_capacity_growth.csv
+Retired pool statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/state_retired_pool_statistics.csv
+Hazard memory statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/state_hazard_memory_statistics.csv
+Runtime statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/runtime_statistics.csv
+Manifest: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/manifest.json
+Pool occupancy plot: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20/plots/state_pool_occupancy.png
+Policy folder name: Karthikeya27adv20
+Results saved to: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_108/Karthikeya27adv20
+===== SEED 108: KARTHIKEYA27ADV20 FINISHED =====
+===== SEED 108: COMPARISON START =====
+Timed baseline source: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/canonical_baselines_timed/seed_108
+Output directory: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/comparisons/seed_108/all_policies_timed
+Eight-graph compact comparison saved to: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/comparisons/seed_108/all_policies_timed
+===== SEED 108: COMPARISON FINISHED =====
+===== COMPLETED SEED 108 =====
+===== STARTING SEED 13 =====
+===== SEED 13: KARTHIKEYA27ADV20 START =====
+============================================================================
+METADRIVE KARTHIKEYA27ADV20 RETAINED-EVIDENCE SAFETY POLICY
+============================================================================
+Python: 3.11.15
+PyTorch: 2.7.1+cu128
+MetaDrive: installed
+Device: cuda
+Experiments: Karthikeya27adv20
+Plain DQN + Target + Replay + Adam: yes
+RND intrinsic reward: no
+Count-based intrinsic reward: no
+Frozen Pure-DQN testing only: yes
+Train/Test/Max steps: 500 300 500
+Training seeds: 13 through 512
+Testing seeds: 100000 through 100299
+Discrete actions: 9
+Learning rate: 5e-05
+Output directory: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20
+Policy name: Karthikeya27adv20
+Initial combined active + retired pools: 500
+Maximum permanent capacity: 500
+Adaptive capacity formula applied: False
+Pool general representation: full flattened observation
+Pool safety representation: lane_boundary_clearance, nearest_collision_hazard_center_distance, absolute_lane_offset, absolute_heading_error, ego_speed_km_h
+Unified record statuses: CANDIDATE | ACTIVE | RETIRED | HAZARD
+Lookup: safety-strict HAZARD + ACTIVE -> RETIRED -> CANDIDATE
+Testing policy: frozen pure DQN
+Auto threshold calibration: True
+Calibration state target: 3000
+Candidate soft limit: 125
+Candidate hard limit: 150
+Candidate batch eviction count: 25
+Candidate promotion visits: 3
+Hazard-memory capacity: 125
+Hazard-memory fraction: 0.25
+Clean outcomes required for SAFE: 2
+Delayed safety horizon: 5
+Minimum progress reward for SAFE: 0.01
+Warnings required to block: 2
+Initial-pass order: fresh DQN max across all remaining non-BLOCKED actions
+Candidate centroid shift threshold: 0.01
+Candidate stable updates: 2
+Maximum candidate centroid updates: 4
+Overwrite existing completed run: False
+State similarity threshold: 0.9
+Permanent RMS threshold: 0.2
+Candidate cosine threshold: 0.9
+Candidate RMS threshold: 0.25
+General matching: RMS plus cosine when norms are stable
+Normal general-match cosine/RMS relaxation: 0.02 0.02
+Relaxed general matching keeps both safety gates strict: yes
+Safety matching gate: RMS distance plus cosine when norms are stable
+Capacity-pressure fallback: True
+Capacity fallback scope: candidate hard limit, permanent capacity, or eviction
+Capacity fallback cosine/RMS relaxation: 0.02 0.1
+Capacity fallback safety improvement: 0.1
+Directional safety: lane/threat larger; offset/heading smaller
+Speed directional fallback requirement: no; strict gates only
+Capacity-fallback safety gates relaxed: no
+Pool representatives use adaptive centroid freezing: yes
+Centroid shift threshold: 0.01
+Consecutive stable updates required: 3
+Maximum centroid updates per pool: 10
+Centroid stability distance threshold: 0.1
+Pool-active training fraction: 0.8
+Final pure-DQN argmax training fraction: 0.19999999999999996
+Final phase: pure DQN argmax; no pool lookup, safety extraction, or safety masks
+Pool mutations disabled from episode: 400
+Similarity metrics: cosine similarity + RMS distance
+Pool lookup: preallocated vectorized linear matching
+Representative storage dtype: float32
+Replay sampling: indexed ring buffer, O(batch_size)
+Test safety extraction: no (pure-DQN argmax only)
+Available actions per new pool: 9
+Candidate visits use outcome-filtered DQN ranking: yes
+Candidate actions are recorded for mask initialization: yes
+Promotion occurs before promotion-visit action selection: yes
+Active initial pass: every eligible non-BLOCKED action once
+Scheduled UNKNOWN-only passes: 1
+UNKNOWN pass excludes BLOCKED actions: yes
+Final UNKNOWN action waits for its five-step outcome: yes
+Missing safety: skip pools and use fresh DQN argmax
+Retired post-pass selection: fresh DQN maximum on every match
+Post-pass eligibility: SAFE or UNKNOWN; BLOCKED excluded
+Post-pass random exploration: no
+BLOCKED actions excluded while SAFE or UNKNOWN is available
+All-BLOCKED fallback: least failures, then highest fresh DQN Q
+Collision/out-of-road penalties: 50.0 50.0
+Time-limit truncations bootstrap in replay: yes
+Stored retired action values or rankings: no
+Removal: clear selected bit in O(1)
+Promotion and retirement: O(1) status-tag changes
+Pass advance/retirement: after observing final transition
+Absolute permanent capacity full: do not create new candidates; use maximum-Q
+Availability mask refills: once, for the UNKNOWN-only pass
+RMST event/tau: collision 500
+============================================================================
+
+===== TRAINING START: Karthikeya27adv20 =====
+TRAIN Karthikeya27adv20 ep=025 reward=  -49.389 steps= 12 term=out_of_road collision=False wall=0.31s loss=0.130276
+TRAIN Karthikeya27adv20 ep=050 reward=  -49.483 steps= 29 term=out_of_road collision=False wall=0.39s loss=0.644976
+TRAIN Karthikeya27adv20 ep=075 reward=  -49.477 steps=  8 term=out_of_road collision=False wall=0.42s loss=0.390851
+TRAIN Karthikeya27adv20 ep=100 reward=  -39.710 steps= 30 term=out_of_road collision=False wall=0.44s loss=0.419754
+TRAIN Karthikeya27adv20 ep=125 reward=   13.283 steps= 67 term=collision   collision=True  wall=0.79s loss=0.505647
+TRAIN Karthikeya27adv20 ep=150 reward=   10.190 steps= 67 term=out_of_road collision=False wall=1.21s loss=0.476106
+TRAIN Karthikeya27adv20 ep=175 reward=    9.917 steps= 65 term=collision   collision=True  wall=1.17s loss=0.587520
+TRAIN Karthikeya27adv20 ep=200 reward=   21.055 steps= 69 term=collision   collision=True  wall=0.76s loss=0.621171
+TRAIN Karthikeya27adv20 ep=225 reward=   -2.789 steps= 58 term=collision   collision=True  wall=0.99s loss=0.825476
+TRAIN Karthikeya27adv20 ep=250 reward=   63.864 steps= 89 term=collision   collision=True  wall=1.31s loss=0.863344
+TRAIN Karthikeya27adv20 ep=275 reward=   15.101 steps= 67 term=collision   collision=True  wall=0.96s loss=0.560474
+TRAIN Karthikeya27adv20 ep=300 reward=    3.728 steps= 60 term=collision   collision=True  wall=0.88s loss=0.814117
+TRAIN Karthikeya27adv20 ep=325 reward=   12.152 steps= 68 term=collision   collision=True  wall=1.14s loss=0.868763
+TRAIN Karthikeya27adv20 ep=350 reward=  -16.936 steps= 48 term=out_of_road collision=False wall=0.59s loss=0.999514
+TRAIN Karthikeya27adv20 ep=375 reward=  -48.764 steps= 12 term=out_of_road collision=False wall=0.36s loss=1.655562
+TRAIN Karthikeya27adv20 ep=400 reward=  -32.859 steps= 46 term=out_of_road collision=False wall=0.72s loss=1.105186
+TRAIN Karthikeya27adv20 ep=425 reward=  -38.222 steps= 41 term=out_of_road collision=False wall=0.47s loss=1.151347
+TRAIN Karthikeya27adv20 ep=450 reward=  -40.397 steps= 40 term=out_of_road collision=False wall=0.54s loss=1.136270
+TRAIN Karthikeya27adv20 ep=475 reward=  -49.344 steps=  9 term=out_of_road collision=False wall=0.24s loss=1.757140
+TRAIN Karthikeya27adv20 ep=500 reward=  -43.346 steps= 35 term=out_of_road collision=False wall=0.43s loss=1.405612
+===== TRAINING END: Karthikeya27adv20 =====
+Training duration: 417.93s
+Testing final episode-500 model with pure DQN
+
+===== TESTING START: Karthikeya27adv20 (pure DQN) =====
+TEST  Karthikeya27adv20 policy=pure DQN        ep=025 reward=  -49.361 steps=  9 term=out_of_road collision=False wall=0.15s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=050 reward=  -44.690 steps= 35 term=out_of_road collision=False wall=0.21s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=075 reward=  -49.491 steps=  8 term=out_of_road collision=False wall=0.16s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=100 reward=  -45.627 steps= 25 term=out_of_road collision=False wall=0.19s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=125 reward=  -46.041 steps= 25 term=out_of_road collision=False wall=0.27s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=150 reward=  -44.700 steps= 36 term=out_of_road collision=False wall=0.27s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=175 reward=  -46.052 steps= 25 term=out_of_road collision=False wall=0.27s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=200 reward=  -49.469 steps=  8 term=out_of_road collision=False wall=0.26s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=225 reward=  -49.484 steps=  8 term=out_of_road collision=False wall=0.24s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=250 reward=  -49.482 steps=  8 term=out_of_road collision=False wall=0.13s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=275 reward=  -45.632 steps= 25 term=out_of_road collision=False wall=0.23s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=300 reward=  -49.462 steps=  8 term=out_of_road collision=False wall=0.14s
+===== TESTING END: Karthikeya27adv20 (pure DQN) =====
+Testing duration: 68.36s
+
+Experiment completed successfully.
+Episode results: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/all_episode_results.csv
+Frozen test policy: pure-DQN argmax
+Collision metrics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/collision_metrics.csv
+Policy safety-stop metrics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/policy_safety_stop_metrics.csv
+Pool statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/state_pool_statistics.csv
+Pool summary: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/state_pool_global_summary.csv
+Candidate statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/state_candidate_statistics.csv
+Evicted candidate history: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/state_evicted_candidate_history.csv
+Matching calibration: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/state_matching_calibration.csv
+Matching rejection statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/state_matching_rejection_statistics.csv
+Capacity growth: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/state_pool_capacity_growth.csv
+Retired pool statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/state_retired_pool_statistics.csv
+Hazard memory statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/state_hazard_memory_statistics.csv
+Runtime statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/runtime_statistics.csv
+Manifest: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/manifest.json
+Pool occupancy plot: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20/plots/state_pool_occupancy.png
+Policy folder name: Karthikeya27adv20
+Results saved to: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_13/Karthikeya27adv20
+===== SEED 13: KARTHIKEYA27ADV20 FINISHED =====
+===== SEED 13: COMPARISON START =====
+Timed baseline source: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/canonical_baselines_timed/seed_13
+Output directory: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/comparisons/seed_13/all_policies_timed
+Eight-graph compact comparison saved to: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/comparisons/seed_13/all_policies_timed
+===== SEED 13: COMPARISON FINISHED =====
+===== COMPLETED SEED 13 =====
+===== STARTING SEED 31 =====
+===== SEED 31: KARTHIKEYA27ADV20 START =====
+============================================================================
+METADRIVE KARTHIKEYA27ADV20 RETAINED-EVIDENCE SAFETY POLICY
+============================================================================
+Python: 3.11.15
+PyTorch: 2.7.1+cu128
+MetaDrive: installed
+Device: cuda
+Experiments: Karthikeya27adv20
+Plain DQN + Target + Replay + Adam: yes
+RND intrinsic reward: no
+Count-based intrinsic reward: no
+Frozen Pure-DQN testing only: yes
+Train/Test/Max steps: 500 300 500
+Training seeds: 31 through 530
+Testing seeds: 100000 through 100299
+Discrete actions: 9
+Learning rate: 5e-05
+Output directory: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20
+Policy name: Karthikeya27adv20
+Initial combined active + retired pools: 500
+Maximum permanent capacity: 500
+Adaptive capacity formula applied: False
+Pool general representation: full flattened observation
+Pool safety representation: lane_boundary_clearance, nearest_collision_hazard_center_distance, absolute_lane_offset, absolute_heading_error, ego_speed_km_h
+Unified record statuses: CANDIDATE | ACTIVE | RETIRED | HAZARD
+Lookup: safety-strict HAZARD + ACTIVE -> RETIRED -> CANDIDATE
+Testing policy: frozen pure DQN
+Auto threshold calibration: True
+Calibration state target: 3000
+Candidate soft limit: 125
+Candidate hard limit: 150
+Candidate batch eviction count: 25
+Candidate promotion visits: 3
+Hazard-memory capacity: 125
+Hazard-memory fraction: 0.25
+Clean outcomes required for SAFE: 2
+Delayed safety horizon: 5
+Minimum progress reward for SAFE: 0.01
+Warnings required to block: 2
+Initial-pass order: fresh DQN max across all remaining non-BLOCKED actions
+Candidate centroid shift threshold: 0.01
+Candidate stable updates: 2
+Maximum candidate centroid updates: 4
+Overwrite existing completed run: False
+State similarity threshold: 0.9
+Permanent RMS threshold: 0.2
+Candidate cosine threshold: 0.9
+Candidate RMS threshold: 0.25
+General matching: RMS plus cosine when norms are stable
+Normal general-match cosine/RMS relaxation: 0.02 0.02
+Relaxed general matching keeps both safety gates strict: yes
+Safety matching gate: RMS distance plus cosine when norms are stable
+Capacity-pressure fallback: True
+Capacity fallback scope: candidate hard limit, permanent capacity, or eviction
+Capacity fallback cosine/RMS relaxation: 0.02 0.1
+Capacity fallback safety improvement: 0.1
+Directional safety: lane/threat larger; offset/heading smaller
+Speed directional fallback requirement: no; strict gates only
+Capacity-fallback safety gates relaxed: no
+Pool representatives use adaptive centroid freezing: yes
+Centroid shift threshold: 0.01
+Consecutive stable updates required: 3
+Maximum centroid updates per pool: 10
+Centroid stability distance threshold: 0.1
+Pool-active training fraction: 0.8
+Final pure-DQN argmax training fraction: 0.19999999999999996
+Final phase: pure DQN argmax; no pool lookup, safety extraction, or safety masks
+Pool mutations disabled from episode: 400
+Similarity metrics: cosine similarity + RMS distance
+Pool lookup: preallocated vectorized linear matching
+Representative storage dtype: float32
+Replay sampling: indexed ring buffer, O(batch_size)
+Test safety extraction: no (pure-DQN argmax only)
+Available actions per new pool: 9
+Candidate visits use outcome-filtered DQN ranking: yes
+Candidate actions are recorded for mask initialization: yes
+Promotion occurs before promotion-visit action selection: yes
+Active initial pass: every eligible non-BLOCKED action once
+Scheduled UNKNOWN-only passes: 1
+UNKNOWN pass excludes BLOCKED actions: yes
+Final UNKNOWN action waits for its five-step outcome: yes
+Missing safety: skip pools and use fresh DQN argmax
+Retired post-pass selection: fresh DQN maximum on every match
+Post-pass eligibility: SAFE or UNKNOWN; BLOCKED excluded
+Post-pass random exploration: no
+BLOCKED actions excluded while SAFE or UNKNOWN is available
+All-BLOCKED fallback: least failures, then highest fresh DQN Q
+Collision/out-of-road penalties: 50.0 50.0
+Time-limit truncations bootstrap in replay: yes
+Stored retired action values or rankings: no
+Removal: clear selected bit in O(1)
+Promotion and retirement: O(1) status-tag changes
+Pass advance/retirement: after observing final transition
+Absolute permanent capacity full: do not create new candidates; use maximum-Q
+Availability mask refills: once, for the UNKNOWN-only pass
+RMST event/tau: collision 500
+============================================================================
+
+===== TRAINING START: Karthikeya27adv20 =====
+TRAIN Karthikeya27adv20 ep=025 reward=  -48.232 steps= 47 term=out_of_road collision=False wall=0.57s loss=0.231934
+TRAIN Karthikeya27adv20 ep=050 reward=  -49.471 steps=  8 term=out_of_road collision=False wall=0.38s loss=0.778211
+TRAIN Karthikeya27adv20 ep=075 reward=  -47.862 steps= 41 term=out_of_road collision=False wall=0.57s loss=0.588694
+TRAIN Karthikeya27adv20 ep=100 reward=  -47.808 steps= 27 term=out_of_road collision=False wall=0.56s loss=0.692675
+TRAIN Karthikeya27adv20 ep=125 reward=  -47.179 steps=137 term=out_of_road collision=False wall=1.40s loss=0.645100
+TRAIN Karthikeya27adv20 ep=150 reward=  144.927 steps=500 term=max_steps   collision=False wall=7.10s loss=0.437342
+TRAIN Karthikeya27adv20 ep=175 reward=  -46.704 steps= 29 term=out_of_road collision=False wall=0.41s loss=0.313690
+TRAIN Karthikeya27adv20 ep=200 reward=    5.954 steps=164 term=out_of_road collision=False wall=2.67s loss=0.339916
+TRAIN Karthikeya27adv20 ep=225 reward=  -47.457 steps= 20 term=out_of_road collision=False wall=0.29s loss=0.385310
+TRAIN Karthikeya27adv20 ep=250 reward=  -47.632 steps= 27 term=out_of_road collision=False wall=0.56s loss=0.414588
+TRAIN Karthikeya27adv20 ep=275 reward=  -47.652 steps= 20 term=out_of_road collision=False wall=0.39s loss=0.528681
+TRAIN Karthikeya27adv20 ep=300 reward=   33.834 steps=268 term=out_of_road collision=False wall=2.61s loss=0.416585
+TRAIN Karthikeya27adv20 ep=325 reward=  -47.826 steps= 28 term=out_of_road collision=False wall=0.43s loss=0.484304
+TRAIN Karthikeya27adv20 ep=350 reward=   79.199 steps=395 term=out_of_road collision=False wall=6.45s loss=0.368867
+TRAIN Karthikeya27adv20 ep=375 reward=    8.783 steps=207 term=out_of_road collision=False wall=1.85s loss=0.315569
+TRAIN Karthikeya27adv20 ep=400 reward=   -1.435 steps=147 term=out_of_road collision=False wall=1.91s loss=0.291712
+TRAIN Karthikeya27adv20 ep=425 reward=  -13.988 steps=142 term=out_of_road collision=False wall=1.20s loss=0.279617
+TRAIN Karthikeya27adv20 ep=450 reward=    0.953 steps=181 term=out_of_road collision=False wall=1.86s loss=0.209196
+TRAIN Karthikeya27adv20 ep=475 reward=  149.730 steps=500 term=max_steps   collision=False wall=4.42s loss=0.197926
+TRAIN Karthikeya27adv20 ep=500 reward=  193.181 steps=500 term=max_steps   collision=False wall=4.43s loss=0.154711
+===== TRAINING END: Karthikeya27adv20 =====
+Training duration: 1048.25s
+Testing final episode-500 model with pure DQN
+
+===== TESTING START: Karthikeya27adv20 (pure DQN) =====
+TEST  Karthikeya27adv20 policy=pure DQN        ep=025 reward=  -11.229 steps=144 term=out_of_road collision=False wall=0.91s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=050 reward=  -18.907 steps= 98 term=out_of_road collision=False wall=0.41s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=075 reward=  160.848 steps=500 term=max_steps   collision=False wall=2.97s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=100 reward=  118.154 steps=481 term=out_of_road collision=False wall=2.66s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=125 reward=  152.481 steps=500 term=max_steps   collision=False wall=3.42s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=150 reward=  163.184 steps=500 term=max_steps   collision=False wall=3.01s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=175 reward=  149.863 steps=500 term=max_steps   collision=False wall=3.20s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=200 reward=   -4.585 steps=152 term=out_of_road collision=False wall=1.12s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=225 reward=  -16.633 steps=121 term=out_of_road collision=False wall=1.00s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=250 reward=  -28.287 steps= 81 term=out_of_road collision=False wall=0.43s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=275 reward=  167.677 steps=500 term=max_steps   collision=False wall=2.70s
+TEST  Karthikeya27adv20 policy=pure DQN        ep=300 reward=   -9.580 steps=153 term=out_of_road collision=False wall=0.55s
+===== TESTING END: Karthikeya27adv20 (pure DQN) =====
+Testing duration: 366.44s
+
+Experiment completed successfully.
+Episode results: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/all_episode_results.csv
+Frozen test policy: pure-DQN argmax
+Collision metrics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/collision_metrics.csv
+Policy safety-stop metrics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/policy_safety_stop_metrics.csv
+Pool statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/state_pool_statistics.csv
+Pool summary: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/state_pool_global_summary.csv
+Candidate statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/state_candidate_statistics.csv
+Evicted candidate history: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/state_evicted_candidate_history.csv
+Matching calibration: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/state_matching_calibration.csv
+Matching rejection statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/state_matching_rejection_statistics.csv
+Capacity growth: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/state_pool_capacity_growth.csv
+Retired pool statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/state_retired_pool_statistics.csv
+Hazard memory statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/state_hazard_memory_statistics.csv
+Runtime statistics: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/runtime_statistics.csv
+Manifest: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/manifest.json
+Pool occupancy plot: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20/plots/state_pool_occupancy.png
+Policy folder name: Karthikeya27adv20
+Results saved to: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/policy_results/seed_31/Karthikeya27adv20
+===== SEED 31: KARTHIKEYA27ADV20 FINISHED =====
+===== SEED 31: COMPARISON START =====
+Timed baseline source: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/canonical_baselines_timed/seed_31
+Output directory: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/comparisons/seed_31/all_policies_timed
+Eight-graph compact comparison saved to: /home/karthik/Desktop/Karthikeya/genadv/metadrive_canonical_baselines_package/metadrive_canonical_baselines/comparisons/seed_31/all_policies_timed
+===== SEED 31: COMPARISON FINISHED =====
+===== COMPLETED SEED 31 =====
+===== ALL SEEDS FINISHED =====
