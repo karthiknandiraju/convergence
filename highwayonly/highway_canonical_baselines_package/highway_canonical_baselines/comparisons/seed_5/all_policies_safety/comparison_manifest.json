@@ -1,0 +1,58 @@
+{
+  "automatic_policy_discovery": true,
+  "baseline_root": "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/canonical_baselines/seed_5",
+  "block_size": 25,
+  "graphs": [
+    "test_reward_boxplot.png",
+    "train_collision_exposure_boxplot.png",
+    "test_max_steps_rate.png",
+    "test_goal_rate.png",
+    "test_collisions_per_1000_steps.png",
+    "test_collision_rate.png",
+    "test_episode_steps_boxplot.png",
+    "average_episode_wall_time.png"
+  ],
+  "metric_definitions": {
+    "collision_rate": "Episodes with a collision divided by test episodes.",
+    "collisions_per_1000_steps": "Collision count divided by observed test steps, multiplied by 1,000.",
+    "environment_reward": "Raw environment reward per frozen-test episode.",
+    "goal_rate": "Episodes reaching the goal divided by test episodes.",
+    "max_steps_rate": "Episodes reaching the configured horizon divided by test episodes."
+  },
+  "policy_sources": [
+    "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_5/Karthikeya27adv23"
+  ],
+  "series": [
+    {
+      "evaluation_variant": "standard",
+      "method": "Epsilon Greedy",
+      "series_id": "epsilon",
+      "source_kind": "baseline",
+      "source_name": "epsilon"
+    },
+    {
+      "evaluation_variant": "standard",
+      "method": "NoisyNet DQN",
+      "series_id": "noisy",
+      "source_kind": "baseline",
+      "source_name": "noisy"
+    },
+    {
+      "evaluation_variant": "standard",
+      "method": "DQN + RND",
+      "series_id": "rnd",
+      "source_kind": "baseline",
+      "source_name": "rnd"
+    },
+    {
+      "evaluation_variant": "standard",
+      "method": "Policy (Karthikeya27adv23)",
+      "series_id": "Karthikeya27adv23",
+      "source_kind": "policy",
+      "source_name": "Karthikeya27adv23"
+    }
+  ],
+  "test_common_metrics": "test_common_metrics.csv",
+  "timing_statistics": "timing_statistics.csv",
+  "validation_messages": []
+}

@@ -1,0 +1,129 @@
+series_id,method,phase,block,episode_start,episode_end,episodes_in_block,collision_count,total_steps,collisions_per_1000_steps,collision_rate
+epsilon,Epsilon Greedy,train,1,0,24,25,0,59,0.0,0.0
+epsilon,Epsilon Greedy,train,2,25,49,25,0,104,0.0,0.0
+epsilon,Epsilon Greedy,train,3,50,74,25,10,132,75.75757575757575,0.4
+epsilon,Epsilon Greedy,train,4,75,99,25,11,109,100.91743119266054,0.44
+epsilon,Epsilon Greedy,train,5,100,124,25,14,128,109.375,0.56
+epsilon,Epsilon Greedy,train,6,125,149,25,16,100,160.0,0.64
+epsilon,Epsilon Greedy,train,7,150,174,25,19,120,158.33333333333334,0.76
+epsilon,Epsilon Greedy,train,8,175,199,25,13,130,100.0,0.52
+epsilon,Epsilon Greedy,train,9,200,224,25,17,116,146.55172413793105,0.68
+epsilon,Epsilon Greedy,train,10,225,249,25,20,116,172.41379310344828,0.8
+epsilon,Epsilon Greedy,train,11,250,274,25,20,115,173.91304347826087,0.8
+epsilon,Epsilon Greedy,train,12,275,299,25,18,107,168.22429906542055,0.72
+epsilon,Epsilon Greedy,train,13,300,324,25,10,120,83.33333333333333,0.4
+epsilon,Epsilon Greedy,train,14,325,349,25,17,125,136.0,0.68
+epsilon,Epsilon Greedy,train,15,350,374,25,18,128,140.625,0.72
+epsilon,Epsilon Greedy,train,16,375,399,25,16,97,164.94845360824743,0.64
+epsilon,Epsilon Greedy,train,17,400,424,25,18,122,147.54098360655738,0.72
+epsilon,Epsilon Greedy,train,18,425,449,25,14,111,126.12612612612612,0.56
+epsilon,Epsilon Greedy,train,19,450,474,25,16,119,134.45378151260505,0.64
+epsilon,Epsilon Greedy,train,20,475,499,25,20,131,152.67175572519085,0.8
+epsilon,Epsilon Greedy,test,1,0,24,25,25,124,201.61290322580646,1.0
+epsilon,Epsilon Greedy,test,2,25,49,25,25,130,192.30769230769232,1.0
+epsilon,Epsilon Greedy,test,3,50,74,25,25,144,173.61111111111111,1.0
+epsilon,Epsilon Greedy,test,4,75,99,25,25,141,177.3049645390071,1.0
+epsilon,Epsilon Greedy,test,5,100,124,25,25,144,173.61111111111111,1.0
+epsilon,Epsilon Greedy,test,6,125,149,25,25,156,160.25641025641025,1.0
+epsilon,Epsilon Greedy,test,7,150,174,25,25,116,215.51724137931035,1.0
+epsilon,Epsilon Greedy,test,8,175,199,25,25,140,178.57142857142858,1.0
+epsilon,Epsilon Greedy,test,9,200,224,25,25,155,161.29032258064515,1.0
+epsilon,Epsilon Greedy,test,10,225,249,25,25,159,157.23270440251574,1.0
+epsilon,Epsilon Greedy,test,11,250,274,25,25,156,160.25641025641025,1.0
+epsilon,Epsilon Greedy,test,12,275,299,25,25,150,166.66666666666666,1.0
+noisy,NoisyNet DQN,train,1,0,24,25,1,61,16.39344262295082,0.04
+noisy,NoisyNet DQN,train,2,25,49,25,0,70,0.0,0.0
+noisy,NoisyNet DQN,train,3,50,74,25,4,90,44.44444444444444,0.16
+noisy,NoisyNet DQN,train,4,75,99,25,1,100,10.0,0.04
+noisy,NoisyNet DQN,train,5,100,124,25,5,135,37.03703703703704,0.2
+noisy,NoisyNet DQN,train,6,125,149,25,18,129,139.53488372093022,0.72
+noisy,NoisyNet DQN,train,7,150,174,25,25,127,196.8503937007874,1.0
+noisy,NoisyNet DQN,train,8,175,199,25,25,124,201.61290322580646,1.0
+noisy,NoisyNet DQN,train,9,200,224,25,21,125,168.0,0.84
+noisy,NoisyNet DQN,train,10,225,249,25,24,125,192.0,0.96
+noisy,NoisyNet DQN,train,11,250,274,25,25,120,208.33333333333334,1.0
+noisy,NoisyNet DQN,train,12,275,299,25,25,157,159.23566878980893,1.0
+noisy,NoisyNet DQN,train,13,300,324,25,25,165,151.5151515151515,1.0
+noisy,NoisyNet DQN,train,14,325,349,25,25,142,176.05633802816902,1.0
+noisy,NoisyNet DQN,train,15,350,374,25,25,134,186.56716417910448,1.0
+noisy,NoisyNet DQN,train,16,375,399,25,25,133,187.9699248120301,1.0
+noisy,NoisyNet DQN,train,17,400,424,25,25,118,211.864406779661,1.0
+noisy,NoisyNet DQN,train,18,425,449,25,25,140,178.57142857142858,1.0
+noisy,NoisyNet DQN,train,19,450,474,25,25,149,167.78523489932886,1.0
+noisy,NoisyNet DQN,train,20,475,499,25,25,145,172.41379310344828,1.0
+noisy,NoisyNet DQN,test,1,0,24,25,25,123,203.2520325203252,1.0
+noisy,NoisyNet DQN,test,2,25,49,25,25,130,192.30769230769232,1.0
+noisy,NoisyNet DQN,test,3,50,74,25,25,144,173.61111111111111,1.0
+noisy,NoisyNet DQN,test,4,75,99,25,25,140,178.57142857142858,1.0
+noisy,NoisyNet DQN,test,5,100,124,25,25,135,185.1851851851852,1.0
+noisy,NoisyNet DQN,test,6,125,149,25,25,155,161.29032258064515,1.0
+noisy,NoisyNet DQN,test,7,150,174,25,25,115,217.3913043478261,1.0
+noisy,NoisyNet DQN,test,8,175,199,25,25,140,178.57142857142858,1.0
+noisy,NoisyNet DQN,test,9,200,224,25,25,154,162.33766233766235,1.0
+noisy,NoisyNet DQN,test,10,225,249,25,25,156,160.25641025641025,1.0
+noisy,NoisyNet DQN,test,11,250,274,25,25,155,161.29032258064515,1.0
+noisy,NoisyNet DQN,test,12,275,299,25,25,150,166.66666666666666,1.0
+rnd,DQN + RND,train,1,0,24,25,0,59,0.0,0.0
+rnd,DQN + RND,train,2,25,49,25,0,104,0.0,0.0
+rnd,DQN + RND,train,3,50,74,25,5,148,33.78378378378378,0.2
+rnd,DQN + RND,train,4,75,99,25,13,106,122.64150943396227,0.52
+rnd,DQN + RND,train,5,100,124,25,17,132,128.78787878787878,0.68
+rnd,DQN + RND,train,6,125,149,25,14,108,129.62962962962962,0.56
+rnd,DQN + RND,train,7,150,174,25,19,120,158.33333333333334,0.76
+rnd,DQN + RND,train,8,175,199,25,11,105,104.76190476190476,0.44
+rnd,DQN + RND,train,9,200,224,25,16,115,139.1304347826087,0.64
+rnd,DQN + RND,train,10,225,249,25,19,117,162.39316239316238,0.76
+rnd,DQN + RND,train,11,250,274,25,20,117,170.94017094017093,0.8
+rnd,DQN + RND,train,12,275,299,25,19,105,180.95238095238096,0.76
+rnd,DQN + RND,train,13,300,324,25,10,120,83.33333333333333,0.4
+rnd,DQN + RND,train,14,325,349,25,18,125,144.0,0.72
+rnd,DQN + RND,train,15,350,374,25,18,113,159.2920353982301,0.72
+rnd,DQN + RND,train,16,375,399,25,18,112,160.71428571428572,0.72
+rnd,DQN + RND,train,17,400,424,25,18,120,150.0,0.72
+rnd,DQN + RND,train,18,425,449,25,11,130,84.61538461538461,0.44
+rnd,DQN + RND,train,19,450,474,25,18,129,139.53488372093022,0.72
+rnd,DQN + RND,train,20,475,499,25,15,126,119.04761904761905,0.6
+rnd,DQN + RND,test,1,0,24,25,25,124,201.61290322580646,1.0
+rnd,DQN + RND,test,2,25,49,25,24,132,181.8181818181818,0.96
+rnd,DQN + RND,test,3,50,74,25,25,144,173.61111111111111,1.0
+rnd,DQN + RND,test,4,75,99,25,25,140,178.57142857142858,1.0
+rnd,DQN + RND,test,5,100,124,25,25,132,189.3939393939394,1.0
+rnd,DQN + RND,test,6,125,149,25,23,144,159.72222222222223,0.92
+rnd,DQN + RND,test,7,150,174,25,25,115,217.3913043478261,1.0
+rnd,DQN + RND,test,8,175,199,25,25,140,178.57142857142858,1.0
+rnd,DQN + RND,test,9,200,224,25,25,149,167.78523489932886,1.0
+rnd,DQN + RND,test,10,225,249,25,25,154,162.33766233766235,1.0
+rnd,DQN + RND,test,11,250,274,25,25,151,165.56291390728478,1.0
+rnd,DQN + RND,test,12,275,299,25,25,150,166.66666666666666,1.0
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,1,0,24,25,0,51,0.0,0.0
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,2,25,49,25,0,67,0.0,0.0
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,3,50,74,25,0,128,0.0,0.0
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,4,75,99,25,0,164,0.0,0.0
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,5,100,124,25,0,106,0.0,0.0
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,6,125,149,25,1,176,5.681818181818182,0.04
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,7,150,174,25,1,166,6.024096385542169,0.04
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,8,175,199,25,8,248,32.25806451612903,0.32
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,9,200,224,25,24,369,65.04065040650407,0.96
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,10,225,249,25,22,358,61.452513966480446,0.88
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,11,250,274,25,21,296,70.94594594594595,0.84
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,12,275,299,25,20,306,65.359477124183,0.8
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,13,300,324,25,23,527,43.64326375711575,0.92
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,14,325,349,25,4,147,27.210884353741495,0.16
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,15,350,374,25,1,156,6.410256410256411,0.04
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,16,375,399,25,1,106,9.433962264150944,0.04
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,17,400,424,25,16,263,60.836501901140686,0.64
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,18,425,449,25,11,304,36.18421052631579,0.44
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,19,450,474,25,13,305,42.622950819672134,0.52
+Karthikeya27adv23,Policy (Karthikeya27adv23),train,20,475,499,25,12,327,36.69724770642202,0.48
+Karthikeya27adv23,Policy (Karthikeya27adv23),test,1,0,24,25,11,219,50.22831050228311,0.44
+Karthikeya27adv23,Policy (Karthikeya27adv23),test,2,25,49,25,9,308,29.22077922077922,0.36
+Karthikeya27adv23,Policy (Karthikeya27adv23),test,3,50,74,25,13,273,47.61904761904762,0.52
+Karthikeya27adv23,Policy (Karthikeya27adv23),test,4,75,99,25,9,241,37.344398340248965,0.36
+Karthikeya27adv23,Policy (Karthikeya27adv23),test,5,100,124,25,13,258,50.3875968992248,0.52
+Karthikeya27adv23,Policy (Karthikeya27adv23),test,6,125,149,25,12,299,40.13377926421405,0.48
+Karthikeya27adv23,Policy (Karthikeya27adv23),test,7,150,174,25,14,268,52.23880597014925,0.56
+Karthikeya27adv23,Policy (Karthikeya27adv23),test,8,175,199,25,13,348,37.35632183908046,0.52
+Karthikeya27adv23,Policy (Karthikeya27adv23),test,9,200,224,25,9,371,24.258760107816713,0.36
+Karthikeya27adv23,Policy (Karthikeya27adv23),test,10,225,249,25,9,267,33.70786516853933,0.36
+Karthikeya27adv23,Policy (Karthikeya27adv23),test,11,250,274,25,9,359,25.069637883008358,0.36
+Karthikeya27adv23,Policy (Karthikeya27adv23),test,12,275,299,25,15,331,45.31722054380665,0.6

@@ -1,0 +1,9 @@
+series_id,method,source_kind,source_name,phase,rmst_tau,episodes,collision_count,total_steps,collision_rmst,collisions_per_1000_steps,collision_rate,collision_rmst_ci_low,collision_rmst_ci_high,collisions_per_1000_steps_ci_low,collisions_per_1000_steps_ci_high,collision_rate_ci_low,collision_rate_ci_high
+epsilon,Epsilon Greedy,baseline,epsilon,train,1,1,0,1,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+epsilon,Epsilon Greedy,baseline,epsilon,test,1,1,0,1,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+noisy,NoisyNet DQN,baseline,noisy,train,1,1,0,1,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+noisy,NoisyNet DQN,baseline,noisy,test,1,1,0,1,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+rnd,DQN + RND,baseline,rnd,train,1,1,0,1,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+rnd,DQN + RND,baseline,rnd,test,1,1,0,1,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+Karthikeya27adv23,Policy (Karthikeya27adv23),policy,Karthikeya27adv23,train,1,1,0,1,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+Karthikeya27adv23,Policy (Karthikeya27adv23),policy,Karthikeya27adv23,test,1,1,0,1,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0

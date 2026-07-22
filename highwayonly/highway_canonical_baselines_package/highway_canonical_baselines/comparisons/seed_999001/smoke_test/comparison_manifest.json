@@ -1,0 +1,38 @@
+{
+  "automatic_policy_discovery": true,
+  "baseline_root": "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/canonical_baselines/seed_999001",
+  "block_size": 1,
+  "bootstrap_samples": 1,
+  "policy_sources": [
+    "/workspace/convergence/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_999001/Karthikeya27adv23"
+  ],
+  "rmst_tau": 1,
+  "series": [
+    {
+      "method": "Epsilon Greedy",
+      "series_id": "epsilon",
+      "source_kind": "baseline",
+      "source_name": "epsilon"
+    },
+    {
+      "method": "NoisyNet DQN",
+      "series_id": "noisy",
+      "source_kind": "baseline",
+      "source_name": "noisy"
+    },
+    {
+      "method": "DQN + RND",
+      "series_id": "rnd",
+      "source_kind": "baseline",
+      "source_name": "rnd"
+    },
+    {
+      "method": "Policy (Karthikeya27adv23)",
+      "series_id": "Karthikeya27adv23",
+      "source_kind": "policy",
+      "source_name": "Karthikeya27adv23"
+    }
+  ],
+  "timing_statistics": "timing_statistics.csv",
+  "validation_messages": []
+}
