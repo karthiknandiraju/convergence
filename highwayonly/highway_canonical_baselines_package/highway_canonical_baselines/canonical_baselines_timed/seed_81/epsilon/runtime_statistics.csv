@@ -1,0 +1,3 @@
+method,method_label,phase,episodes,phase_wall_time_seconds,phase_cpu_time_seconds,summed_episode_wall_time_seconds,summed_episode_cpu_time_seconds,average_wall_time_seconds_per_episode,average_cpu_time_seconds_per_episode
+epsilon,Epsilon Greedy,train,500,637.3179923486896,636.7569074549999,637.2803129763342,636.7203341449988,1.2745606259526685,1.2734406682899975
+epsilon,Epsilon Greedy,test,300,766.1937848408706,765.9146577580001,766.1772855953313,765.8989946379993,2.553924285317771,2.552996648793331
