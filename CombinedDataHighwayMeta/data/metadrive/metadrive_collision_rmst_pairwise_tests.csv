@@ -1,0 +1,4 @@
+environment,metric,comparison,baseline_id,baseline,n_matched_seeds,test,statistic,raw_p_value,holm_adjusted_p_value,paper_reported_holm_p_value,significant_at_0_05,preferred_direction
+MetaDrive,collision_rmst_steps,SafetyPool vs Epsilon-Greedy,epsilon,Epsilon-Greedy,23,two-sided Wilcoxon signed-rank,10.0,1.0251998901367188e-05,2.3603439331054688e-05,2.4e-05,True,SafetyPool higher
+MetaDrive,collision_rmst_steps,SafetyPool vs NoisyNet DQN,noisy,NoisyNet DQN,23,two-sided Wilcoxon signed-rank,40.0,0.0018849372863769,0.0018849372863769,0.001885,True,SafetyPool higher
+MetaDrive,collision_rmst_steps,SafetyPool vs DQN + RND,rnd,DQN + RND,23,two-sided Wilcoxon signed-rank,9.0,7.867813110351562e-06,2.3603439331054688e-05,2.4e-05,True,SafetyPool higher

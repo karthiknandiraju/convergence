@@ -1,0 +1,27 @@
+# Original execution-system record
+
+Operating system: Ubuntu 26.04 LTS
+Kernel: 7.0.0-27-generic
+Architecture: x86_64
+
+CPU: 13th Gen Intel Core i5-13420H
+Logical CPUs: 12
+Threads per core: 2
+Cores per socket: 8
+Sockets: 1
+Memory: 31 GiB
+
+GPU: NVIDIA GeForce RTX 5050 Laptop GPU
+GPU memory: 8151 MiB
+NVIDIA driver: 595.71.05
+
+Python: 3.11.15
+Conda: 25.11.1
+GCC: 15.2.0
+PyTorch: 2.7.1+cu128
+NumPy: 1.26.4
+Gymnasium: 1.3.0
+MetaDrive: installed
+PyTorch CUDA: 12.8
+CUDA available: true
+

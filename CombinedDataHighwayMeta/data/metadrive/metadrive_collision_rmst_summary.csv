@@ -1,0 +1,5 @@
+environment,metric,direction,unit,method_id,method,n_seeds,iqm,bootstrap_ci_low,bootstrap_ci_high,bootstrap_samples,bootstrap_seed
+MetaDrive,collision_rmst_steps,higher_is_better,steps,epsilon,Epsilon-Greedy,23,91.38290989928832,90.97537956381454,93.14701253482974,20000,20260723
+MetaDrive,collision_rmst_steps,higher_is_better,steps,noisy,NoisyNet DQN,23,92.06338334756914,87.36318636917267,130.11406341611448,20000,20260723
+MetaDrive,collision_rmst_steps,higher_is_better,steps,rnd,DQN + RND,23,91.61052635929406,90.8516754014191,93.2364507663725,20000,20260723
+MetaDrive,collision_rmst_steps,higher_is_better,steps,safetypool,SafetyPool,23,229.82050174816007,150.61860532297823,334.2672758063859,20000,20260723

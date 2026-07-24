@@ -1,0 +1,63 @@
+{
+  "environment": "MetaDrive",
+  "paper_method_name": "SafetyPool",
+  "internal_policy_identifier": "Karthikeya27adv8",
+  "baseline_methods": [
+    "Epsilon-Greedy DQN",
+    "NoisyNet DQN",
+    "DQN with Random Network Distillation"
+  ],
+  "training_seeds": [
+    3,
+    5,
+    7,
+    9,
+    13,
+    17,
+    19,
+    29,
+    31,
+    33,
+    38,
+    42,
+    45,
+    48,
+    54,
+    63,
+    67,
+    69,
+    77,
+    85,
+    94,
+    108,
+    111
+  ],
+  "train_episodes_per_seed": 500,
+  "test_episodes_per_seed": 300,
+  "test_seed_start": 100000,
+  "max_episode_steps": 500,
+  "collision_rmst_tau": 500,
+  "replay_capacity": 50000,
+  "batch_size": 64,
+  "learning_rate": 0.00005,
+  "discount_factor": 0.99,
+  "hidden_width": 128,
+  "target_network_update_interval": 1000,
+  "testing": {
+    "network_frozen": true,
+    "action_selection": "Pure DQN argmax",
+    "safety_pool_disabled": true,
+    "test_scenario_seeds": "100000 through 100299"
+  },
+  "confirmatory_metrics_packaged": [
+    "Collision RMST",
+    "Maximum-step completion rate"
+  ],
+  "statistical_protocol": {
+    "seed_aggregate": "Interquartile mean using 25% trimming",
+    "confidence_interval": "95% seed-bootstrap interval",
+    "paired_test": "Two-sided Wilcoxon signed-rank test",
+    "multiple_comparison_correction": "Holm step-down correction across the three baselines for each metric",
+    "significance_threshold": 0.05
+  }
+}

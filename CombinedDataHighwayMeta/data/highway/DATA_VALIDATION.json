@@ -1,0 +1,48 @@
+{
+  "authoritative_input": "highway(9).zip",
+  "authoritative_input_sha256": "3098902150e50882b3261a5ee8eed3ae602ab5ee7b9606e91ded29a0b9c0663a",
+  "selected_seeds": [
+    3,
+    5,
+    7,
+    9,
+    13,
+    17,
+    27,
+    33,
+    38,
+    42,
+    45,
+    48,
+    54,
+    63,
+    65,
+    67,
+    69,
+    73,
+    76,
+    77,
+    93,
+    108,
+    111
+  ],
+  "methods": [
+    "epsilon",
+    "noisy",
+    "rnd",
+    "safetypool"
+  ],
+  "test_episodes_per_method_seed": 300,
+  "total_collision_rmst_episode_rows": 27600,
+  "rmst_horizon_steps": 500,
+  "archive_load_quality": {
+    "sources": {
+      "highway2": 33,
+      "highway": 10
+    }
+  },
+  "excluded_metrics": [
+    "maximum-step completion",
+    "collisions per 1,000 steps"
+  ]
+}

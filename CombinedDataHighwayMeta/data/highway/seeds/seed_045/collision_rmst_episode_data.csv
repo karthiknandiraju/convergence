@@ -1,0 +1,1201 @@
+environment,seed,method_id,method,episode,scenario_seed,initial_observation_sha256,collision_event_observed,event_or_censor_time_steps,rmst_horizon_steps,network_frozen,updates_during_test
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,0,100000,95d83ead048b625f5be496619e3ba191e9017b11f62e52bd2e79429ba24dffd0,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,1,100001,82f68a64dc42985b8e8ff10f7e366bbdd53d24b0a5906326d05ad8b39730f691,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,2,100002,4efa798e403218bdd927626fe283f84a45add96d6bde06b6bc5ae1f94399401f,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,3,100003,8a35474ac96ee9b5f443b37e9c84b7e56e618a6c16675a81f1ceddc9e26e70b9,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,4,100004,1831e4b8b23d0f5e9288b6d322e3f904cedad16aa60b0b0dc23481ecd3951696,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,5,100005,ae8e15b3a7a77564dc81248b7c2926202c31f4e2f389482a05f1dfd10c75ea50,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,6,100006,fe85cb5229ed0d8e0b797e1c66d1a086046d832a0ff87ece6ca2da2bb198acd0,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,7,100007,ef17435f9b0f36e38ba3e2bf03d1c95704f20760718c96adc217169e6c7bbac4,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,8,100008,4614692d96ffa65d7177add7e5fc8f49226eda0081c4a013c3134a173040f62d,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,9,100009,9d48a009541d25a9b8ba47eced81469b339c2cd35f8052845e583ea1d5d3e79c,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,10,100010,43badc39b14438530784ac1841be19b2918aa9b41660f0b0859cad697497d339,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,11,100011,5b16875f1191c9956f580e77b805f571a107ecfde5a1c2ac8917f22e1a24536c,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,12,100012,4737c990f5828f2e7d71723955072276f4e6f0b29e6a7a58f4ab1215f4a0a2d2,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,13,100013,ac11bd24734943cb26a8495cbd5aa815dccf1e14a710d603a02949abf4a82d9e,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,14,100014,56752d88c7e0951bd9c7a3a353372cab4d26c2535b8dcde2bacfef6e249ace05,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,15,100015,6aa90bec518de19e4176399222c2dcebf2166e52ccab935d6a1074f5eb6d94fe,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,16,100016,5a6dff388770ad849190c17eb7b17420d45ca54bf07d260b4ad95b4639da5fbd,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,17,100017,6b7d696a1137899d3bf92cb50f618d0d1c3e53ee2c770437bafd75aa26664bd4,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,18,100018,5f774404bd55f6208436958118e0559f517fa47cceb275e8c46db179b0129aa9,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,19,100019,bacf50d93bc1dde9efe52d39d6bf336491877ed09bba6a76f6f94ff0161ea241,True,13,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,20,100020,73f016ddfff79c056bbdd862ca91427648d8126530cd4eb00073d39739f9d6be,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,21,100021,3658c10d3869030f339279555b02d9a123c8c22dee49272559e19b8063539e54,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,22,100022,886a3ae4ed4e4e3db5eec6b25e3bcaf4aa5881ec2d8d466f15689364e9080513,True,9,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,23,100023,fa4fd85e1992cba360768cf80f2d0ce20df89b795199a5b4340369beef0e5235,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,24,100024,5832a45106bb9d6ae569139c4a3d8f4879cf44b70ece6c2ba458dd80e5267e84,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,25,100025,bbbe260f46c7c705f35c07ecfdc3e998a23e0446db20fd92c7ec2a3f1368e720,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,26,100026,a3feb84722ed41baf6a5be655d55cac5e77aebd6f07d5343a62cd067290acad5,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,27,100027,106da7961176c3fd0b60f17332cb49c8ce75b712b2ea4dafca863d57b84e46bc,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,28,100028,cdea9557c4d109c7df01454f07dc30ef133e4cd2a69d3f71522af9475a3d4d66,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,29,100029,b9f0fbd53dba7df015e0e4a25c7dd469131e15e139557e7d9cde3766b40d3300,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,30,100030,2064fb739bb2009be6079b9c93cca78963d2507df304b6830843f271fc0b3d1f,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,31,100031,6d90544f925e79f54839494b8eb922be62dba86b21692b191f8779f3bc91a66d,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,32,100032,3706b6afdefd55711e0340526984736bcfb75777a66e747ec81cf3228d6fd016,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,33,100033,83356f6820580f8552d071e3bcb0400ec118dfd35ea4fe104af6bb54da700469,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,34,100034,e5951556067fb4eb87baa4b734ecb0d1e45b46b6c1984e52ff27c76d15ef9376,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,35,100035,c06d79a3698be793049cb55d77dabce4cae63603265b296663cd08970dfe392b,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,36,100036,6cd705fbcd21d70beb1e8ae60dcc819037440b9e74de7154db1f48a04d92827f,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,37,100037,94f08f41d448714b1ed39bc57e91272979db4853c8bce86bb13765f880b702fa,True,9,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,38,100038,962294507c29f97cb9140d95e7cf881e9609020a9a648cd4e2e6b9a50533c8c3,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,39,100039,ebcc8296675f2dcba8d287e926c612050b5ed0b20073e536e63a75240414b22c,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,40,100040,5abe348cf78e384c6134dab2e274abfab81f6456cf0bd66c3db70e56c7d90684,True,9,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,41,100041,d430fa17d079228fbd5c679a3342954b010c0e93751d0f6c09b479b1d7f66a1c,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,42,100042,28079033f8842ff49794cd664cbc93b050fb9fa3cc652f4202a3d5a3308506ef,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,43,100043,f56ec3c6237a63cb0cb93e3385946a2b8780b4161842547344bbeb58633da56c,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,44,100044,51513e5b900f91491d242647758bb7cc7ba31352073cce87f6f26b80d6c80277,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,45,100045,c7b51078b54d127d1e9cc67667e7dad1e31b27e39c94dbe5172f2dd8d8de0c7d,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,46,100046,a345ec877d63fe6e286a7dadad330f026f624b86afa90da4eb597651a5c7fb92,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,47,100047,5e4364f2ee974b871c2b4b9904574885f3b15475c9bde7b1be5391c8ddfed3bf,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,48,100048,77c24a538877ecb773498cffe9a28fbbc4921d9b422610dd2180909c484837cd,True,13,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,49,100049,60681e5b7aa6198dbb68bb24305e5e158eba8fd5b2ec784a802a9082b5ad8a2e,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,50,100050,0768c305223033a6772701f0d51aa996a69b5c657ecd18cf39a3b76405195e6e,True,10,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,51,100051,3a085b3d9ea16d11359123211e326a89bf42993c06c7fa52f5388d1fff2d46d5,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,52,100052,5bdfdaaca9619646d29ee3ef0c5e542757a4b248792226da915e57fc29b64f08,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,53,100053,081987e49b973cadd132af6a48489e43cf6719b05480326bda513b9908a80c2e,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,54,100054,50363e7e513089f781e5cc11bbc36171fabffa0ee2ab1f793fa2ee99e6f1eb4a,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,55,100055,0cb6c5ec090dd5c063572f2fc88b672ecb78e0f162315b4a58ba92d46ea7f3d7,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,56,100056,26d2d54252334ac41c6b9f0edcb1d65d0285cf17f0def588c5d52cb30b461d0a,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,57,100057,4866f92c9f4c8d2f5b6eab106af32bad154df074750bdd33aef20dbee45c9825,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,58,100058,9116c67db2025ea9e8b30e55127d891080f941ecb957a52a7c69216b969940c3,True,9,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,59,100059,752f0d4e5ce4b5dc41b66fba957804c4bace6a803402e2e55218e754106c0d28,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,60,100060,f67b4c36a21bd0b2a12859469e8bf912982dffdcecda24b58c39956f46fe94b5,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,61,100061,ff15a0f39462f191cfda0fae18ad8987146b5b457b3d99085210c5bbb74a9ce1,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,62,100062,1e9de428203da2c02a08bf1f4bc10890d4a85765308fb72e3c15c42dc251ea87,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,63,100063,60304033350eccdbd569501a88f0312d6b3367a177c2d44784a058f8190dda1a,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,64,100064,5ed8df58867d6568a2ffa870e049dcfaf37f5cc7d3b87869b116e4ad8e620091,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,65,100065,f7151110dd63b0eab7baec9da1396526e96a5544665e83587db93d1978b9f8e0,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,66,100066,ec2467dfbb02b489b55c6cc29f9e01c61835f5c1c2509fa8afc0169b80e9931a,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,67,100067,d42623967ba982adea1537a81a052dc081703afc5e8f050a1aaeaea1c7ea1f34,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,68,100068,d1cf9323a39817eec993f68c65153d4e29bf1b9f7d4d0bd3ae312f8f79ec31d7,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,69,100069,0d691f53b883a560f85f7c36228a025bfb94d47833bd2dbf5a150f5e32f930be,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,70,100070,4fae9347f680b2b15494749cb4f61a7f822e3793874e81f685d8a5c1cd415960,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,71,100071,ed49030377669f3e8de82798c1fd5cc44545999a65b6b2a737e9c22f97602754,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,72,100072,869d18b64df749cc0cb3d0163079265d83ec730f53c27e7f8173f850edffec34,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,73,100073,48f45b4124d20f682a20d4cf3232c986a830b23a6f570c09f7af48e2bfee1856,True,24,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,74,100074,79b68fbb25e7225377d18414c529a3112300efdede175661799d8456881017cb,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,75,100075,95df473c1a5bcb7cc050f37b8e97ead150847fc19f34aea34d80db1632406621,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,76,100076,65526b5ca3b6b0a8f46caf90cffd02ad4d80882c60bd473f855b69638dd991ba,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,77,100077,92020e9183e51a03d50f828af2885fbfc4c6154e694feff25f9a573b9f1e6fd2,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,78,100078,057d09f43326ce8d382b2ace52d015371e03cd6357268e2ad7a2a48b8524316f,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,79,100079,de4b47879bc46eada6040aa7be9591e71d3cf0a740743503626d8f59c31503e9,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,80,100080,045c7ff4bedc9000ad489152f77ab0b8a8c64d59b94b4226e5cdbbe931265115,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,81,100081,72dda409c174a89665e6c7e858196eeec247f3a49f7b22025eaeee481871aca9,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,82,100082,a8bba3b6d45dd5c01539e321ffda87b6b172be67dcb8eacd85b20254ead76c56,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,83,100083,5133f7dca46174129e1c15c2c9351e8fa39be320a966c5759ea54ea3741ca765,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,84,100084,42e41fb5fb0b5a19512e5bfedf234844b639ad1c38ff86cf19080753dc042b8e,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,85,100085,bcaa679af4183e627620a46a978da6d405f08e4d5e8f143957bf3becb8410d2b,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,86,100086,5387202ee644ebbc619bfcf26ea757d4a96ef99754520748e42ad40afe1768fe,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,87,100087,3e1cab575e90e0983be6974978c5bcdbe157f2494343fbdd398e6e8618e67b09,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,88,100088,4803a78fc0838dbe48e7dd93c4c4808f0a5b0e967ee92c92bb098d40c27e1178,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,89,100089,8068bb70a9d9730e8339865ef2367543d1120397d71ed818c2c75fa512a33c66,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,90,100090,6ffe3ab57c25d7d718c7e6321bc54644b73cf6dcd46d4d74c92bd07919bb6661,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,91,100091,b8c6e739b03605068ed9195e0d71dc0e2da48bb63da1b9ddc86c115e5a48a1d5,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,92,100092,3171a6eacc17d81c1d96879eff00432dc27ea06c0756df45e7700c25489346e9,True,10,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,93,100093,b82c00d0f9688ba7b190d23907be30f29731d32f8bc9250d7a6ef39bd6e04c6a,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,94,100094,af6a71005a43619614333dacf535f7ebad4a59e28c68612c8454b41235560136,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,95,100095,676b7806adae9a1b1bc966c2a6baa64f7093fccfc997b9f16c3ffaca1bf925ce,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,96,100096,bf76dc3293ddf969ddfa85cbc11e1ac0e46dd1b21fa496c2f254b28804454233,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,97,100097,9c5db132f93b2cd1a24a84ffb28b4514e86976728dc7802b9562c1b690a47b84,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,98,100098,d91d66593adcf293d7e3a53c146a8ec09f91fc71e4b930987e5b8db8860c3de1,True,13,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,99,100099,2d733f826c648060720779f5d70b8b33d0c71a9c827fd0fae482ef849d3a8d8b,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,100,100100,64bac15a8b37f4ad5c59ae98db0b9db6c0ca1bf20d70eb7d7838e89486a460e2,True,14,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,101,100101,4e8473f1953b75caf8e5d9d8e887ae01f88160f924b8bb46c1701ae1099eb1a4,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,102,100102,7ea6a7d5bfb091a78fb20d6d419e9f89b446fde36ccbb33c8c0740213036da2a,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,103,100103,805303b67001727ba237ae3f68bdf0898ead009381c5da0e52ed5119b6fbd50b,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,104,100104,851b4ea3e1845f22363387cce7d1f52f980d3e85832f93ba9336b625cd9d3819,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,105,100105,1f2846109f9cf9cb73ef7c67e914b363efb5c3c863f690808f7b83842b3d8205,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,106,100106,3c3250ead1a2f3e651335a5e658eb604fe5aa565a63a0f1525b651ecd8cf7d2c,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,107,100107,fd957ae53a2c6c9c17b757487b723a1b7f00d129078bc872609dfb8ace361839,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,108,100108,ac25af4327f35c53a2f303269a4a706a6a061b034e38a7d08c13843bf5cd0618,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,109,100109,462a9f7869b0609161f3870f26f66eb4923c0e9534f6e820c442a456b54a4dfe,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,110,100110,aac824d7eb35e7047ca75e66dfd1cf06eb0653998e39abd031bd57230446ad89,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,111,100111,fc67399faf6c4f4adc7628fc3e5e175d79fd0befed5f745eabb026a786676dc0,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,112,100112,ade70c7c68d2b3f95cf37dfe861f727147092c755bcf3c5a5d406d27ae21b7dc,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,113,100113,63dcb1a5b00987cc0eb52df9368019054b120a0ebfde8ebd2715b66e0969e367,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,114,100114,ab75cb396ec1679a86359771fd705c1bdedc51918246e83c8879bcc41592d6aa,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,115,100115,2d94064a959319e327266b23fcbfa8aa67d69a34ccf69ec7f00a915ed6c0175f,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,116,100116,7f6bb9b52674bdef995dd730ad6f3756560f3e792f14f7dda7becde398c90a1d,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,117,100117,54647d0d2290508391c97e3151f69964efe061c8eef0c561779634104758a8ae,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,118,100118,cb940693da3894828ca41a5c6e48fcba290e61aea19d8844b773f08e638356e4,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,119,100119,0f0479f32ca269cf14098fd30e4509ff90a100dfe5263232ae9e805300ae2f8b,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,120,100120,f93aea6640d2ebfbf6bb26a21bf5d05ce486b365c4572c6e0f83a6da2abb1507,True,12,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,121,100121,1b6a01d02184284cf1f7220f6b2282b00d64e6aaa827b2828586ef1432d4363d,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,122,100122,f3b4f02333d11250adbec74d3acfd081223c428c7d10a97d73b38ebae0264297,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,123,100123,bbba9c5e12d8f9773b25217607f092fcb1ffd1c32c1080efd141af9b13109307,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,124,100124,91ea90b53c494f4e53568aed3a14419decc728fa588dd744d6cf614cd161b240,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,125,100125,3ffae3b994b26dc1b8fc6828a3d2ea1059a51eb36dd3881a4dab56305c231dea,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,126,100126,9f7c1c03afdca178e53ecad398fab740c2d2f099ad9d7f872612c5a8ce5d1bb7,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,127,100127,0c0cd2301b00b37379e1e18a40b92b222a4c77bb28b1283c145f57f6edb29f40,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,128,100128,3328218220a53a7354a927026c387f392d5c18bca56f6fd18191673342ca2333,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,129,100129,4055704d0d87f10c8f4d26b33e94245974c31fef4cd7c0db457e45f7a58197e8,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,130,100130,363351bade240948bd79f95a74d1d005540850b101fdba623baad98714324ed7,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,131,100131,3650285939fef29ed2310fa88e04b90e5e33773d16353b74a4dd820e27349956,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,132,100132,c9591a8bfd649a9a1fe4d921357b9b1e987d5a1e7ff5ea5554347860ebb832c2,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,133,100133,a54a71cf92644105cb053e709d83f921785dfe8ff6f55463ace5eca3a6de2607,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,134,100134,967db3bc70ad5b40553d8e150ef49fc1aed0748328a9cd17529a155ff1aa576d,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,135,100135,e6158845e9345396434b6623c9b4ad56d981c65f7cbde80a13040e19da0e0673,True,9,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,136,100136,42b08d83681bd220d5ce1fe561427faa4510231263e6ee80845f2318a7c4f397,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,137,100137,c92fe974bcea34c1421ce7a07c732f90a5e5d56a48de70957831267f5c62bbf4,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,138,100138,c57b4d9e6d979db72c8f5ba2f95e86012a06d7aaa00bbaf41b6679404bf8bd31,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,139,100139,b1f43a7aabeeec4a6069bcf383f1dfc3b391216b18ee5fb590ae414f4ccfa7b1,True,12,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,140,100140,c1770fdf41dcb4a612fbb82e7233a9f3abe8fd51776565ff07082cb63f2737b4,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,141,100141,1fd1e789f6b40db8945fc6d6219eb36a352a1ca54867d46f596e767453863a33,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,142,100142,c5daa5ab1e6d2f991a4bc33e68bca31856b6fb569016dd7ed6961e5aa5bfa422,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,143,100143,37a87fdd5f91f7fcea1864a953f1b2cf23e52a51d48801b17f310c96ece29e54,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,144,100144,ad923ce169c81aea1e0f88453668a1e26180d4f3ada651bcf1b21fe484098acf,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,145,100145,4774078b07c6a8d8ec481a6847d1b84abb3b541b8c0323806c6467d9f8e3ae4d,True,9,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,146,100146,57f6778baaa7974824af44c1af6cd8f5be710fe12823fd0fb9bf8c4d113384a1,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,147,100147,a4a92cebfdc6791afbb7c7f5c4ff3a8c12f034f61f64fb9e9e954251e5c6a5ca,True,20,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,148,100148,e5a5822889e2d9fde91a88d44dfc5ee32d467d9ae8fbe1f09ea0faa43e50db14,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,149,100149,9c475c5bc7adb580443bcddee5ba919e6fd272c74ebe00f467d3dc44f2149b8f,True,16,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,150,100150,a8446003e3484497118662854fe4e0853457417477f203d44d6f379e0bfb995e,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,151,100151,668d6f5b88b6a5735e24be2185ed2016d39addf4abecc65c3430430373ac5618,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,152,100152,7c5a9f7225c15b119fa9c9f81e953e75763cc16558c229df0fa63fd905931000,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,153,100153,a806de6cd05ae85751bc9455c907c2c50da0bbb51a3c759f6a4bbe26990a105f,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,154,100154,18be03b03d43bbfa42d4cea3aef63d838260c97705f6a553bcaf65b57e3ac11c,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,155,100155,9e8debe58203eabf797f0b8bb0464d17d3754371da1404a107c32a601e13e5e3,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,156,100156,d719a598da269bb910ae5554b9aaad97ea9de9426fa9268fe1063af4001786bb,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,157,100157,4840e735e792fe3b6a240c4c966ce9b04f6a859f0f55c2a460e19371cc4e47d1,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,158,100158,00d1b45b552395ae4a053bdb19ce72566a9b7ca0aee21c65fbabc1d50c90898b,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,159,100159,3666cd4c4d221b56e9a94c077e319411e35b5a9504f0bec18f218c4881b14a06,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,160,100160,bccc37b676c3f8cb6a6a5e7181c0ecdc1afe8166dcf61c67e9db9dc306ca3955,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,161,100161,e0ee94dd014aeca31e7a8b072c3aa9ec0880ac6fe8d4beb737c06982335ba45a,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,162,100162,fde1f8acc08c6d3eb9f33568236701a0d0f19713e812ad589e4b1fc0f1121327,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,163,100163,d5a72dc5beb3ec5252c8a7c1b96e45b171d1e086d672420f1fc1acba4d7f6ef8,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,164,100164,9c8db1df2f1a9be2f9b5ddee79ea5418b9b3729078b9a2517143bf22bf016415,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,165,100165,74d496112f0ce3c4f8b383edfcbd11dd3b0a4f491bd1f07647efde56c3168102,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,166,100166,070ade843e7a375401a1cd5619be7bd26cfa2b819a350168fd5594e1a1d3f822,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,167,100167,1fd5c49c244e38af3485d919253bb7478044ff2f84c6a52f43ea1215ba804312,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,168,100168,4b7e07f9417690eabed3eb3cb0c52f25b136a98cd0f186658bdf6a0e25a4941e,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,169,100169,f5443a41df645687b7a8cd67398c27ba6182c21e480a1240d8c7dd2015c9e092,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,170,100170,647a06a2dd818cba961f6c2979501a06528c18f76c8cf7744c7d36a6dfe1e2ae,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,171,100171,ad24a0eb40e3dd3e5fc791f6240efd713051992724d7e5b4f514e393b27ce3b2,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,172,100172,9bfc516fa1060d4dfa940ca7b053dbccc93f1f1a9959f388be189bc9d339e64f,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,173,100173,9db84f5f9d9f59bec8d19105f290f6de546d756500f64694f92d46a448ad4a46,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,174,100174,05f71d0580f7a9e38a45787b643bc985d62b75175c6ed7d7a2c709e828e0b5eb,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,175,100175,69e1a72b928988279d310efda3c92ecc943d070087267342f645555488e4fa21,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,176,100176,508abfa7c808fd328992a96cfceceecfba91999cf9e5a87e28e4c4d031380f69,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,177,100177,e4eb45b30ca73a473a2c4fcc1e039746645e77ccfe0494e46f988ca4b538d0d6,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,178,100178,d68225e0b3fb5274cd60e74b83f70cdfa7580d269676d455ace1d5262b6be35b,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,179,100179,31da17826674fede75bf8428a2c874dd327a05de04360c1b3a0110034e02e88e,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,180,100180,ebec1eacd890798b1c4d59fe038ec371bb0dec7f4c9fcfa8bbf172a129ad6816,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,181,100181,9f9937c486218b9dd39491370ef9889eb1de20a11b787848b03716bb98f48344,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,182,100182,63bbf1ec0265b19cf7c985a1edb2bedbb0afec660e8213620652c963b26d7d8b,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,183,100183,bf6415fece4cce55174ed68e7f65c22932ba19a046ddad0f30d631c7eff55f5e,True,12,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,184,100184,dcae4cdc5ad377f6bea41ac66b815330f870454b8bed7d1537d68a89f1aeb140,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,185,100185,d968e032b170b9dfb4dcd42aee9a3b9b860e21ee775ecabecabd9eadd9c68213,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,186,100186,faafbe16a8f96c3d04dd534cd403e243e3e5e287c893d6b6f070fd3d9ecd212c,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,187,100187,5ccba88b9433670c6ff10f59a50a8e0d9c07baa4400100f22eac6a2b26f02f38,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,188,100188,f782a4236dcb139b68c8bc00796aeb68108c19cf3040386afe232a4d73181eab,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,189,100189,977da24f3a241ee945f7c9c5afdc94587ddd633de183deaf4d46cc2480d24372,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,190,100190,ed859846abf401e359027db83562cc7febbedfbe8f2be70233aa2a70c0b4c6da,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,191,100191,6038ace4f27cd468aec1fe02be530654c07da5149ff5231dd7f89dfa8e09ebbe,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,192,100192,f066188788124ed98684f4cfd3b6f7ba134915e846f8bdf476eecd9494251669,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,193,100193,0638ff311a1a9790172b6b64f77eb983bc91ebb690415d8b142492ec514a5918,True,15,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,194,100194,e4a11e7d995ca1100d8c360b8812541788df3dfe182e82a57cf34823e1bf8dcb,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,195,100195,1bd3954dfe0462aeeedcb7b648dedf391cdbd2f4d0d989e22def0304dec97d98,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,196,100196,b6d60efd9b1def40b807777d98027e30e0009bb85bb466578f64586036cd37d7,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,197,100197,00d44f8e7d8397d3647c684ba82c77e0e0d848ddad2e05954d1ccaae2be16996,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,198,100198,265a20e4c9bf7b059ba324e7bcae3627d9bb24864ae27179038601d972e8351e,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,199,100199,b5d0ef90e9401a8b1252bd0b39580d3ae0f7b5938b9079a3abd79b806fcbd7f9,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,200,100200,91f71e4e8db2f995814fd27e2fa93752b3ef3d5dab309cc07ae7ec3dc705e5fc,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,201,100201,2fe5dbaf2cd25b19d2295b9ab05e9754b106c52d930a6c28939794a09484171a,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,202,100202,dac8ea6c6d57656df53423472a73fc637c20e558e051bcac40ec2c4c9528c50f,True,10,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,203,100203,34491414aa210383c92422869fc5d97c78e579ff5cd64136cde14fa36ff1e666,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,204,100204,e3060b0e05c974197dc6c85c74ae6f90e4f4b1130bca2fea52b397188c17f516,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,205,100205,7b3c83236ff0a5ac0c44560b4c02db93d7866c1b5439c76311e89fd229d11c4e,True,14,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,206,100206,175f05dcbdf4c86108e620d971ceef4f857717d77ff9e6b51e32b5d522f544bf,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,207,100207,478499a4274c0935b13525ce77129ebd8a5c195d9903ed47c50929f49fd5043e,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,208,100208,3324742d0f09010e8a6b35c445844f49a4a63bf9e56d6a48b404577c98e24a38,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,209,100209,289dad8447e138246f85ffee7a8d5aca52bc104c6f89c5cefe9bb4c908b11c83,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,210,100210,62c0e0ce060cf17ca8e41138287ab7cca4b750136f134c041b2b860e1541dc4e,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,211,100211,b54c46f724e12ab26567540c7875d9f7d44ae7eb18a3b47f86b495a2c99507ba,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,212,100212,52611162b7d5dbf433b8c0d10ff53ba895ecc2fd66a5996e32f02d1fa825d633,True,9,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,213,100213,a4ac38af89267112430bfb5b0f341af01d69f06cc3c36876800a1860a67b7f51,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,214,100214,b21ba24fcf9c4feec0a4793f34817c5c93bde958eba97bc484928b833195ce40,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,215,100215,daa942852bbc9b00c6ce9bd9c32aa7411dec6bfa76543ab4fe890ad7415a3349,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,216,100216,e3533edd35b1b8447413c4d91fc1ca0a943f9f8f428147b1cb1ed4f51efc8159,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,217,100217,5722764ccf7762df5aaee5502924a1db7a2df82f8d418aa2f3578c2a4827d8a6,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,218,100218,96fe034513dad89c47b3c83e614919dcdf2b032b6300b0859c500305fb6a3acd,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,219,100219,4028e1e89fb93263fb44ffa92d796fb70572e6abb1734cc76a9a03cf6f16f2a1,True,13,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,220,100220,7d0e946c036632102925b849d3fdb34fe93952200ebdca872a39314022960ef0,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,221,100221,d23c1a86e11cedccc4fca910208635fc2d7a32c714ff214e8d951dfa27a03595,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,222,100222,5b4a31760803acb70f19155a71d64c3a3ad17b4899b511348f452044b6b503ae,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,223,100223,2a09c4a7c3c3602521fdf9d3e205d8fb3cf9f4aa25ffef63aa5b1c10c300a764,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,224,100224,d929607e33b436e452e95f483d6ddce6e630f25ba09c6b5eaeeebba2313bd0fe,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,225,100225,f64a300d980e0712aac844b880be591b2c0602dc9bfaef29e73b0c38f0ed2710,True,17,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,226,100226,4bd5d72a10fc9955c181a0173e4ecc23f40f3edcc5a6031089e969ad286aae6a,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,227,100227,b7924095dd9a2ed0abc7f98f3a4622368ba94704e5eaa1d66cde114085fa22a0,True,13,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,228,100228,482e6aeecd936c8b316190dd26fe27b1658888fe8481bf130c6d2f8b6c659d6e,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,229,100229,f467425f2a1c9df3c6325af6e41430174a53454d1f118509f04add3707553847,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,230,100230,7847aeb6aa49d8e908b389ebf5667bac211aa089a053f238dfa0635a787cba10,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,231,100231,d279b2fe73149cf27d609a59bb6432249d017786b09629b08414f18d7faf3522,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,232,100232,690e3cc03deff51ab63509a36be2668c3f0302bf2ffde220b451d47975f33a04,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,233,100233,d21f28c71142bd966eeaf508410717c6e442f5ce2d29c3c1ef1a7d92bfe2dc18,True,9,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,234,100234,0036eaffcba1da37f280657c63f4a6c4592d60c98ad04e64317dbe95da6164ca,True,9,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,235,100235,8582e241d8c13ada8aea132d6c7a89bba041caf4f46d8b14f79101f50484f050,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,236,100236,ed8ed16ad8871aed9fabb583e734da2bf93771e088b4df4f68b1d9ad2c61c8ca,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,237,100237,6a5795f30d2276495345aa14fa0a1cce86bfbca572560a53955d747ffe90025a,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,238,100238,ba3d5def9eaa33528710fd02fefb4d57b3ed60835697b0760632a17e85dd702d,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,239,100239,6a12325d2cb30b5ee1a4977e34bec034b63bb2161de28e098bf2c072844d2006,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,240,100240,dbe8335801da929cafbb7144c712c808fe6aca2468decd35c3a80ffd0964f154,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,241,100241,14002e817f499bfb01559bc90103eca0ba035dc9d39ca894480e289fe2598c18,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,242,100242,0ed75b991f5d4db8ae30cf3a31666eaac0c4571368b2e0316b5b5cc2e45c5993,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,243,100243,6f32fa4c007734839aaa81c24eef723799ecd9f1238ce81beb89423ee74d0b9c,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,244,100244,71b22b73ed2f729af789c87be725fa9919f132ffc71da5d2b1f1c10f6e14de51,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,245,100245,055e24b5e082116009e29f6de06b3b47bbf2b8ebf48e558f6ccc6dcc25b32b0a,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,246,100246,26620b343110355a3cf4e54e467e9ad275c52bd216296faef0cb796f16f7ff18,True,12,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,247,100247,61ed706ae58993282151b3ec811d7f0ee0d03b4e95fca6106ac9eeb0a1c98d2d,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,248,100248,ab92ca78f5426b10246b9d1d1b164a25125e1ebdbf99af49fa7420bd87652b48,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,249,100249,b804b5b39ec9fec93f96e33030fe51d4e5cd6c1277f1c623b40d1147c81d4ca0,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,250,100250,ef0b898d4399c79c282d6236206e2792fc9c9218b4ce26a6318084258af3f2b7,True,9,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,251,100251,769d2fc0baf18fa1ec88320371dd381177f5c106e094e362053fdb324402958d,False,9,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,252,100252,7c14485434c699c0e929c2bac7b19dbac297ec5b447aed3372e70f7916bfecd8,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,253,100253,95d4b8219cc176aa295e06376b06f726d4359ade5cd0484ab8c91776b1ca7165,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,254,100254,8f669af5603ec0cecc58c7fb223795ca817db3872c7e9bb6a754987495418370,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,255,100255,9d766d1a8ff59a1b7d808098d0b0e5863967f2d372677b00739019e1feaec2d3,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,256,100256,73ede2d4b2ff2bd1153a1c12abc980357a1757c0f48d3101852938de951819d5,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,257,100257,ecb0a6590e82d47a065ab3b35fc0c14676cb7f3cd3ac47b99eb9dc1d948cf093,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,258,100258,2fdc4887ef46d4a929998df1cbfe2a05752e075961ca643b5b289a23528d2fde,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,259,100259,66433b9714f27d6e4071e2e68befae436b2b8b01d997fd6d8839d0e523cf8c65,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,260,100260,1bb03c1edfa1076b99fccf416aeb319064dad34743505cf0caf7ea7b005326d6,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,261,100261,c4b70641e9c9553a3c0db2ed47d470428a849e40f5c123080adf29bf243fea79,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,262,100262,1f4cf58f99f45dace3fb9f9f7f6466a6774d29777e8be896eaa3a089e6023be9,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,263,100263,3eec36a8129c5ca70ddfd0261cfb3e766f876b8ced59311591078b0b6269fe98,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,264,100264,30470ccefa191a554c8d8cf5b43eb412296d0109f667af9c8e9a64a32a56dbf0,True,11,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,265,100265,0e5052a0d1affb71d6390ea5adc2d9ea8cb39e35bd647bfe76abca968cba4715,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,266,100266,01249519bf31fb51a8e3982ceaea90c85c26ecf2cf70d62d1bdbda285e4acfc9,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,267,100267,6c7ad82baac119b0e20520552eaca781139489ccf695d2f32bfac706f22ef2be,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,268,100268,2fd7a9f035e732b51b9694ea1a1c0b014b726b7f35767787d6305ca17e265e19,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,269,100269,db03d4832e26b0a32893049484f19d2ce6523e261b2d68a56040685d20af1ce3,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,270,100270,b2c2ec80f66a83e0798860b8919463be183480be8bb8cf595da00592a373c14f,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,271,100271,b41d234a59627fe1c36716a95723e9f5a583cf65aa547a3cb46f84d4f275f3f8,True,9,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,272,100272,99e82af65fafd6366f3e1a03d73a248b703b686cb54e608722578b0380ee755a,True,18,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,273,100273,650d2cc423388dd072eba1e65e60220ffc8c277609af4e2f062f885e1914d870,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,274,100274,0cbfe83942471c4dbec061666c58cb7bcc86c3e360aa0b2f1c1c2da3c1571c71,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,275,100275,878e2c7a8249c562fdcd59a1563cc116ee2d87738b87204654f4474736db378e,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,276,100276,5bd4a1e5186a3f2777a6d523d394fb3670a8e080edb66d6c02960196bd61c46b,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,277,100277,86f35120111fb0ff173c9b9364630d1c70c064ed132dd05ccf50d2c9278f094c,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,278,100278,549258504d77cd626f3decae391c8680328a9b0ca5d43aab8c0addd15bbdfe94,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,279,100279,f83fc7cb9830e0bb032a73c4fe063568f6d7dda5eb8a06462900b934790104d1,True,18,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,280,100280,3ff91fa175126f079559d26791b7d30c7ed5b95cc39f8f50aa0365a06b603874,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,281,100281,7fd4c562781d3e46b2080fa3ab70414ffb84c753beccaff412412db5ab2e2f86,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,282,100282,233003a6e450e68acbf0f2d2d84d94aab12c32b53a06605fcf67b53cb16f5183,True,9,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,283,100283,8940393a8297095cac3a9353cd55d587d3e53cc149195c9da33a73b58cf49af9,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,284,100284,071d3415eb065473b2d2eddf5a8e1c0bf653c17b59b0119ecec7d16768d3e73b,True,9,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,285,100285,7674b34720de631641e70f005582aeb885ddf6db3e067710d90115a0fbbc4c1f,True,6,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,286,100286,74387b2cb484606a862d57768a897320102c5b61ceb858ddea4911d9ca9630a2,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,287,100287,ad60570ed615bb49d14c9605bf3e3fcf8f11b5ef534d0828d6eaabe5ba653023,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,288,100288,f58383ba8ca03292982410f73c9ac655e74e120953b600542e83c9a6c216ec7e,True,12,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,289,100289,e8d3807ee050030ef3da8eeae5a333c482b6fa7bcfbea80bf1d36950966620c7,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,290,100290,003d11b7ccdc0447f6f6a8ef5de98010be7087282dcb01307f436c928f7144f6,True,3,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,291,100291,b0c1a2d5d4da725b9240f74dd4c8e087d4898a3b1449a5229b47d57bf23a3fb2,True,7,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,292,100292,382eb2792d64182752aef8cf0dad7b877dfd43aef4dc1d061a79b3779d9e4f63,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,293,100293,83517969210445ecd191a3d2439ab815fbcdf92cae5adfdc900951537e3949f1,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,294,100294,7bd9ac126332fc408b0df20f4a872166548cd169cfdfcee2dec6d9c69d231b05,True,2,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,295,100295,0912b57b2c2f178ca35ab2a7a0c49e0be0a2f034288082cc0eae0f1cef3f97fe,True,4,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,296,100296,efebeb31cfbcf553c3682783bd6893ee6761d54d5aab033e6718f8f6390949a7,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,297,100297,997b67eef7eef10288501da9ae98fac16651f13b8bf2ae632837b694aa6f5610,True,5,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,298,100298,57858d3000395e35671b655b16d6c98c1bb077fe081a33469248e680a0ce4588,True,8,500,True,0
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,299,100299,722ddbd9efe0ce276a95b935b5ea5c9ec535cf53d1803fe42e73dc3911886282,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,0,100000,95d83ead048b625f5be496619e3ba191e9017b11f62e52bd2e79429ba24dffd0,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,1,100001,82f68a64dc42985b8e8ff10f7e366bbdd53d24b0a5906326d05ad8b39730f691,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,2,100002,4efa798e403218bdd927626fe283f84a45add96d6bde06b6bc5ae1f94399401f,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,3,100003,8a35474ac96ee9b5f443b37e9c84b7e56e618a6c16675a81f1ceddc9e26e70b9,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,4,100004,1831e4b8b23d0f5e9288b6d322e3f904cedad16aa60b0b0dc23481ecd3951696,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,5,100005,ae8e15b3a7a77564dc81248b7c2926202c31f4e2f389482a05f1dfd10c75ea50,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,6,100006,fe85cb5229ed0d8e0b797e1c66d1a086046d832a0ff87ece6ca2da2bb198acd0,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,7,100007,ef17435f9b0f36e38ba3e2bf03d1c95704f20760718c96adc217169e6c7bbac4,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,8,100008,4614692d96ffa65d7177add7e5fc8f49226eda0081c4a013c3134a173040f62d,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,9,100009,9d48a009541d25a9b8ba47eced81469b339c2cd35f8052845e583ea1d5d3e79c,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,10,100010,43badc39b14438530784ac1841be19b2918aa9b41660f0b0859cad697497d339,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,11,100011,5b16875f1191c9956f580e77b805f571a107ecfde5a1c2ac8917f22e1a24536c,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,12,100012,4737c990f5828f2e7d71723955072276f4e6f0b29e6a7a58f4ab1215f4a0a2d2,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,13,100013,ac11bd24734943cb26a8495cbd5aa815dccf1e14a710d603a02949abf4a82d9e,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,14,100014,56752d88c7e0951bd9c7a3a353372cab4d26c2535b8dcde2bacfef6e249ace05,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,15,100015,6aa90bec518de19e4176399222c2dcebf2166e52ccab935d6a1074f5eb6d94fe,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,16,100016,5a6dff388770ad849190c17eb7b17420d45ca54bf07d260b4ad95b4639da5fbd,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,17,100017,6b7d696a1137899d3bf92cb50f618d0d1c3e53ee2c770437bafd75aa26664bd4,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,18,100018,5f774404bd55f6208436958118e0559f517fa47cceb275e8c46db179b0129aa9,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,19,100019,bacf50d93bc1dde9efe52d39d6bf336491877ed09bba6a76f6f94ff0161ea241,True,13,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,20,100020,73f016ddfff79c056bbdd862ca91427648d8126530cd4eb00073d39739f9d6be,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,21,100021,3658c10d3869030f339279555b02d9a123c8c22dee49272559e19b8063539e54,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,22,100022,886a3ae4ed4e4e3db5eec6b25e3bcaf4aa5881ec2d8d466f15689364e9080513,True,9,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,23,100023,fa4fd85e1992cba360768cf80f2d0ce20df89b795199a5b4340369beef0e5235,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,24,100024,5832a45106bb9d6ae569139c4a3d8f4879cf44b70ece6c2ba458dd80e5267e84,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,25,100025,bbbe260f46c7c705f35c07ecfdc3e998a23e0446db20fd92c7ec2a3f1368e720,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,26,100026,a3feb84722ed41baf6a5be655d55cac5e77aebd6f07d5343a62cd067290acad5,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,27,100027,106da7961176c3fd0b60f17332cb49c8ce75b712b2ea4dafca863d57b84e46bc,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,28,100028,cdea9557c4d109c7df01454f07dc30ef133e4cd2a69d3f71522af9475a3d4d66,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,29,100029,b9f0fbd53dba7df015e0e4a25c7dd469131e15e139557e7d9cde3766b40d3300,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,30,100030,2064fb739bb2009be6079b9c93cca78963d2507df304b6830843f271fc0b3d1f,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,31,100031,6d90544f925e79f54839494b8eb922be62dba86b21692b191f8779f3bc91a66d,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,32,100032,3706b6afdefd55711e0340526984736bcfb75777a66e747ec81cf3228d6fd016,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,33,100033,83356f6820580f8552d071e3bcb0400ec118dfd35ea4fe104af6bb54da700469,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,34,100034,e5951556067fb4eb87baa4b734ecb0d1e45b46b6c1984e52ff27c76d15ef9376,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,35,100035,c06d79a3698be793049cb55d77dabce4cae63603265b296663cd08970dfe392b,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,36,100036,6cd705fbcd21d70beb1e8ae60dcc819037440b9e74de7154db1f48a04d92827f,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,37,100037,94f08f41d448714b1ed39bc57e91272979db4853c8bce86bb13765f880b702fa,True,9,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,38,100038,962294507c29f97cb9140d95e7cf881e9609020a9a648cd4e2e6b9a50533c8c3,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,39,100039,ebcc8296675f2dcba8d287e926c612050b5ed0b20073e536e63a75240414b22c,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,40,100040,5abe348cf78e384c6134dab2e274abfab81f6456cf0bd66c3db70e56c7d90684,True,9,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,41,100041,d430fa17d079228fbd5c679a3342954b010c0e93751d0f6c09b479b1d7f66a1c,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,42,100042,28079033f8842ff49794cd664cbc93b050fb9fa3cc652f4202a3d5a3308506ef,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,43,100043,f56ec3c6237a63cb0cb93e3385946a2b8780b4161842547344bbeb58633da56c,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,44,100044,51513e5b900f91491d242647758bb7cc7ba31352073cce87f6f26b80d6c80277,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,45,100045,c7b51078b54d127d1e9cc67667e7dad1e31b27e39c94dbe5172f2dd8d8de0c7d,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,46,100046,a345ec877d63fe6e286a7dadad330f026f624b86afa90da4eb597651a5c7fb92,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,47,100047,5e4364f2ee974b871c2b4b9904574885f3b15475c9bde7b1be5391c8ddfed3bf,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,48,100048,77c24a538877ecb773498cffe9a28fbbc4921d9b422610dd2180909c484837cd,True,13,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,49,100049,60681e5b7aa6198dbb68bb24305e5e158eba8fd5b2ec784a802a9082b5ad8a2e,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,50,100050,0768c305223033a6772701f0d51aa996a69b5c657ecd18cf39a3b76405195e6e,True,12,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,51,100051,3a085b3d9ea16d11359123211e326a89bf42993c06c7fa52f5388d1fff2d46d5,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,52,100052,5bdfdaaca9619646d29ee3ef0c5e542757a4b248792226da915e57fc29b64f08,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,53,100053,081987e49b973cadd132af6a48489e43cf6719b05480326bda513b9908a80c2e,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,54,100054,50363e7e513089f781e5cc11bbc36171fabffa0ee2ab1f793fa2ee99e6f1eb4a,True,10,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,55,100055,0cb6c5ec090dd5c063572f2fc88b672ecb78e0f162315b4a58ba92d46ea7f3d7,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,56,100056,26d2d54252334ac41c6b9f0edcb1d65d0285cf17f0def588c5d52cb30b461d0a,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,57,100057,4866f92c9f4c8d2f5b6eab106af32bad154df074750bdd33aef20dbee45c9825,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,58,100058,9116c67db2025ea9e8b30e55127d891080f941ecb957a52a7c69216b969940c3,True,10,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,59,100059,752f0d4e5ce4b5dc41b66fba957804c4bace6a803402e2e55218e754106c0d28,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,60,100060,f67b4c36a21bd0b2a12859469e8bf912982dffdcecda24b58c39956f46fe94b5,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,61,100061,ff15a0f39462f191cfda0fae18ad8987146b5b457b3d99085210c5bbb74a9ce1,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,62,100062,1e9de428203da2c02a08bf1f4bc10890d4a85765308fb72e3c15c42dc251ea87,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,63,100063,60304033350eccdbd569501a88f0312d6b3367a177c2d44784a058f8190dda1a,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,64,100064,5ed8df58867d6568a2ffa870e049dcfaf37f5cc7d3b87869b116e4ad8e620091,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,65,100065,f7151110dd63b0eab7baec9da1396526e96a5544665e83587db93d1978b9f8e0,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,66,100066,ec2467dfbb02b489b55c6cc29f9e01c61835f5c1c2509fa8afc0169b80e9931a,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,67,100067,d42623967ba982adea1537a81a052dc081703afc5e8f050a1aaeaea1c7ea1f34,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,68,100068,d1cf9323a39817eec993f68c65153d4e29bf1b9f7d4d0bd3ae312f8f79ec31d7,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,69,100069,0d691f53b883a560f85f7c36228a025bfb94d47833bd2dbf5a150f5e32f930be,True,9,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,70,100070,4fae9347f680b2b15494749cb4f61a7f822e3793874e81f685d8a5c1cd415960,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,71,100071,ed49030377669f3e8de82798c1fd5cc44545999a65b6b2a737e9c22f97602754,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,72,100072,869d18b64df749cc0cb3d0163079265d83ec730f53c27e7f8173f850edffec34,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,73,100073,48f45b4124d20f682a20d4cf3232c986a830b23a6f570c09f7af48e2bfee1856,True,24,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,74,100074,79b68fbb25e7225377d18414c529a3112300efdede175661799d8456881017cb,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,75,100075,95df473c1a5bcb7cc050f37b8e97ead150847fc19f34aea34d80db1632406621,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,76,100076,65526b5ca3b6b0a8f46caf90cffd02ad4d80882c60bd473f855b69638dd991ba,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,77,100077,92020e9183e51a03d50f828af2885fbfc4c6154e694feff25f9a573b9f1e6fd2,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,78,100078,057d09f43326ce8d382b2ace52d015371e03cd6357268e2ad7a2a48b8524316f,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,79,100079,de4b47879bc46eada6040aa7be9591e71d3cf0a740743503626d8f59c31503e9,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,80,100080,045c7ff4bedc9000ad489152f77ab0b8a8c64d59b94b4226e5cdbbe931265115,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,81,100081,72dda409c174a89665e6c7e858196eeec247f3a49f7b22025eaeee481871aca9,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,82,100082,a8bba3b6d45dd5c01539e321ffda87b6b172be67dcb8eacd85b20254ead76c56,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,83,100083,5133f7dca46174129e1c15c2c9351e8fa39be320a966c5759ea54ea3741ca765,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,84,100084,42e41fb5fb0b5a19512e5bfedf234844b639ad1c38ff86cf19080753dc042b8e,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,85,100085,bcaa679af4183e627620a46a978da6d405f08e4d5e8f143957bf3becb8410d2b,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,86,100086,5387202ee644ebbc619bfcf26ea757d4a96ef99754520748e42ad40afe1768fe,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,87,100087,3e1cab575e90e0983be6974978c5bcdbe157f2494343fbdd398e6e8618e67b09,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,88,100088,4803a78fc0838dbe48e7dd93c4c4808f0a5b0e967ee92c92bb098d40c27e1178,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,89,100089,8068bb70a9d9730e8339865ef2367543d1120397d71ed818c2c75fa512a33c66,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,90,100090,6ffe3ab57c25d7d718c7e6321bc54644b73cf6dcd46d4d74c92bd07919bb6661,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,91,100091,b8c6e739b03605068ed9195e0d71dc0e2da48bb63da1b9ddc86c115e5a48a1d5,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,92,100092,3171a6eacc17d81c1d96879eff00432dc27ea06c0756df45e7700c25489346e9,True,10,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,93,100093,b82c00d0f9688ba7b190d23907be30f29731d32f8bc9250d7a6ef39bd6e04c6a,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,94,100094,af6a71005a43619614333dacf535f7ebad4a59e28c68612c8454b41235560136,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,95,100095,676b7806adae9a1b1bc966c2a6baa64f7093fccfc997b9f16c3ffaca1bf925ce,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,96,100096,bf76dc3293ddf969ddfa85cbc11e1ac0e46dd1b21fa496c2f254b28804454233,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,97,100097,9c5db132f93b2cd1a24a84ffb28b4514e86976728dc7802b9562c1b690a47b84,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,98,100098,d91d66593adcf293d7e3a53c146a8ec09f91fc71e4b930987e5b8db8860c3de1,True,16,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,99,100099,2d733f826c648060720779f5d70b8b33d0c71a9c827fd0fae482ef849d3a8d8b,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,100,100100,64bac15a8b37f4ad5c59ae98db0b9db6c0ca1bf20d70eb7d7838e89486a460e2,True,14,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,101,100101,4e8473f1953b75caf8e5d9d8e887ae01f88160f924b8bb46c1701ae1099eb1a4,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,102,100102,7ea6a7d5bfb091a78fb20d6d419e9f89b446fde36ccbb33c8c0740213036da2a,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,103,100103,805303b67001727ba237ae3f68bdf0898ead009381c5da0e52ed5119b6fbd50b,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,104,100104,851b4ea3e1845f22363387cce7d1f52f980d3e85832f93ba9336b625cd9d3819,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,105,100105,1f2846109f9cf9cb73ef7c67e914b363efb5c3c863f690808f7b83842b3d8205,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,106,100106,3c3250ead1a2f3e651335a5e658eb604fe5aa565a63a0f1525b651ecd8cf7d2c,True,10,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,107,100107,fd957ae53a2c6c9c17b757487b723a1b7f00d129078bc872609dfb8ace361839,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,108,100108,ac25af4327f35c53a2f303269a4a706a6a061b034e38a7d08c13843bf5cd0618,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,109,100109,462a9f7869b0609161f3870f26f66eb4923c0e9534f6e820c442a456b54a4dfe,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,110,100110,aac824d7eb35e7047ca75e66dfd1cf06eb0653998e39abd031bd57230446ad89,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,111,100111,fc67399faf6c4f4adc7628fc3e5e175d79fd0befed5f745eabb026a786676dc0,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,112,100112,ade70c7c68d2b3f95cf37dfe861f727147092c755bcf3c5a5d406d27ae21b7dc,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,113,100113,63dcb1a5b00987cc0eb52df9368019054b120a0ebfde8ebd2715b66e0969e367,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,114,100114,ab75cb396ec1679a86359771fd705c1bdedc51918246e83c8879bcc41592d6aa,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,115,100115,2d94064a959319e327266b23fcbfa8aa67d69a34ccf69ec7f00a915ed6c0175f,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,116,100116,7f6bb9b52674bdef995dd730ad6f3756560f3e792f14f7dda7becde398c90a1d,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,117,100117,54647d0d2290508391c97e3151f69964efe061c8eef0c561779634104758a8ae,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,118,100118,cb940693da3894828ca41a5c6e48fcba290e61aea19d8844b773f08e638356e4,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,119,100119,0f0479f32ca269cf14098fd30e4509ff90a100dfe5263232ae9e805300ae2f8b,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,120,100120,f93aea6640d2ebfbf6bb26a21bf5d05ce486b365c4572c6e0f83a6da2abb1507,True,12,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,121,100121,1b6a01d02184284cf1f7220f6b2282b00d64e6aaa827b2828586ef1432d4363d,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,122,100122,f3b4f02333d11250adbec74d3acfd081223c428c7d10a97d73b38ebae0264297,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,123,100123,bbba9c5e12d8f9773b25217607f092fcb1ffd1c32c1080efd141af9b13109307,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,124,100124,91ea90b53c494f4e53568aed3a14419decc728fa588dd744d6cf614cd161b240,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,125,100125,3ffae3b994b26dc1b8fc6828a3d2ea1059a51eb36dd3881a4dab56305c231dea,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,126,100126,9f7c1c03afdca178e53ecad398fab740c2d2f099ad9d7f872612c5a8ce5d1bb7,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,127,100127,0c0cd2301b00b37379e1e18a40b92b222a4c77bb28b1283c145f57f6edb29f40,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,128,100128,3328218220a53a7354a927026c387f392d5c18bca56f6fd18191673342ca2333,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,129,100129,4055704d0d87f10c8f4d26b33e94245974c31fef4cd7c0db457e45f7a58197e8,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,130,100130,363351bade240948bd79f95a74d1d005540850b101fdba623baad98714324ed7,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,131,100131,3650285939fef29ed2310fa88e04b90e5e33773d16353b74a4dd820e27349956,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,132,100132,c9591a8bfd649a9a1fe4d921357b9b1e987d5a1e7ff5ea5554347860ebb832c2,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,133,100133,a54a71cf92644105cb053e709d83f921785dfe8ff6f55463ace5eca3a6de2607,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,134,100134,967db3bc70ad5b40553d8e150ef49fc1aed0748328a9cd17529a155ff1aa576d,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,135,100135,e6158845e9345396434b6623c9b4ad56d981c65f7cbde80a13040e19da0e0673,True,9,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,136,100136,42b08d83681bd220d5ce1fe561427faa4510231263e6ee80845f2318a7c4f397,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,137,100137,c92fe974bcea34c1421ce7a07c732f90a5e5d56a48de70957831267f5c62bbf4,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,138,100138,c57b4d9e6d979db72c8f5ba2f95e86012a06d7aaa00bbaf41b6679404bf8bd31,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,139,100139,b1f43a7aabeeec4a6069bcf383f1dfc3b391216b18ee5fb590ae414f4ccfa7b1,True,12,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,140,100140,c1770fdf41dcb4a612fbb82e7233a9f3abe8fd51776565ff07082cb63f2737b4,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,141,100141,1fd1e789f6b40db8945fc6d6219eb36a352a1ca54867d46f596e767453863a33,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,142,100142,c5daa5ab1e6d2f991a4bc33e68bca31856b6fb569016dd7ed6961e5aa5bfa422,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,143,100143,37a87fdd5f91f7fcea1864a953f1b2cf23e52a51d48801b17f310c96ece29e54,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,144,100144,ad923ce169c81aea1e0f88453668a1e26180d4f3ada651bcf1b21fe484098acf,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,145,100145,4774078b07c6a8d8ec481a6847d1b84abb3b541b8c0323806c6467d9f8e3ae4d,True,9,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,146,100146,57f6778baaa7974824af44c1af6cd8f5be710fe12823fd0fb9bf8c4d113384a1,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,147,100147,a4a92cebfdc6791afbb7c7f5c4ff3a8c12f034f61f64fb9e9e954251e5c6a5ca,True,20,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,148,100148,e5a5822889e2d9fde91a88d44dfc5ee32d467d9ae8fbe1f09ea0faa43e50db14,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,149,100149,9c475c5bc7adb580443bcddee5ba919e6fd272c74ebe00f467d3dc44f2149b8f,True,16,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,150,100150,a8446003e3484497118662854fe4e0853457417477f203d44d6f379e0bfb995e,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,151,100151,668d6f5b88b6a5735e24be2185ed2016d39addf4abecc65c3430430373ac5618,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,152,100152,7c5a9f7225c15b119fa9c9f81e953e75763cc16558c229df0fa63fd905931000,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,153,100153,a806de6cd05ae85751bc9455c907c2c50da0bbb51a3c759f6a4bbe26990a105f,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,154,100154,18be03b03d43bbfa42d4cea3aef63d838260c97705f6a553bcaf65b57e3ac11c,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,155,100155,9e8debe58203eabf797f0b8bb0464d17d3754371da1404a107c32a601e13e5e3,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,156,100156,d719a598da269bb910ae5554b9aaad97ea9de9426fa9268fe1063af4001786bb,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,157,100157,4840e735e792fe3b6a240c4c966ce9b04f6a859f0f55c2a460e19371cc4e47d1,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,158,100158,00d1b45b552395ae4a053bdb19ce72566a9b7ca0aee21c65fbabc1d50c90898b,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,159,100159,3666cd4c4d221b56e9a94c077e319411e35b5a9504f0bec18f218c4881b14a06,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,160,100160,bccc37b676c3f8cb6a6a5e7181c0ecdc1afe8166dcf61c67e9db9dc306ca3955,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,161,100161,e0ee94dd014aeca31e7a8b072c3aa9ec0880ac6fe8d4beb737c06982335ba45a,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,162,100162,fde1f8acc08c6d3eb9f33568236701a0d0f19713e812ad589e4b1fc0f1121327,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,163,100163,d5a72dc5beb3ec5252c8a7c1b96e45b171d1e086d672420f1fc1acba4d7f6ef8,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,164,100164,9c8db1df2f1a9be2f9b5ddee79ea5418b9b3729078b9a2517143bf22bf016415,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,165,100165,74d496112f0ce3c4f8b383edfcbd11dd3b0a4f491bd1f07647efde56c3168102,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,166,100166,070ade843e7a375401a1cd5619be7bd26cfa2b819a350168fd5594e1a1d3f822,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,167,100167,1fd5c49c244e38af3485d919253bb7478044ff2f84c6a52f43ea1215ba804312,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,168,100168,4b7e07f9417690eabed3eb3cb0c52f25b136a98cd0f186658bdf6a0e25a4941e,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,169,100169,f5443a41df645687b7a8cd67398c27ba6182c21e480a1240d8c7dd2015c9e092,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,170,100170,647a06a2dd818cba961f6c2979501a06528c18f76c8cf7744c7d36a6dfe1e2ae,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,171,100171,ad24a0eb40e3dd3e5fc791f6240efd713051992724d7e5b4f514e393b27ce3b2,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,172,100172,9bfc516fa1060d4dfa940ca7b053dbccc93f1f1a9959f388be189bc9d339e64f,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,173,100173,9db84f5f9d9f59bec8d19105f290f6de546d756500f64694f92d46a448ad4a46,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,174,100174,05f71d0580f7a9e38a45787b643bc985d62b75175c6ed7d7a2c709e828e0b5eb,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,175,100175,69e1a72b928988279d310efda3c92ecc943d070087267342f645555488e4fa21,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,176,100176,508abfa7c808fd328992a96cfceceecfba91999cf9e5a87e28e4c4d031380f69,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,177,100177,e4eb45b30ca73a473a2c4fcc1e039746645e77ccfe0494e46f988ca4b538d0d6,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,178,100178,d68225e0b3fb5274cd60e74b83f70cdfa7580d269676d455ace1d5262b6be35b,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,179,100179,31da17826674fede75bf8428a2c874dd327a05de04360c1b3a0110034e02e88e,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,180,100180,ebec1eacd890798b1c4d59fe038ec371bb0dec7f4c9fcfa8bbf172a129ad6816,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,181,100181,9f9937c486218b9dd39491370ef9889eb1de20a11b787848b03716bb98f48344,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,182,100182,63bbf1ec0265b19cf7c985a1edb2bedbb0afec660e8213620652c963b26d7d8b,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,183,100183,bf6415fece4cce55174ed68e7f65c22932ba19a046ddad0f30d631c7eff55f5e,True,12,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,184,100184,dcae4cdc5ad377f6bea41ac66b815330f870454b8bed7d1537d68a89f1aeb140,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,185,100185,d968e032b170b9dfb4dcd42aee9a3b9b860e21ee775ecabecabd9eadd9c68213,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,186,100186,faafbe16a8f96c3d04dd534cd403e243e3e5e287c893d6b6f070fd3d9ecd212c,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,187,100187,5ccba88b9433670c6ff10f59a50a8e0d9c07baa4400100f22eac6a2b26f02f38,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,188,100188,f782a4236dcb139b68c8bc00796aeb68108c19cf3040386afe232a4d73181eab,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,189,100189,977da24f3a241ee945f7c9c5afdc94587ddd633de183deaf4d46cc2480d24372,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,190,100190,ed859846abf401e359027db83562cc7febbedfbe8f2be70233aa2a70c0b4c6da,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,191,100191,6038ace4f27cd468aec1fe02be530654c07da5149ff5231dd7f89dfa8e09ebbe,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,192,100192,f066188788124ed98684f4cfd3b6f7ba134915e846f8bdf476eecd9494251669,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,193,100193,0638ff311a1a9790172b6b64f77eb983bc91ebb690415d8b142492ec514a5918,True,15,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,194,100194,e4a11e7d995ca1100d8c360b8812541788df3dfe182e82a57cf34823e1bf8dcb,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,195,100195,1bd3954dfe0462aeeedcb7b648dedf391cdbd2f4d0d989e22def0304dec97d98,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,196,100196,b6d60efd9b1def40b807777d98027e30e0009bb85bb466578f64586036cd37d7,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,197,100197,00d44f8e7d8397d3647c684ba82c77e0e0d848ddad2e05954d1ccaae2be16996,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,198,100198,265a20e4c9bf7b059ba324e7bcae3627d9bb24864ae27179038601d972e8351e,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,199,100199,b5d0ef90e9401a8b1252bd0b39580d3ae0f7b5938b9079a3abd79b806fcbd7f9,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,200,100200,91f71e4e8db2f995814fd27e2fa93752b3ef3d5dab309cc07ae7ec3dc705e5fc,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,201,100201,2fe5dbaf2cd25b19d2295b9ab05e9754b106c52d930a6c28939794a09484171a,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,202,100202,dac8ea6c6d57656df53423472a73fc637c20e558e051bcac40ec2c4c9528c50f,True,10,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,203,100203,34491414aa210383c92422869fc5d97c78e579ff5cd64136cde14fa36ff1e666,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,204,100204,e3060b0e05c974197dc6c85c74ae6f90e4f4b1130bca2fea52b397188c17f516,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,205,100205,7b3c83236ff0a5ac0c44560b4c02db93d7866c1b5439c76311e89fd229d11c4e,True,15,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,206,100206,175f05dcbdf4c86108e620d971ceef4f857717d77ff9e6b51e32b5d522f544bf,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,207,100207,478499a4274c0935b13525ce77129ebd8a5c195d9903ed47c50929f49fd5043e,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,208,100208,3324742d0f09010e8a6b35c445844f49a4a63bf9e56d6a48b404577c98e24a38,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,209,100209,289dad8447e138246f85ffee7a8d5aca52bc104c6f89c5cefe9bb4c908b11c83,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,210,100210,62c0e0ce060cf17ca8e41138287ab7cca4b750136f134c041b2b860e1541dc4e,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,211,100211,b54c46f724e12ab26567540c7875d9f7d44ae7eb18a3b47f86b495a2c99507ba,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,212,100212,52611162b7d5dbf433b8c0d10ff53ba895ecc2fd66a5996e32f02d1fa825d633,True,9,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,213,100213,a4ac38af89267112430bfb5b0f341af01d69f06cc3c36876800a1860a67b7f51,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,214,100214,b21ba24fcf9c4feec0a4793f34817c5c93bde958eba97bc484928b833195ce40,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,215,100215,daa942852bbc9b00c6ce9bd9c32aa7411dec6bfa76543ab4fe890ad7415a3349,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,216,100216,e3533edd35b1b8447413c4d91fc1ca0a943f9f8f428147b1cb1ed4f51efc8159,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,217,100217,5722764ccf7762df5aaee5502924a1db7a2df82f8d418aa2f3578c2a4827d8a6,True,9,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,218,100218,96fe034513dad89c47b3c83e614919dcdf2b032b6300b0859c500305fb6a3acd,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,219,100219,4028e1e89fb93263fb44ffa92d796fb70572e6abb1734cc76a9a03cf6f16f2a1,True,13,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,220,100220,7d0e946c036632102925b849d3fdb34fe93952200ebdca872a39314022960ef0,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,221,100221,d23c1a86e11cedccc4fca910208635fc2d7a32c714ff214e8d951dfa27a03595,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,222,100222,5b4a31760803acb70f19155a71d64c3a3ad17b4899b511348f452044b6b503ae,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,223,100223,2a09c4a7c3c3602521fdf9d3e205d8fb3cf9f4aa25ffef63aa5b1c10c300a764,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,224,100224,d929607e33b436e452e95f483d6ddce6e630f25ba09c6b5eaeeebba2313bd0fe,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,225,100225,f64a300d980e0712aac844b880be591b2c0602dc9bfaef29e73b0c38f0ed2710,True,18,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,226,100226,4bd5d72a10fc9955c181a0173e4ecc23f40f3edcc5a6031089e969ad286aae6a,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,227,100227,b7924095dd9a2ed0abc7f98f3a4622368ba94704e5eaa1d66cde114085fa22a0,True,16,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,228,100228,482e6aeecd936c8b316190dd26fe27b1658888fe8481bf130c6d2f8b6c659d6e,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,229,100229,f467425f2a1c9df3c6325af6e41430174a53454d1f118509f04add3707553847,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,230,100230,7847aeb6aa49d8e908b389ebf5667bac211aa089a053f238dfa0635a787cba10,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,231,100231,d279b2fe73149cf27d609a59bb6432249d017786b09629b08414f18d7faf3522,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,232,100232,690e3cc03deff51ab63509a36be2668c3f0302bf2ffde220b451d47975f33a04,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,233,100233,d21f28c71142bd966eeaf508410717c6e442f5ce2d29c3c1ef1a7d92bfe2dc18,True,9,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,234,100234,0036eaffcba1da37f280657c63f4a6c4592d60c98ad04e64317dbe95da6164ca,True,9,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,235,100235,8582e241d8c13ada8aea132d6c7a89bba041caf4f46d8b14f79101f50484f050,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,236,100236,ed8ed16ad8871aed9fabb583e734da2bf93771e088b4df4f68b1d9ad2c61c8ca,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,237,100237,6a5795f30d2276495345aa14fa0a1cce86bfbca572560a53955d747ffe90025a,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,238,100238,ba3d5def9eaa33528710fd02fefb4d57b3ed60835697b0760632a17e85dd702d,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,239,100239,6a12325d2cb30b5ee1a4977e34bec034b63bb2161de28e098bf2c072844d2006,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,240,100240,dbe8335801da929cafbb7144c712c808fe6aca2468decd35c3a80ffd0964f154,True,10,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,241,100241,14002e817f499bfb01559bc90103eca0ba035dc9d39ca894480e289fe2598c18,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,242,100242,0ed75b991f5d4db8ae30cf3a31666eaac0c4571368b2e0316b5b5cc2e45c5993,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,243,100243,6f32fa4c007734839aaa81c24eef723799ecd9f1238ce81beb89423ee74d0b9c,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,244,100244,71b22b73ed2f729af789c87be725fa9919f132ffc71da5d2b1f1c10f6e14de51,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,245,100245,055e24b5e082116009e29f6de06b3b47bbf2b8ebf48e558f6ccc6dcc25b32b0a,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,246,100246,26620b343110355a3cf4e54e467e9ad275c52bd216296faef0cb796f16f7ff18,True,12,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,247,100247,61ed706ae58993282151b3ec811d7f0ee0d03b4e95fca6106ac9eeb0a1c98d2d,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,248,100248,ab92ca78f5426b10246b9d1d1b164a25125e1ebdbf99af49fa7420bd87652b48,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,249,100249,b804b5b39ec9fec93f96e33030fe51d4e5cd6c1277f1c623b40d1147c81d4ca0,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,250,100250,ef0b898d4399c79c282d6236206e2792fc9c9218b4ce26a6318084258af3f2b7,True,9,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,251,100251,769d2fc0baf18fa1ec88320371dd381177f5c106e094e362053fdb324402958d,True,13,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,252,100252,7c14485434c699c0e929c2bac7b19dbac297ec5b447aed3372e70f7916bfecd8,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,253,100253,95d4b8219cc176aa295e06376b06f726d4359ade5cd0484ab8c91776b1ca7165,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,254,100254,8f669af5603ec0cecc58c7fb223795ca817db3872c7e9bb6a754987495418370,True,9,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,255,100255,9d766d1a8ff59a1b7d808098d0b0e5863967f2d372677b00739019e1feaec2d3,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,256,100256,73ede2d4b2ff2bd1153a1c12abc980357a1757c0f48d3101852938de951819d5,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,257,100257,ecb0a6590e82d47a065ab3b35fc0c14676cb7f3cd3ac47b99eb9dc1d948cf093,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,258,100258,2fdc4887ef46d4a929998df1cbfe2a05752e075961ca643b5b289a23528d2fde,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,259,100259,66433b9714f27d6e4071e2e68befae436b2b8b01d997fd6d8839d0e523cf8c65,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,260,100260,1bb03c1edfa1076b99fccf416aeb319064dad34743505cf0caf7ea7b005326d6,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,261,100261,c4b70641e9c9553a3c0db2ed47d470428a849e40f5c123080adf29bf243fea79,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,262,100262,1f4cf58f99f45dace3fb9f9f7f6466a6774d29777e8be896eaa3a089e6023be9,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,263,100263,3eec36a8129c5ca70ddfd0261cfb3e766f876b8ced59311591078b0b6269fe98,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,264,100264,30470ccefa191a554c8d8cf5b43eb412296d0109f667af9c8e9a64a32a56dbf0,True,11,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,265,100265,0e5052a0d1affb71d6390ea5adc2d9ea8cb39e35bd647bfe76abca968cba4715,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,266,100266,01249519bf31fb51a8e3982ceaea90c85c26ecf2cf70d62d1bdbda285e4acfc9,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,267,100267,6c7ad82baac119b0e20520552eaca781139489ccf695d2f32bfac706f22ef2be,True,7,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,268,100268,2fd7a9f035e732b51b9694ea1a1c0b014b726b7f35767787d6305ca17e265e19,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,269,100269,db03d4832e26b0a32893049484f19d2ce6523e261b2d68a56040685d20af1ce3,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,270,100270,b2c2ec80f66a83e0798860b8919463be183480be8bb8cf595da00592a373c14f,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,271,100271,b41d234a59627fe1c36716a95723e9f5a583cf65aa547a3cb46f84d4f275f3f8,True,9,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,272,100272,99e82af65fafd6366f3e1a03d73a248b703b686cb54e608722578b0380ee755a,True,18,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,273,100273,650d2cc423388dd072eba1e65e60220ffc8c277609af4e2f062f885e1914d870,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,274,100274,0cbfe83942471c4dbec061666c58cb7bcc86c3e360aa0b2f1c1c2da3c1571c71,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,275,100275,878e2c7a8249c562fdcd59a1563cc116ee2d87738b87204654f4474736db378e,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,276,100276,5bd4a1e5186a3f2777a6d523d394fb3670a8e080edb66d6c02960196bd61c46b,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,277,100277,86f35120111fb0ff173c9b9364630d1c70c064ed132dd05ccf50d2c9278f094c,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,278,100278,549258504d77cd626f3decae391c8680328a9b0ca5d43aab8c0addd15bbdfe94,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,279,100279,f83fc7cb9830e0bb032a73c4fe063568f6d7dda5eb8a06462900b934790104d1,True,21,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,280,100280,3ff91fa175126f079559d26791b7d30c7ed5b95cc39f8f50aa0365a06b603874,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,281,100281,7fd4c562781d3e46b2080fa3ab70414ffb84c753beccaff412412db5ab2e2f86,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,282,100282,233003a6e450e68acbf0f2d2d84d94aab12c32b53a06605fcf67b53cb16f5183,True,9,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,283,100283,8940393a8297095cac3a9353cd55d587d3e53cc149195c9da33a73b58cf49af9,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,284,100284,071d3415eb065473b2d2eddf5a8e1c0bf653c17b59b0119ecec7d16768d3e73b,True,11,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,285,100285,7674b34720de631641e70f005582aeb885ddf6db3e067710d90115a0fbbc4c1f,True,6,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,286,100286,74387b2cb484606a862d57768a897320102c5b61ceb858ddea4911d9ca9630a2,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,287,100287,ad60570ed615bb49d14c9605bf3e3fcf8f11b5ef534d0828d6eaabe5ba653023,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,288,100288,f58383ba8ca03292982410f73c9ac655e74e120953b600542e83c9a6c216ec7e,True,12,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,289,100289,e8d3807ee050030ef3da8eeae5a333c482b6fa7bcfbea80bf1d36950966620c7,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,290,100290,003d11b7ccdc0447f6f6a8ef5de98010be7087282dcb01307f436c928f7144f6,True,3,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,291,100291,b0c1a2d5d4da725b9240f74dd4c8e087d4898a3b1449a5229b47d57bf23a3fb2,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,292,100292,382eb2792d64182752aef8cf0dad7b877dfd43aef4dc1d061a79b3779d9e4f63,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,293,100293,83517969210445ecd191a3d2439ab815fbcdf92cae5adfdc900951537e3949f1,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,294,100294,7bd9ac126332fc408b0df20f4a872166548cd169cfdfcee2dec6d9c69d231b05,True,2,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,295,100295,0912b57b2c2f178ca35ab2a7a0c49e0be0a2f034288082cc0eae0f1cef3f97fe,True,4,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,296,100296,efebeb31cfbcf553c3682783bd6893ee6761d54d5aab033e6718f8f6390949a7,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,297,100297,997b67eef7eef10288501da9ae98fac16651f13b8bf2ae632837b694aa6f5610,True,5,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,298,100298,57858d3000395e35671b655b16d6c98c1bb077fe081a33469248e680a0ce4588,True,8,500,True,0
+HighwayEnv,45,noisy,NoisyNet DQN,299,100299,722ddbd9efe0ce276a95b935b5ea5c9ec535cf53d1803fe42e73dc3911886282,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,0,100000,95d83ead048b625f5be496619e3ba191e9017b11f62e52bd2e79429ba24dffd0,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,1,100001,82f68a64dc42985b8e8ff10f7e366bbdd53d24b0a5906326d05ad8b39730f691,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,2,100002,4efa798e403218bdd927626fe283f84a45add96d6bde06b6bc5ae1f94399401f,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,3,100003,8a35474ac96ee9b5f443b37e9c84b7e56e618a6c16675a81f1ceddc9e26e70b9,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,4,100004,1831e4b8b23d0f5e9288b6d322e3f904cedad16aa60b0b0dc23481ecd3951696,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,5,100005,ae8e15b3a7a77564dc81248b7c2926202c31f4e2f389482a05f1dfd10c75ea50,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,6,100006,fe85cb5229ed0d8e0b797e1c66d1a086046d832a0ff87ece6ca2da2bb198acd0,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,7,100007,ef17435f9b0f36e38ba3e2bf03d1c95704f20760718c96adc217169e6c7bbac4,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,8,100008,4614692d96ffa65d7177add7e5fc8f49226eda0081c4a013c3134a173040f62d,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,9,100009,9d48a009541d25a9b8ba47eced81469b339c2cd35f8052845e583ea1d5d3e79c,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,10,100010,43badc39b14438530784ac1841be19b2918aa9b41660f0b0859cad697497d339,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,11,100011,5b16875f1191c9956f580e77b805f571a107ecfde5a1c2ac8917f22e1a24536c,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,12,100012,4737c990f5828f2e7d71723955072276f4e6f0b29e6a7a58f4ab1215f4a0a2d2,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,13,100013,ac11bd24734943cb26a8495cbd5aa815dccf1e14a710d603a02949abf4a82d9e,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,14,100014,56752d88c7e0951bd9c7a3a353372cab4d26c2535b8dcde2bacfef6e249ace05,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,15,100015,6aa90bec518de19e4176399222c2dcebf2166e52ccab935d6a1074f5eb6d94fe,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,16,100016,5a6dff388770ad849190c17eb7b17420d45ca54bf07d260b4ad95b4639da5fbd,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,17,100017,6b7d696a1137899d3bf92cb50f618d0d1c3e53ee2c770437bafd75aa26664bd4,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,18,100018,5f774404bd55f6208436958118e0559f517fa47cceb275e8c46db179b0129aa9,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,19,100019,bacf50d93bc1dde9efe52d39d6bf336491877ed09bba6a76f6f94ff0161ea241,True,14,500,True,0
+HighwayEnv,45,rnd,DQN + RND,20,100020,73f016ddfff79c056bbdd862ca91427648d8126530cd4eb00073d39739f9d6be,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,21,100021,3658c10d3869030f339279555b02d9a123c8c22dee49272559e19b8063539e54,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,22,100022,886a3ae4ed4e4e3db5eec6b25e3bcaf4aa5881ec2d8d466f15689364e9080513,True,10,500,True,0
+HighwayEnv,45,rnd,DQN + RND,23,100023,fa4fd85e1992cba360768cf80f2d0ce20df89b795199a5b4340369beef0e5235,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,24,100024,5832a45106bb9d6ae569139c4a3d8f4879cf44b70ece6c2ba458dd80e5267e84,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,25,100025,bbbe260f46c7c705f35c07ecfdc3e998a23e0446db20fd92c7ec2a3f1368e720,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,26,100026,a3feb84722ed41baf6a5be655d55cac5e77aebd6f07d5343a62cd067290acad5,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,27,100027,106da7961176c3fd0b60f17332cb49c8ce75b712b2ea4dafca863d57b84e46bc,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,28,100028,cdea9557c4d109c7df01454f07dc30ef133e4cd2a69d3f71522af9475a3d4d66,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,29,100029,b9f0fbd53dba7df015e0e4a25c7dd469131e15e139557e7d9cde3766b40d3300,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,30,100030,2064fb739bb2009be6079b9c93cca78963d2507df304b6830843f271fc0b3d1f,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,31,100031,6d90544f925e79f54839494b8eb922be62dba86b21692b191f8779f3bc91a66d,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,32,100032,3706b6afdefd55711e0340526984736bcfb75777a66e747ec81cf3228d6fd016,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,33,100033,83356f6820580f8552d071e3bcb0400ec118dfd35ea4fe104af6bb54da700469,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,34,100034,e5951556067fb4eb87baa4b734ecb0d1e45b46b6c1984e52ff27c76d15ef9376,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,35,100035,c06d79a3698be793049cb55d77dabce4cae63603265b296663cd08970dfe392b,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,36,100036,6cd705fbcd21d70beb1e8ae60dcc819037440b9e74de7154db1f48a04d92827f,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,37,100037,94f08f41d448714b1ed39bc57e91272979db4853c8bce86bb13765f880b702fa,True,9,500,True,0
+HighwayEnv,45,rnd,DQN + RND,38,100038,962294507c29f97cb9140d95e7cf881e9609020a9a648cd4e2e6b9a50533c8c3,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,39,100039,ebcc8296675f2dcba8d287e926c612050b5ed0b20073e536e63a75240414b22c,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,40,100040,5abe348cf78e384c6134dab2e274abfab81f6456cf0bd66c3db70e56c7d90684,True,9,500,True,0
+HighwayEnv,45,rnd,DQN + RND,41,100041,d430fa17d079228fbd5c679a3342954b010c0e93751d0f6c09b479b1d7f66a1c,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,42,100042,28079033f8842ff49794cd664cbc93b050fb9fa3cc652f4202a3d5a3308506ef,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,43,100043,f56ec3c6237a63cb0cb93e3385946a2b8780b4161842547344bbeb58633da56c,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,44,100044,51513e5b900f91491d242647758bb7cc7ba31352073cce87f6f26b80d6c80277,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,45,100045,c7b51078b54d127d1e9cc67667e7dad1e31b27e39c94dbe5172f2dd8d8de0c7d,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,46,100046,a345ec877d63fe6e286a7dadad330f026f624b86afa90da4eb597651a5c7fb92,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,47,100047,5e4364f2ee974b871c2b4b9904574885f3b15475c9bde7b1be5391c8ddfed3bf,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,48,100048,77c24a538877ecb773498cffe9a28fbbc4921d9b422610dd2180909c484837cd,True,13,500,True,0
+HighwayEnv,45,rnd,DQN + RND,49,100049,60681e5b7aa6198dbb68bb24305e5e158eba8fd5b2ec784a802a9082b5ad8a2e,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,50,100050,0768c305223033a6772701f0d51aa996a69b5c657ecd18cf39a3b76405195e6e,True,10,500,True,0
+HighwayEnv,45,rnd,DQN + RND,51,100051,3a085b3d9ea16d11359123211e326a89bf42993c06c7fa52f5388d1fff2d46d5,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,52,100052,5bdfdaaca9619646d29ee3ef0c5e542757a4b248792226da915e57fc29b64f08,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,53,100053,081987e49b973cadd132af6a48489e43cf6719b05480326bda513b9908a80c2e,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,54,100054,50363e7e513089f781e5cc11bbc36171fabffa0ee2ab1f793fa2ee99e6f1eb4a,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,55,100055,0cb6c5ec090dd5c063572f2fc88b672ecb78e0f162315b4a58ba92d46ea7f3d7,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,56,100056,26d2d54252334ac41c6b9f0edcb1d65d0285cf17f0def588c5d52cb30b461d0a,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,57,100057,4866f92c9f4c8d2f5b6eab106af32bad154df074750bdd33aef20dbee45c9825,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,58,100058,9116c67db2025ea9e8b30e55127d891080f941ecb957a52a7c69216b969940c3,True,9,500,True,0
+HighwayEnv,45,rnd,DQN + RND,59,100059,752f0d4e5ce4b5dc41b66fba957804c4bace6a803402e2e55218e754106c0d28,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,60,100060,f67b4c36a21bd0b2a12859469e8bf912982dffdcecda24b58c39956f46fe94b5,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,61,100061,ff15a0f39462f191cfda0fae18ad8987146b5b457b3d99085210c5bbb74a9ce1,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,62,100062,1e9de428203da2c02a08bf1f4bc10890d4a85765308fb72e3c15c42dc251ea87,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,63,100063,60304033350eccdbd569501a88f0312d6b3367a177c2d44784a058f8190dda1a,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,64,100064,5ed8df58867d6568a2ffa870e049dcfaf37f5cc7d3b87869b116e4ad8e620091,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,65,100065,f7151110dd63b0eab7baec9da1396526e96a5544665e83587db93d1978b9f8e0,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,66,100066,ec2467dfbb02b489b55c6cc29f9e01c61835f5c1c2509fa8afc0169b80e9931a,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,67,100067,d42623967ba982adea1537a81a052dc081703afc5e8f050a1aaeaea1c7ea1f34,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,68,100068,d1cf9323a39817eec993f68c65153d4e29bf1b9f7d4d0bd3ae312f8f79ec31d7,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,69,100069,0d691f53b883a560f85f7c36228a025bfb94d47833bd2dbf5a150f5e32f930be,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,70,100070,4fae9347f680b2b15494749cb4f61a7f822e3793874e81f685d8a5c1cd415960,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,71,100071,ed49030377669f3e8de82798c1fd5cc44545999a65b6b2a737e9c22f97602754,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,72,100072,869d18b64df749cc0cb3d0163079265d83ec730f53c27e7f8173f850edffec34,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,73,100073,48f45b4124d20f682a20d4cf3232c986a830b23a6f570c09f7af48e2bfee1856,True,31,500,True,0
+HighwayEnv,45,rnd,DQN + RND,74,100074,79b68fbb25e7225377d18414c529a3112300efdede175661799d8456881017cb,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,75,100075,95df473c1a5bcb7cc050f37b8e97ead150847fc19f34aea34d80db1632406621,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,76,100076,65526b5ca3b6b0a8f46caf90cffd02ad4d80882c60bd473f855b69638dd991ba,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,77,100077,92020e9183e51a03d50f828af2885fbfc4c6154e694feff25f9a573b9f1e6fd2,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,78,100078,057d09f43326ce8d382b2ace52d015371e03cd6357268e2ad7a2a48b8524316f,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,79,100079,de4b47879bc46eada6040aa7be9591e71d3cf0a740743503626d8f59c31503e9,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,80,100080,045c7ff4bedc9000ad489152f77ab0b8a8c64d59b94b4226e5cdbbe931265115,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,81,100081,72dda409c174a89665e6c7e858196eeec247f3a49f7b22025eaeee481871aca9,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,82,100082,a8bba3b6d45dd5c01539e321ffda87b6b172be67dcb8eacd85b20254ead76c56,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,83,100083,5133f7dca46174129e1c15c2c9351e8fa39be320a966c5759ea54ea3741ca765,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,84,100084,42e41fb5fb0b5a19512e5bfedf234844b639ad1c38ff86cf19080753dc042b8e,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,85,100085,bcaa679af4183e627620a46a978da6d405f08e4d5e8f143957bf3becb8410d2b,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,86,100086,5387202ee644ebbc619bfcf26ea757d4a96ef99754520748e42ad40afe1768fe,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,87,100087,3e1cab575e90e0983be6974978c5bcdbe157f2494343fbdd398e6e8618e67b09,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,88,100088,4803a78fc0838dbe48e7dd93c4c4808f0a5b0e967ee92c92bb098d40c27e1178,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,89,100089,8068bb70a9d9730e8339865ef2367543d1120397d71ed818c2c75fa512a33c66,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,90,100090,6ffe3ab57c25d7d718c7e6321bc54644b73cf6dcd46d4d74c92bd07919bb6661,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,91,100091,b8c6e739b03605068ed9195e0d71dc0e2da48bb63da1b9ddc86c115e5a48a1d5,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,92,100092,3171a6eacc17d81c1d96879eff00432dc27ea06c0756df45e7700c25489346e9,True,10,500,True,0
+HighwayEnv,45,rnd,DQN + RND,93,100093,b82c00d0f9688ba7b190d23907be30f29731d32f8bc9250d7a6ef39bd6e04c6a,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,94,100094,af6a71005a43619614333dacf535f7ebad4a59e28c68612c8454b41235560136,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,95,100095,676b7806adae9a1b1bc966c2a6baa64f7093fccfc997b9f16c3ffaca1bf925ce,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,96,100096,bf76dc3293ddf969ddfa85cbc11e1ac0e46dd1b21fa496c2f254b28804454233,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,97,100097,9c5db132f93b2cd1a24a84ffb28b4514e86976728dc7802b9562c1b690a47b84,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,98,100098,d91d66593adcf293d7e3a53c146a8ec09f91fc71e4b930987e5b8db8860c3de1,True,15,500,True,0
+HighwayEnv,45,rnd,DQN + RND,99,100099,2d733f826c648060720779f5d70b8b33d0c71a9c827fd0fae482ef849d3a8d8b,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,100,100100,64bac15a8b37f4ad5c59ae98db0b9db6c0ca1bf20d70eb7d7838e89486a460e2,True,14,500,True,0
+HighwayEnv,45,rnd,DQN + RND,101,100101,4e8473f1953b75caf8e5d9d8e887ae01f88160f924b8bb46c1701ae1099eb1a4,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,102,100102,7ea6a7d5bfb091a78fb20d6d419e9f89b446fde36ccbb33c8c0740213036da2a,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,103,100103,805303b67001727ba237ae3f68bdf0898ead009381c5da0e52ed5119b6fbd50b,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,104,100104,851b4ea3e1845f22363387cce7d1f52f980d3e85832f93ba9336b625cd9d3819,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,105,100105,1f2846109f9cf9cb73ef7c67e914b363efb5c3c863f690808f7b83842b3d8205,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,106,100106,3c3250ead1a2f3e651335a5e658eb604fe5aa565a63a0f1525b651ecd8cf7d2c,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,107,100107,fd957ae53a2c6c9c17b757487b723a1b7f00d129078bc872609dfb8ace361839,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,108,100108,ac25af4327f35c53a2f303269a4a706a6a061b034e38a7d08c13843bf5cd0618,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,109,100109,462a9f7869b0609161f3870f26f66eb4923c0e9534f6e820c442a456b54a4dfe,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,110,100110,aac824d7eb35e7047ca75e66dfd1cf06eb0653998e39abd031bd57230446ad89,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,111,100111,fc67399faf6c4f4adc7628fc3e5e175d79fd0befed5f745eabb026a786676dc0,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,112,100112,ade70c7c68d2b3f95cf37dfe861f727147092c755bcf3c5a5d406d27ae21b7dc,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,113,100113,63dcb1a5b00987cc0eb52df9368019054b120a0ebfde8ebd2715b66e0969e367,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,114,100114,ab75cb396ec1679a86359771fd705c1bdedc51918246e83c8879bcc41592d6aa,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,115,100115,2d94064a959319e327266b23fcbfa8aa67d69a34ccf69ec7f00a915ed6c0175f,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,116,100116,7f6bb9b52674bdef995dd730ad6f3756560f3e792f14f7dda7becde398c90a1d,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,117,100117,54647d0d2290508391c97e3151f69964efe061c8eef0c561779634104758a8ae,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,118,100118,cb940693da3894828ca41a5c6e48fcba290e61aea19d8844b773f08e638356e4,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,119,100119,0f0479f32ca269cf14098fd30e4509ff90a100dfe5263232ae9e805300ae2f8b,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,120,100120,f93aea6640d2ebfbf6bb26a21bf5d05ce486b365c4572c6e0f83a6da2abb1507,True,12,500,True,0
+HighwayEnv,45,rnd,DQN + RND,121,100121,1b6a01d02184284cf1f7220f6b2282b00d64e6aaa827b2828586ef1432d4363d,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,122,100122,f3b4f02333d11250adbec74d3acfd081223c428c7d10a97d73b38ebae0264297,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,123,100123,bbba9c5e12d8f9773b25217607f092fcb1ffd1c32c1080efd141af9b13109307,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,124,100124,91ea90b53c494f4e53568aed3a14419decc728fa588dd744d6cf614cd161b240,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,125,100125,3ffae3b994b26dc1b8fc6828a3d2ea1059a51eb36dd3881a4dab56305c231dea,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,126,100126,9f7c1c03afdca178e53ecad398fab740c2d2f099ad9d7f872612c5a8ce5d1bb7,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,127,100127,0c0cd2301b00b37379e1e18a40b92b222a4c77bb28b1283c145f57f6edb29f40,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,128,100128,3328218220a53a7354a927026c387f392d5c18bca56f6fd18191673342ca2333,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,129,100129,4055704d0d87f10c8f4d26b33e94245974c31fef4cd7c0db457e45f7a58197e8,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,130,100130,363351bade240948bd79f95a74d1d005540850b101fdba623baad98714324ed7,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,131,100131,3650285939fef29ed2310fa88e04b90e5e33773d16353b74a4dd820e27349956,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,132,100132,c9591a8bfd649a9a1fe4d921357b9b1e987d5a1e7ff5ea5554347860ebb832c2,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,133,100133,a54a71cf92644105cb053e709d83f921785dfe8ff6f55463ace5eca3a6de2607,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,134,100134,967db3bc70ad5b40553d8e150ef49fc1aed0748328a9cd17529a155ff1aa576d,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,135,100135,e6158845e9345396434b6623c9b4ad56d981c65f7cbde80a13040e19da0e0673,True,9,500,True,0
+HighwayEnv,45,rnd,DQN + RND,136,100136,42b08d83681bd220d5ce1fe561427faa4510231263e6ee80845f2318a7c4f397,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,137,100137,c92fe974bcea34c1421ce7a07c732f90a5e5d56a48de70957831267f5c62bbf4,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,138,100138,c57b4d9e6d979db72c8f5ba2f95e86012a06d7aaa00bbaf41b6679404bf8bd31,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,139,100139,b1f43a7aabeeec4a6069bcf383f1dfc3b391216b18ee5fb590ae414f4ccfa7b1,True,12,500,True,0
+HighwayEnv,45,rnd,DQN + RND,140,100140,c1770fdf41dcb4a612fbb82e7233a9f3abe8fd51776565ff07082cb63f2737b4,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,141,100141,1fd1e789f6b40db8945fc6d6219eb36a352a1ca54867d46f596e767453863a33,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,142,100142,c5daa5ab1e6d2f991a4bc33e68bca31856b6fb569016dd7ed6961e5aa5bfa422,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,143,100143,37a87fdd5f91f7fcea1864a953f1b2cf23e52a51d48801b17f310c96ece29e54,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,144,100144,ad923ce169c81aea1e0f88453668a1e26180d4f3ada651bcf1b21fe484098acf,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,145,100145,4774078b07c6a8d8ec481a6847d1b84abb3b541b8c0323806c6467d9f8e3ae4d,True,10,500,True,0
+HighwayEnv,45,rnd,DQN + RND,146,100146,57f6778baaa7974824af44c1af6cd8f5be710fe12823fd0fb9bf8c4d113384a1,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,147,100147,a4a92cebfdc6791afbb7c7f5c4ff3a8c12f034f61f64fb9e9e954251e5c6a5ca,True,20,500,True,0
+HighwayEnv,45,rnd,DQN + RND,148,100148,e5a5822889e2d9fde91a88d44dfc5ee32d467d9ae8fbe1f09ea0faa43e50db14,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,149,100149,9c475c5bc7adb580443bcddee5ba919e6fd272c74ebe00f467d3dc44f2149b8f,True,17,500,True,0
+HighwayEnv,45,rnd,DQN + RND,150,100150,a8446003e3484497118662854fe4e0853457417477f203d44d6f379e0bfb995e,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,151,100151,668d6f5b88b6a5735e24be2185ed2016d39addf4abecc65c3430430373ac5618,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,152,100152,7c5a9f7225c15b119fa9c9f81e953e75763cc16558c229df0fa63fd905931000,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,153,100153,a806de6cd05ae85751bc9455c907c2c50da0bbb51a3c759f6a4bbe26990a105f,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,154,100154,18be03b03d43bbfa42d4cea3aef63d838260c97705f6a553bcaf65b57e3ac11c,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,155,100155,9e8debe58203eabf797f0b8bb0464d17d3754371da1404a107c32a601e13e5e3,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,156,100156,d719a598da269bb910ae5554b9aaad97ea9de9426fa9268fe1063af4001786bb,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,157,100157,4840e735e792fe3b6a240c4c966ce9b04f6a859f0f55c2a460e19371cc4e47d1,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,158,100158,00d1b45b552395ae4a053bdb19ce72566a9b7ca0aee21c65fbabc1d50c90898b,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,159,100159,3666cd4c4d221b56e9a94c077e319411e35b5a9504f0bec18f218c4881b14a06,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,160,100160,bccc37b676c3f8cb6a6a5e7181c0ecdc1afe8166dcf61c67e9db9dc306ca3955,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,161,100161,e0ee94dd014aeca31e7a8b072c3aa9ec0880ac6fe8d4beb737c06982335ba45a,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,162,100162,fde1f8acc08c6d3eb9f33568236701a0d0f19713e812ad589e4b1fc0f1121327,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,163,100163,d5a72dc5beb3ec5252c8a7c1b96e45b171d1e086d672420f1fc1acba4d7f6ef8,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,164,100164,9c8db1df2f1a9be2f9b5ddee79ea5418b9b3729078b9a2517143bf22bf016415,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,165,100165,74d496112f0ce3c4f8b383edfcbd11dd3b0a4f491bd1f07647efde56c3168102,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,166,100166,070ade843e7a375401a1cd5619be7bd26cfa2b819a350168fd5594e1a1d3f822,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,167,100167,1fd5c49c244e38af3485d919253bb7478044ff2f84c6a52f43ea1215ba804312,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,168,100168,4b7e07f9417690eabed3eb3cb0c52f25b136a98cd0f186658bdf6a0e25a4941e,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,169,100169,f5443a41df645687b7a8cd67398c27ba6182c21e480a1240d8c7dd2015c9e092,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,170,100170,647a06a2dd818cba961f6c2979501a06528c18f76c8cf7744c7d36a6dfe1e2ae,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,171,100171,ad24a0eb40e3dd3e5fc791f6240efd713051992724d7e5b4f514e393b27ce3b2,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,172,100172,9bfc516fa1060d4dfa940ca7b053dbccc93f1f1a9959f388be189bc9d339e64f,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,173,100173,9db84f5f9d9f59bec8d19105f290f6de546d756500f64694f92d46a448ad4a46,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,174,100174,05f71d0580f7a9e38a45787b643bc985d62b75175c6ed7d7a2c709e828e0b5eb,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,175,100175,69e1a72b928988279d310efda3c92ecc943d070087267342f645555488e4fa21,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,176,100176,508abfa7c808fd328992a96cfceceecfba91999cf9e5a87e28e4c4d031380f69,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,177,100177,e4eb45b30ca73a473a2c4fcc1e039746645e77ccfe0494e46f988ca4b538d0d6,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,178,100178,d68225e0b3fb5274cd60e74b83f70cdfa7580d269676d455ace1d5262b6be35b,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,179,100179,31da17826674fede75bf8428a2c874dd327a05de04360c1b3a0110034e02e88e,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,180,100180,ebec1eacd890798b1c4d59fe038ec371bb0dec7f4c9fcfa8bbf172a129ad6816,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,181,100181,9f9937c486218b9dd39491370ef9889eb1de20a11b787848b03716bb98f48344,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,182,100182,63bbf1ec0265b19cf7c985a1edb2bedbb0afec660e8213620652c963b26d7d8b,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,183,100183,bf6415fece4cce55174ed68e7f65c22932ba19a046ddad0f30d631c7eff55f5e,True,12,500,True,0
+HighwayEnv,45,rnd,DQN + RND,184,100184,dcae4cdc5ad377f6bea41ac66b815330f870454b8bed7d1537d68a89f1aeb140,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,185,100185,d968e032b170b9dfb4dcd42aee9a3b9b860e21ee775ecabecabd9eadd9c68213,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,186,100186,faafbe16a8f96c3d04dd534cd403e243e3e5e287c893d6b6f070fd3d9ecd212c,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,187,100187,5ccba88b9433670c6ff10f59a50a8e0d9c07baa4400100f22eac6a2b26f02f38,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,188,100188,f782a4236dcb139b68c8bc00796aeb68108c19cf3040386afe232a4d73181eab,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,189,100189,977da24f3a241ee945f7c9c5afdc94587ddd633de183deaf4d46cc2480d24372,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,190,100190,ed859846abf401e359027db83562cc7febbedfbe8f2be70233aa2a70c0b4c6da,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,191,100191,6038ace4f27cd468aec1fe02be530654c07da5149ff5231dd7f89dfa8e09ebbe,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,192,100192,f066188788124ed98684f4cfd3b6f7ba134915e846f8bdf476eecd9494251669,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,193,100193,0638ff311a1a9790172b6b64f77eb983bc91ebb690415d8b142492ec514a5918,True,15,500,True,0
+HighwayEnv,45,rnd,DQN + RND,194,100194,e4a11e7d995ca1100d8c360b8812541788df3dfe182e82a57cf34823e1bf8dcb,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,195,100195,1bd3954dfe0462aeeedcb7b648dedf391cdbd2f4d0d989e22def0304dec97d98,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,196,100196,b6d60efd9b1def40b807777d98027e30e0009bb85bb466578f64586036cd37d7,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,197,100197,00d44f8e7d8397d3647c684ba82c77e0e0d848ddad2e05954d1ccaae2be16996,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,198,100198,265a20e4c9bf7b059ba324e7bcae3627d9bb24864ae27179038601d972e8351e,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,199,100199,b5d0ef90e9401a8b1252bd0b39580d3ae0f7b5938b9079a3abd79b806fcbd7f9,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,200,100200,91f71e4e8db2f995814fd27e2fa93752b3ef3d5dab309cc07ae7ec3dc705e5fc,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,201,100201,2fe5dbaf2cd25b19d2295b9ab05e9754b106c52d930a6c28939794a09484171a,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,202,100202,dac8ea6c6d57656df53423472a73fc637c20e558e051bcac40ec2c4c9528c50f,True,10,500,True,0
+HighwayEnv,45,rnd,DQN + RND,203,100203,34491414aa210383c92422869fc5d97c78e579ff5cd64136cde14fa36ff1e666,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,204,100204,e3060b0e05c974197dc6c85c74ae6f90e4f4b1130bca2fea52b397188c17f516,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,205,100205,7b3c83236ff0a5ac0c44560b4c02db93d7866c1b5439c76311e89fd229d11c4e,True,15,500,True,0
+HighwayEnv,45,rnd,DQN + RND,206,100206,175f05dcbdf4c86108e620d971ceef4f857717d77ff9e6b51e32b5d522f544bf,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,207,100207,478499a4274c0935b13525ce77129ebd8a5c195d9903ed47c50929f49fd5043e,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,208,100208,3324742d0f09010e8a6b35c445844f49a4a63bf9e56d6a48b404577c98e24a38,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,209,100209,289dad8447e138246f85ffee7a8d5aca52bc104c6f89c5cefe9bb4c908b11c83,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,210,100210,62c0e0ce060cf17ca8e41138287ab7cca4b750136f134c041b2b860e1541dc4e,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,211,100211,b54c46f724e12ab26567540c7875d9f7d44ae7eb18a3b47f86b495a2c99507ba,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,212,100212,52611162b7d5dbf433b8c0d10ff53ba895ecc2fd66a5996e32f02d1fa825d633,True,9,500,True,0
+HighwayEnv,45,rnd,DQN + RND,213,100213,a4ac38af89267112430bfb5b0f341af01d69f06cc3c36876800a1860a67b7f51,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,214,100214,b21ba24fcf9c4feec0a4793f34817c5c93bde958eba97bc484928b833195ce40,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,215,100215,daa942852bbc9b00c6ce9bd9c32aa7411dec6bfa76543ab4fe890ad7415a3349,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,216,100216,e3533edd35b1b8447413c4d91fc1ca0a943f9f8f428147b1cb1ed4f51efc8159,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,217,100217,5722764ccf7762df5aaee5502924a1db7a2df82f8d418aa2f3578c2a4827d8a6,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,218,100218,96fe034513dad89c47b3c83e614919dcdf2b032b6300b0859c500305fb6a3acd,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,219,100219,4028e1e89fb93263fb44ffa92d796fb70572e6abb1734cc76a9a03cf6f16f2a1,True,14,500,True,0
+HighwayEnv,45,rnd,DQN + RND,220,100220,7d0e946c036632102925b849d3fdb34fe93952200ebdca872a39314022960ef0,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,221,100221,d23c1a86e11cedccc4fca910208635fc2d7a32c714ff214e8d951dfa27a03595,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,222,100222,5b4a31760803acb70f19155a71d64c3a3ad17b4899b511348f452044b6b503ae,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,223,100223,2a09c4a7c3c3602521fdf9d3e205d8fb3cf9f4aa25ffef63aa5b1c10c300a764,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,224,100224,d929607e33b436e452e95f483d6ddce6e630f25ba09c6b5eaeeebba2313bd0fe,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,225,100225,f64a300d980e0712aac844b880be591b2c0602dc9bfaef29e73b0c38f0ed2710,True,17,500,True,0
+HighwayEnv,45,rnd,DQN + RND,226,100226,4bd5d72a10fc9955c181a0173e4ecc23f40f3edcc5a6031089e969ad286aae6a,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,227,100227,b7924095dd9a2ed0abc7f98f3a4622368ba94704e5eaa1d66cde114085fa22a0,True,22,500,True,0
+HighwayEnv,45,rnd,DQN + RND,228,100228,482e6aeecd936c8b316190dd26fe27b1658888fe8481bf130c6d2f8b6c659d6e,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,229,100229,f467425f2a1c9df3c6325af6e41430174a53454d1f118509f04add3707553847,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,230,100230,7847aeb6aa49d8e908b389ebf5667bac211aa089a053f238dfa0635a787cba10,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,231,100231,d279b2fe73149cf27d609a59bb6432249d017786b09629b08414f18d7faf3522,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,232,100232,690e3cc03deff51ab63509a36be2668c3f0302bf2ffde220b451d47975f33a04,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,233,100233,d21f28c71142bd966eeaf508410717c6e442f5ce2d29c3c1ef1a7d92bfe2dc18,True,9,500,True,0
+HighwayEnv,45,rnd,DQN + RND,234,100234,0036eaffcba1da37f280657c63f4a6c4592d60c98ad04e64317dbe95da6164ca,True,10,500,True,0
+HighwayEnv,45,rnd,DQN + RND,235,100235,8582e241d8c13ada8aea132d6c7a89bba041caf4f46d8b14f79101f50484f050,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,236,100236,ed8ed16ad8871aed9fabb583e734da2bf93771e088b4df4f68b1d9ad2c61c8ca,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,237,100237,6a5795f30d2276495345aa14fa0a1cce86bfbca572560a53955d747ffe90025a,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,238,100238,ba3d5def9eaa33528710fd02fefb4d57b3ed60835697b0760632a17e85dd702d,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,239,100239,6a12325d2cb30b5ee1a4977e34bec034b63bb2161de28e098bf2c072844d2006,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,240,100240,dbe8335801da929cafbb7144c712c808fe6aca2468decd35c3a80ffd0964f154,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,241,100241,14002e817f499bfb01559bc90103eca0ba035dc9d39ca894480e289fe2598c18,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,242,100242,0ed75b991f5d4db8ae30cf3a31666eaac0c4571368b2e0316b5b5cc2e45c5993,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,243,100243,6f32fa4c007734839aaa81c24eef723799ecd9f1238ce81beb89423ee74d0b9c,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,244,100244,71b22b73ed2f729af789c87be725fa9919f132ffc71da5d2b1f1c10f6e14de51,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,245,100245,055e24b5e082116009e29f6de06b3b47bbf2b8ebf48e558f6ccc6dcc25b32b0a,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,246,100246,26620b343110355a3cf4e54e467e9ad275c52bd216296faef0cb796f16f7ff18,True,12,500,True,0
+HighwayEnv,45,rnd,DQN + RND,247,100247,61ed706ae58993282151b3ec811d7f0ee0d03b4e95fca6106ac9eeb0a1c98d2d,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,248,100248,ab92ca78f5426b10246b9d1d1b164a25125e1ebdbf99af49fa7420bd87652b48,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,249,100249,b804b5b39ec9fec93f96e33030fe51d4e5cd6c1277f1c623b40d1147c81d4ca0,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,250,100250,ef0b898d4399c79c282d6236206e2792fc9c9218b4ce26a6318084258af3f2b7,True,9,500,True,0
+HighwayEnv,45,rnd,DQN + RND,251,100251,769d2fc0baf18fa1ec88320371dd381177f5c106e094e362053fdb324402958d,True,13,500,True,0
+HighwayEnv,45,rnd,DQN + RND,252,100252,7c14485434c699c0e929c2bac7b19dbac297ec5b447aed3372e70f7916bfecd8,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,253,100253,95d4b8219cc176aa295e06376b06f726d4359ade5cd0484ab8c91776b1ca7165,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,254,100254,8f669af5603ec0cecc58c7fb223795ca817db3872c7e9bb6a754987495418370,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,255,100255,9d766d1a8ff59a1b7d808098d0b0e5863967f2d372677b00739019e1feaec2d3,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,256,100256,73ede2d4b2ff2bd1153a1c12abc980357a1757c0f48d3101852938de951819d5,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,257,100257,ecb0a6590e82d47a065ab3b35fc0c14676cb7f3cd3ac47b99eb9dc1d948cf093,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,258,100258,2fdc4887ef46d4a929998df1cbfe2a05752e075961ca643b5b289a23528d2fde,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,259,100259,66433b9714f27d6e4071e2e68befae436b2b8b01d997fd6d8839d0e523cf8c65,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,260,100260,1bb03c1edfa1076b99fccf416aeb319064dad34743505cf0caf7ea7b005326d6,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,261,100261,c4b70641e9c9553a3c0db2ed47d470428a849e40f5c123080adf29bf243fea79,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,262,100262,1f4cf58f99f45dace3fb9f9f7f6466a6774d29777e8be896eaa3a089e6023be9,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,263,100263,3eec36a8129c5ca70ddfd0261cfb3e766f876b8ced59311591078b0b6269fe98,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,264,100264,30470ccefa191a554c8d8cf5b43eb412296d0109f667af9c8e9a64a32a56dbf0,True,11,500,True,0
+HighwayEnv,45,rnd,DQN + RND,265,100265,0e5052a0d1affb71d6390ea5adc2d9ea8cb39e35bd647bfe76abca968cba4715,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,266,100266,01249519bf31fb51a8e3982ceaea90c85c26ecf2cf70d62d1bdbda285e4acfc9,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,267,100267,6c7ad82baac119b0e20520552eaca781139489ccf695d2f32bfac706f22ef2be,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,268,100268,2fd7a9f035e732b51b9694ea1a1c0b014b726b7f35767787d6305ca17e265e19,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,269,100269,db03d4832e26b0a32893049484f19d2ce6523e261b2d68a56040685d20af1ce3,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,270,100270,b2c2ec80f66a83e0798860b8919463be183480be8bb8cf595da00592a373c14f,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,271,100271,b41d234a59627fe1c36716a95723e9f5a583cf65aa547a3cb46f84d4f275f3f8,True,9,500,True,0
+HighwayEnv,45,rnd,DQN + RND,272,100272,99e82af65fafd6366f3e1a03d73a248b703b686cb54e608722578b0380ee755a,True,22,500,True,0
+HighwayEnv,45,rnd,DQN + RND,273,100273,650d2cc423388dd072eba1e65e60220ffc8c277609af4e2f062f885e1914d870,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,274,100274,0cbfe83942471c4dbec061666c58cb7bcc86c3e360aa0b2f1c1c2da3c1571c71,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,275,100275,878e2c7a8249c562fdcd59a1563cc116ee2d87738b87204654f4474736db378e,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,276,100276,5bd4a1e5186a3f2777a6d523d394fb3670a8e080edb66d6c02960196bd61c46b,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,277,100277,86f35120111fb0ff173c9b9364630d1c70c064ed132dd05ccf50d2c9278f094c,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,278,100278,549258504d77cd626f3decae391c8680328a9b0ca5d43aab8c0addd15bbdfe94,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,279,100279,f83fc7cb9830e0bb032a73c4fe063568f6d7dda5eb8a06462900b934790104d1,True,21,500,True,0
+HighwayEnv,45,rnd,DQN + RND,280,100280,3ff91fa175126f079559d26791b7d30c7ed5b95cc39f8f50aa0365a06b603874,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,281,100281,7fd4c562781d3e46b2080fa3ab70414ffb84c753beccaff412412db5ab2e2f86,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,282,100282,233003a6e450e68acbf0f2d2d84d94aab12c32b53a06605fcf67b53cb16f5183,True,9,500,True,0
+HighwayEnv,45,rnd,DQN + RND,283,100283,8940393a8297095cac3a9353cd55d587d3e53cc149195c9da33a73b58cf49af9,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,284,100284,071d3415eb065473b2d2eddf5a8e1c0bf653c17b59b0119ecec7d16768d3e73b,True,9,500,True,0
+HighwayEnv,45,rnd,DQN + RND,285,100285,7674b34720de631641e70f005582aeb885ddf6db3e067710d90115a0fbbc4c1f,True,6,500,True,0
+HighwayEnv,45,rnd,DQN + RND,286,100286,74387b2cb484606a862d57768a897320102c5b61ceb858ddea4911d9ca9630a2,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,287,100287,ad60570ed615bb49d14c9605bf3e3fcf8f11b5ef534d0828d6eaabe5ba653023,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,288,100288,f58383ba8ca03292982410f73c9ac655e74e120953b600542e83c9a6c216ec7e,True,14,500,True,0
+HighwayEnv,45,rnd,DQN + RND,289,100289,e8d3807ee050030ef3da8eeae5a333c482b6fa7bcfbea80bf1d36950966620c7,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,290,100290,003d11b7ccdc0447f6f6a8ef5de98010be7087282dcb01307f436c928f7144f6,True,3,500,True,0
+HighwayEnv,45,rnd,DQN + RND,291,100291,b0c1a2d5d4da725b9240f74dd4c8e087d4898a3b1449a5229b47d57bf23a3fb2,True,7,500,True,0
+HighwayEnv,45,rnd,DQN + RND,292,100292,382eb2792d64182752aef8cf0dad7b877dfd43aef4dc1d061a79b3779d9e4f63,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,293,100293,83517969210445ecd191a3d2439ab815fbcdf92cae5adfdc900951537e3949f1,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,294,100294,7bd9ac126332fc408b0df20f4a872166548cd169cfdfcee2dec6d9c69d231b05,True,2,500,True,0
+HighwayEnv,45,rnd,DQN + RND,295,100295,0912b57b2c2f178ca35ab2a7a0c49e0be0a2f034288082cc0eae0f1cef3f97fe,True,4,500,True,0
+HighwayEnv,45,rnd,DQN + RND,296,100296,efebeb31cfbcf553c3682783bd6893ee6761d54d5aab033e6718f8f6390949a7,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,297,100297,997b67eef7eef10288501da9ae98fac16651f13b8bf2ae632837b694aa6f5610,True,5,500,True,0
+HighwayEnv,45,rnd,DQN + RND,298,100298,57858d3000395e35671b655b16d6c98c1bb077fe081a33469248e680a0ce4588,True,8,500,True,0
+HighwayEnv,45,rnd,DQN + RND,299,100299,722ddbd9efe0ce276a95b935b5ea5c9ec535cf53d1803fe42e73dc3911886282,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,0,100000,95d83ead048b625f5be496619e3ba191e9017b11f62e52bd2e79429ba24dffd0,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,1,100001,82f68a64dc42985b8e8ff10f7e366bbdd53d24b0a5906326d05ad8b39730f691,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,2,100002,4efa798e403218bdd927626fe283f84a45add96d6bde06b6bc5ae1f94399401f,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,3,100003,8a35474ac96ee9b5f443b37e9c84b7e56e618a6c16675a81f1ceddc9e26e70b9,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,4,100004,1831e4b8b23d0f5e9288b6d322e3f904cedad16aa60b0b0dc23481ecd3951696,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,5,100005,ae8e15b3a7a77564dc81248b7c2926202c31f4e2f389482a05f1dfd10c75ea50,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,6,100006,fe85cb5229ed0d8e0b797e1c66d1a086046d832a0ff87ece6ca2da2bb198acd0,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,7,100007,ef17435f9b0f36e38ba3e2bf03d1c95704f20760718c96adc217169e6c7bbac4,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,8,100008,4614692d96ffa65d7177add7e5fc8f49226eda0081c4a013c3134a173040f62d,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,9,100009,9d48a009541d25a9b8ba47eced81469b339c2cd35f8052845e583ea1d5d3e79c,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,10,100010,43badc39b14438530784ac1841be19b2918aa9b41660f0b0859cad697497d339,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,11,100011,5b16875f1191c9956f580e77b805f571a107ecfde5a1c2ac8917f22e1a24536c,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,12,100012,4737c990f5828f2e7d71723955072276f4e6f0b29e6a7a58f4ab1215f4a0a2d2,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,13,100013,ac11bd24734943cb26a8495cbd5aa815dccf1e14a710d603a02949abf4a82d9e,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,14,100014,56752d88c7e0951bd9c7a3a353372cab4d26c2535b8dcde2bacfef6e249ace05,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,15,100015,6aa90bec518de19e4176399222c2dcebf2166e52ccab935d6a1074f5eb6d94fe,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,16,100016,5a6dff388770ad849190c17eb7b17420d45ca54bf07d260b4ad95b4639da5fbd,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,17,100017,6b7d696a1137899d3bf92cb50f618d0d1c3e53ee2c770437bafd75aa26664bd4,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,18,100018,5f774404bd55f6208436958118e0559f517fa47cceb275e8c46db179b0129aa9,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,19,100019,bacf50d93bc1dde9efe52d39d6bf336491877ed09bba6a76f6f94ff0161ea241,True,13,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,20,100020,73f016ddfff79c056bbdd862ca91427648d8126530cd4eb00073d39739f9d6be,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,21,100021,3658c10d3869030f339279555b02d9a123c8c22dee49272559e19b8063539e54,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,22,100022,886a3ae4ed4e4e3db5eec6b25e3bcaf4aa5881ec2d8d466f15689364e9080513,True,9,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,23,100023,fa4fd85e1992cba360768cf80f2d0ce20df89b795199a5b4340369beef0e5235,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,24,100024,5832a45106bb9d6ae569139c4a3d8f4879cf44b70ece6c2ba458dd80e5267e84,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,25,100025,bbbe260f46c7c705f35c07ecfdc3e998a23e0446db20fd92c7ec2a3f1368e720,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,26,100026,a3feb84722ed41baf6a5be655d55cac5e77aebd6f07d5343a62cd067290acad5,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,27,100027,106da7961176c3fd0b60f17332cb49c8ce75b712b2ea4dafca863d57b84e46bc,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,28,100028,cdea9557c4d109c7df01454f07dc30ef133e4cd2a69d3f71522af9475a3d4d66,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,29,100029,b9f0fbd53dba7df015e0e4a25c7dd469131e15e139557e7d9cde3766b40d3300,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,30,100030,2064fb739bb2009be6079b9c93cca78963d2507df304b6830843f271fc0b3d1f,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,31,100031,6d90544f925e79f54839494b8eb922be62dba86b21692b191f8779f3bc91a66d,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,32,100032,3706b6afdefd55711e0340526984736bcfb75777a66e747ec81cf3228d6fd016,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,33,100033,83356f6820580f8552d071e3bcb0400ec118dfd35ea4fe104af6bb54da700469,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,34,100034,e5951556067fb4eb87baa4b734ecb0d1e45b46b6c1984e52ff27c76d15ef9376,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,35,100035,c06d79a3698be793049cb55d77dabce4cae63603265b296663cd08970dfe392b,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,36,100036,6cd705fbcd21d70beb1e8ae60dcc819037440b9e74de7154db1f48a04d92827f,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,37,100037,94f08f41d448714b1ed39bc57e91272979db4853c8bce86bb13765f880b702fa,True,9,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,38,100038,962294507c29f97cb9140d95e7cf881e9609020a9a648cd4e2e6b9a50533c8c3,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,39,100039,ebcc8296675f2dcba8d287e926c612050b5ed0b20073e536e63a75240414b22c,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,40,100040,5abe348cf78e384c6134dab2e274abfab81f6456cf0bd66c3db70e56c7d90684,True,9,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,41,100041,d430fa17d079228fbd5c679a3342954b010c0e93751d0f6c09b479b1d7f66a1c,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,42,100042,28079033f8842ff49794cd664cbc93b050fb9fa3cc652f4202a3d5a3308506ef,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,43,100043,f56ec3c6237a63cb0cb93e3385946a2b8780b4161842547344bbeb58633da56c,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,44,100044,51513e5b900f91491d242647758bb7cc7ba31352073cce87f6f26b80d6c80277,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,45,100045,c7b51078b54d127d1e9cc67667e7dad1e31b27e39c94dbe5172f2dd8d8de0c7d,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,46,100046,a345ec877d63fe6e286a7dadad330f026f624b86afa90da4eb597651a5c7fb92,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,47,100047,5e4364f2ee974b871c2b4b9904574885f3b15475c9bde7b1be5391c8ddfed3bf,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,48,100048,77c24a538877ecb773498cffe9a28fbbc4921d9b422610dd2180909c484837cd,True,13,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,49,100049,60681e5b7aa6198dbb68bb24305e5e158eba8fd5b2ec784a802a9082b5ad8a2e,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,50,100050,0768c305223033a6772701f0d51aa996a69b5c657ecd18cf39a3b76405195e6e,True,10,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,51,100051,3a085b3d9ea16d11359123211e326a89bf42993c06c7fa52f5388d1fff2d46d5,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,52,100052,5bdfdaaca9619646d29ee3ef0c5e542757a4b248792226da915e57fc29b64f08,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,53,100053,081987e49b973cadd132af6a48489e43cf6719b05480326bda513b9908a80c2e,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,54,100054,50363e7e513089f781e5cc11bbc36171fabffa0ee2ab1f793fa2ee99e6f1eb4a,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,55,100055,0cb6c5ec090dd5c063572f2fc88b672ecb78e0f162315b4a58ba92d46ea7f3d7,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,56,100056,26d2d54252334ac41c6b9f0edcb1d65d0285cf17f0def588c5d52cb30b461d0a,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,57,100057,4866f92c9f4c8d2f5b6eab106af32bad154df074750bdd33aef20dbee45c9825,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,58,100058,9116c67db2025ea9e8b30e55127d891080f941ecb957a52a7c69216b969940c3,True,9,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,59,100059,752f0d4e5ce4b5dc41b66fba957804c4bace6a803402e2e55218e754106c0d28,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,60,100060,f67b4c36a21bd0b2a12859469e8bf912982dffdcecda24b58c39956f46fe94b5,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,61,100061,ff15a0f39462f191cfda0fae18ad8987146b5b457b3d99085210c5bbb74a9ce1,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,62,100062,1e9de428203da2c02a08bf1f4bc10890d4a85765308fb72e3c15c42dc251ea87,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,63,100063,60304033350eccdbd569501a88f0312d6b3367a177c2d44784a058f8190dda1a,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,64,100064,5ed8df58867d6568a2ffa870e049dcfaf37f5cc7d3b87869b116e4ad8e620091,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,65,100065,f7151110dd63b0eab7baec9da1396526e96a5544665e83587db93d1978b9f8e0,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,66,100066,ec2467dfbb02b489b55c6cc29f9e01c61835f5c1c2509fa8afc0169b80e9931a,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,67,100067,d42623967ba982adea1537a81a052dc081703afc5e8f050a1aaeaea1c7ea1f34,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,68,100068,d1cf9323a39817eec993f68c65153d4e29bf1b9f7d4d0bd3ae312f8f79ec31d7,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,69,100069,0d691f53b883a560f85f7c36228a025bfb94d47833bd2dbf5a150f5e32f930be,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,70,100070,4fae9347f680b2b15494749cb4f61a7f822e3793874e81f685d8a5c1cd415960,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,71,100071,ed49030377669f3e8de82798c1fd5cc44545999a65b6b2a737e9c22f97602754,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,72,100072,869d18b64df749cc0cb3d0163079265d83ec730f53c27e7f8173f850edffec34,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,73,100073,48f45b4124d20f682a20d4cf3232c986a830b23a6f570c09f7af48e2bfee1856,True,24,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,74,100074,79b68fbb25e7225377d18414c529a3112300efdede175661799d8456881017cb,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,75,100075,95df473c1a5bcb7cc050f37b8e97ead150847fc19f34aea34d80db1632406621,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,76,100076,65526b5ca3b6b0a8f46caf90cffd02ad4d80882c60bd473f855b69638dd991ba,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,77,100077,92020e9183e51a03d50f828af2885fbfc4c6154e694feff25f9a573b9f1e6fd2,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,78,100078,057d09f43326ce8d382b2ace52d015371e03cd6357268e2ad7a2a48b8524316f,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,79,100079,de4b47879bc46eada6040aa7be9591e71d3cf0a740743503626d8f59c31503e9,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,80,100080,045c7ff4bedc9000ad489152f77ab0b8a8c64d59b94b4226e5cdbbe931265115,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,81,100081,72dda409c174a89665e6c7e858196eeec247f3a49f7b22025eaeee481871aca9,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,82,100082,a8bba3b6d45dd5c01539e321ffda87b6b172be67dcb8eacd85b20254ead76c56,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,83,100083,5133f7dca46174129e1c15c2c9351e8fa39be320a966c5759ea54ea3741ca765,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,84,100084,42e41fb5fb0b5a19512e5bfedf234844b639ad1c38ff86cf19080753dc042b8e,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,85,100085,bcaa679af4183e627620a46a978da6d405f08e4d5e8f143957bf3becb8410d2b,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,86,100086,5387202ee644ebbc619bfcf26ea757d4a96ef99754520748e42ad40afe1768fe,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,87,100087,3e1cab575e90e0983be6974978c5bcdbe157f2494343fbdd398e6e8618e67b09,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,88,100088,4803a78fc0838dbe48e7dd93c4c4808f0a5b0e967ee92c92bb098d40c27e1178,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,89,100089,8068bb70a9d9730e8339865ef2367543d1120397d71ed818c2c75fa512a33c66,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,90,100090,6ffe3ab57c25d7d718c7e6321bc54644b73cf6dcd46d4d74c92bd07919bb6661,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,91,100091,b8c6e739b03605068ed9195e0d71dc0e2da48bb63da1b9ddc86c115e5a48a1d5,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,92,100092,3171a6eacc17d81c1d96879eff00432dc27ea06c0756df45e7700c25489346e9,True,10,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,93,100093,b82c00d0f9688ba7b190d23907be30f29731d32f8bc9250d7a6ef39bd6e04c6a,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,94,100094,af6a71005a43619614333dacf535f7ebad4a59e28c68612c8454b41235560136,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,95,100095,676b7806adae9a1b1bc966c2a6baa64f7093fccfc997b9f16c3ffaca1bf925ce,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,96,100096,bf76dc3293ddf969ddfa85cbc11e1ac0e46dd1b21fa496c2f254b28804454233,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,97,100097,9c5db132f93b2cd1a24a84ffb28b4514e86976728dc7802b9562c1b690a47b84,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,98,100098,d91d66593adcf293d7e3a53c146a8ec09f91fc71e4b930987e5b8db8860c3de1,True,13,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,99,100099,2d733f826c648060720779f5d70b8b33d0c71a9c827fd0fae482ef849d3a8d8b,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,100,100100,64bac15a8b37f4ad5c59ae98db0b9db6c0ca1bf20d70eb7d7838e89486a460e2,True,14,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,101,100101,4e8473f1953b75caf8e5d9d8e887ae01f88160f924b8bb46c1701ae1099eb1a4,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,102,100102,7ea6a7d5bfb091a78fb20d6d419e9f89b446fde36ccbb33c8c0740213036da2a,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,103,100103,805303b67001727ba237ae3f68bdf0898ead009381c5da0e52ed5119b6fbd50b,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,104,100104,851b4ea3e1845f22363387cce7d1f52f980d3e85832f93ba9336b625cd9d3819,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,105,100105,1f2846109f9cf9cb73ef7c67e914b363efb5c3c863f690808f7b83842b3d8205,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,106,100106,3c3250ead1a2f3e651335a5e658eb604fe5aa565a63a0f1525b651ecd8cf7d2c,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,107,100107,fd957ae53a2c6c9c17b757487b723a1b7f00d129078bc872609dfb8ace361839,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,108,100108,ac25af4327f35c53a2f303269a4a706a6a061b034e38a7d08c13843bf5cd0618,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,109,100109,462a9f7869b0609161f3870f26f66eb4923c0e9534f6e820c442a456b54a4dfe,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,110,100110,aac824d7eb35e7047ca75e66dfd1cf06eb0653998e39abd031bd57230446ad89,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,111,100111,fc67399faf6c4f4adc7628fc3e5e175d79fd0befed5f745eabb026a786676dc0,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,112,100112,ade70c7c68d2b3f95cf37dfe861f727147092c755bcf3c5a5d406d27ae21b7dc,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,113,100113,63dcb1a5b00987cc0eb52df9368019054b120a0ebfde8ebd2715b66e0969e367,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,114,100114,ab75cb396ec1679a86359771fd705c1bdedc51918246e83c8879bcc41592d6aa,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,115,100115,2d94064a959319e327266b23fcbfa8aa67d69a34ccf69ec7f00a915ed6c0175f,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,116,100116,7f6bb9b52674bdef995dd730ad6f3756560f3e792f14f7dda7becde398c90a1d,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,117,100117,54647d0d2290508391c97e3151f69964efe061c8eef0c561779634104758a8ae,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,118,100118,cb940693da3894828ca41a5c6e48fcba290e61aea19d8844b773f08e638356e4,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,119,100119,0f0479f32ca269cf14098fd30e4509ff90a100dfe5263232ae9e805300ae2f8b,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,120,100120,f93aea6640d2ebfbf6bb26a21bf5d05ce486b365c4572c6e0f83a6da2abb1507,True,12,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,121,100121,1b6a01d02184284cf1f7220f6b2282b00d64e6aaa827b2828586ef1432d4363d,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,122,100122,f3b4f02333d11250adbec74d3acfd081223c428c7d10a97d73b38ebae0264297,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,123,100123,bbba9c5e12d8f9773b25217607f092fcb1ffd1c32c1080efd141af9b13109307,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,124,100124,91ea90b53c494f4e53568aed3a14419decc728fa588dd744d6cf614cd161b240,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,125,100125,3ffae3b994b26dc1b8fc6828a3d2ea1059a51eb36dd3881a4dab56305c231dea,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,126,100126,9f7c1c03afdca178e53ecad398fab740c2d2f099ad9d7f872612c5a8ce5d1bb7,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,127,100127,0c0cd2301b00b37379e1e18a40b92b222a4c77bb28b1283c145f57f6edb29f40,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,128,100128,3328218220a53a7354a927026c387f392d5c18bca56f6fd18191673342ca2333,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,129,100129,4055704d0d87f10c8f4d26b33e94245974c31fef4cd7c0db457e45f7a58197e8,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,130,100130,363351bade240948bd79f95a74d1d005540850b101fdba623baad98714324ed7,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,131,100131,3650285939fef29ed2310fa88e04b90e5e33773d16353b74a4dd820e27349956,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,132,100132,c9591a8bfd649a9a1fe4d921357b9b1e987d5a1e7ff5ea5554347860ebb832c2,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,133,100133,a54a71cf92644105cb053e709d83f921785dfe8ff6f55463ace5eca3a6de2607,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,134,100134,967db3bc70ad5b40553d8e150ef49fc1aed0748328a9cd17529a155ff1aa576d,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,135,100135,e6158845e9345396434b6623c9b4ad56d981c65f7cbde80a13040e19da0e0673,True,9,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,136,100136,42b08d83681bd220d5ce1fe561427faa4510231263e6ee80845f2318a7c4f397,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,137,100137,c92fe974bcea34c1421ce7a07c732f90a5e5d56a48de70957831267f5c62bbf4,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,138,100138,c57b4d9e6d979db72c8f5ba2f95e86012a06d7aaa00bbaf41b6679404bf8bd31,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,139,100139,b1f43a7aabeeec4a6069bcf383f1dfc3b391216b18ee5fb590ae414f4ccfa7b1,True,12,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,140,100140,c1770fdf41dcb4a612fbb82e7233a9f3abe8fd51776565ff07082cb63f2737b4,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,141,100141,1fd1e789f6b40db8945fc6d6219eb36a352a1ca54867d46f596e767453863a33,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,142,100142,c5daa5ab1e6d2f991a4bc33e68bca31856b6fb569016dd7ed6961e5aa5bfa422,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,143,100143,37a87fdd5f91f7fcea1864a953f1b2cf23e52a51d48801b17f310c96ece29e54,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,144,100144,ad923ce169c81aea1e0f88453668a1e26180d4f3ada651bcf1b21fe484098acf,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,145,100145,4774078b07c6a8d8ec481a6847d1b84abb3b541b8c0323806c6467d9f8e3ae4d,True,9,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,146,100146,57f6778baaa7974824af44c1af6cd8f5be710fe12823fd0fb9bf8c4d113384a1,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,147,100147,a4a92cebfdc6791afbb7c7f5c4ff3a8c12f034f61f64fb9e9e954251e5c6a5ca,True,20,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,148,100148,e5a5822889e2d9fde91a88d44dfc5ee32d467d9ae8fbe1f09ea0faa43e50db14,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,149,100149,9c475c5bc7adb580443bcddee5ba919e6fd272c74ebe00f467d3dc44f2149b8f,True,17,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,150,100150,a8446003e3484497118662854fe4e0853457417477f203d44d6f379e0bfb995e,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,151,100151,668d6f5b88b6a5735e24be2185ed2016d39addf4abecc65c3430430373ac5618,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,152,100152,7c5a9f7225c15b119fa9c9f81e953e75763cc16558c229df0fa63fd905931000,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,153,100153,a806de6cd05ae85751bc9455c907c2c50da0bbb51a3c759f6a4bbe26990a105f,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,154,100154,18be03b03d43bbfa42d4cea3aef63d838260c97705f6a553bcaf65b57e3ac11c,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,155,100155,9e8debe58203eabf797f0b8bb0464d17d3754371da1404a107c32a601e13e5e3,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,156,100156,d719a598da269bb910ae5554b9aaad97ea9de9426fa9268fe1063af4001786bb,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,157,100157,4840e735e792fe3b6a240c4c966ce9b04f6a859f0f55c2a460e19371cc4e47d1,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,158,100158,00d1b45b552395ae4a053bdb19ce72566a9b7ca0aee21c65fbabc1d50c90898b,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,159,100159,3666cd4c4d221b56e9a94c077e319411e35b5a9504f0bec18f218c4881b14a06,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,160,100160,bccc37b676c3f8cb6a6a5e7181c0ecdc1afe8166dcf61c67e9db9dc306ca3955,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,161,100161,e0ee94dd014aeca31e7a8b072c3aa9ec0880ac6fe8d4beb737c06982335ba45a,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,162,100162,fde1f8acc08c6d3eb9f33568236701a0d0f19713e812ad589e4b1fc0f1121327,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,163,100163,d5a72dc5beb3ec5252c8a7c1b96e45b171d1e086d672420f1fc1acba4d7f6ef8,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,164,100164,9c8db1df2f1a9be2f9b5ddee79ea5418b9b3729078b9a2517143bf22bf016415,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,165,100165,74d496112f0ce3c4f8b383edfcbd11dd3b0a4f491bd1f07647efde56c3168102,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,166,100166,070ade843e7a375401a1cd5619be7bd26cfa2b819a350168fd5594e1a1d3f822,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,167,100167,1fd5c49c244e38af3485d919253bb7478044ff2f84c6a52f43ea1215ba804312,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,168,100168,4b7e07f9417690eabed3eb3cb0c52f25b136a98cd0f186658bdf6a0e25a4941e,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,169,100169,f5443a41df645687b7a8cd67398c27ba6182c21e480a1240d8c7dd2015c9e092,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,170,100170,647a06a2dd818cba961f6c2979501a06528c18f76c8cf7744c7d36a6dfe1e2ae,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,171,100171,ad24a0eb40e3dd3e5fc791f6240efd713051992724d7e5b4f514e393b27ce3b2,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,172,100172,9bfc516fa1060d4dfa940ca7b053dbccc93f1f1a9959f388be189bc9d339e64f,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,173,100173,9db84f5f9d9f59bec8d19105f290f6de546d756500f64694f92d46a448ad4a46,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,174,100174,05f71d0580f7a9e38a45787b643bc985d62b75175c6ed7d7a2c709e828e0b5eb,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,175,100175,69e1a72b928988279d310efda3c92ecc943d070087267342f645555488e4fa21,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,176,100176,508abfa7c808fd328992a96cfceceecfba91999cf9e5a87e28e4c4d031380f69,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,177,100177,e4eb45b30ca73a473a2c4fcc1e039746645e77ccfe0494e46f988ca4b538d0d6,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,178,100178,d68225e0b3fb5274cd60e74b83f70cdfa7580d269676d455ace1d5262b6be35b,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,179,100179,31da17826674fede75bf8428a2c874dd327a05de04360c1b3a0110034e02e88e,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,180,100180,ebec1eacd890798b1c4d59fe038ec371bb0dec7f4c9fcfa8bbf172a129ad6816,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,181,100181,9f9937c486218b9dd39491370ef9889eb1de20a11b787848b03716bb98f48344,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,182,100182,63bbf1ec0265b19cf7c985a1edb2bedbb0afec660e8213620652c963b26d7d8b,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,183,100183,bf6415fece4cce55174ed68e7f65c22932ba19a046ddad0f30d631c7eff55f5e,True,12,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,184,100184,dcae4cdc5ad377f6bea41ac66b815330f870454b8bed7d1537d68a89f1aeb140,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,185,100185,d968e032b170b9dfb4dcd42aee9a3b9b860e21ee775ecabecabd9eadd9c68213,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,186,100186,faafbe16a8f96c3d04dd534cd403e243e3e5e287c893d6b6f070fd3d9ecd212c,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,187,100187,5ccba88b9433670c6ff10f59a50a8e0d9c07baa4400100f22eac6a2b26f02f38,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,188,100188,f782a4236dcb139b68c8bc00796aeb68108c19cf3040386afe232a4d73181eab,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,189,100189,977da24f3a241ee945f7c9c5afdc94587ddd633de183deaf4d46cc2480d24372,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,190,100190,ed859846abf401e359027db83562cc7febbedfbe8f2be70233aa2a70c0b4c6da,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,191,100191,6038ace4f27cd468aec1fe02be530654c07da5149ff5231dd7f89dfa8e09ebbe,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,192,100192,f066188788124ed98684f4cfd3b6f7ba134915e846f8bdf476eecd9494251669,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,193,100193,0638ff311a1a9790172b6b64f77eb983bc91ebb690415d8b142492ec514a5918,True,15,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,194,100194,e4a11e7d995ca1100d8c360b8812541788df3dfe182e82a57cf34823e1bf8dcb,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,195,100195,1bd3954dfe0462aeeedcb7b648dedf391cdbd2f4d0d989e22def0304dec97d98,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,196,100196,b6d60efd9b1def40b807777d98027e30e0009bb85bb466578f64586036cd37d7,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,197,100197,00d44f8e7d8397d3647c684ba82c77e0e0d848ddad2e05954d1ccaae2be16996,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,198,100198,265a20e4c9bf7b059ba324e7bcae3627d9bb24864ae27179038601d972e8351e,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,199,100199,b5d0ef90e9401a8b1252bd0b39580d3ae0f7b5938b9079a3abd79b806fcbd7f9,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,200,100200,91f71e4e8db2f995814fd27e2fa93752b3ef3d5dab309cc07ae7ec3dc705e5fc,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,201,100201,2fe5dbaf2cd25b19d2295b9ab05e9754b106c52d930a6c28939794a09484171a,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,202,100202,dac8ea6c6d57656df53423472a73fc637c20e558e051bcac40ec2c4c9528c50f,True,10,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,203,100203,34491414aa210383c92422869fc5d97c78e579ff5cd64136cde14fa36ff1e666,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,204,100204,e3060b0e05c974197dc6c85c74ae6f90e4f4b1130bca2fea52b397188c17f516,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,205,100205,7b3c83236ff0a5ac0c44560b4c02db93d7866c1b5439c76311e89fd229d11c4e,True,14,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,206,100206,175f05dcbdf4c86108e620d971ceef4f857717d77ff9e6b51e32b5d522f544bf,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,207,100207,478499a4274c0935b13525ce77129ebd8a5c195d9903ed47c50929f49fd5043e,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,208,100208,3324742d0f09010e8a6b35c445844f49a4a63bf9e56d6a48b404577c98e24a38,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,209,100209,289dad8447e138246f85ffee7a8d5aca52bc104c6f89c5cefe9bb4c908b11c83,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,210,100210,62c0e0ce060cf17ca8e41138287ab7cca4b750136f134c041b2b860e1541dc4e,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,211,100211,b54c46f724e12ab26567540c7875d9f7d44ae7eb18a3b47f86b495a2c99507ba,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,212,100212,52611162b7d5dbf433b8c0d10ff53ba895ecc2fd66a5996e32f02d1fa825d633,True,9,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,213,100213,a4ac38af89267112430bfb5b0f341af01d69f06cc3c36876800a1860a67b7f51,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,214,100214,b21ba24fcf9c4feec0a4793f34817c5c93bde958eba97bc484928b833195ce40,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,215,100215,daa942852bbc9b00c6ce9bd9c32aa7411dec6bfa76543ab4fe890ad7415a3349,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,216,100216,e3533edd35b1b8447413c4d91fc1ca0a943f9f8f428147b1cb1ed4f51efc8159,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,217,100217,5722764ccf7762df5aaee5502924a1db7a2df82f8d418aa2f3578c2a4827d8a6,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,218,100218,96fe034513dad89c47b3c83e614919dcdf2b032b6300b0859c500305fb6a3acd,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,219,100219,4028e1e89fb93263fb44ffa92d796fb70572e6abb1734cc76a9a03cf6f16f2a1,True,14,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,220,100220,7d0e946c036632102925b849d3fdb34fe93952200ebdca872a39314022960ef0,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,221,100221,d23c1a86e11cedccc4fca910208635fc2d7a32c714ff214e8d951dfa27a03595,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,222,100222,5b4a31760803acb70f19155a71d64c3a3ad17b4899b511348f452044b6b503ae,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,223,100223,2a09c4a7c3c3602521fdf9d3e205d8fb3cf9f4aa25ffef63aa5b1c10c300a764,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,224,100224,d929607e33b436e452e95f483d6ddce6e630f25ba09c6b5eaeeebba2313bd0fe,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,225,100225,f64a300d980e0712aac844b880be591b2c0602dc9bfaef29e73b0c38f0ed2710,True,17,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,226,100226,4bd5d72a10fc9955c181a0173e4ecc23f40f3edcc5a6031089e969ad286aae6a,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,227,100227,b7924095dd9a2ed0abc7f98f3a4622368ba94704e5eaa1d66cde114085fa22a0,True,13,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,228,100228,482e6aeecd936c8b316190dd26fe27b1658888fe8481bf130c6d2f8b6c659d6e,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,229,100229,f467425f2a1c9df3c6325af6e41430174a53454d1f118509f04add3707553847,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,230,100230,7847aeb6aa49d8e908b389ebf5667bac211aa089a053f238dfa0635a787cba10,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,231,100231,d279b2fe73149cf27d609a59bb6432249d017786b09629b08414f18d7faf3522,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,232,100232,690e3cc03deff51ab63509a36be2668c3f0302bf2ffde220b451d47975f33a04,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,233,100233,d21f28c71142bd966eeaf508410717c6e442f5ce2d29c3c1ef1a7d92bfe2dc18,True,9,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,234,100234,0036eaffcba1da37f280657c63f4a6c4592d60c98ad04e64317dbe95da6164ca,True,9,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,235,100235,8582e241d8c13ada8aea132d6c7a89bba041caf4f46d8b14f79101f50484f050,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,236,100236,ed8ed16ad8871aed9fabb583e734da2bf93771e088b4df4f68b1d9ad2c61c8ca,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,237,100237,6a5795f30d2276495345aa14fa0a1cce86bfbca572560a53955d747ffe90025a,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,238,100238,ba3d5def9eaa33528710fd02fefb4d57b3ed60835697b0760632a17e85dd702d,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,239,100239,6a12325d2cb30b5ee1a4977e34bec034b63bb2161de28e098bf2c072844d2006,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,240,100240,dbe8335801da929cafbb7144c712c808fe6aca2468decd35c3a80ffd0964f154,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,241,100241,14002e817f499bfb01559bc90103eca0ba035dc9d39ca894480e289fe2598c18,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,242,100242,0ed75b991f5d4db8ae30cf3a31666eaac0c4571368b2e0316b5b5cc2e45c5993,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,243,100243,6f32fa4c007734839aaa81c24eef723799ecd9f1238ce81beb89423ee74d0b9c,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,244,100244,71b22b73ed2f729af789c87be725fa9919f132ffc71da5d2b1f1c10f6e14de51,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,245,100245,055e24b5e082116009e29f6de06b3b47bbf2b8ebf48e558f6ccc6dcc25b32b0a,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,246,100246,26620b343110355a3cf4e54e467e9ad275c52bd216296faef0cb796f16f7ff18,True,12,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,247,100247,61ed706ae58993282151b3ec811d7f0ee0d03b4e95fca6106ac9eeb0a1c98d2d,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,248,100248,ab92ca78f5426b10246b9d1d1b164a25125e1ebdbf99af49fa7420bd87652b48,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,249,100249,b804b5b39ec9fec93f96e33030fe51d4e5cd6c1277f1c623b40d1147c81d4ca0,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,250,100250,ef0b898d4399c79c282d6236206e2792fc9c9218b4ce26a6318084258af3f2b7,True,9,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,251,100251,769d2fc0baf18fa1ec88320371dd381177f5c106e094e362053fdb324402958d,True,13,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,252,100252,7c14485434c699c0e929c2bac7b19dbac297ec5b447aed3372e70f7916bfecd8,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,253,100253,95d4b8219cc176aa295e06376b06f726d4359ade5cd0484ab8c91776b1ca7165,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,254,100254,8f669af5603ec0cecc58c7fb223795ca817db3872c7e9bb6a754987495418370,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,255,100255,9d766d1a8ff59a1b7d808098d0b0e5863967f2d372677b00739019e1feaec2d3,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,256,100256,73ede2d4b2ff2bd1153a1c12abc980357a1757c0f48d3101852938de951819d5,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,257,100257,ecb0a6590e82d47a065ab3b35fc0c14676cb7f3cd3ac47b99eb9dc1d948cf093,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,258,100258,2fdc4887ef46d4a929998df1cbfe2a05752e075961ca643b5b289a23528d2fde,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,259,100259,66433b9714f27d6e4071e2e68befae436b2b8b01d997fd6d8839d0e523cf8c65,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,260,100260,1bb03c1edfa1076b99fccf416aeb319064dad34743505cf0caf7ea7b005326d6,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,261,100261,c4b70641e9c9553a3c0db2ed47d470428a849e40f5c123080adf29bf243fea79,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,262,100262,1f4cf58f99f45dace3fb9f9f7f6466a6774d29777e8be896eaa3a089e6023be9,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,263,100263,3eec36a8129c5ca70ddfd0261cfb3e766f876b8ced59311591078b0b6269fe98,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,264,100264,30470ccefa191a554c8d8cf5b43eb412296d0109f667af9c8e9a64a32a56dbf0,True,11,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,265,100265,0e5052a0d1affb71d6390ea5adc2d9ea8cb39e35bd647bfe76abca968cba4715,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,266,100266,01249519bf31fb51a8e3982ceaea90c85c26ecf2cf70d62d1bdbda285e4acfc9,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,267,100267,6c7ad82baac119b0e20520552eaca781139489ccf695d2f32bfac706f22ef2be,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,268,100268,2fd7a9f035e732b51b9694ea1a1c0b014b726b7f35767787d6305ca17e265e19,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,269,100269,db03d4832e26b0a32893049484f19d2ce6523e261b2d68a56040685d20af1ce3,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,270,100270,b2c2ec80f66a83e0798860b8919463be183480be8bb8cf595da00592a373c14f,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,271,100271,b41d234a59627fe1c36716a95723e9f5a583cf65aa547a3cb46f84d4f275f3f8,True,9,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,272,100272,99e82af65fafd6366f3e1a03d73a248b703b686cb54e608722578b0380ee755a,True,18,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,273,100273,650d2cc423388dd072eba1e65e60220ffc8c277609af4e2f062f885e1914d870,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,274,100274,0cbfe83942471c4dbec061666c58cb7bcc86c3e360aa0b2f1c1c2da3c1571c71,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,275,100275,878e2c7a8249c562fdcd59a1563cc116ee2d87738b87204654f4474736db378e,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,276,100276,5bd4a1e5186a3f2777a6d523d394fb3670a8e080edb66d6c02960196bd61c46b,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,277,100277,86f35120111fb0ff173c9b9364630d1c70c064ed132dd05ccf50d2c9278f094c,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,278,100278,549258504d77cd626f3decae391c8680328a9b0ca5d43aab8c0addd15bbdfe94,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,279,100279,f83fc7cb9830e0bb032a73c4fe063568f6d7dda5eb8a06462900b934790104d1,True,18,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,280,100280,3ff91fa175126f079559d26791b7d30c7ed5b95cc39f8f50aa0365a06b603874,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,281,100281,7fd4c562781d3e46b2080fa3ab70414ffb84c753beccaff412412db5ab2e2f86,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,282,100282,233003a6e450e68acbf0f2d2d84d94aab12c32b53a06605fcf67b53cb16f5183,True,9,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,283,100283,8940393a8297095cac3a9353cd55d587d3e53cc149195c9da33a73b58cf49af9,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,284,100284,071d3415eb065473b2d2eddf5a8e1c0bf653c17b59b0119ecec7d16768d3e73b,True,9,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,285,100285,7674b34720de631641e70f005582aeb885ddf6db3e067710d90115a0fbbc4c1f,True,6,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,286,100286,74387b2cb484606a862d57768a897320102c5b61ceb858ddea4911d9ca9630a2,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,287,100287,ad60570ed615bb49d14c9605bf3e3fcf8f11b5ef534d0828d6eaabe5ba653023,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,288,100288,f58383ba8ca03292982410f73c9ac655e74e120953b600542e83c9a6c216ec7e,True,12,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,289,100289,e8d3807ee050030ef3da8eeae5a333c482b6fa7bcfbea80bf1d36950966620c7,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,290,100290,003d11b7ccdc0447f6f6a8ef5de98010be7087282dcb01307f436c928f7144f6,True,3,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,291,100291,b0c1a2d5d4da725b9240f74dd4c8e087d4898a3b1449a5229b47d57bf23a3fb2,True,7,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,292,100292,382eb2792d64182752aef8cf0dad7b877dfd43aef4dc1d061a79b3779d9e4f63,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,293,100293,83517969210445ecd191a3d2439ab815fbcdf92cae5adfdc900951537e3949f1,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,294,100294,7bd9ac126332fc408b0df20f4a872166548cd169cfdfcee2dec6d9c69d231b05,True,2,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,295,100295,0912b57b2c2f178ca35ab2a7a0c49e0be0a2f034288082cc0eae0f1cef3f97fe,True,4,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,296,100296,efebeb31cfbcf553c3682783bd6893ee6761d54d5aab033e6718f8f6390949a7,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,297,100297,997b67eef7eef10288501da9ae98fac16651f13b8bf2ae632837b694aa6f5610,True,5,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,298,100298,57858d3000395e35671b655b16d6c98c1bb077fe081a33469248e680a0ce4588,True,8,500,True,0
+HighwayEnv,45,safetypool,SafetyPool,299,100299,722ddbd9efe0ce276a95b935b5ea5c9ec535cf53d1803fe42e73dc3911886282,True,4,500,True,0

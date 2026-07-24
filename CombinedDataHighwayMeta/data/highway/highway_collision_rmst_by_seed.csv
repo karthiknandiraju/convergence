@@ -1,0 +1,93 @@
+environment,seed,method_id,method,test_episodes,collision_rmst_steps,rmst_horizon_steps
+HighwayEnv,3,epsilon,Epsilon-Greedy DQN,300,5.716666666666668,500
+HighwayEnv,3,noisy,NoisyNet DQN,300,5.656666666666666,500
+HighwayEnv,3,rnd,DQN + RND,300,5.626420168067226,500
+HighwayEnv,3,safetypool,SafetyPool,300,19.749318813250948,500
+HighwayEnv,5,epsilon,Epsilon-Greedy DQN,300,5.594778293235517,500
+HighwayEnv,5,noisy,NoisyNet DQN,300,5.656666666666666,500
+HighwayEnv,5,rnd,DQN + RND,300,5.693764127764128,500
+HighwayEnv,5,safetypool,SafetyPool,300,6.972218239561253,500
+HighwayEnv,7,epsilon,Epsilon-Greedy DQN,300,5.656021505376346,500
+HighwayEnv,7,noisy,NoisyNet DQN,300,5.81,500
+HighwayEnv,7,rnd,DQN + RND,300,5.656021505376346,500
+HighwayEnv,7,safetypool,SafetyPool,300,5.656666666666666,500
+HighwayEnv,9,epsilon,Epsilon-Greedy DQN,300,17.17558333333333,500
+HighwayEnv,9,noisy,NoisyNet DQN,300,5.656666666666666,500
+HighwayEnv,9,rnd,DQN + RND,300,6.245925925925924,500
+HighwayEnv,9,safetypool,SafetyPool,300,500.0,500
+HighwayEnv,13,epsilon,Epsilon-Greedy DQN,300,5.226666666666667,500
+HighwayEnv,13,noisy,NoisyNet DQN,300,5.656666666666666,500
+HighwayEnv,13,rnd,DQN + RND,300,5.263333333333333,500
+HighwayEnv,13,safetypool,SafetyPool,300,5.656666666666666,500
+HighwayEnv,17,epsilon,Epsilon-Greedy DQN,300,5.823333333333332,500
+HighwayEnv,17,noisy,NoisyNet DQN,300,5.670000000000001,500
+HighwayEnv,17,rnd,DQN + RND,300,6.866666666666667,500
+HighwayEnv,17,safetypool,SafetyPool,300,17.103333333333342,500
+HighwayEnv,27,epsilon,Epsilon-Greedy DQN,300,500.0,500
+HighwayEnv,27,noisy,NoisyNet DQN,300,11.213333333333336,500
+HighwayEnv,27,rnd,DQN + RND,300,500.0,500
+HighwayEnv,27,safetypool,SafetyPool,300,500.0,500
+HighwayEnv,33,epsilon,Epsilon-Greedy DQN,300,5.796666666666666,500
+HighwayEnv,33,noisy,NoisyNet DQN,300,5.656666666666666,500
+HighwayEnv,33,rnd,DQN + RND,300,5.7299999999999995,500
+HighwayEnv,33,safetypool,SafetyPool,300,6.77,500
+HighwayEnv,38,epsilon,Epsilon-Greedy DQN,300,6.674760031471281,500
+HighwayEnv,38,noisy,NoisyNet DQN,300,5.656666666666666,500
+HighwayEnv,38,rnd,DQN + RND,300,500.0,500
+HighwayEnv,38,safetypool,SafetyPool,300,500.0,500
+HighwayEnv,42,epsilon,Epsilon-Greedy DQN,300,5.66,500
+HighwayEnv,42,noisy,NoisyNet DQN,300,5.656666666666666,500
+HighwayEnv,42,rnd,DQN + RND,300,5.688571428571428,500
+HighwayEnv,42,safetypool,SafetyPool,300,500.0,500
+HighwayEnv,45,epsilon,Epsilon-Greedy DQN,300,5.659999999999998,500
+HighwayEnv,45,noisy,NoisyNet DQN,300,5.843333333333333,500
+HighwayEnv,45,rnd,DQN + RND,300,5.77,500
+HighwayEnv,45,safetypool,SafetyPool,300,5.663333333333333,500
+HighwayEnv,48,epsilon,Epsilon-Greedy DQN,300,5.453055555555555,500
+HighwayEnv,48,noisy,NoisyNet DQN,300,6.3100000000000005,500
+HighwayEnv,48,rnd,DQN + RND,300,5.457536231884059,500
+HighwayEnv,48,safetypool,SafetyPool,300,5.652536539597032,500
+HighwayEnv,54,epsilon,Epsilon-Greedy DQN,300,5.518678824593509,500
+HighwayEnv,54,noisy,NoisyNet DQN,300,5.656666666666666,500
+HighwayEnv,54,rnd,DQN + RND,300,5.4962965225966895,500
+HighwayEnv,54,safetypool,SafetyPool,300,8.166666666666664,500
+HighwayEnv,63,epsilon,Epsilon-Greedy DQN,300,5.659690476190477,500
+HighwayEnv,63,noisy,NoisyNet DQN,300,5.656666666666666,500
+HighwayEnv,63,rnd,DQN + RND,300,5.6773873873873875,500
+HighwayEnv,63,safetypool,SafetyPool,300,500.0,500
+HighwayEnv,65,epsilon,Epsilon-Greedy DQN,300,5.9833333333333325,500
+HighwayEnv,65,noisy,NoisyNet DQN,300,17.103333333333342,500
+HighwayEnv,65,rnd,DQN + RND,300,5.859523809523809,500
+HighwayEnv,65,safetypool,SafetyPool,300,6.092247191011235,500
+HighwayEnv,67,epsilon,Epsilon-Greedy DQN,300,500.0,500
+HighwayEnv,67,noisy,NoisyNet DQN,300,5.683333333333332,500
+HighwayEnv,67,rnd,DQN + RND,300,5.664187327823691,500
+HighwayEnv,67,safetypool,SafetyPool,300,6.064116004962779,500
+HighwayEnv,69,epsilon,Epsilon-Greedy DQN,300,5.676666666666667,500
+HighwayEnv,69,noisy,NoisyNet DQN,300,5.656666666666666,500
+HighwayEnv,69,rnd,DQN + RND,300,5.683333333333333,500
+HighwayEnv,69,safetypool,SafetyPool,300,5.472549516836841,500
+HighwayEnv,73,epsilon,Epsilon-Greedy DQN,300,13.253333333333337,500
+HighwayEnv,73,noisy,NoisyNet DQN,300,5.656666666666666,500
+HighwayEnv,73,rnd,DQN + RND,300,13.350000000000001,500
+HighwayEnv,73,safetypool,SafetyPool,300,5.616720862618906,500
+HighwayEnv,76,epsilon,Epsilon-Greedy DQN,300,500.0,500
+HighwayEnv,76,noisy,NoisyNet DQN,300,500.0,500
+HighwayEnv,76,rnd,DQN + RND,300,500.0,500
+HighwayEnv,76,safetypool,SafetyPool,300,500.0,500
+HighwayEnv,77,epsilon,Epsilon-Greedy DQN,300,5.656666666666666,500
+HighwayEnv,77,noisy,NoisyNet DQN,300,5.656666666666666,500
+HighwayEnv,77,rnd,DQN + RND,300,500.0,500
+HighwayEnv,77,safetypool,SafetyPool,300,500.0,500
+HighwayEnv,93,epsilon,Epsilon-Greedy DQN,300,5.702500000000001,500
+HighwayEnv,93,noisy,NoisyNet DQN,300,5.656666666666666,500
+HighwayEnv,93,rnd,DQN + RND,300,5.772,500
+HighwayEnv,93,safetypool,SafetyPool,300,5.616666666666666,500
+HighwayEnv,108,epsilon,Epsilon-Greedy DQN,300,5.580537634408601,500
+HighwayEnv,108,noisy,NoisyNet DQN,300,5.77,500
+HighwayEnv,108,rnd,DQN + RND,300,5.656666666666666,500
+HighwayEnv,108,safetypool,SafetyPool,300,5.656666666666666,500
+HighwayEnv,111,epsilon,Epsilon-Greedy DQN,300,5.52,500
+HighwayEnv,111,noisy,NoisyNet DQN,300,5.656666666666666,500
+HighwayEnv,111,rnd,DQN + RND,300,16.026313633936585,500
+HighwayEnv,111,safetypool,SafetyPool,300,500.0,500

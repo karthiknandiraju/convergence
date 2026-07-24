@@ -1,0 +1,33 @@
+{
+  "seeds": [
+    3,
+    5,
+    7,
+    9,
+    13,
+    17,
+    27,
+    33,
+    38,
+    42,
+    45,
+    48,
+    54,
+    63,
+    65,
+    67,
+    69,
+    73,
+    76,
+    77,
+    93,
+    108,
+    111
+  ],
+  "rmst_horizon_steps": 500,
+  "iqm": "scipy.stats.trim_mean(values, 0.25)",
+  "bootstrap_samples": 50000,
+  "bootstrap_seed": 20260724,
+  "test": "paired two-sided Wilcoxon signed-rank",
+  "multiplicity": "Holm correction across three baselines"
+}

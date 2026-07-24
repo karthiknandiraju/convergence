@@ -1,0 +1,4 @@
+environment,metric,comparison,n_matched_seeds,two_sided_wilcoxon_p_raw,holm_corrected_p,safetypool_wins,ties,safetypool_losses
+HighwayEnv,Collision RMST,SafetyPool vs Epsilon-Greedy DQN,23,0.008685211199123489,0.017370422398246977,17,2,4
+HighwayEnv,Collision RMST,SafetyPool vs NoisyNet DQN,23,0.00942295485973675,0.017370422398246977,13,2,8
+HighwayEnv,Collision RMST,SafetyPool vs DQN + RND,23,0.005684474003904788,0.017053422011714364,14,5,4
