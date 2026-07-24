@@ -1,0 +1,3 @@
+method,method_label,phase,episodes,collision_count,out_of_road_count,total_steps,collision_rmst_event_definition,collision_rmst,collisions_per_1000_steps,collision_rate,out_of_road_rate,goal_count,goal_rate,combined_safety_failure_count,combined_safety_failure_rate,combined_safety_failures_per_1000_steps,combined_safety_rmst_event_definition,combined_safety_rmst
+epsilon,Epsilon Greedy,train,500,269,275,2264,collision,7.158280448397034,118.81625441696113,0.538,0.55,0,0.0,500,1.0,220.84805653710248,collision_or_out_of_road,4.528
+epsilon,Epsilon Greedy,test,300,288,22,1607,collision,5.518678824593509,179.215930304916,0.96,0.07333333333333333,0,0.0,300,1.0,186.6832607342875,collision_or_out_of_road,5.3566666666666665

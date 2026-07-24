@@ -1,0 +1,5 @@
+series_id,method,source_kind,source_name,evaluation_variant,phase,episodes,mean_reward,median_reward,mean_episode_steps,median_episode_steps,collision_count,collision_rate,collisions_per_1000_steps,out_of_road_count,out_of_road_rate,safety_failure_count,safety_failure_rate,goal_count,goal_rate,max_steps_count,max_steps_rate
+epsilon,Epsilon Greedy,baseline,epsilon,standard,test,300,-44.606455901905036,-45.35023503461708,5.66,5.0,300,1.0,176.67844522968198,0,0.0,300,1.0,0,0.0,0,0.0
+noisy,NoisyNet DQN,baseline,noisy,standard,test,300,-42.00788361388936,-43.9,15.753333333333334,12.0,282,0.94,59.66991112991959,19,0.06333333333333334,300,1.0,0,0.0,0,0.0
+rnd,DQN + RND,baseline,rnd,standard,test,300,-44.609947356905515,-45.35023503461708,5.656666666666666,5.0,300,1.0,176.78255745433117,0,0.0,300,1.0,0,0.0,0,0.0
+Karthikeya27adv8956,Policy (Karthikeya27adv8956),policy,Karthikeya27adv8956,standard,test,300,-45.11776095022725,-45.5660787826246,5.256666666666667,5.0,287,0.9566666666666667,181.99112238427395,14,0.04666666666666667,300,1.0,0,0.0,0,0.0

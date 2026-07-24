@@ -1,0 +1,105 @@
+===== SEED 76: V3 START =====
+============================================================================
+HIGHWAYENV KARTHIKEYA27ADV8HIGHWAYV3 RETAINED-EVIDENCE SAFETY POLICY
+============================================================================
+Python: 3.11.15
+PyTorch: 2.13.0+cu130
+HighwayEnv: 1.12.0
+Device: cuda
+Experiments: Karthikeya27adv8highwayV3
+Plain DQN + Target + Replay + Adam: yes
+RND intrinsic reward: no
+Count-based intrinsic reward: no
+Frozen Pure-DQN testing only: yes
+Train/Test/Max steps: 500 300 500
+Training seeds: 76 through 575
+Testing seeds: 100000 through 100299
+Discrete actions: 9
+Learning rate: 5e-05
+Output directory: /home/karthik/Desktop/Karthikeya/genadv/highwayonly/highway_canonical_baselines_package/highway_canonical_baselines/policy_results/seed_76/Karthikeya27adv8highwayV3
+Policy name: Karthikeya27adv8highwayV3
+Initial combined active + retired pools: 500
+Maximum permanent capacity: 500
+Adaptive capacity formula applied: False
+Pool general representation: full flattened observation
+Pool safety representation: lane_boundary_clearance, nearest_collision_hazard_center_distance, absolute_lane_offset, absolute_heading_error, ego_speed_km_h
+Unified record statuses: CANDIDATE | ACTIVE | RETIRED | HAZARD
+Lookup: safety-strict HAZARD + ACTIVE -> RETIRED -> CANDIDATE
+Testing policy: frozen pure DQN
+Auto threshold calibration: True
+Calibration state target: 500
+Candidate soft limit: 250
+Candidate hard limit: 300
+Candidate batch eviction count: 50
+Candidate promotion visits: 2
+Hazard-memory capacity: 250
+Hazard-memory fraction: 0.5
+Clean outcomes required for SAFE: 1
+Delayed safety horizon: 2
+Minimum progress reward for SAFE: 0.0
+Warnings required to block: 2
+First-pass priority: highest-Q SAFE, then UNKNOWN; BLOCKED excluded
+Candidate centroid shift threshold: 0.01
+Candidate stable updates: 1
+Maximum candidate centroid updates: 3
+Overwrite existing completed run: True
+State similarity threshold: 0.88
+Permanent RMS threshold: 0.35
+Candidate cosine threshold: 0.88
+Candidate RMS threshold: 0.4
+General matching: RMS plus cosine when norms are stable
+Normal general-match cosine/RMS relaxation: 0.03 0.1
+Relaxed general matching keeps both safety gates strict: yes
+Safety matching gate: RMS distance plus cosine when norms are stable
+Capacity-pressure fallback: True
+Capacity fallback scope: candidate hard limit, permanent capacity, or eviction
+Capacity fallback cosine/RMS relaxation: 0.03 0.2
+Capacity fallback safety improvement: 0.05
+Directional safety: lane/threat larger; offset/heading smaller
+Speed directional fallback requirement: no; strict gates only
+Capacity-fallback safety gates relaxed: no
+Pool representatives use adaptive centroid freezing: yes
+Centroid shift threshold: 0.01
+Consecutive stable updates required: 2
+Maximum centroid updates per pool: 6
+Centroid stability distance threshold: 0.15
+Pool-active training fraction: 0.9
+Final pure-DQN argmax training fraction: 0.09999999999999998
+Final phase: pure DQN argmax; no pool lookup, safety extraction, or safety masks
+Pool mutations disabled from episode: 450
+Similarity metrics: cosine similarity + RMS distance
+Pool lookup: preallocated vectorized linear matching
+Representative storage dtype: float32
+Replay sampling: indexed ring buffer, O(batch_size)
+Test safety extraction: no (pure-DQN argmax only)
+Available actions per new pool: 9
+Candidate visits use outcome-filtered DQN ranking: yes
+Candidate actions are recorded for mask initialization: yes
+Promotion occurs before promotion-visit action selection: yes
+Active initial pass: every eligible non-BLOCKED action once
+Scheduled UNKNOWN-only passes: 1
+UNKNOWN pass excludes BLOCKED actions: yes
+Final UNKNOWN action waits for its configured safety horizon: 2
+Missing safety: skip pools and use fresh DQN argmax
+Retired post-pass selection: deterministic eligible DQN maximum
+Post-pass greedy: highest-Q across SAFE and UNKNOWN
+Post-pass random actions: disabled
+BLOCKED actions excluded while SAFE or UNKNOWN is available
+All-BLOCKED fallback: least failures, then highest fresh DQN Q
+Collision/out-of-road penalties: 50.0 50.0
+Time-limit truncations bootstrap in replay: yes
+Stored retired action values or rankings: no
+Removal: clear selected bit in O(1)
+Promotion and retirement: O(1) status-tag changes
+Pass advance/retirement: after observing final transition
+Absolute permanent capacity full: do not create new candidates; use maximum-Q
+Availability mask refills: once, for the UNKNOWN-only pass
+RMST event/tau: collision 500
+============================================================================
+
+===== TRAINING START: Karthikeya27adv8highwayV3 =====
+TRAIN Karthikeya27adv8highwayV3 ep=025 reward=  -47.600 steps=  8 term=out_of_road collision=False wall=1.26s loss=8.683572
+TRAIN Karthikeya27adv8highwayV3 ep=050 reward=  -47.500 steps=  7 term=out_of_road collision=False wall=1.13s loss=6.958263
+TRAIN Karthikeya27adv8highwayV3 ep=075 reward=  -47.500 steps=  7 term=out_of_road collision=False wall=1.10s loss=7.126130
+TRAIN Karthikeya27adv8highwayV3 ep=100 reward=  -49.950 steps=  2 term=out_of_road collision=False wall=0.32s loss=6.644614
+TRAIN Karthikeya27adv8highwayV3 ep=125 reward=  -45.873 steps=  7 term=out_of_road collision=False wall=1.11s loss=9.065187

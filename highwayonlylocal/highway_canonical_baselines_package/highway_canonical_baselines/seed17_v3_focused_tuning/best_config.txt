@@ -1,0 +1,4 @@
+selected_config=c01_early_aggressive
+validation_max_step_completions=0
+validation_collision_rmst=14.919999999999996
+options=--calibration-state-count 100 --candidate-promotion-visits 2 --hazard-memory-fraction 0.75 --safe-confirmation-visits 1 --safety-horizon-steps 2 --minimum-progress-reward 0.0 --warning-block-threshold 1 --pool-training-fraction 0.95

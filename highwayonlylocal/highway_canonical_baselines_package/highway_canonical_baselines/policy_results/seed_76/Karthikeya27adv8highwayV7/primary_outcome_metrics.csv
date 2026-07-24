@@ -1,0 +1,3 @@
+method,method_label,phase,episodes,collision_survival_estimator,collision_event_count,collision_censored_count,collision_rmst_tau_steps,collision_rmst_steps,maximum_step_horizon,maximum_step_completion_count,maximum_step_completion_rate
+Karthikeya27adv8highwayV7,Karthikeya27adv8highwayV7,train,500,Kaplan-Meier,402,98,500,6.334081281927056,500,0,0.0
+Karthikeya27adv8highwayV7,Karthikeya27adv8highwayV7,test,300,Kaplan-Meier,298,2,500,5.9146800595238105,500,0,0.0

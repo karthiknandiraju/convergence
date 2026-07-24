@@ -1,0 +1,3 @@
+method,method_label,phase,episodes,phase_wall_time_seconds,phase_cpu_time_seconds,summed_episode_wall_time_seconds,summed_episode_cpu_time_seconds,average_wall_time_seconds_per_episode,average_cpu_time_seconds_per_episode
+noisy,NoisyNet DQN,train,500,997.5296821869997,998.0619339740001,997.4979661050056,998.0311005559994,1.9949959322100113,1.9960622011119988
+noisy,NoisyNet DQN,test,300,776.3256517249993,776.8914985050001,776.3176867330094,776.8840272340005,2.5877256224433647,2.589613424113335
